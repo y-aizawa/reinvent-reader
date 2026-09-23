@@ -74,24 +74,39 @@
       return index;
     }
 
-    function centerLine(container, element) {
+    function moveCurrentLine(container, element) {
       if (!element) return;
 
-      // 現在のセンテンスを歌詞エリア上部から約25%の位置に置く
-      const target =
-        element.offsetTop -
-        (container.clientHeight * 0.25) +
-        (element.offsetHeight / 2);
+      // 実際に表示されている位置を使って、現在文の上端を
+      // 歌詞表示エリアの上から約25%に合わせる。
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+
+      const targetY =
+        containerRect.top + (container.clientHeight * 0.25);
+
+      // 現在の字幕の「上端」を表示エリアの25%位置に合わせる。
+      // 中心を合わせると、2行以上の字幕が上にはみ出すことがあるため。
+      const scrollAmount =
+        elementRect.top - targetY;
 
       const maxScroll =
-        container.scrollHeight -
-        container.clientHeight;
+        container.scrollHeight - container.clientHeight;
 
-      const top = Math.max(0, Math.min(target, maxScroll));
+      const nextScrollTop = Math.max(
+        0,
+        Math.min(
+          container.scrollTop + scrollAmount,
+          maxScroll
+        )
+      );
 
+      // smoothではなく即時移動。
+      // 再生中に文が切り替わるたびにアニメーションを重ねると、
+      // 現在文が一時的に画面外へ出ることがあるため。
       container.scrollTo({
-        top,
-        behavior: 'smooth'
+        top: nextScrollTop,
+        behavior: 'auto'
       });
     }
 
@@ -114,7 +129,14 @@
         });
         container.appendChild(button);
       });
-      centerLine(container, container.querySelector('.active'));
+      // DOM反映後に実際の表示位置を測ってスクロールする。
+      requestAnimationFrame(() => {
+        moveCurrentLine(
+          container,
+          container.querySelector('.active')
+        );
+      });
+
       document.getElementById('info').textContent = `Sentence ${index + 1} / ${state.transcript.length}`;
     }
 
