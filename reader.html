@@ -74,31 +74,12 @@
       return index;
     }
 
-    function moveCurrentLine(container, element, index) {
+    function moveCurrentLine(container, element) {
       if (!element) return;
 
-      // 最初の字幕は表示エリアの先頭から始める。
-      // 上側に余白を作らないことで、最初の字幕だけ不自然に下がらない。
-      if (index === 0) {
-        container.scrollTo({
-          top: 0,
-          behavior: 'auto'
-        });
-        return;
-      }
-
-      // 2文目以降は、現在文の「上端」を
-      // 字幕表示エリアの上から約18%の位置に置く。
-      // 25%より少し上にして、過去の字幕も少し見えるようにする。
-      const containerRect = container.getBoundingClientRect();
-      const elementRect = element.getBoundingClientRect();
-      const targetY = containerRect.top + (container.clientHeight * 0.18);
-      const scrollAmount = elementRect.top - targetY;
-      const maxScroll = Math.max(0, container.scrollHeight - container.clientHeight);
-      const nextScrollTop = Math.max(
-        0,
-        Math.min(container.scrollTop + scrollAmount, maxScroll)
-      );
+      // 現在の字幕を、字幕表示エリアの最上部に置く。
+      // 画面全体ではなく、この .lyrics のスクロール位置だけを動かす。
+      const nextScrollTop = Math.max(0, element.offsetTop);
 
       container.scrollTo({
         top: nextScrollTop,
@@ -122,6 +103,8 @@
           state.player.playVideo();
           state.currentIndex = i;
           renderLyrics(i);
+          // ボタンのフォーカスによるページ全体の自動スクロールを防ぐ。
+          button.blur();
         });
         container.appendChild(button);
       });
