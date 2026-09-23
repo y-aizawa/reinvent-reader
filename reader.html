@@ -20,14 +20,14 @@
     .title { min-width: 0; flex: 1; color: #c9ccd2; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .video { width: 100%; aspect-ratio: 16/9; background: #000; overflow: hidden; }
     #player { width: 100%; height: 100%; }
-    .lyrics { height: calc(100vh - 320px); min-height: 320px; overflow-y: auto; overflow-x: hidden; padding: 100px 20px; scroll-behavior: smooth; overscroll-behavior: contain; touch-action: pan-y; }
+    .lyrics { height: calc(100vh - 320px); min-height: 320px; overflow-y: auto; overflow-x: hidden; padding: 0 20px 70%; scroll-behavior: smooth; overscroll-behavior: contain; touch-action: pan-y; }
     .line { display: block; width: 100%; margin: 0; padding: 14px 0; border: 0; outline: none; background: transparent; color: rgba(255,255,255,.28); text-align: left; font-size: 21px; line-height: 1.45; font-weight: 700; cursor: pointer; transition: color .2s ease, font-size .2s ease; }
     .line.near { color: rgba(255,255,255,.58); }
     .line.active { color: #fff; font-size: 29px; }
     .info { padding: 10px 20px 16px; border-top: 1px solid #24262b; color: #92959d; font-size: 12px; }
     .loading { padding: 30px 20px; color: #92959d; }
     @media (max-width: 480px) {
-      .lyrics { height: calc(100vh - 250px); min-height: 300px; padding: 100px 18px; }
+      .lyrics { height: calc(100vh - 250px); min-height: 300px; padding: 0 18px 70%; }
       .line { font-size: 19px; }
       .line.active { font-size: 27px; }
       .info { padding-left: 18px; padding-right: 18px; }
@@ -74,36 +74,32 @@
       return index;
     }
 
-    function moveCurrentLine(container, element) {
+    function moveCurrentLine(container, element, index) {
       if (!element) return;
 
-      // 実際に表示されている位置を使って、現在文の上端を
-      // 歌詞表示エリアの上から約25%に合わせる。
+      // 最初の字幕は表示エリアの先頭から始める。
+      // 上側に余白を作らないことで、最初の字幕だけ不自然に下がらない。
+      if (index === 0) {
+        container.scrollTo({
+          top: 0,
+          behavior: 'auto'
+        });
+        return;
+      }
+
+      // 2文目以降は、現在文の「上端」を
+      // 字幕表示エリアの上から約18%の位置に置く。
+      // 25%より少し上にして、過去の字幕も少し見えるようにする。
       const containerRect = container.getBoundingClientRect();
       const elementRect = element.getBoundingClientRect();
-
-      const targetY =
-        containerRect.top + (container.clientHeight * 0.25);
-
-      // 現在の字幕の「上端」を表示エリアの25%位置に合わせる。
-      // 中心を合わせると、2行以上の字幕が上にはみ出すことがあるため。
-      const scrollAmount =
-        elementRect.top - targetY;
-
-      const maxScroll =
-        container.scrollHeight - container.clientHeight;
-
+      const targetY = containerRect.top + (container.clientHeight * 0.18);
+      const scrollAmount = elementRect.top - targetY;
+      const maxScroll = Math.max(0, container.scrollHeight - container.clientHeight);
       const nextScrollTop = Math.max(
         0,
-        Math.min(
-          container.scrollTop + scrollAmount,
-          maxScroll
-        )
+        Math.min(container.scrollTop + scrollAmount, maxScroll)
       );
 
-      // smoothではなく即時移動。
-      // 再生中に文が切り替わるたびにアニメーションを重ねると、
-      // 現在文が一時的に画面外へ出ることがあるため。
       container.scrollTo({
         top: nextScrollTop,
         behavior: 'auto'
@@ -133,7 +129,8 @@
       requestAnimationFrame(() => {
         moveCurrentLine(
           container,
-          container.querySelector('.active')
+          container.querySelector('.active'),
+          index
         );
       });
 
