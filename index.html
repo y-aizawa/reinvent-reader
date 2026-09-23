@@ -124,7 +124,7 @@
 
   <script>
     const VIDEO_ID = "3Y1G9najGiI";
-    const VTT_URL = "./transcript.vtt";
+    const TRANSCRIPT_URL = "./transcript.json";
 
     let transcript = [];
     let player = null;
@@ -211,17 +211,33 @@
 
     async function loadTranscript() {
       try {
-        const response = await fetch(VTT_URL, { cache: "no-store" });
+        const response = await fetch(TRANSCRIPT_URL, { cache: "no-store" });
 
         if (!response.ok) {
           throw new Error(`Transcriptの読み込みに失敗しました (HTTP ${response.status})`);
         }
 
-        const vttText = await response.text();
-        transcript = parseVTT(vttText);
+        transcript = await response.json();
+
+        if (!Array.isArray(transcript) || transcript.length === 0) {
+          throw new Error("JSONから字幕を読み取れませんでした。");
+        }
+
+        transcript = transcript
+          .filter(item =>
+            item &&
+            Number.isFinite(Number(item.start)) &&
+            typeof item.text === "string" &&
+            item.text.trim() !== ""
+          )
+          .map(item => ({
+            start: Number(item.start),
+            text: item.text.trim()
+          }))
+          .sort((a, b) => a.start - b.start);
 
         if (transcript.length === 0) {
-          throw new Error("VTTから字幕を読み取れませんでした。");
+          throw new Error("有効な字幕データがありません。");
         }
 
         currentIndex = 0;
