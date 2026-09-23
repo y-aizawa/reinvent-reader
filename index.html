@@ -6,27 +6,17 @@
   <title>re:Invent Reader</title>
 
   <style>
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
-    html,
-    body {
+    html, body {
       margin: 0;
       padding: 0;
       background: #101114;
-      color: #ffffff;
-      font-family:
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        sans-serif;
+      color: #fff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    body {
-      overflow-x: hidden;
-    }
+    body { overflow-x: hidden; }
 
     .app {
       width: 100%;
@@ -37,7 +27,7 @@
     .video {
       width: 100%;
       aspect-ratio: 16 / 9;
-      background: #000000;
+      background: #000;
       overflow: hidden;
     }
 
@@ -47,7 +37,7 @@
     }
 
     .lyrics {
-      height: calc(100vh - 280px);
+      height: calc(100vh - 250px);
       min-height: 320px;
       overflow-y: auto;
       overflow-x: hidden;
@@ -67,17 +57,11 @@
       background: transparent;
       color: rgba(255, 255, 255, 0.28);
       text-align: left;
-      font-size: 21px;
+      font-size: 20px;
       line-height: 1.45;
       font-weight: 700;
       cursor: pointer;
-      transition:
-        color 0.2s ease,
-        font-size 0.2s ease;
-    }
-
-    .line:hover {
-      color: rgba(255, 255, 255, 0.55);
+      transition: color .2s ease, font-size .2s ease;
     }
 
     .line.near {
@@ -85,7 +69,7 @@
     }
 
     .line.active {
-      color: #ffffff;
+      color: #fff;
       font-size: 29px;
     }
 
@@ -96,25 +80,24 @@
       font-size: 12px;
     }
 
-    .loading {
+    .loading,
+    .error {
       padding: 30px 20px;
       color: #92959d;
+      line-height: 1.6;
     }
+
+    .error { color: #ff9b9b; }
 
     @media (max-width: 480px) {
       .lyrics {
-        height: calc(100vh - 250px);
+        height: calc(100vh - 220px);
         min-height: 300px;
         padding: 100px 18px;
       }
 
-      .line {
-        font-size: 19px;
-      }
-
-      .line.active {
-        font-size: 27px;
-      }
+      .line { font-size: 19px; }
+      .line.active { font-size: 27px; }
 
       .info {
         padding-left: 18px;
@@ -125,9 +108,7 @@
 </head>
 
 <body>
-
   <div class="app">
-
     <div class="video">
       <div id="player"></div>
     </div>
@@ -139,383 +120,276 @@
     <div id="info" class="info">
       読み込み中...
     </div>
-
   </div>
 
-
   <script>
-
     const VIDEO_ID = "3Y1G9najGiI";
+    const VTT_URL = "./transcript.vtt";
 
     let transcript = [];
     let player = null;
     let currentIndex = -1;
+    let updateTimer = null;
 
+    function vttTimeToSeconds(value) {
+      const parts = value.trim().split(":").map(Number);
 
-    /* =========================================================
-       Transcript読み込み
-    ========================================================= */
+      if (parts.some(Number.isNaN)) {
+        return NaN;
+      }
+
+      if (parts.length === 3) {
+        return parts[0] * 3600 + parts[1] * 60 + parts[2];
+      }
+
+      if (parts.length === 2) {
+        return parts[0] * 60 + parts[1];
+      }
+
+      return NaN;
+    }
+
+    function decodeVttText(text) {
+      const temp = document.createElement("div");
+      temp.innerHTML = text;
+      return (temp.textContent || temp.innerText || "")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function parseVTT(vttText) {
+      const blocks = vttText
+        .replace(/\r\n/g, "\n")
+        .replace(/\r/g, "\n")
+        .split(/\n{2,}/);
+
+      const cues = [];
+
+      for (const block of blocks) {
+        const lines = block
+          .split("\n")
+          .map(line => line.trim())
+          .filter(Boolean);
+
+        const timeIndex = lines.findIndex(line => line.includes("-->"));
+
+        if (timeIndex === -1) {
+          continue;
+        }
+
+        const timeParts = lines[timeIndex].split(/\s+-->\s+/);
+
+        if (timeParts.length < 2) {
+          continue;
+        }
+
+        const start = vttTimeToSeconds(timeParts[0]);
+        const end = vttTimeToSeconds(timeParts[1].split(/\s+/)[0]);
+
+        if (!Number.isFinite(start) || !Number.isFinite(end)) {
+          continue;
+        }
+
+        const cueText = lines
+          .slice(timeIndex + 1)
+          .join(" ")
+          .trim();
+
+        if (!cueText) {
+          continue;
+        }
+
+        cues.push({
+          start,
+          end,
+          text: decodeVttText(cueText)
+        });
+      }
+
+      return cues.sort((a, b) => a.start - b.start);
+    }
 
     async function loadTranscript() {
-
       try {
-
-        const response =
-          await fetch("./transcript.json");
+        const response = await fetch(VTT_URL, { cache: "no-store" });
 
         if (!response.ok) {
-          throw new Error(
-            `HTTP ${response.status}`
-          );
+          throw new Error(`Transcriptの読み込みに失敗しました (HTTP ${response.status})`);
         }
 
-        transcript =
-          await response.json();
-
-
-        if (!Array.isArray(transcript)) {
-          throw new Error(
-            "Transcript format is invalid."
-          );
-        }
-
+        const vttText = await response.text();
+        transcript = parseVTT(vttText);
 
         if (transcript.length === 0) {
-          throw new Error(
-            "Transcript is empty."
-          );
+          throw new Error("VTTから字幕を読み取れませんでした。");
         }
 
-
+        currentIndex = 0;
         renderLyrics(0);
-
       } catch (error) {
-
         console.error(error);
 
         document.getElementById("lyrics").innerHTML =
-          `<div class="loading">
-            Transcriptの読み込みに失敗しました。
-          </div>`;
+          `<div class="error">${escapeHtml(error.message)}</div>`;
 
-        document.getElementById("info").textContent =
-          "Transcript error";
-
+        document.getElementById("info").textContent = "Transcript error";
       }
-
     }
 
-
-    /* =========================================================
-       現在のセンテンスを取得
-    ========================================================= */
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
 
     function getCurrentIndex(currentTime) {
-
-      let index = 0;
-
-      for (
-        let i = 0;
-        i < transcript.length;
-        i++
-      ) {
-
-        if (
-          transcript[i].start <= currentTime
-        ) {
-
-          index = i;
-
-        } else {
-
-          break;
-
-        }
-
+      if (transcript.length === 0) {
+        return -1;
       }
 
-      return index;
+      let left = 0;
+      let right = transcript.length - 1;
+      let answer = 0;
 
+      while (left <= right) {
+        const mid = Math.floor((left + right) / 2);
+
+        if (transcript[mid].start <= currentTime) {
+          answer = mid;
+          left = mid + 1;
+        } else {
+          right = mid - 1;
+        }
+      }
+
+      return answer;
     }
 
-
-    /* =========================================================
-       Lyrics中央表示
-    ========================================================= */
-
-    function centerLine(
-      container,
-      element
-    ) {
-
+    function centerLine(container, element) {
       if (!element) {
         return;
       }
-
 
       const target =
         element.offsetTop -
         (container.clientHeight / 2) +
         (element.offsetHeight / 2);
 
-
       const maxScroll =
-        container.scrollHeight -
-        container.clientHeight;
+        Math.max(0, container.scrollHeight - container.clientHeight);
 
-
-      const top =
-        Math.max(
-          0,
-          Math.min(
-            target,
-            maxScroll
-          )
-        );
-
+      const top = Math.max(0, Math.min(target, maxScroll));
 
       container.scrollTo({
-
-        top: top,
-
+        top,
         behavior: "smooth"
-
       });
-
     }
-
-
-    /* =========================================================
-       Lyrics描画
-    ========================================================= */
 
     function renderLyrics(index) {
-
-      const container =
-        document.getElementById("lyrics");
-
-
+      const container = document.getElementById("lyrics");
       container.innerHTML = "";
 
+      transcript.forEach((item, i) => {
+        const button = document.createElement("button");
 
-      transcript.forEach(
-        (item, i) => {
+        button.type = "button";
+        button.className = "line";
 
-          const button =
-            document.createElement("button");
-
-
-          button.type = "button";
-
-          button.className = "line";
-
-
-          if (i === index) {
-
-            button.classList.add(
-              "active"
-            );
-
-          }
-
-          else if (
-            Math.abs(i - index) === 1
-          ) {
-
-            button.classList.add(
-              "near"
-            );
-
-          }
-
-
-          button.textContent =
-            item.text;
-
-
-          button.addEventListener(
-            "click",
-            () => {
-
-              if (!player) {
-                return;
-              }
-
-
-              player.seekTo(
-                item.start,
-                true
-              );
-
-
-              player.playVideo();
-
-
-              currentIndex = i;
-
-
-              renderLyrics(i);
-
-            }
-          );
-
-
-          container.appendChild(button);
-
+        if (i === index) {
+          button.classList.add("active");
+        } else if (Math.abs(i - index) === 1) {
+          button.classList.add("near");
         }
-      );
 
+        button.textContent = item.text;
 
-      const active =
-        container.querySelector(
-          ".active"
-        );
+        button.addEventListener("click", () => {
+          if (!player) {
+            return;
+          }
 
+          player.seekTo(item.start, true);
 
-      centerLine(
-        container,
-        active
-      );
+          currentIndex = i;
+          renderLyrics(i);
+        });
 
+        container.appendChild(button);
+      });
 
-      document.getElementById(
-        "info"
-      ).textContent =
-        `Sentence ${index + 1} / ${transcript.length}`;
+      centerLine(container, container.querySelector(".active"));
 
+      const activeItem = transcript[index];
+
+      document.getElementById("info").textContent =
+        activeItem
+          ? `Cue ${index + 1} / ${transcript.length} · ${formatTime(activeItem.start)}`
+          : `Cue 0 / ${transcript.length}`;
     }
 
+    function formatTime(seconds) {
+      const total = Math.max(0, Math.floor(seconds));
+      const hours = Math.floor(total / 3600);
+      const minutes = Math.floor((total % 3600) / 60);
+      const secs = total % 60;
 
-    /* =========================================================
-       YouTube API Ready
-    ========================================================= */
+      if (hours > 0) {
+        return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+      }
+
+      return `${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+    }
+
+    function updateCurrentCue() {
+      if (!player || transcript.length === 0) {
+        return;
+      }
+
+      if (player.getPlayerState() !== YT.PlayerState.PLAYING) {
+        return;
+      }
+
+      const currentTime = player.getCurrentTime();
+      const index = getCurrentIndex(currentTime);
+
+      if (index !== currentIndex && index >= 0) {
+        currentIndex = index;
+        renderLyrics(index);
+      }
+    }
 
     function onYouTubeIframeAPIReady() {
-
-      player =
-        new YT.Player(
-          "player",
-          {
-
-            videoId: VIDEO_ID,
-
-            playerVars: {
-
-              playsinline: 1,
-
-              rel: 0
-
-            },
-
-            events: {
-
-              onReady: () => {
-
-                if (
-                  transcript.length > 0
-                ) {
-
-                  currentIndex = 0;
-
-                  renderLyrics(0);
-
-                }
-
-
-                setInterval(
-                  updateCurrentSentence,
-                  250
-                );
-
-              }
-
+      player = new YT.Player("player", {
+        videoId: VIDEO_ID,
+        playerVars: {
+          playsinline: 1,
+          controls: 0,
+          rel: 0
+        },
+        events: {
+          onReady: () => {
+            if (transcript.length > 0) {
+              currentIndex = 0;
+              renderLyrics(0);
             }
 
+            if (!updateTimer) {
+              updateTimer = setInterval(updateCurrentCue, 250);
+            }
           }
-        );
-
+        }
+      });
     }
-
-
-    /* =========================================================
-       現在センテンス更新
-    ========================================================= */
-
-    function updateCurrentSentence() {
-
-      if (!player) {
-        return;
-      }
-
-
-      if (
-        player.getPlayerState() !==
-        YT.PlayerState.PLAYING
-      ) {
-
-        return;
-
-      }
-
-
-      if (
-        transcript.length === 0
-      ) {
-
-        return;
-
-      }
-
-
-      const currentTime =
-        player.getCurrentTime();
-
-
-      const index =
-        getCurrentIndex(
-          currentTime
-        );
-
-
-      if (
-        index !== currentIndex
-      ) {
-
-        currentIndex = index;
-
-        renderLyrics(index);
-
-      }
-
-    }
-
-
-    /* =========================================================
-       初期化
-    ========================================================= */
 
     loadTranscript();
 
-
-    /* =========================================================
-       YouTube IFrame API
-    ========================================================= */
-
-    const script =
-      document.createElement(
-        "script"
-      );
-
-
-    script.src =
-      "https://www.youtube.com/iframe_api";
-
-
-    document.head.appendChild(
-      script
-    );
-
+    const script = document.createElement("script");
+    script.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(script);
   </script>
-
 </body>
 </html>
