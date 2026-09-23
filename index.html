@@ -4,17 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>re:Invent Reader</title>
+
   <style>
     * {
       box-sizing: border-box;
     }
 
+    html,
     body {
       margin: 0;
+      padding: 0;
       background: #101114;
-      color: #fff;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", sans-serif;
+      color: #ffffff;
+      font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    }
+
+    body {
+      overflow-x: hidden;
     }
 
     .app {
@@ -23,10 +34,15 @@
       margin: 0 auto;
     }
 
+    /* -------------------------
+       YouTube
+    ------------------------- */
+
     .video {
       width: 100%;
       aspect-ratio: 16 / 9;
-      background: #000;
+      background: #000000;
+      overflow: hidden;
     }
 
     #player {
@@ -34,202 +50,555 @@
       height: 100%;
     }
 
+    /* -------------------------
+       Lyrics
+    ------------------------- */
+
     .lyrics {
-      height: calc(100vh - 360px);
-      min-height: 360px;
+      height: calc(100vh - 280px);
+      min-height: 320px;
+
       overflow-y: auto;
-      padding: 80px 20px;
+      overflow-x: hidden;
+
+      padding: 100px 20px;
+
       scroll-behavior: smooth;
+
+      /*
+       * ページそのもののスクロールを
+       * 誘発しにくくする
+       */
+      overscroll-behavior: contain;
+
+      /*
+       * スマホでスクロールしたとき、
+       * この領域を優先
+       */
+      touch-action: pan-y;
     }
 
     .line {
       display: block;
+
       width: 100%;
+
+      margin: 0;
+      padding: 14px 0;
+
       border: 0;
-      background: none;
-      color: rgba(255,255,255,.28);
+      outline: none;
+
+      background: transparent;
+
+      color: rgba(255, 255, 255, 0.28);
+
       text-align: left;
-      font-size: 22px;
+
+      font-size: 21px;
       line-height: 1.45;
       font-weight: 700;
-      padding: 14px 0;
+
       cursor: pointer;
-      transition: 0.2s;
+
+      transition:
+        color 0.2s ease,
+        font-size 0.2s ease;
+    }
+
+    .line:hover {
+      color: rgba(255, 255, 255, 0.55);
     }
 
     .line.near {
-      color: rgba(255,255,255,.58);
+      color: rgba(255, 255, 255, 0.58);
     }
 
     .line.active {
-      color: #fff;
-      font-size: 30px;
+      color: #ffffff;
+      font-size: 29px;
     }
+
+    /* -------------------------
+       Status
+    ------------------------- */
 
     .info {
-      padding: 12px 20px 18px;
-      color: #999;
-      font-size: 12px;
+      padding: 10px 20px 16px;
+
       border-top: 1px solid #24262b;
+
+      color: #92959d;
+
+      font-size: 12px;
     }
 
+    /* -------------------------
+       Smartphone
+    ------------------------- */
+
     @media (max-width: 480px) {
+
+      .lyrics {
+        height: calc(100vh - 250px);
+        min-height: 300px;
+
+        padding: 100px 18px;
+      }
+
       .line {
-        font-size: 20px;
+        font-size: 19px;
       }
 
       .line.active {
         font-size: 27px;
       }
 
-      .lyrics {
-        height: calc(100vh - 280px);
-        min-height: 300px;
+      .info {
+        padding-left: 18px;
+        padding-right: 18px;
       }
     }
   </style>
 </head>
 
 <body>
+
   <div class="app">
+
+    <!-- =========================
+         YouTube Video
+    ========================== -->
+
     <div class="video">
       <div id="player"></div>
     </div>
 
+
+    <!-- =========================
+         Lyrics
+    ========================== -->
+
     <div id="lyrics" class="lyrics"></div>
+
+
+    <!-- =========================
+         Status
+    ========================== -->
 
     <div id="info" class="info">
       読み込み中...
     </div>
+
   </div>
 
+
   <script>
+
+    /* =========================================================
+       Settings
+    ========================================================= */
+
     const VIDEO_ID = "3Y1G9najGiI";
 
+
+    /*
+     * 仮のTranscript
+     *
+     * startだけを持つ。
+     *
+     * start = そのセンテンスの開始位置
+     */
+
     const transcript = [
+
       {
         start: 32.4,
         text: "AWS is changing the way we build applications."
       },
+
       {
         start: 38.1,
         text: "And today, I'm excited to announce some major new capabilities."
       },
+
       {
         start: 44.9,
         text: "We're introducing a new generation of Amazon Bedrock models."
       },
+
       {
         start: 53.2,
         text: "These capabilities make it easier to build with generative AI."
       },
+
       {
         start: 61.8,
         text: "And this is just the beginning of what we can do together."
       },
+
       {
         start: 71.5,
         text: "Let me show you what this looks like in practice."
       }
+
     ];
 
+
+    /* =========================================================
+       Variables
+    ========================================================= */
+
     let player = null;
+
     let currentIndex = -1;
 
+
+    /* =========================================================
+       現在再生中のセンテンスを取得
+    ========================================================= */
+
     function getCurrentIndex(currentTime) {
+
       let index = 0;
 
       for (let i = 0; i < transcript.length; i++) {
+
         if (transcript[i].start <= currentTime) {
           index = i;
         } else {
           break;
         }
+
       }
 
       return index;
     }
 
-    function renderLyrics(index) {
-      const container = document.getElementById("lyrics");
-      container.innerHTML = "";
 
-      transcript.forEach((item, i) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "line";
+    /* =========================================================
+       センテンスを中央に表示する
+       ★ ページ全体ではなくlyricsだけをスクロール
+    ========================================================= */
 
-        if (i === index) {
-          button.classList.add("active");
-        } else if (Math.abs(i - index) === 1) {
-          button.classList.add("near");
-        }
+    function centerLine(container, element) {
 
-        button.textContent = item.text;
-
-        button.addEventListener("click", () => {
-          if (!player) return;
-
-          player.seekTo(item.start, true);
-          player.playVideo();
-
-          currentIndex = i;
-          renderLyrics(i);
-        });
-
-        container.appendChild(button);
-      });
-
-      const active = container.querySelector(".active");
-
-      if (active) {
-        active.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-      }
-
-      document.getElementById("info").textContent =
-        `Sentence ${index + 1} / ${transcript.length}`;
-    }
-
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player("player", {
-        videoId: VIDEO_ID,
-        playerVars: {
-          playsinline: 1,
-          rel: 0
-        },
-        events: {
-          onReady: () => {
-            renderLyrics(0);
-            setInterval(updateCurrentSentence, 250);
-          }
-        }
-      });
-    }
-
-    function updateCurrentSentence() {
-      if (!player) return;
-
-      const state = player.getPlayerState();
-
-      if (state !== YT.PlayerState.PLAYING) {
+      if (!element) {
         return;
       }
 
-      const currentTime = player.getCurrentTime();
-      const index = getCurrentIndex(currentTime);
+      /*
+       * containerの中で、
+       * elementが中央になる位置を計算
+       */
 
-      if (index !== currentIndex) {
-        currentIndex = index;
-        renderLyrics(index);
-      }
+      const target =
+        element.offsetTop -
+        (container.clientHeight / 2) +
+        (element.offsetHeight / 2);
+
+
+      /*
+       * スクロール可能な範囲を超えないようにする
+       */
+
+      const maxScroll =
+        container.scrollHeight -
+        container.clientHeight;
+
+
+      const top =
+        Math.max(
+          0,
+          Math.min(target, maxScroll)
+        );
+
+
+      /*
+       * lyrics自身をスクロール
+       *
+       * scrollIntoView() は使わない。
+       * これがページ全体が動く原因になるため。
+       */
+
+      container.scrollTo({
+        top: top,
+        behavior: "smooth"
+      });
+
     }
 
-    const script = document.createElement("script");
-    script.src = "https://www.youtube.com/iframe_api";
+
+    /* =========================================================
+       Lyrics表示
+    ========================================================= */
+
+    function renderLyrics(index) {
+
+      const container =
+        document.getElementById("lyrics");
+
+
+      /*
+       * 一旦Lyricsを描画し直す
+       */
+
+      container.innerHTML = "";
+
+
+      transcript.forEach((item, i) => {
+
+        const button =
+          document.createElement("button");
+
+
+        button.type = "button";
+
+        button.className = "line";
+
+
+        /*
+         * 現在のセンテンス
+         */
+
+        if (i === index) {
+
+          button.classList.add("active");
+
+        }
+
+
+        /*
+         * 現在の前後のセンテンス
+         */
+
+        else if (
+          Math.abs(i - index) === 1
+        ) {
+
+          button.classList.add("near");
+
+        }
+
+
+        /*
+         * 英文
+         */
+
+        button.textContent = item.text;
+
+
+        /* -----------------------------------------------------
+           センテンスクリック
+        ----------------------------------------------------- */
+
+        button.addEventListener("click", () => {
+
+          if (!player) {
+            return;
+          }
+
+
+          /*
+           * そのセンテンスのstartへ戻る
+           */
+
+          player.seekTo(
+            item.start,
+            true
+          );
+
+
+          /*
+           * 再生
+           */
+
+          player.playVideo();
+
+
+          /*
+           * 現在センテンスを更新
+           */
+
+          currentIndex = i;
+
+
+          /*
+           * 再描画
+           */
+
+          renderLyrics(i);
+
+        });
+
+
+        container.appendChild(button);
+
+      });
+
+
+      /*
+       * 現在のセンテンスを取得
+       */
+
+      const active =
+        container.querySelector(".active");
+
+
+      /*
+       * 現在センテンスを
+       * Lyrics領域の中央へ
+       */
+
+      centerLine(
+        container,
+        active
+      );
+
+
+      /*
+       * ステータス表示
+       */
+
+      document.getElementById("info").textContent =
+        `Sentence ${index + 1} / ${transcript.length}`;
+
+    }
+
+
+    /* =========================================================
+       YouTube API Ready
+    ========================================================= */
+
+    function onYouTubeIframeAPIReady() {
+
+      player =
+        new YT.Player(
+          "player",
+          {
+
+            videoId: VIDEO_ID,
+
+            playerVars: {
+
+              /*
+               * スマホのインライン再生
+               */
+
+              playsinline: 1,
+
+              /*
+               * 関連動画をなるべく限定
+               */
+
+              rel: 0
+
+            },
+
+            events: {
+
+              onReady: () => {
+
+                /*
+                 * 最初のLyricsを表示
+                 */
+
+                currentIndex = 0;
+
+                renderLyrics(0);
+
+
+                /*
+                 * 動画位置を定期的に確認
+                 */
+
+                setInterval(
+                  updateCurrentSentence,
+                  250
+                );
+
+              }
+
+            }
+
+          }
+        );
+
+    }
+
+
+    /* =========================================================
+       現在のセンテンスを更新
+    ========================================================= */
+
+    function updateCurrentSentence() {
+
+      if (!player) {
+        return;
+      }
+
+
+      /*
+       * 再生中でなければ何もしない
+       */
+
+      if (
+        player.getPlayerState() !==
+        YT.PlayerState.PLAYING
+      ) {
+
+        return;
+
+      }
+
+
+      /*
+       * YouTubeの現在位置
+       */
+
+      const currentTime =
+        player.getCurrentTime();
+
+
+      /*
+       * 現在のセンテンス番号
+       */
+
+      const index =
+        getCurrentIndex(currentTime);
+
+
+      /*
+       * センテンスが変わったときだけ
+       * 再描画する
+       */
+
+      if (index !== currentIndex) {
+
+        currentIndex = index;
+
+        renderLyrics(index);
+
+      }
+
+    }
+
+
+    /* =========================================================
+       YouTube IFrame Player API読み込み
+    ========================================================= */
+
+    const script =
+      document.createElement("script");
+
+
+    script.src =
+      "https://www.youtube.com/iframe_api";
+
+
     document.head.appendChild(script);
+
   </script>
+
 </body>
 </html>
