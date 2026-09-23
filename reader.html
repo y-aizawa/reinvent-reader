@@ -77,9 +77,14 @@
     function moveCurrentLine(container, element) {
       if (!element) return;
 
-      // 現在の字幕を、字幕表示エリアの最上部に置く。
-      // 画面全体ではなく、この .lyrics のスクロール位置だけを動かす。
-      const nextScrollTop = Math.max(0, element.offsetTop);
+      // 現在の字幕を「字幕表示エリア」の最上部に置く。
+      // document/body のスクロールではなく、.lyrics 自体だけをスクロールする。
+      const containerRect = container.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+      const nextScrollTop = Math.max(
+        0,
+        container.scrollTop + elementRect.top - containerRect.top
+      );
 
       container.scrollTo({
         top: nextScrollTop,
@@ -99,12 +104,13 @@
         button.textContent = item.text || item.en || '';
         button.addEventListener('click', () => {
           if (!state.player) return;
+          // 先にフォーカスを外す。renderLyrics() でDOMを作り直した後だと、
+          // Android/Chromeが古いボタンの位置へページ全体をスクロールすることがある。
+          button.blur();
           state.player.seekTo(Number(item.start), true);
           state.player.playVideo();
           state.currentIndex = i;
           renderLyrics(i);
-          // ボタンのフォーカスによるページ全体の自動スクロールを防ぐ。
-          button.blur();
         });
         container.appendChild(button);
       });
