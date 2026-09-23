@@ -76,9 +76,23 @@
 
     function centerLine(container, element) {
       if (!element) return;
-      const target = element.offsetTop - container.clientHeight / 2 + element.offsetHeight / 2;
-      const maxScroll = container.scrollHeight - container.clientHeight;
-      container.scrollTo({ top: Math.max(0, Math.min(target, maxScroll)), behavior: 'smooth' });
+
+      // 現在のセンテンスを歌詞エリア上部から約25%の位置に置く
+      const target =
+        element.offsetTop -
+        (container.clientHeight * 0.25) +
+        (element.offsetHeight / 2);
+
+      const maxScroll =
+        container.scrollHeight -
+        container.clientHeight;
+
+      const top = Math.max(0, Math.min(target, maxScroll));
+
+      container.scrollTo({
+        top,
+        behavior: 'smooth'
+      });
     }
 
     function renderLyrics(index) {
