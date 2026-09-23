@@ -129,7 +129,7 @@
     function onYouTubeIframeAPIReady() {
       state.player = new YT.Player('player', {
         videoId: state.currentVideo.id,
-        playerVars: { playsinline: 1, rel: 0 },
+        playerVars: { playsinline: 1, rel: 0, cc_load_policy: 0 },
         events: {
           onReady: () => {
             state.currentIndex = 0;
