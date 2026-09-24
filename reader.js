@@ -18,13 +18,20 @@ async function loadData() {
   if (!Array.isArray(state.transcript) || state.transcript.length === 0) throw new Error('Transcript is empty');
 
   // 日本語訳は字幕データ本体とは別ファイルで管理する。
-  // 英語の元データを変更せず、翻訳だけ差し替えられるようにする。
+  // 翻訳の読み込み失敗がTranscript本体の表示を止めないよう、別途読み込む。
   const transcriptFileName = state.currentVideo.transcript.split('/').pop();
   const translationPath = `./translations/${transcriptFileName}`;
-  const translationResponse = await fetch(translationPath, { cache: 'no-store' });
-  if (translationResponse.ok) {
-    state.translations = await translationResponse.json();
-  }
+  fetch(translationPath, { cache: 'no-store' })
+    .then(response => response.ok ? response.json() : {})
+    .then(translations => {
+      state.translations = translations || {};
+      if (state.language === 'ja' && state.transcript.length > 0) {
+        renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
+      }
+    })
+    .catch(error => {
+      console.warn('Japanese translation could not be loaded:', error);
+    });
 }
 
 function getCurrentIndex(time) {
@@ -111,8 +118,6 @@ function onYouTubeIframeAPIReady() {
     playerVars: { playsinline: 1, rel: 0, cc_load_policy: 0 },
     events: {
       onReady: () => {
-        state.currentIndex = 0;
-        renderLyrics(0);
         setInterval(updateCurrentSentence, 250);
       }
     }
@@ -132,6 +137,12 @@ function updateCurrentSentence() {
   try {
     if (!videoKey) throw new Error('Missing video parameter');
     await loadData();
+
+    // TranscriptはYouTube APIの準備を待たずに表示する。
+    // YouTube側で問題が起きても字幕一覧自体は確認できるようにする。
+    state.currentIndex = 0;
+    renderLyrics(0);
+
     const script = document.createElement('script');
     script.src = 'https://www.youtube.com/iframe_api';
     document.head.appendChild(script);
