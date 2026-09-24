@@ -8,6 +8,9 @@ body { overflow-x: hidden; }
 .language-toggle { position: fixed; right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 100; display: flex; border: 1px solid #30333a; border-radius: 12px; overflow: hidden; background: rgba(29,32,37,.94); box-shadow: 0 4px 16px rgba(0,0,0,.35); }
 .language-button { min-width: 48px; min-height: 44px; border: 0; padding: 8px 12px; background: transparent; color: #8f929a; font: inherit; font-size: 13px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .language-button.active { background: #4f2eea; color: #fff; }
+.playback-button { position: fixed; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 100; width: 56px; height: 56px; transform: translateX(-50%); border: 1px solid #3a3e46; border-radius: 50%; background: rgba(29,32,37,.96); color: #fff; box-shadow: 0 4px 18px rgba(0,0,0,.4); display: grid; place-items: center; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.playback-icon { font-size: 22px; line-height: 1; }
+.playback-button:active { transform: translateX(-50%) scale(.96); }
 .video { width: 100%; aspect-ratio: 16/9; background: #000; overflow: hidden; }
 #player { width: 100%; height: 100%; }
 .lyrics { height: calc(100vh - 320px); min-height: 320px; overflow-y: auto; overflow-x: hidden; padding: 0 20px 70%; scroll-behavior: smooth; overscroll-behavior: contain; touch-action: pan-y; }
