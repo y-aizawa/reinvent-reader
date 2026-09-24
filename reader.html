@@ -17,20 +17,22 @@
     <div class="topbar">
       <a class="back" href="./index.html">‹ Videos</a>
       <div id="videoTitle" class="title">Loading...</div>
-      <div class="language-toggle" role="group" aria-label="字幕言語">
-        <button type="button" class="language-button active" data-language="en">EN</button>
-        <button type="button" class="language-button" data-language="ja">日本語</button>
-      </div>
     </div>
     <div class="video"><div id="player"></div></div>
     <div id="lyrics" class="lyrics"><div class="loading">Transcriptを読み込んでいます...</div></div>
     <div id="info" class="info">読み込み中...</div>
   </div>
 
-  <button id="playbackButton" class="playback-button" type="button" aria-label="再生">
-    <span id="playbackIcon" aria-hidden="true">▶</span>
-  </button>
+  <div class="bottom-controls">
+    <button id="playbackButton" class="playback-button" type="button" aria-label="再生">
+      <span id="playbackIcon" class="playback-icon" aria-hidden="true"></span>
+    </button>
+    <div class="language-toggle" role="group" aria-label="字幕言語">
+      <button type="button" class="language-button active" data-language="en">EN</button>
+      <button type="button" class="language-button" data-language="ja">日本語</button>
+    </div>
   </div>
+
   <script src="./reader.js"></script>
 </body>
 </html>
