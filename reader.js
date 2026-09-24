@@ -119,10 +119,10 @@ function updateModeButton() {
   if (!button || !label) return;
 
   const isPauseMode = state.playbackMode === 'pause';
-  label.textContent = isPauseMode ? '間隔' : '連続';
+  label.textContent = isPauseMode ? 'リピート' : '連続';
   button.setAttribute(
     'aria-label',
-    isPauseMode ? '間隔再生（センテンスごとに停止）' : '連続再生'
+    isPauseMode ? 'リピート再生' : '連続再生'
   );
   button.setAttribute('aria-pressed', String(isPauseMode));
 }
