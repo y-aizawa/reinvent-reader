@@ -94,7 +94,7 @@ function setLanguage(language) {
 document.getElementById('languageButton').addEventListener('click', () => {
   const nextLanguage = state.language === 'en' ? 'ja' : 'en';
   setLanguage(nextLanguage);
-}););
+});
 
 function clearPauseTimer() {
   if (state.pauseTimer) {
