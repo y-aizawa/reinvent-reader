@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
-const state = { videos: [], currentVideo: null, transcript: [], translations: {}, player: null, currentIndex: -1, language: 'en' };
+const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en' };
 
 async function loadData() {
   const [videosResponse] = await Promise.all([
@@ -17,22 +17,8 @@ async function loadData() {
   state.transcript = await transcriptResponse.json();
   if (!Array.isArray(state.transcript) || state.transcript.length === 0) throw new Error('Transcript is empty');
 
-  // 日本語訳は字幕データ本体とは別ファイルで管理する。
-  // 翻訳の読み込み失敗がTranscript本体の表示を止めないよう、別途読み込む。
-  const transcriptFileName = state.currentVideo.transcript.split('/').pop();
-  const translationPath = `./translations/${transcriptFileName}`;
-  fetch(translationPath, { cache: 'no-store' })
-    .then(response => response.ok ? response.json() : {})
-    .then(translations => {
-      state.translations = translations || {};
-      if (state.language === 'ja' && state.transcript.length > 0) {
-        renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
-      }
-    })
-    .catch(error => {
-      console.warn('Japanese translation could not be loaded:', error);
-    });
-}
+  
+
 
 function getCurrentIndex(time) {
   let index = 0;
@@ -71,7 +57,7 @@ function renderLyrics(index) {
     if (i === index) button.classList.add('active');
     else if (Math.abs(i - index) === 1) button.classList.add('near');
     button.textContent = state.language === 'ja'
-      ? (state.translations[String(i + 1)] || item.text || item.en || '')
+      ? (item.ja || item.text || item.en || '')
       : (item.text || item.en || '');
     button.addEventListener('click', () => {
       if (!state.player) return;
