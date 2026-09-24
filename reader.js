@@ -224,13 +224,6 @@ function onYouTubeIframeAPIReady() {
       },
       onStateChange: () => {
         updatePlaybackButton();
-
-        if (
-          state.player &&
-          state.player.getPlayerState() !== YT.PlayerState.PLAYING
-        ) {
-          clearPauseTimer();
-        }
       }
     }
   });
