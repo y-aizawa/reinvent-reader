@@ -2,3396 +2,4075 @@
   {
     "start": 9.728,
     "text": "End of the developer.",
-    "ja": "開発者の時代は終わりだ。"
+    "ja": "開発者の時代は終わりだ。",
+    "end": 11.34
   },
   {
     "start": 11.34,
     "text": "I've heard that before.",
-    "ja": "それ、前にも聞いたことがあります。"
+    "ja": "それ、前にも聞いたことがあります。",
+    "end": 12.677
   },
   {
     "start": 79.297,
     "text": "Hi, there, Lorraine.",
-    "ja": "やあ、ローリン。"
+    "ja": "やあ、ローリン。",
+    "end": 81.086
   },
   {
     "start": 81.086,
     "text": "What you doing?",
-    "ja": "何してるの？"
+    "ja": "何してるの？",
+    "end": 82.557
   },
   {
     "start": 82.557,
     "text": "Oh, you know, organizing yesterday's program cards, which got dropped.",
-    "ja": "昨日落としていったプログラムカードを整理してるの。"
+    "ja": "昨日落としていったプログラムカードを整理してるの。",
+    "end": 86.52
   },
   {
     "start": 86.52,
     "text": "Figuring out why the machine keeps stopping on card 4042.",
-    "ja": "どうしてマシンがカード4042で止まり続けるのか調べてる。"
+    "ja": "どうしてマシンがカード4042で止まり続けるのか調べてる。",
+    "end": 89.97
   },
   {
     "start": 89.97,
     "text": "Logging this really awkward bug in the bogo compiler, and talking to you.",
-    "ja": "この本当に厄介なbogoコンパイラのバグを記録しながら、あなたと話してるの。"
+    "ja": "この本当に厄介なbogoコンパイラのバグを記録しながら、あなたと話してるの。",
+    "end": 95.493
   },
   {
     "start": 97.5,
     "text": "Anything new at head office?",
-    "ja": "本社で何か新しいことはある？"
+    "ja": "本社で何か新しいことはある？",
+    "end": 99.183
   },
   {
     "start": 102.06,
     "text": "I've been reading about this, COBOL.",
-    "ja": "これについて読んでたんだ。COBOL。"
+    "ja": "これについて読んでたんだ。COBOL。",
+    "end": 104.957
   },
   {
     "start": 107.91,
     "text": "Yes, that's the new high level language.",
-    "ja": "そう、それが新しい高級言語だよ。"
+    "ja": "そう、それが新しい高級言語だよ。",
+    "end": 110.01
   },
   {
     "start": 110.01,
     "text": "It's amazing.",
-    "ja": "すごいよね。"
+    "ja": "すごいよね。",
+    "end": 111.75
   },
   {
     "start": 111.75,
     "text": "Now, anyone can write code.",
-    "ja": "これなら誰でもコードを書ける。"
+    "ja": "これなら誰でもコードを書ける。",
+    "end": 113.249
   },
   {
     "start": 114.6,
     "text": "I don't know about anyone.",
-    "ja": "誰でも、とは言えないんじゃない？"
+    "ja": "誰でも、とは言えないんじゃない？",
+    "end": 116.73
   },
   {
     "start": 116.73,
     "text": "Writing software is pretty tricky.",
-    "ja": "ソフトウェアを書くのって、かなり難しいよ。"
+    "ja": "ソフトウェアを書くのって、かなり難しいよ。",
+    "end": 118.683
   },
   {
     "start": 119.58,
     "text": "Soft, what?",
-    "ja": "ソフト？ 何それ？"
+    "ja": "ソフト？ 何それ？",
+    "end": 122.553
   },
   {
     "start": 124.08,
     "text": "Software.",
-    "ja": "ソフトウェア。"
+    "ja": "ソフトウェア。",
+    "end": 125.013
   },
   {
     "start": 125.97,
     "text": "Where?",
-    "ja": "どこにあるの？"
+    "ja": "どこにあるの？",
+    "end": 126.803
   },
   {
     "start": 156.54,
     "text": "Hey, Marty, what you reading?",
-    "ja": "やあ、マーティ。何を読んでるの？"
+    "ja": "やあ、マーティ。何を読んでるの？",
+    "end": 158.74
   },
   {
     "start": 159.723,
     "text": "Just learning some VP.",
-    "ja": "ちょっとVPを勉強してるんだ。"
+    "ja": "ちょっとVPを勉強してるんだ。",
+    "end": 161.433
   },
   {
     "start": 162.48,
     "text": "Visual Programming, huh?",
-    "ja": "Visual Programmingってこと？"
+    "ja": "Visual Programmingってこと？",
+    "end": 164.5
   },
   {
     "start": 164.5,
     "text": "Coding's history, Marty.",
-    "ja": "コーディングの歴史だよ、マーティ。"
+    "ja": "コーディングの歴史だよ、マーティ。",
+    "end": 166.98
   },
   {
     "start": 166.98,
     "text": "Drag and drop is the future.",
-    "ja": "ドラッグ＆ドロップが未来なんだ。"
+    "ja": "ドラッグ＆ドロップが未来なんだ。",
+    "end": 168.453
   },
   {
     "start": 169.56,
     "text": "Drag and drop is still code.",
-    "ja": "ドラッグ＆ドロップだって、結局はコードだよ。"
+    "ja": "ドラッグ＆ドロップだって、結局はコードだよ。",
+    "end": 171.6
   },
   {
     "start": 171.6,
     "text": "It still has bugs and it still needs an engineer.",
-    "ja": "バグはあるし、やっぱりエンジニアが必要なんだ。"
+    "ja": "バグはあるし、やっぱりエンジニアが必要なんだ。",
+    "end": 175.629
   },
   {
     "start": 180.93,
     "text": "Everything fails all the time.",
-    "ja": "何もかも、いつだって失敗する。"
+    "ja": "何もかも、いつだって失敗する。",
+    "end": 184.471
   },
   {
     "start": 209.681,
     "text": "Is this for real?",
-    "ja": "これ、本当の話なの？"
+    "ja": "これ、本当の話なの？",
+    "end": 211.8
   },
   {
     "start": 211.8,
     "text": "Could cloud mean there will be less engineers?",
-    "ja": "クラウドがあれば、エンジニアは減るってこと？"
+    "ja": "クラウドがあれば、エンジニアは減るってこと？",
+    "end": 215.163
   },
   {
     "start": 216.03,
     "text": "Less engineers.",
-    "ja": "エンジニアが減る。"
+    "ja": "エンジニアが減る。",
+    "end": 218.13
   },
   {
     "start": 218.13,
     "text": "Time for an air drop.",
-    "ja": "エアドロップの時間だ。"
+    "ja": "エアドロップの時間だ。",
+    "end": 220.001
   },
   {
     "start": 224.484,
     "text": "Huh?",
-    "ja": "え？"
+    "ja": "え？",
+    "end": 225.84
   },
   {
     "start": 225.84,
     "text": "Servers in minutes.",
-    "ja": "数分でサーバーを用意できる。"
+    "ja": "数分でサーバーを用意できる。",
+    "end": 228.21
   },
   {
     "start": 228.21,
     "text": "Scale on demand.",
-    "ja": "必要に応じてスケールできる。"
+    "ja": "必要に応じてスケールできる。",
+    "end": 229.713
   },
   {
     "start": 230.64,
     "text": "Pay as you go.",
-    "ja": "使った分だけ支払う。"
+    "ja": "使った分だけ支払う。",
+    "end": 232.65
   },
   {
     "start": 232.65,
     "text": "Wow.",
-    "ja": "すごい。"
+    "ja": "すごい。",
+    "end": 233.483
   },
   {
     "start": 234.444,
     "text": "You learn something new every day.",
-    "ja": "毎日、新しいことを一つ学ぶんだね。"
+    "ja": "毎日、新しいことを一つ学ぶんだね。",
+    "end": 236.473
   },
   {
     "start": 245.07,
     "text": "You build it.",
-    "ja": "自分で作る。"
+    "ja": "自分で作る。",
+    "end": 246.27
   },
   {
     "start": 246.27,
     "text": "You run it.",
-    "ja": "自分で運用する。"
+    "ja": "自分で運用する。",
+    "end": 247.153
   },
   {
     "start": 252.268,
     "text": "Mom.",
-    "ja": "ママ。"
+    "ja": "ママ。",
+    "end": 253.101
   },
   {
     "start": 253.101,
     "text": "Hi, sweetie, don't forget to call Mom.",
-    "ja": "ねえ、ママに電話するのを忘れないでね。"
+    "ja": "ねえ、ママに電話するのを忘れないでね。",
+    "end": 255.513
   },
   {
     "start": 258.48,
     "text": "Hi, there, Marty, it's a nice wormhole, isn't it?",
-    "ja": "やあ、マーティ。いいワームホールだよね？"
+    "ja": "やあ、マーティ。いいワームホールだよね？",
+    "end": 263.032
   },
   {
     "start": 263.032,
     "text": "Mind if I join you?",
-    "ja": "一緒にいてもいい？"
+    "ja": "一緒にいてもいい？",
+    "end": 263.982
   },
   {
     "start": 267.065,
     "text": "Oi, you can skip this worm.",
-    "ja": "おい、このワームは飛ばしていいよ。"
+    "ja": "おい、このワームは飛ばしていいよ。",
+    "end": 269.693
   },
   {
     "start": 279.54,
     "text": "Is this the end of development as we know it?",
-    "ja": "私たちが知っている開発は、これで終わりなの？"
+    "ja": "私たちが知っている開発は、これで終わりなの？",
+    "end": 281.89
   },
   {
     "start": 284.67,
     "text": "Or is it just another new beginning?",
-    "ja": "それとも、また新しい始まりにすぎないの？"
+    "ja": "それとも、また新しい始まりにすぎないの？",
+    "end": 289.197
   },
   {
     "start": 308.79,
     "text": "Please welcome the vice president and CTO of Amazon.com, Dr. Werner Vogels.",
-    "ja": "Amazon.comのバイスプレジデント兼CTO、ワーナー・フォーゲルス博士をお迎えください。"
+    "ja": "Amazon.comのバイスプレジデント兼CTO、ワーナー・フォーゲルス博士をお迎えください。",
+    "end": 314.936
   },
   {
     "start": 322.606,
     "text": "Werner, Werner, Werner, Werner, Werner.",
-    "ja": "ワーナー！ ワーナー！ ワーナー！ ワーナー！ ワーナー！"
+    "ja": "ワーナー！ ワーナー！ ワーナー！ ワーナー！ ワーナー！",
+    "end": 326.652
   },
   {
     "start": 326.652,
     "text": "Werner, Werner, Werner, Werner, Werner.",
-    "ja": "ワーナー！ ワーナー！ ワーナー！ ワーナー！ ワーナー！"
+    "ja": "ワーナー！ ワーナー！ ワーナー！ ワーナー！ ワーナー！",
+    "end": 330.046
   },
   {
     "start": 330.879,
     "text": "Thank you, okay.",
-    "ja": "ありがとう。よし。"
+    "ja": "ありがとう。よし。",
+    "end": 332.243
   },
   {
     "start": 332.243,
     "text": "Werner, Werner.",
-    "ja": "ワーナー！ ワーナー！"
+    "ja": "ワーナー！ ワーナー！",
+    "end": 334.967
   },
   {
     "start": 334.967,
     "text": "First, I seek and I find in you something new for us every.",
-    "ja": "まず、毎日、何か新しいものを皆さんの中に見つけ、見いだしていく。"
+    "ja": "まず、毎日、何か新しいものを皆さんの中に見つけ、見いだしていく。",
+    "end": 342.48
   },
   {
     "start": 342.48,
     "text": "No, every day for us something new, an open mind for a different view and nothing else matters.",
-    "ja": "いや、毎日、私たちには新しい何かがある。違う見方を受け入れる開かれた心、それ以外は何も重要ではない。"
+    "ja": "いや、毎日、私たちには新しい何かがある。違う見方を受け入れる開かれた心、それ以外は何も重要ではない。",
+    "end": 353.52
   },
   {
     "start": 353.52,
     "text": "Good morning.",
-    "ja": "おはようございます。"
+    "ja": "おはようございます。",
+    "end": 354.353
   },
   {
     "start": 354.353,
     "text": "Oh, no, it's not.",
-    "ja": "いや、そうでもないね。"
+    "ja": "いや、そうでもないね。",
+    "end": 356.1
   },
   {
     "start": 356.1,
     "text": "Hello, guys.",
-    "ja": "皆さん、おはよう。"
+    "ja": "皆さん、おはよう。",
+    "end": 357.66
   },
   {
     "start": 357.66,
     "text": "So, the video showed you every generation of developers that face the new wave of change, yeah?",
-    "ja": "先ほどの動画では、変化の新しい波に直面してきた、さまざまな世代の開発者たちが描かれていましたよね？"
+    "ja": "先ほどの動画では、変化の新しい波に直面してきた、さまざまな世代の開発者たちが描かれていましたよね？",
+    "end": 365.25
   },
   {
     "start": 365.25,
     "text": "Tools evolve, architectures evolve, expectations evolve, and so do we.",
-    "ja": "ツールも進化し、アーキテクチャも進化し、期待されることも進化する。そして私たちも変わっていく。"
+    "ja": "ツールも進化し、アーキテクチャも進化し、期待されることも進化する。そして私たちも変わっていく。",
+    "end": 372.003
   },
   {
     "start": 373.71,
     "text": "But before we talk about that,",
-    "ja": "でも、それを話す前に、"
+    "ja": "でも、それを話す前に、",
+    "end": 376.533
   },
   {
     "start": 380.46,
     "text": "let's talk about the elephant in the room.",
-    "ja": "まず、この場で誰もが気づいている大きな問題について話しましょう。"
+    "ja": "まず、この場で誰もが気づいている大きな問題について話しましょう。",
+    "end": 383.28
   },
   {
     "start": 383.28,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 384.113
   },
   {
     "start": 386.55,
     "text": "I've been giving this keynote since 2012, and I've done all of them.",
-    "ja": "2012年からこの基調講演を続けてきました。毎回、私が担当してきたんです。"
+    "ja": "2012年からこの基調講演を続けてきました。毎回、私が担当してきたんです。",
+    "end": 392.01
   },
   {
     "start": 392.01,
     "text": "That's a lot of T-shirts, by the way.",
-    "ja": "それにしても、Tシャツをたくさんもらったものです。"
+    "ja": "それにしても、Tシャツをたくさんもらったものです。",
+    "end": 396
   },
   {
     "start": 396,
     "text": "But today, this streak ends.",
-    "ja": "でも今日、その連続記録が終わります。"
+    "ja": "でも今日、その連続記録が終わります。",
+    "end": 399.273
   },
   {
     "start": 400.17,
     "text": "This is my final re:Invent keynotes.",
-    "ja": "これが私にとって最後のre:Invent基調講演です。"
+    "ja": "これが私にとって最後のre:Invent基調講演です。",
+    "end": 404.904
   },
   {
     "start": 407.37,
     "text": "I've still things to do.",
-    "ja": "まだやることはあります。"
+    "ja": "まだやることはあります。",
+    "end": 408.9
   },
   {
     "start": 408.9,
     "text": "I'm not leaving Amazon or anything like that.",
-    "ja": "Amazonを辞めるわけでも、そんなことではありません。"
+    "ja": "Amazonを辞めるわけでも、そんなことではありません。",
+    "end": 410.88
   },
   {
     "start": 410.88,
     "text": "But I think that after 14 of re:Invents, you guys are owned young, fresh, new voices.",
-    "ja": "でも、14回もre:Inventをやってきた今、皆さんには若くて新しい声を届ける時期だと思うんです。"
+    "ja": "でも、14回もre:Inventをやってきた今、皆さんには若くて新しい声を届ける時期だと思うんです。",
+    "end": 420.71
   },
   {
     "start": 421.95,
     "text": "There are so many amazing engineers at Amazon that have great stories to tell, to teach, to help you, to educate you.",
-    "ja": "Amazonには、素晴らしい話をし、教え、皆さんを助け、学びを与えてくれる、本当に優秀なエンジニアがたくさんいます。"
+    "ja": "Amazonには、素晴らしい話をし、教え、皆さんを助け、学びを与えてくれる、本当に優秀なエンジニアがたくさんいます。",
+    "end": 434.16
   },
   {
     "start": 434.16,
     "text": "And I think it's time for those younger different voices of AWS to be in front of you.",
-    "ja": "そして、AWSのより若く、新しい、異なる声が皆さんの前に立つ時が来たと思っています。"
+    "ja": "そして、AWSのより若く、新しい、異なる声が皆さんの前に立つ時が来たと思っています。",
+    "end": 441.78
   },
   {
     "start": 441.78,
     "text": "By the way, nobody forces me to do this.",
-    "ja": "ちなみに、誰かに強制されたわけではありません。"
+    "ja": "ちなみに、誰かに強制されたわけではありません。",
+    "end": 443.73
   },
   {
     "start": 443.73,
     "text": "I'm not leaving Amazon or anything like this.",
-    "ja": "Amazonを辞めるわけでも、そんなことではありません。"
+    "ja": "Amazonを辞めるわけでも、そんなことではありません。",
+    "end": 446.7
   },
   {
     "start": 446.7,
     "text": "This is my decision to make sure that you get to hear different voices than just mine.",
-    "ja": "これは、私だけではなく、皆さんが違う声を聞けるようにするための、私自身の決断です。"
+    "ja": "これは、私だけではなく、皆さんが違う声を聞けるようにするための、私自身の決断です。",
+    "end": 455
   },
   {
     "start": 457.11,
     "text": "Now, let's talk about the other elephants in the room.",
-    "ja": "では、この場にあるもう一つの大きな問題について話しましょう。"
+    "ja": "では、この場にあるもう一つの大きな問題について話しましょう。",
+    "end": 461.373
   },
   {
     "start": 463.83,
     "text": "I visited AWS customers all over the world, and there is one question that keeps coming up in every country and in every city.",
-    "ja": "世界中のAWSのお客様を訪ねてきましたが、どの国、どの都市でも繰り返し出てくる質問が一つあります。"
+    "ja": "世界中のAWSのお客様を訪ねてきましたが、どの国、どの都市でも繰り返し出てくる質問が一つあります。",
+    "end": 475.67
   },
   {
     "start": 478.8,
     "text": "Will AI take my job?",
-    "ja": "AIに仕事を奪われるのか？"
+    "ja": "AIに仕事を奪われるのか？",
+    "end": 483.273
   },
   {
     "start": 487.26,
     "text": "Maybe.",
-    "ja": "そうかもしれません。"
+    "ja": "そうかもしれません。",
+    "end": 492.326
   },
   {
     "start": 492.326,
     "text": "Or else transform.",
-    "ja": "あるいは、仕事そのものが変わるのかもしれない。"
+    "ja": "あるいは、仕事そのものが変わるのかもしれない。",
+    "end": 493.226
   },
   {
     "start": 494.52,
     "text": "Some tasks will be automated, some skills will become obsolete.",
-    "ja": "自動化される仕事もあれば、廃れていくスキルもあるでしょう。"
+    "ja": "自動化される仕事もあれば、廃れていくスキルもあるでしょう。",
+    "end": 499.593
   },
   {
     "start": 501.15,
     "text": "Nuance will emerge.",
-    "ja": "その一方で、新しいニュアンスや新しい役割も生まれてくるでしょう。"
+    "ja": "その一方で、新しいニュアンスや新しい役割も生まれてくるでしょう。",
+    "end": 503.027
   },
   {
     "start": 504.24,
     "text": "So, maybe we should rephrase and reframe this question.",
-    "ja": "だから、この質問を言い換え、捉え直したほうがいいのかもしれません。"
+    "ja": "だから、この質問を言い換え、捉え直したほうがいいのかもしれません。",
+    "end": 509.24
   },
   {
     "start": 512.73,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 514.35
   },
   {
     "start": 514.35,
     "text": "Will AI make me obsolete?",
-    "ja": "AIによって、私自身が時代遅れになるのか？"
+    "ja": "AIによって、私自身が時代遅れになるのか？",
+    "end": 518.313
   },
   {
     "start": 520.446,
     "text": "Absolutely not.",
-    "ja": "絶対に違います。"
+    "ja": "絶対に違います。",
+    "end": 525.453
   },
   {
     "start": 528.03,
     "text": "If you evolve.",
-    "ja": "皆さんが進化し続けるなら。"
+    "ja": "皆さんが進化し続けるなら。",
+    "end": 532.26
   },
   {
     "start": 532.26,
     "text": "And if I look at the past years at Amazon where we've been using all of these new tools, we've seen how you can evolve over time",
-    "ja": "Amazonでこの数年、新しいツールを使ってきた経験を振り返ると、時間とともに自分自身を進化させていけることが分かります。"
+    "ja": "Amazonでこの数年、新しいツールを使ってきた経験を振り返ると、時間とともに自分自身を進化させていけることが分かります。",
+    "end": 544.58
   },
   {
     "start": 545.49,
     "text": "and still be a great engineer with just a new set of tools in your hands.",
-    "ja": "新しい道具を手にしただけでも、優れたエンジニアであり続けられるんです。"
+    "ja": "新しい道具を手にしただけでも、優れたエンジニアであり続けられるんです。",
+    "end": 552.15
   },
   {
     "start": 552.15,
     "text": "Because we evolve as developers.",
-    "ja": "私たちは開発者として進化していくからです。"
+    "ja": "私たちは開発者として進化していくからです。",
+    "end": 556.203
   },
   {
     "start": 557.43,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 558.583
   },
   {
     "start": 558.583,
     "text": "And so must our tools.",
-    "ja": "だからこそ、私たちのツールも進化しなければならない。"
+    "ja": "だからこそ、私たちのツールも進化しなければならない。",
+    "end": 560.103
   },
   {
     "start": 562.543,
     "text": "And so, change is constant.",
-    "ja": "つまり、変化は常にあるということです。"
+    "ja": "つまり、変化は常にあるということです。",
+    "end": 566.4
   },
   {
     "start": 566.4,
     "text": "And this has always been the case, it's nothing new.",
-    "ja": "これは昔からずっとそうで、何も新しいことではありません。"
+    "ja": "これは昔からずっとそうで、何も新しいことではありません。",
+    "end": 569.733
   },
   {
     "start": 571.898,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 573.564
   },
   {
     "start": 573.564,
     "text": "Let's go back in time a little bit.",
-    "ja": "少しだけ時間を遡ってみましょう。"
+    "ja": "少しだけ時間を遡ってみましょう。",
+    "end": 575.137
   },
   {
     "start": 576.31,
     "text": "Just for the heck, when I went to school, I was taught 68,000 Assembler, COBOL and Pascal.",
-    "ja": "私が学校に行っていたころは、68000アセンブラ、COBOL、Pascalを教わりました。"
+    "ja": "私が学校に行っていたころは、68000アセンブラ、COBOL、Pascalを教わりました。",
+    "end": 583.863
   },
   {
     "start": 585.18,
     "text": "None of these languages are being used anymore.",
-    "ja": "今では、これらの言語はもう使われていません。"
+    "ja": "今では、これらの言語はもう使われていません。",
+    "end": 587.53
   },
   {
     "start": 589.2,
     "text": "And in the '60s, we certainly got compilers, and you didn't really matter anymore what kind of assembly those compilers spit out.",
-    "ja": "そして60年代にはコンパイラが登場し、コンパイラがどんなアセンブリコードを吐き出すかは、もはやそれほど重要ではなくなりました。"
+    "ja": "そして60年代にはコンパイラが登場し、コンパイラがどんなアセンブリコードを吐き出すかは、もはやそれほど重要ではなくなりました。",
+    "end": 599.88
   },
   {
     "start": 599.88,
     "text": "However, by learning assembly, I knew, I learned how that loop in Pascal actually translated into machine code.",
-    "ja": "でも、アセンブリを学んでいたからこそ、Pascalのループが実際にどうマシンコードへ変換されるのかを理解できました。"
+    "ja": "でも、アセンブリを学んでいたからこそ、Pascalのループが実際にどうマシンコードへ変換されるのかを理解できました。",
+    "end": 611.1
   },
   {
     "start": 611.1,
     "text": "And so, that was important to me.",
-    "ja": "だから、それは私にとって重要だったんです。"
+    "ja": "だから、それは私にとって重要だったんです。",
+    "end": 615.27
   },
   {
     "start": 615.27,
     "text": "And over time, compilers became the highest level of abstractions that most developers needed.",
-    "ja": "そして時が経つにつれ、コンパイラが、ほとんどの開発者にとって必要となる最も高いレベルの抽象化になりました。"
+    "ja": "そして時が経つにつれ、コンパイラが、ほとんどの開発者にとって必要となる最も高いレベルの抽象化になりました。",
+    "end": 620.193
   },
   {
     "start": 622.38,
     "text": "In the '70s, suddenly structured programming became popular.",
-    "ja": "70年代になると、突然、構造化プログラミングが広まりました。"
+    "ja": "70年代になると、突然、構造化プログラミングが広まりました。",
+    "end": 628.283
   },
   {
     "start": 628.283,
     "text": "And we're moving towards that, compilers, and Bell Labs and Berkeley, they supported this shift.",
-    "ja": "そして私たちはその方向へ進んでいった。コンパイラの世界や、Bell Labs、Berkeleyもこの変化を後押ししました。"
+    "ja": "そして私たちはその方向へ進んでいった。コンパイラの世界や、Bell Labs、Berkeleyもこの変化を後押ししました。",
+    "end": 634.23
   },
   {
     "start": 634.23,
     "text": "They give developers a clearer, control overflow and help them escape the chaos of unstructured code.",
-    "ja": "それによって、開発者はより明確な制御フローを使えるようになり、構造化されていないコードの混乱から抜け出せるようになりました。"
+    "ja": "それによって、開発者はより明確な制御フローを使えるようになり、構造化されていないコードの混乱から抜け出せるようになりました。",
+    "end": 642.483
   },
   {
     "start": 643.32,
     "text": "And then, a few years later behind the stress trap, he started exploring how to model real world concepts directly into coding objects and classes.",
-    "ja": "そして数年後、ある研究者が、現実世界の概念をコードのオブジェクトやクラスとして直接モデル化する方法を探り始めました。"
+    "ja": "そして数年後、ある研究者が、現実世界の概念をコードのオブジェクトやクラスとして直接モデル化する方法を探り始めました。",
+    "end": 654.75
   },
   {
     "start": 654.75,
     "text": "And that became C++ and helped shape object-oriented programming.",
-    "ja": "それがC++へとつながり、オブジェクト指向プログラミングの形成にも貢献しました。"
+    "ja": "それがC++へとつながり、オブジェクト指向プログラミングの形成にも貢献しました。",
+    "end": 658.863
   },
   {
     "start": 662.67,
     "text": "In late 1990s, Amazon was still running as a monolith.",
-    "ja": "1990年代後半、Amazonはまだモノリスとして動いていました。"
+    "ja": "1990年代後半、Amazonはまだモノリスとして動いていました。",
+    "end": 667.533
   },
   {
     "start": 668.49,
     "text": "In the '98, and this is its famous moment,",
-    "ja": "1998年です。そして、これが有名な転換点になります。"
+    "ja": "1998年です。そして、これが有名な転換点になります。",
+    "end": 671.343
   },
   {
     "start": 673.77,
     "text": "the growth accelerated to such a point that the team began breaking off pieces of this monolith into services.",
-    "ja": "事業の成長があまりにも加速したため、チームはそのモノリスを少しずつサービスへと分割し始めました。"
+    "ja": "事業の成長があまりにも加速したため、チームはそのモノリスを少しずつサービスへと分割し始めました。",
+    "end": 682.38
   },
   {
     "start": 682.38,
     "text": "And each service had ownership of their servers, had their own interface, and they completely changed how developers worked.",
-    "ja": "各サービスが自分たちのサーバーを所有し、それぞれ独自のインターフェースを持つようになり、開発者の働き方は大きく変わりました。"
+    "ja": "各サービスが自分たちのサーバーを所有し、それぞれ独自のインターフェースを持つようになり、開発者の働き方は大きく変わりました。",
+    "end": 691.063
   },
   {
     "start": 691.063,
     "text": "They had moved faster, they became independent of other teams, they owned their systems end to end.",
-    "ja": "より速く動けるようになり、他のチームから独立し、自分たちのシステムをエンドツーエンドで所有するようになったんです。"
+    "ja": "より速く動けるようになり、他のチームから独立し、自分たちのシステムをエンドツーエンドで所有するようになったんです。",
+    "end": 698.433
   },
   {
     "start": 699.48,
     "text": "And over time, the industry at large became adopting these kind of practices as a practical model for building and operating large scale distributed systems.",
-    "ja": "やがて業界全体が、こうしたやり方を大規模な分散システムを構築・運用するための実践的なモデルとして取り入れるようになりました。"
+    "ja": "やがて業界全体が、こうしたやり方を大規模な分散システムを構築・運用するための実践的なモデルとして取り入れるようになりました。",
+    "end": 711.633
   },
   {
     "start": 713.25,
     "text": "Actually, and what about the tools in those days?",
-    "ja": "ところで、当時のツールはどうだったでしょう？"
+    "ja": "ところで、当時のツールはどうだったでしょう？",
+    "end": 716.613
   },
   {
     "start": 717.78,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 718.83
   },
   {
     "start": 718.83,
     "text": "But in the 2000s, the most developers, they were still building and deploying things on premise.",
-    "ja": "2000年代になっても、多くの開発者はまだオンプレミスでシステムを構築し、デプロイしていました。"
+    "ja": "2000年代になっても、多くの開発者はまだオンプレミスでシステムを構築し、デプロイしていました。",
+    "end": 724.503
   },
   {
     "start": 725.4,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 726.48
   },
   {
     "start": 726.48,
     "text": "And writing code meant wrestling with hardware, capacity planning, long procurement cycles.",
-    "ja": "コードを書くということは、ハードウェアとの格闘、キャパシティプランニング、長い調達サイクルと向き合うことでもありました。"
+    "ja": "コードを書くということは、ハードウェアとの格闘、キャパシティプランニング、長い調達サイクルと向き合うことでもありました。",
+    "end": 733.89
   },
   {
     "start": 733.89,
     "text": "And when cloud services arrived, they changed the expectation of the world again.",
-    "ja": "そしてクラウドサービスが登場すると、世界の当たり前はまた変わりました。"
+    "ja": "そしてクラウドサービスが登場すると、世界の当たり前はまた変わりました。",
+    "end": 738.72
   },
   {
     "start": 738.72,
     "text": "Developers suddenly had owned amount infrastructure, freedom to experiment.",
-    "ja": "開発者は突然、必要なインフラを自由に使い、試行錯誤できるようになりました。"
+    "ja": "開発者は突然、必要なインフラを自由に使い、試行錯誤できるようになりました。",
+    "end": 744.033
   },
   {
     "start": 745.05,
     "text": "We now waiting for hardware.",
-    "ja": "もうハードウェアを待つ必要はありません。"
+    "ja": "もうハードウェアを待つ必要はありません。",
+    "end": 747.18
   },
   {
     "start": 747.18,
     "text": "And this required new skills.",
-    "ja": "そして、それには新しいスキルが必要でした。"
+    "ja": "そして、それには新しいスキルが必要でした。",
+    "end": 750.03
   },
   {
     "start": 750.03,
     "text": "And developers everywhere adopted to a world where cloud infrastructure just became the normal way to build and operate software.",
-    "ja": "世界中の開発者が、クラウドインフラをソフトウェアを構築・運用するための普通の方法として受け入れる世界へ適応していきました。"
+    "ja": "世界中の開発者が、クラウドインフラをソフトウェアを構築・運用するための普通の方法として受け入れる世界へ適応していきました。",
+    "end": 759.903
   },
   {
     "start": 762.48,
     "text": "My first IDE.",
-    "ja": "私の最初のIDEです。"
+    "ja": "私の最初のIDEです。",
+    "end": 765.183
   },
   {
     "start": 766.14,
     "text": "Any guess?",
-    "ja": "何だったと思います？"
+    "ja": "何だったと思います？",
+    "end": 767.163
   },
   {
     "start": 768,
     "text": "Vi.",
-    "ja": "Viです。"
+    "ja": "Viです。",
+    "end": 769.53
   },
   {
     "start": 769.53,
     "text": "No, I'm not an EMAX person.",
-    "ja": "いや、私はEMAX派じゃありませんけどね。"
+    "ja": "いや、私はEMAX派じゃありませんけどね。",
+    "end": 773.131
   },
   {
     "start": 773.964,
     "text": "Just to say.",
-    "ja": "まあ、それだけ言っておきましょう。"
+    "ja": "まあ、それだけ言っておきましょう。",
+    "end": 774.797
   },
   {
     "start": 778.74,
     "text": "And IDE, actually, they involved with us.",
-    "ja": "そしてIDEも、実は私たちと一緒に進化してきました。"
+    "ja": "そしてIDEも、実は私たちと一緒に進化してきました。",
+    "end": 782.853
   },
   {
     "start": 783.9,
     "text": "We got Microsoft at some moment, you could draw boxes on the screen and you had this first real IDE.",
-    "ja": "ある時点でMicrosoftのIDEが登場し、画面上でボックスを描けるようになって、これが最初の本格的なIDEでした。"
+    "ja": "ある時点でMicrosoftのIDEが登場し、画面上でボックスを描けるようになって、これが最初の本格的なIDEでした。",
+    "end": 790.473
   },
   {
     "start": 791.82,
     "text": "And later we got Visual Studio.",
-    "ja": "その後、Visual Studioが登場しました。"
+    "ja": "その後、Visual Studioが登場しました。",
+    "end": 795.21
   },
   {
     "start": 795.21,
     "text": "And then Visual Studio Code became the default, 'cause of all the amazing plugins in all of that.",
-    "ja": "そしてVisual Studio Codeが、素晴らしいプラグインの数々のおかげで、標準的な存在になりました。"
+    "ja": "そしてVisual Studio Codeが、素晴らしいプラグインの数々のおかげで、標準的な存在になりました。",
+    "end": 801.96
   },
   {
     "start": 801.96,
     "text": "And today's environment, our cursor and, and that's the new workflow.",
-    "ja": "そして今は、Cursorのような環境があって、それが新しいワークフローになっています。"
+    "ja": "そして今は、Cursorのような環境があって、それが新しいワークフローになっています。",
+    "end": 808.713
   },
   {
     "start": 810.87,
     "text": "Is there a new workflow next year?",
-    "ja": "来年には新しいワークフローがあるでしょうか？"
+    "ja": "来年には新しいワークフローがあるでしょうか？",
+    "end": 814.2
   },
   {
     "start": 814.2,
     "text": "Five years from now?",
-    "ja": "5年後は？"
+    "ja": "5年後は？",
+    "end": 815.25
   },
   {
     "start": 815.25,
     "text": "10 years from now?",
-    "ja": "10年後は？"
+    "ja": "10年後は？",
+    "end": 816.69
   },
   {
     "start": 816.69,
     "text": "Of course, there is.",
-    "ja": "もちろん、あります。"
+    "ja": "もちろん、あります。",
+    "end": 819.84
   },
   {
     "start": 819.84,
     "text": "Our tools today though I think are kind of extraordinary.",
-    "ja": "とはいえ、今の私たちのツールは、本当にすごいものだと思います。"
+    "ja": "とはいえ、今の私たちのツールは、本当にすごいものだと思います。",
+    "end": 824.763
   },
   {
     "start": 825.93,
     "text": "In Matt's keynote, we already saw examples of developers becoming dramatically more productive with AI assisted workflows.",
-    "ja": "Mattの基調講演でも、AIを活用したワークフローによって開発者の生産性が劇的に向上する例を、すでに見ました。"
+    "ja": "Mattの基調講演でも、AIを活用したワークフローによって開発者の生産性が劇的に向上する例を、すでに見ました。",
+    "end": 835.38
   },
   {
     "start": 835.38,
     "text": "But none of this removes the work that only you can do.",
-    "ja": "でも、これによって、あなたにしかできない仕事がなくなるわけではありません。"
+    "ja": "でも、これによって、あなたにしかできない仕事がなくなるわけではありません。",
+    "end": 840.38
   },
   {
     "start": 844.44,
     "text": "Remember, the work is yours, not that of the tools.",
-    "ja": "忘れないでください。仕事はあなたのものであって、ツールのものではありません。"
+    "ja": "忘れないでください。仕事はあなたのものであって、ツールのものではありません。",
+    "end": 849.44
   },
   {
     "start": 852.36,
     "text": "It is your work that matters.",
-    "ja": "大切なのは、あなた自身の仕事です。"
+    "ja": "大切なのは、あなた自身の仕事です。",
+    "end": 855.933
   },
   {
     "start": 856.83,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 857.67
   },
   {
     "start": 857.67,
     "text": "Our tools have changed so many times over the course of my career, and they will continue to change.",
-    "ja": "私のキャリアの間に、ツールは何度も変わってきましたし、これからも変わり続けます。"
+    "ja": "私のキャリアの間に、ツールは何度も変わってきましたし、これからも変わり続けます。",
+    "end": 864.75
   },
   {
     "start": 864.75,
     "text": "We are still builders, we're still important.",
-    "ja": "私たちは今もものを作る人間であり、今も重要な存在です。"
+    "ja": "私たちは今もものを作る人間であり、今も重要な存在です。",
+    "end": 869.07
   },
   {
     "start": 869.07,
     "text": "Nothing has changed.",
-    "ja": "何も変わっていません。"
+    "ja": "何も変わっていません。",
+    "end": 870.843
   },
   {
     "start": 876.33,
     "text": "There's never been a time to be more excited about being a developer.",
-    "ja": "開発者であることに、これほどワクワクできる時代は今までありませんでした。"
+    "ja": "開発者であることに、これほどワクワクできる時代は今までありませんでした。",
+    "end": 882.15
   },
   {
     "start": 882.15,
     "text": "Bezos, not that long ago in an interview, he talked about this that we are living at the epicenter of a multiple simultaneous golden ages coming together.",
-    "ja": "少し前のインタビューでベゾスが、私たちは複数の黄金時代が同時に重なり合う、その中心に生きているのだと話していました。"
+    "ja": "少し前のインタビューでベゾスが、私たちは複数の黄金時代が同時に重なり合う、その中心に生きているのだと話していました。",
+    "end": 895.16
   },
   {
     "start": 896.19,
     "text": "Space travel, artificial intelligence, robotics.",
-    "ja": "宇宙旅行、人工知能、ロボティクス。"
+    "ja": "宇宙旅行、人工知能、ロボティクス。",
+    "end": 899.79
   },
   {
     "start": 899.79,
     "text": "Each are advancing at an incredible pace.",
-    "ja": "どれも信じられないほどの速さで進歩しています。"
+    "ja": "どれも信じられないほどの速さで進歩しています。",
+    "end": 904.233
   },
   {
     "start": 905.16,
     "text": "But what makes this moment different is how these breakthroughs actually reinforce each other.",
-    "ja": "でも、この瞬間を特別なものにしているのは、こうしたブレークスルー同士が互いを実際に後押ししていることです。"
+    "ja": "でも、この瞬間を特別なものにしているのは、こうしたブレークスルー同士が互いを実際に後押ししていることです。",
+    "end": 913.413
   },
   {
     "start": 914.64,
     "text": "Progress in one field accelerates progress in the other fields.",
-    "ja": "一つの分野の進歩が、他の分野の進歩を加速させるんです。"
+    "ja": "一つの分野の進歩が、他の分野の進歩を加速させるんです。",
+    "end": 920.163
   },
   {
     "start": 921.27,
     "text": "And this actually made me think back in history at a time when that was kind of similar.",
-    "ja": "そして、これは歴史を振り返ってみても似たような時代があったことを思い出させます。"
+    "ja": "そして、これは歴史を振り返ってみても似たような時代があったことを思い出させます。",
+    "end": 930.123
   },
   {
     "start": 932.88,
     "text": "The Renaissance, the rebirth,",
-    "ja": "ルネサンス、つまり再生です。"
+    "ja": "ルネサンス、つまり再生です。",
+    "end": 935.613
   },
   {
     "start": 937.86,
     "text": "came after a period of darkness.",
-    "ja": "それは、暗黒の時代のあとに訪れました。"
+    "ja": "それは、暗黒の時代のあとに訪れました。",
+    "end": 940.983
   },
   {
     "start": 942.09,
     "text": "The Dark Ages.",
-    "ja": "暗黒時代。"
+    "ja": "暗黒時代。",
+    "end": 943.713
   },
   {
     "start": 946.26,
     "text": "The Middle Ages.",
-    "ja": "中世です。"
+    "ja": "中世です。",
+    "end": 947.733
   },
   {
     "start": 948.63,
     "text": "The def plague.",
-    "ja": "黒死病の時代です。"
+    "ja": "黒死病の時代です。",
+    "end": 950.37
   },
   {
     "start": 950.37,
     "text": "And anyone who knows Monty Python knows about how that looked like.",
-    "ja": "そしてモンティ・パイソンを知っている人なら、それがどんな様子だったか分かるでしょう。"
+    "ja": "そしてモンティ・パイソンを知っている人なら、それがどんな様子だったか分かるでしょう。",
+    "end": 954.39
   },
   {
     "start": 956.22,
     "text": "But the Renaissance was a period where everything changed because people became curious.",
-    "ja": "でもルネサンスは、人々が好奇心を持つようになったことで、あらゆるものが変わった時代でした。"
+    "ja": "でもルネサンスは、人々が好奇心を持つようになったことで、あらゆるものが変わった時代でした。",
+    "end": 965.94
   },
   {
     "start": 965.94,
     "text": "Curiosity was absolutely exploding.",
-    "ja": "好奇心が爆発的に広がったんです。"
+    "ja": "好奇心が爆発的に広がったんです。",
+    "end": 970.32
   },
   {
     "start": 970.32,
     "text": "And the result of that is amazing scientists and philosophers.",
-    "ja": "その結果として、素晴らしい科学者や哲学者が生まれました。"
+    "ja": "その結果として、素晴らしい科学者や哲学者が生まれました。",
+    "end": 976.08
   },
   {
     "start": 976.08,
     "text": "And if you look at this, de Medici is probably the first version of a venture capitalist or philanthropist, or whoever you want to name it.",
-    "ja": "これを見てみると、メディチ家はおそらく最初のベンチャーキャピタリスト、あるいは慈善家のような存在だったと言えるでしょう。呼び方は何でもいいですが。"
+    "ja": "これを見てみると、メディチ家はおそらく最初のベンチャーキャピタリスト、あるいは慈善家のような存在だったと言えるでしょう。呼び方は何でもいいですが。",
+    "end": 987.6
   },
   {
     "start": 987.6,
     "text": "Galileo and Copernicus were amazing scientists.",
-    "ja": "ガリレオやコペルニクスは素晴らしい科学者でした。"
+    "ja": "ガリレオやコペルニクスは素晴らしい科学者でした。",
+    "end": 992.6
   },
   {
     "start": 994.14,
     "text": "Petrarch, one of the first philosophers.",
-    "ja": "ペトラルカは、初期の哲学者の一人です。"
+    "ja": "ペトラルカは、初期の哲学者の一人です。",
+    "end": 996.753
   },
   {
     "start": 997.8,
     "text": "Da Vinci, we'll come back to him.",
-    "ja": "ダ・ヴィンチについては、あとで戻ってきます。"
+    "ja": "ダ・ヴィンチについては、あとで戻ってきます。",
+    "end": 999.543
   },
   {
     "start": 1001.572,
     "text": "But what also evolved at the same time were their tools.",
-    "ja": "でも同じ時期に進化したのは、彼らの道具でもありました。"
+    "ja": "でも同じ時期に進化したのは、彼らの道具でもありました。",
+    "end": 1006.572
   },
   {
     "start": 1008.84,
     "text": "It's not just them because of curiosity.",
-    "ja": "すべてが、単に好奇心だけによって起きたわけではありません。"
+    "ja": "すべてが、単に好奇心だけによって起きたわけではありません。",
+    "end": 1012.113
   },
   {
     "start": 1013.25,
     "text": "A pencil was invented, that seems nothing to be invented today, but it was a major thing.",
-    "ja": "鉛筆が発明されました。今なら当たり前すぎて発明とは思わないでしょうが、大きな出来事でした。"
+    "ja": "鉛筆が発明されました。今なら当たり前すぎて発明とは思わないでしょうが、大きな出来事でした。",
+    "end": 1019.433
   },
   {
     "start": 1020.9,
     "text": "The fact that they start thinking about something called a vanishing point.",
-    "ja": "消失点と呼ばれるものについて考え始めたことも重要です。"
+    "ja": "消失点と呼ばれるものについて考え始めたことも重要です。",
+    "end": 1027.5
   },
   {
     "start": 1027.5,
     "text": "Well, certainly, that if you compare paintings and drawings before the Renaissance, they were all flat.",
-    "ja": "実際、ルネサンス以前の絵画や素描と比べると、それらはほとんど平面的でした。"
+    "ja": "実際、ルネサンス以前の絵画や素描と比べると、それらはほとんど平面的でした。",
+    "end": 1033.773
   },
   {
     "start": 1035.12,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 1035.953
   },
   {
     "start": 1035.953,
     "text": "In the Renaissance, suddenly depth appeared and different lighting appeared in paintings and drawings.",
-    "ja": "ところがルネサンスになると、突然、絵画や素描に奥行きが現れ、光の表現も変わりました。"
+    "ja": "ところがルネサンスになると、突然、絵画や素描に奥行きが現れ、光の表現も変わりました。",
+    "end": 1043.283
   },
   {
     "start": 1044.78,
     "text": "And then, these tools like the microscope and the telescope of course invented by Dutch people.",
-    "ja": "そして、顕微鏡や望遠鏡のような道具も登場しました。もちろん、オランダ人が発明したものですけどね。"
+    "ja": "そして、顕微鏡や望遠鏡のような道具も登場しました。もちろん、オランダ人が発明したものですけどね。",
+    "end": 1053.33
   },
   {
     "start": 1053.33,
     "text": "Not saying anything.",
-    "ja": "特に何か言いたいわけではありませんよ。"
+    "ja": "特に何か言いたいわけではありませんよ。",
+    "end": 1054.33
   },
   {
     "start": 1056.54,
     "text": "And then, the printing press, of course, we all see as sort of the pinnacle of invention in the Renaissance.",
-    "ja": "そして印刷機。もちろん、ルネサンス最大の発明の一つだと私たちは考えています。"
+    "ja": "そして印刷機。もちろん、ルネサンス最大の発明の一つだと私たちは考えています。",
+    "end": 1065.57
   },
   {
     "start": 1065.57,
     "text": "But that was not just one invention.",
-    "ja": "でも、それは一つの発明だけではありませんでした。"
+    "ja": "でも、それは一つの発明だけではありませんでした。",
+    "end": 1067.673
   },
   {
     "start": 1069.2,
     "text": "Gutenberg actually used a wine press as his first tape, but that was not the only thing he needed to invent.",
-    "ja": "グーテンベルクは最初の印刷機にワインプレスを利用しましたが、それだけが必要だったわけではありません。"
+    "ja": "グーテンベルクは最初の印刷機にワインプレスを利用しましたが、それだけが必要だったわけではありません。",
+    "end": 1077.39
   },
   {
     "start": 1077.39,
     "text": "He needed to invent movable type.",
-    "ja": "活字を発明する必要がありました。"
+    "ja": "活字を発明する必要がありました。",
+    "end": 1080.21
   },
   {
     "start": 1080.21,
     "text": "Basically that you have characters that you can put together.",
-    "ja": "つまり、組み合わせて使える文字を作る必要があったんです。"
+    "ja": "つまり、組み合わせて使える文字を作る必要があったんです。",
+    "end": 1083.3
   },
   {
     "start": 1083.3,
     "text": "He had to invent an ink that actually could be put on those characters.",
-    "ja": "その文字に実際に付けられるインクも発明しなければなりませんでした。"
+    "ja": "その文字に実際に付けられるインクも発明しなければなりませんでした。",
+    "end": 1089.27
   },
   {
     "start": 1089.27,
     "text": "And then, people on present.",
-    "ja": "そして、人々にもそれを広めていきました。"
+    "ja": "そして、人々にもそれを広めていきました。",
+    "end": 1091.223
   },
   {
     "start": 1092.335,
     "text": "Imaginary, almost imaginary in those days.",
-    "ja": "当時としては、ほとんど想像上のもののような出来事でした。"
+    "ja": "当時としては、ほとんど想像上のもののような出来事でした。",
+    "end": 1096.473
   },
   {
     "start": 1097.67,
     "text": "It was a time where art and science were part of the same conversation.",
-    "ja": "芸術と科学が、同じ会話の中に存在していた時代でした。"
+    "ja": "芸術と科学が、同じ会話の中に存在していた時代でした。",
+    "end": 1103.49
   },
   {
     "start": 1103.49,
     "text": "Creativity and technology evolved together.",
-    "ja": "創造性とテクノロジーが、ともに進化していったんです。"
+    "ja": "創造性とテクノロジーが、ともに進化していったんです。",
+    "end": 1108.323
   },
   {
     "start": 1111.26,
     "text": "I've spent some time to think about what made people so effective in that world.",
-    "ja": "私は、この世界で人々をそれほど有能にしたものは何だったのか、少し考えてみました。"
+    "ja": "私は、この世界で人々をそれほど有能にしたものは何だったのか、少し考えてみました。",
+    "end": 1118.04
   },
   {
     "start": 1118.04,
     "text": "They were curious.",
-    "ja": "彼らは好奇心旺盛でした。"
+    "ja": "彼らは好奇心旺盛でした。",
+    "end": 1120.923
   },
   {
     "start": 1121.94,
     "text": "They questioned assumptions.",
-    "ja": "常識や前提を疑いました。"
+    "ja": "常識や前提を疑いました。",
+    "end": 1124.76
   },
   {
     "start": 1124.76,
     "text": "They learned broadly and applied that learning deeply.",
-    "ja": "幅広く学び、その学びを深く応用しました。"
+    "ja": "幅広く学び、その学びを深く応用しました。",
+    "end": 1128.75
   },
   {
     "start": 1128.75,
     "text": "They didn't see boundaries between fields.",
-    "ja": "分野と分野の間に壁を作りませんでした。"
+    "ja": "分野と分野の間に壁を作りませんでした。",
+    "end": 1131.69
   },
   {
     "start": 1131.69,
     "text": "They built britches between them.",
-    "ja": "むしろ、その間に橋を架けました。"
+    "ja": "むしろ、その間に橋を架けました。",
+    "end": 1134.18
   },
   {
     "start": 1134.18,
     "text": "They were also bold experimenters, they sketched, they measured, they failed, they tried again.",
-    "ja": "そして大胆な実験者でもありました。スケッチし、測定し、失敗し、もう一度挑戦したんです。"
+    "ja": "そして大胆な実験者でもありました。スケッチし、測定し、失敗し、もう一度挑戦したんです。",
+    "end": 1140.81
   },
   {
     "start": 1140.81,
     "text": "They learned by doing.",
-    "ja": "実際にやることで学びました。"
+    "ja": "実際にやることで学びました。",
+    "end": 1142.553
   },
   {
     "start": 1144.41,
     "text": "So, if I take all of that in, I think by putting that together, I think we are again in the time of Renaissance.",
-    "ja": "これらを全部合わせて考えると、私たちは今、再びルネサンスの時代にいるのだと思います。"
+    "ja": "これらを全部合わせて考えると、私たちは今、再びルネサンスの時代にいるのだと思います。",
+    "end": 1154.893
   },
   {
     "start": 1156.29,
     "text": "And you are the new Renaissance Developer.",
-    "ja": "そして皆さんこそ、新しいルネサンス・デベロッパーです。"
+    "ja": "そして皆さんこそ、新しいルネサンス・デベロッパーです。",
+    "end": 1161.683
   },
   {
     "start": 1162.92,
     "text": "Those qualities of those scientists in the Renaissance are just as relevant today.",
-    "ja": "ルネサンス時代の科学者たちが持っていたこうした資質は、今でも同じように重要です。"
+    "ja": "ルネサンス時代の科学者たちが持っていたこうした資質は、今でも同じように重要です。",
+    "end": 1169.643
   },
   {
     "start": 1170.93,
     "text": "So, I've brought them together into a framework that I call the Renaissance Developer.",
-    "ja": "そこで私は、それらを「ルネサンス・デベロッパー」というフレームワークにまとめました。"
+    "ja": "そこで私は、それらを「ルネサンス・デベロッパー」というフレームワークにまとめました。",
+    "end": 1176.75
   },
   {
     "start": 1176.75,
     "text": "And I want to show you today this framework hopefully help you evolve and be successful in this new era as well.",
-    "ja": "今日は、このフレームワークが皆さんの進化と、この新しい時代での成功の助けになればと思っています。"
+    "ja": "今日は、このフレームワークが皆さんの進化と、この新しい時代での成功の助けになればと思っています。",
+    "end": 1186.533
   },
   {
     "start": 1189.53,
     "text": "What is crucial in all of this?",
-    "ja": "このすべての中で、何が重要でしょうか？"
+    "ja": "このすべての中で、何が重要でしょうか？",
+    "end": 1193.31
   },
   {
     "start": 1193.31,
     "text": "It's the first quality that you need to nurture is, you need to be curious.",
-    "ja": "まず育てるべき第一の資質は、好奇心を持つことです。"
+    "ja": "まず育てるべき第一の資質は、好奇心を持つことです。",
+    "end": 1200.873
   },
   {
     "start": 1201.92,
     "text": "Curiosity is critical.",
-    "ja": "好奇心は極めて重要です。"
+    "ja": "好奇心は極めて重要です。",
+    "end": 1204.2
   },
   {
     "start": 1204.2,
     "text": "As developers, you always had to continuously learn because everything changed all the time.",
-    "ja": "開発者として、私たちは常に学び続けなければなりません。なぜなら、あらゆるものが絶えず変わるからです。"
+    "ja": "開発者として、私たちは常に学び続けなければなりません。なぜなら、あらゆるものが絶えず変わるからです。",
+    "end": 1212.273
   },
   {
     "start": 1214.64,
     "text": "And every developer I've met has this instinct to take something apart and then look at how it works.",
-    "ja": "私が出会った開発者はみな、何かを分解して、どう動いているのかを確かめたくなる本能を持っています。"
+    "ja": "私が出会った開発者はみな、何かを分解して、どう動いているのかを確かめたくなる本能を持っています。",
+    "end": 1223.51
   },
   {
     "start": 1223.88,
     "text": "And it's also what drives us here.",
-    "ja": "それこそが、私たちをここまで突き動かしているものでもあります。"
+    "ja": "それこそが、私たちをここまで突き動かしているものでもあります。",
+    "end": 1225.89
   },
   {
     "start": 1225.89,
     "text": "The desire to understand, to improve, to build, you have to protect that instinct.",
-    "ja": "理解し、改善し、ものを作りたいという気持ち。その本能を守らなければなりません。"
+    "ja": "理解し、改善し、ものを作りたいという気持ち。その本能を守らなければなりません。",
+    "end": 1232.973
   },
   {
     "start": 1233.87,
     "text": "Stay curious, 'cause curiosity leads to learning and invention.",
-    "ja": "好奇心を持ち続けてください。好奇心は学びと発明につながります。"
+    "ja": "好奇心を持ち続けてください。好奇心は学びと発明につながります。",
+    "end": 1240.985
   },
   {
     "start": 1242.6,
     "text": "Equally important for learning is two things.",
-    "ja": "学ぶうえでもう一つ大切なのが、二つのことです。"
+    "ja": "学ぶうえでもう一つ大切なのが、二つのことです。",
+    "end": 1249.073
   },
   {
     "start": 1249.073,
     "text": "For all new inventions you need to experiment, and to experiment well, you need to be willing to fail.",
-    "ja": "新しいものを発明するには実験が必要です。そして、良い実験をするには、失敗を恐れないことが必要です。"
+    "ja": "新しいものを発明するには実験が必要です。そして、良い実験をするには、失敗を恐れないことが必要です。",
+    "end": 1258.37
   },
   {
     "start": 1259.01,
     "text": "After all, Da Vinci made an airplane that never flew,",
-    "ja": "何しろ、ダ・ヴィンチも、一度も飛ばなかった飛行機を作りました。"
+    "ja": "何しろ、ダ・ヴィンチも、一度も飛ばなかった飛行機を作りました。",
+    "end": 1264.01
   },
   {
     "start": 1266.15,
     "text": "but we are flying now.",
-    "ja": "でも今、私たちは空を飛んでいます。"
+    "ja": "でも今、私たちは空を飛んでいます。",
+    "end": 1270.043
   },
   {
     "start": 1271.07,
     "text": "And by the way, an experiment is not an experiment if you already know the outcome.",
-    "ja": "ちなみに、結果が分かっているなら、それは実験とは言えません。"
+    "ja": "ちなみに、結果が分かっているなら、それは実験とは言えません。",
+    "end": 1278.49
   },
   {
     "start": 1279.35,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 1280.49
   },
   {
     "start": 1280.49,
     "text": "It drives experimentation, drives to learning.",
-    "ja": "実験することが、学びにつながります。"
+    "ja": "実験することが、学びにつながります。",
+    "end": 1284.96
   },
   {
     "start": 1284.96,
     "text": "And this willingness to fail is crucial.",
-    "ja": "だから、失敗を恐れない姿勢が重要なのです。"
+    "ja": "だから、失敗を恐れない姿勢が重要なのです。",
+    "end": 1288.563
   },
   {
     "start": 1290,
     "text": "When I learned a new language, I read that this Dutch or English or Portuguese or German, I find that the same principles apply.",
-    "ja": "私が新しい言語を学んだとき、オランダ語、英語、ポルトガル語、ドイツ語のどれであっても、同じ原則が当てはまると気づきました。"
+    "ja": "私が新しい言語を学んだとき、オランダ語、英語、ポルトガル語、ドイツ語のどれであっても、同じ原則が当てはまると気づきました。",
+    "end": 1297.53
   },
   {
     "start": 1297.53,
     "text": "The best way to learn is fail and be gently corrected.",
-    "ja": "最も良い学び方は、失敗して、そして優しく訂正してもらうことです。"
+    "ja": "最も良い学び方は、失敗して、そして優しく訂正してもらうことです。",
+    "end": 1302.53
   },
   {
     "start": 1303.92,
     "text": "You can study grammar all you like, but relearning begins where you stumble into a conversation, and stumble helps you to get it right.",
-    "ja": "文法はいくら勉強してもいい。でも、本当の学び直しが始まるのは会話でつまずいたときで、そのつまずきが正しく言えるようになる助けになります。"
+    "ja": "文法はいくら勉強してもいい。でも、本当の学び直しが始まるのは会話でつまずいたときで、そのつまずきが正しく言えるようになる助けになります。",
+    "end": 1314.093
   },
   {
     "start": 1315.11,
     "text": "Software works the same way.",
-    "ja": "ソフトウェアも同じです。"
+    "ja": "ソフトウェアも同じです。",
+    "end": 1318.56
   },
   {
     "start": 1318.56,
     "text": "You can read documentation endlessly, but it is the failed built and the broken assumptions that really teach you how a system behaves.",
-    "ja": "ドキュメントを延々と読むことはできます。でも、実際に作って失敗した経験や、崩れた前提こそが、システムがどう振る舞うのかを本当に教えてくれます。"
+    "ja": "ドキュメントを延々と読むことはできます。でも、実際に作って失敗した経験や、崩れた前提こそが、システムがどう振る舞うのかを本当に教えてくれます。",
+    "end": 1330.803
   },
   {
     "start": 1332.06,
     "text": "And any of you who have recently used the Rust compiler knows how much feedback you can really get.",
-    "ja": "最近Rustコンパイラを使った人なら、どれほど多くのフィードバックが得られるか分かるでしょう。"
+    "ja": "最近Rustコンパイラを使った人なら、どれほど多くのフィードバックが得られるか分かるでしょう。",
+    "end": 1339.293
   },
   {
     "start": 1342.65,
     "text": "And there are some things that you can only do and only learn by doing.",
-    "ja": "そして、実際にやってみなければできないこと、学べないこともあります。"
+    "ja": "そして、実際にやってみなければできないこと、学べないこともあります。",
+    "end": 1349.553
   },
   {
     "start": 1350.48,
     "text": "Reading, watching, listening only takes you so far.",
-    "ja": "読む、見る、聞くだけでは、そこまでしか進めません。"
+    "ja": "読む、見る、聞くだけでは、そこまでしか進めません。",
+    "end": 1353.57
   },
   {
     "start": 1353.57,
     "text": "But relearning happens when you engage, when there's some pressure, when the outcome matters.",
-    "ja": "本当の学び直しが起こるのは、自分が関わり、ある程度のプレッシャーがあり、結果が重要になるときです。"
+    "ja": "本当の学び直しが起こるのは、自分が関わり、ある程度のプレッシャーがあり、結果が重要になるときです。",
+    "end": 1362.6
   },
   {
     "start": 1362.6,
     "text": "There is a relationship between stress and performance called the Yerkes and Dodson Law",
-    "ja": "ストレスとパフォーマンスの間には、「ヤーキーズ・ドッドソンの法則」と呼ばれる関係があります。"
+    "ja": "ストレスとパフォーマンスの間には、「ヤーキーズ・ドッドソンの法則」と呼ばれる関係があります。",
+    "end": 1368.49
   },
   {
     "start": 1369.86,
     "text": "The picture is a bell curve, too little pressure and you're disengaged, too much pressure and you're overwhelmed.",
-    "ja": "図にするとベル型の曲線です。プレッシャーが少なすぎると身が入らず、多すぎると圧倒されてしまいます。"
+    "ja": "図にするとベル型の曲線です。プレッシャーが少なすぎると身が入らず、多すぎると圧倒されてしまいます。",
+    "end": 1379.01
   },
   {
     "start": 1379.01,
     "text": "The sweet spot is somewhere on that rising slope where curiosity meets challenge.",
-    "ja": "ちょうどいいのは、好奇心と挑戦が出会う、上向きの斜面のどこかです。"
+    "ja": "ちょうどいいのは、好奇心と挑戦が出会う、上向きの斜面のどこかです。",
+    "end": 1386.75
   },
   {
     "start": 1386.75,
     "text": "That's when your brain is fully alert, focused, and ready to grow.",
-    "ja": "そのとき、脳は完全に覚醒し、集中し、成長する準備が整います。"
+    "ja": "そのとき、脳は完全に覚醒し、集中し、成長する準備が整います。",
+    "end": 1393.32
   },
   {
     "start": 1393.32,
     "text": "You can't reach that point by sitting comfortably.",
-    "ja": "楽な場所に座っているだけでは、そこには到達できません。"
+    "ja": "楽な場所に座っているだけでは、そこには到達できません。",
+    "end": 1397.1
   },
   {
     "start": 1397.1,
     "text": "You have to put yourself in positions that test you.",
-    "ja": "自分を試すような状況に身を置く必要があります。"
+    "ja": "自分を試すような状況に身を置く必要があります。",
+    "end": 1401.903
   },
   {
     "start": 1403.1,
     "text": "Now, there's a whole story behind this.",
-    "ja": "実は、これにはいろいろな背景があります。"
+    "ja": "実は、これにはいろいろな背景があります。",
+    "end": 1406.373
   },
   {
     "start": 1407.45,
     "text": "And that newspaper that you all found on your seats today, \"The Kernel,\" there's an article in there by Andy Warfield who writes about this.",
-    "ja": "今日皆さんの席に置いてある「The Kernel」という新聞にも、Andy Warfieldがこれについて書いた記事があります。"
+    "ja": "今日皆さんの席に置いてある「The Kernel」という新聞にも、Andy Warfieldがこれについて書いた記事があります。",
+    "end": 1417.59
   },
   {
     "start": 1417.59,
     "text": "I urge you all to read that article if you really want to understand more of that.",
-    "ja": "もっと深く理解したいなら、ぜひその記事を読んでください。"
+    "ja": "もっと深く理解したいなら、ぜひその記事を読んでください。",
+    "end": 1423.743
   },
   {
     "start": 1425.639,
     "text": "Now learning, there's another side to it.",
-    "ja": "さて、学びにはもう一つの側面があります。"
+    "ja": "さて、学びにはもう一つの側面があります。",
+    "end": 1428.603
   },
   {
     "start": 1429.59,
     "text": "Learning is social.",
-    "ja": "学びは社会的なものです。"
+    "ja": "学びは社会的なものです。",
+    "end": 1431.633
   },
   {
     "start": 1433.43,
     "text": "We're not here only to sit in the room and listen to one person telling you exactly what to do.",
-    "ja": "私たちは、部屋に座って一人の人から言われたことをそのまま聞くだけのために、ここにいるわけではありません。"
+    "ja": "私たちは、部屋に座って一人の人から言われたことをそのまま聞くだけのために、ここにいるわけではありません。",
+    "end": 1440.873
   },
   {
     "start": 1441.77,
     "text": "The thing you really learn is by talking to each other.",
-    "ja": "本当に学ぶのは、お互いに話すことによってです。"
+    "ja": "本当に学ぶのは、お互いに話すことによってです。",
+    "end": 1445.37
   },
   {
     "start": 1445.37,
     "text": "Learning isn't just cognitive, it is social.",
-    "ja": "学びは単なる認知活動ではなく、社会的なものでもあります。"
+    "ja": "学びは単なる認知活動ではなく、社会的なものでもあります。",
+    "end": 1449
   },
   {
     "start": 1449,
     "text": "You have to touch the grass occasionally.",
-    "ja": "ときどき外に出て、現実に触れることも必要です。"
+    "ja": "ときどき外に出て、現実に触れることも必要です。",
+    "end": 1452.63
   },
   {
     "start": 1452.63,
     "text": "And by that I mean, you have to get out of your usual environment.",
-    "ja": "つまり、いつもの環境から外へ出るということです。"
+    "ja": "つまり、いつもの環境から外へ出るということです。",
+    "end": 1455.96
   },
   {
     "start": 1455.96,
     "text": "Go to a user group, attend to conference like re:Invent.",
-    "ja": "ユーザーグループに参加したり、re:Inventのようなカンファレンスに出たりしてください。"
+    "ja": "ユーザーグループに参加したり、re:Inventのようなカンファレンスに出たりしてください。",
+    "end": 1460.37
   },
   {
     "start": 1460.37,
     "text": "I have coffee with a friend and talk about systems.",
-    "ja": "友人とコーヒーを飲みながら、システムについて話すのもいい。"
+    "ja": "友人とコーヒーを飲みながら、システムについて話すのもいい。",
+    "end": 1463.31
   },
   {
     "start": 1463.31,
     "text": "One of the best ways to stay sharp is to be around other people who are building things.",
-    "ja": "頭を鈍らせないための最良の方法の一つは、何かを作っている人たちのそばにいることです。"
+    "ja": "頭を鈍らせないための最良の方法の一つは、何かを作っている人たちのそばにいることです。",
+    "end": 1470.54
   },
   {
     "start": 1470.54,
     "text": "And for me, that often happens when I'm on the road.",
-    "ja": "私の場合、それは移動中によく起こります。"
+    "ja": "私の場合、それは移動中によく起こります。",
+    "end": 1473.933
   },
   {
     "start": 1474.77,
     "text": "I travel a lot for work.",
-    "ja": "仕事でよく旅をします。"
+    "ja": "仕事でよく旅をします。",
+    "end": 1476.81
   },
   {
     "start": 1476.81,
     "text": "And those trips keep me connected to how people are actually using technology, not just how we imagine they might.",
-    "ja": "そうした旅のおかげで、人々が実際にテクノロジーをどう使っているのかを知り続けられます。私たちが想像する使い方だけではありません。"
+    "ja": "そうした旅のおかげで、人々が実際にテクノロジーをどう使っているのかを知り続けられます。私たちが想像する使い方だけではありません。",
+    "end": 1486.983
   },
   {
     "start": 1488.15,
     "text": "This year, very fortunately, I took two-month long trips.",
-    "ja": "今年、幸運にも2か月にわたる旅を2回しました。"
+    "ja": "今年、幸運にも2か月にわたる旅を2回しました。",
+    "end": 1493.1
   },
   {
     "start": 1493.1,
     "text": "One to Africa, trip to Sahara, Africa, and the other two, Latin America.",
-    "ja": "一つはアフリカ、サハラへの旅。そしてもう一つはラテンアメリカです。"
+    "ja": "一つはアフリカ、サハラへの旅。そしてもう一つはラテンアメリカです。",
+    "end": 1498.11
   },
   {
     "start": 1498.11,
     "text": "In both regions I gave some talks with the mostly meet with customers.",
-    "ja": "どちらの地域でも講演をしましたが、何より多くの時間をお客様と過ごしました。"
+    "ja": "どちらの地域でも講演をしましたが、何より多くの時間をお客様と過ごしました。",
+    "end": 1502.25
   },
   {
     "start": 1502.25,
     "text": "And the real thing I do is learning from those customers.",
-    "ja": "そして、私が本当にしていることは、そのお客様から学ぶことです。"
+    "ja": "そして、私が本当にしていることは、そのお客様から学ぶことです。",
+    "end": 1507.25
   },
   {
     "start": 1508.25,
     "text": "Here are a few examples.",
-    "ja": "いくつか例をお見せしましょう。"
+    "ja": "いくつか例をお見せしましょう。",
+    "end": 1509.453
   },
   {
     "start": 1510.65,
     "text": "Here's AJE.",
-    "ja": "こちらはAJEです。"
+    "ja": "こちらはAJEです。",
+    "end": 1511.483
   },
   {
     "start": 1514.189,
     "text": "This is actually also, it took me 21 years to actually end up on the Amazon.",
-    "ja": "実はこれも、Amazonにたどり着くまで21年かかりました。"
+    "ja": "実はこれも、Amazonにたどり着くまで21年かかりました。",
+    "end": 1522.283
   },
   {
     "start": 1523.82,
     "text": "And so, a group of AJE is a beverage company.",
-    "ja": "AJEというグループは、飲料会社です。"
+    "ja": "AJEというグループは、飲料会社です。",
+    "end": 1527.39
   },
   {
     "start": 1527.39,
     "text": "They support communities along the Amazon River in a way that they give young people an economic future so that they don't leave their villages to go to the big towns.",
-    "ja": "アマゾン川沿いのコミュニティを支援し、若者たちに経済的な将来を与えることで、大きな町へ出ていかなければならない状況を減らしています。"
+    "ja": "アマゾン川沿いのコミュニティを支援し、若者たちに経済的な将来を与えることで、大きな町へ出ていかなければならない状況を減らしています。",
+    "end": 1538.79
   },
   {
     "start": 1538.79,
     "text": "It is a brilliant experience and a great example of how doing good can be profitable at the same time.",
-    "ja": "これは素晴らしい取り組みで、良いことをしながら同時に利益を上げられることを示す、とても良い例です。"
+    "ja": "これは素晴らしい取り組みで、良いことをしながら同時に利益を上げられることを示す、とても良い例です。",
+    "end": 1548.783
   },
   {
     "start": 1550.28,
     "text": "The Amazon River was beautiful.",
-    "ja": "アマゾン川は本当に美しかった。"
+    "ja": "アマゾン川は本当に美しかった。",
+    "end": 1552.71
   },
   {
     "start": 1552.71,
     "text": "I saw pink dolphins.",
-    "ja": "ピンク色のイルカも見ました。"
+    "ja": "ピンク色のイルカも見ました。",
+    "end": 1557.06
   },
   {
     "start": 1557.06,
     "text": "But it reminded something else that I learned that not all of this is so great.",
-    "ja": "でも同時に、すべてがそんなに素晴らしいわけではないという、別のことも思い出させてくれました。"
+    "ja": "でも同時に、すべてがそんなに素晴らしいわけではないという、別のことも思い出させてくれました。",
+    "end": 1562.673
   },
   {
     "start": 1564.47,
     "text": "Early in the year, I spoke with Boyan Slat from The Ocean Cleanup project during an episode of \"The Frugal\" podcast.",
-    "ja": "今年の初め、私は「The Frugal」ポッドキャストのエピソードで、The Ocean CleanupプロジェクトのBoyan Slatと話しました。"
+    "ja": "今年の初め、私は「The Frugal」ポッドキャストのエピソードで、The Ocean CleanupプロジェクトのBoyan Slatと話しました。",
+    "end": 1574.31
   },
   {
     "start": 1574.31,
     "text": "And he taught me that 80% of the plastic found in the ocean originates from just a thousandth of the world's 3 million rivers.",
-    "ja": "そして彼から、海で見つかるプラスチックの80%は、世界にある300万本の川のうち、わずか1000本ほどから流れ込んでいると教わりました。"
+    "ja": "そして彼から、海で見つかるプラスチックの80%は、世界にある300万本の川のうち、わずか1000本ほどから流れ込んでいると教わりました。",
+    "end": 1586.163
   },
   {
     "start": 1587.66,
     "text": "With the oceans of plastic, they need not only to clean up what is already out there, but also to stop new plastics from entering the ocean via these rivers.",
-    "ja": "海にあるプラスチックの問題に対して、すでに存在するものを回収するだけでなく、こうした川から新たなプラスチックが海に流れ込むのを止める必要があります。"
+    "ja": "海にあるプラスチックの問題に対して、すでに存在するものを回収するだけでなく、こうした川から新たなプラスチックが海に流れ込むのを止める必要があります。",
+    "end": 1598.733
   },
   {
     "start": 1599.87,
     "text": "And they do that.",
-    "ja": "そして、彼らはそれを実際にやっています。"
+    "ja": "そして、彼らはそれを実際にやっています。",
+    "end": 1601.43
   },
   {
     "start": 1601.43,
     "text": "They've created a river mobile using drones, AI camera analysis, even GPS tracks dummy plastic in the place where we went onto the Amazon near Manaus, they actually took plastics",
-    "ja": "ドローンやAIによるカメラ分析を使った「River Mobile」を作り、GPSで、私たちがマナウス近郊のアマゾン川へ行った場所で、追跡用のダミーのプラスチックを流しました。"
+    "ja": "ドローンやAIによるカメラ分析を使った「River Mobile」を作り、GPSで、私たちがマナウス近郊のアマゾン川へ行った場所で、追跡用のダミーのプラスチックを流しました。",
+    "end": 1616.82
   },
   {
     "start": 1616.82,
     "text": "and put GPSs in the foods in the river, see where ended up.",
-    "ja": "そして実際のプラスチックにGPSを取り付けて川に流し、どこへ行き着くのかを調べました。"
+    "ja": "そして実際のプラスチックにGPSを取り付けて川に流し、どこへ行き着くのかを調べました。",
+    "end": 1620.6
   },
   {
     "start": 1620.6,
     "text": "Turns out the Amazon is not a big polluter at all.",
-    "ja": "分かったのは、アマゾン川そのものは大きな汚染源ではないということです。"
+    "ja": "分かったのは、アマゾン川そのものは大きな汚染源ではないということです。",
+    "end": 1625.253
   },
   {
     "start": 1626.99,
     "text": "But this computational model that they've built, these AI cameras that are on bridges, that are on the back of ships.",
-    "ja": "そこで彼らが構築した計算モデルと、橋や船の後方に設置したAIカメラが活躍します。"
+    "ja": "そこで彼らが構築した計算モデルと、橋や船の後方に設置したAIカメラが活躍します。",
+    "end": 1636.71
   },
   {
     "start": 1636.71,
     "text": "They create a computational model that predicts how and where this plastic will traffic, and helping them position their cleanup systems for maximum impact.",
-    "ja": "それらによって、プラスチックがどのように、どこへ流れていくかを予測する計算モデルを作り、清掃システムを最大の効果が出る場所に配置できるようにしています。"
+    "ja": "それらによって、プラスチックがどのように、どこへ流れていくかを予測する計算モデルを作り、清掃システムを最大の効果が出る場所に配置できるようにしています。",
+    "end": 1649.043
   },
   {
     "start": 1651.05,
     "text": "Now, another thing that totally blew me away on this trip was actually in Rwanda.",
-    "ja": "この旅でもう一つ、完全に圧倒されたのがルワンダでした。"
+    "ja": "この旅でもう一つ、完全に圧倒されたのがルワンダでした。",
+    "end": 1658.883
   },
   {
     "start": 1661.19,
     "text": "In Rwanda, this is the headquarters of the Ministry of Health.",
-    "ja": "ここはルワンダの保健省の本部です。"
+    "ja": "ここはルワンダの保健省の本部です。",
+    "end": 1667.793
   },
   {
     "start": 1669.65,
     "text": "And this is the health intelligence center.",
-    "ja": "そして、ここがHealth Intelligence Centerです。"
+    "ja": "そして、ここがHealth Intelligence Centerです。",
+    "end": 1673.22
   },
   {
     "start": 1673.22,
     "text": "In the operations centers, huge screens display near real time data from four different tiers of healthcare facilities across the country.",
-    "ja": "オペレーションセンターでは、大きな画面に、国内の4つの段階の医療施設から集めた、ほぼリアルタイムのデータが表示されています。"
+    "ja": "オペレーションセンターでは、大きな画面に、国内の4つの段階の医療施設から集めた、ほぼリアルタイムのデータが表示されています。",
+    "end": 1683.78
   },
   {
     "start": 1683.78,
     "text": "They've built an impressive system that ingests and processes vast amount of healthcare data, visualizing everything from disease outbreaks to maternal health outcomes.",
-    "ja": "彼らは大量の医療データを取り込み、処理し、疾病の発生から妊産婦の健康状態まで、あらゆるものを可視化する素晴らしいシステムを構築しています。"
+    "ja": "彼らは大量の医療データを取り込み、処理し、疾病の発生から妊産婦の健康状態まで、あらゆるものを可視化する素晴らしいシステムを構築しています。",
+    "end": 1699.053
   },
   {
     "start": 1700.34,
     "text": "And they use it to create new policies.",
-    "ja": "そして、そのデータを新しい政策の策定に使っています。"
+    "ja": "そして、そのデータを新しい政策の策定に使っています。",
+    "end": 1705.053
   },
   {
     "start": 1706.97,
     "text": "They've created this model which shows that which parts of the country are more than a 30-minute walk away from a healthcare provider.",
-    "ja": "国のどの地域が、医療提供者まで徒歩30分以上かかる場所なのかを示すモデルも作っています。"
+    "ja": "国のどの地域が、医療提供者まで徒歩30分以上かかる場所なのかを示すモデルも作っています。",
+    "end": 1716.783
   },
   {
     "start": 1717.8,
     "text": "And they use this data to strategically place new maternal health facilities in underserved areas.",
-    "ja": "そして、そのデータを使って、医療サービスが不足している地域に新しい母子保健施設を戦略的に配置しています。"
+    "ja": "そして、そのデータを使って、医療サービスが不足している地域に新しい母子保健施設を戦略的に配置しています。",
+    "end": 1725.303
   },
   {
     "start": 1726.95,
     "text": "They use data to drive policy, and to actually implement that policy.",
-    "ja": "データを政策決定の原動力にし、さらにその政策を実際に実行するためにも使っているのです。"
+    "ja": "データを政策決定の原動力にし、さらにその政策を実際に実行するためにも使っているのです。",
+    "end": 1734.363
   },
   {
     "start": 1735.95,
     "text": "Another visit that actually, I mean, most of these trips I get blown away every time, especially about, well, how young companies are attacking some of the world's hardest problems.",
-    "ja": "もう一つの訪問先もそうでした。こうした旅では毎回驚かされますが、特に、若い企業が世界で最も難しい問題のいくつかに挑んでいることには圧倒されます。"
+    "ja": "もう一つの訪問先もそうでした。こうした旅では毎回驚かされますが、特に、若い企業が世界で最も難しい問題のいくつかに挑んでいることには圧倒されます。",
+    "end": 1749.69
   },
   {
     "start": 1749.69,
     "text": "In this case, we're in Nairobi.",
-    "ja": "このときはナイロビです。"
+    "ja": "このときはナイロビです。",
+    "end": 1752.513
   },
   {
     "start": 1753.56,
     "text": "And I learned that in many places there, people will just borrow a dollar or $2 in the morning, buy some goods, go and sell it on the market",
-    "ja": "ここでは多くの人が、朝に1ドルや2ドルを借りて商品を仕入れ、それを市場で売ると知りました。"
+    "ja": "ここでは多くの人が、朝に1ドルや2ドルを借りて商品を仕入れ、それを市場で売ると知りました。",
+    "end": 1764.42
   },
   {
     "start": 1764.42,
     "text": "or on the street.",
-    "ja": "あるいは路上で売ります。"
+    "ja": "あるいは路上で売ります。",
+    "end": 1766.07
   },
   {
     "start": 1766.07,
     "text": "And in the evening, they will give these dollars back, and hopefully, have 40 or 50 cents, which they made that day.",
-    "ja": "そして夕方になると、その1ドルや2ドルを返し、その日に稼いだ40セントや50セントが手元に残ればいいわけです。"
+    "ja": "そして夕方になると、その1ドルや2ドルを返し、その日に稼いだ40セントや50セントが手元に残ればいいわけです。",
+    "end": 1774.353
   },
   {
     "start": 1775.97,
     "text": "And that's enough to go buy some food.",
-    "ja": "それで、食べ物を買うには十分です。"
+    "ja": "それで、食べ物を買うには十分です。",
+    "end": 1778.823
   },
   {
     "start": 1779.93,
     "text": "Great.",
-    "ja": "それはいいことです。"
+    "ja": "それはいいことです。",
+    "end": 1781.13
   },
   {
     "start": 1781.13,
     "text": "It is not enough though to also buy the gas to cook your food.",
-    "ja": "でも、それだけでは料理をするためのガスまで買うことはできません。"
+    "ja": "でも、それだけでは料理をするためのガスまで買うことはできません。",
+    "end": 1787.313
   },
   {
     "start": 1788.75,
     "text": "So, in those poorer parts, it's all burned on carbon, which is massively polluting.",
-    "ja": "だから貧しい地域では、炭素を大量に排出する燃料を燃やして料理しており、大きな環境汚染につながっています。"
+    "ja": "だから貧しい地域では、炭素を大量に排出する燃料を燃やして料理しており、大きな環境汚染につながっています。",
+    "end": 1797.123
   },
   {
     "start": 1798.08,
     "text": "So, it is young company called KOKO Networks.",
-    "ja": "そこで登場したのが、若い企業のKOKO Networksです。"
+    "ja": "そこで登場したのが、若い企業のKOKO Networksです。",
+    "end": 1800.96
   },
   {
     "start": 1800.96,
     "text": "They came up with a completely different solution.",
-    "ja": "彼らはまったく違う解決策を考え出しました。"
+    "ja": "彼らはまったく違う解決策を考え出しました。",
+    "end": 1803.963
   },
   {
     "start": 1804.8,
     "text": "They basically built these kind of ATM machines with ethanol in them, and a small canister that people have.",
-    "ja": "エタノールが入った、ATMのような装置と、人々が持っている小さな容器を用意したのです。"
+    "ja": "エタノールが入った、ATMのような装置と、人々が持っている小さな容器を用意したのです。",
+    "end": 1812.75
   },
   {
     "start": 1812.75,
     "text": "And they can basically walk up to the machine, plug in their canister and ask for five cents of gas, which will be enough to cook their food that night.",
-    "ja": "その装置まで歩いて行き、容器を差し込んで5セント分の燃料を買えば、その夜の料理には十分な量になります。"
+    "ja": "その装置まで歩いて行き、容器を差し込んで5セント分の燃料を買えば、その夜の料理には十分な量になります。",
+    "end": 1826.193
   },
   {
     "start": 1828.05,
     "text": "This is what happens when developers apply their skills to real human challenges.",
-    "ja": "これが、開発者が自分のスキルを現実の人間の課題に適用したときに起きることです。"
+    "ja": "これが、開発者が自分のスキルを現実の人間の課題に適用したときに起きることです。",
+    "end": 1836.813
   },
   {
     "start": 1839.39,
     "text": "Developers have always driven progress.",
-    "ja": "開発者は、ずっと進歩を生み出してきました。"
+    "ja": "開発者は、ずっと進歩を生み出してきました。",
+    "end": 1842.21
   },
   {
     "start": 1842.21,
     "text": "You have built the foundations of the digital world, and today, you are the ones tuning, turning to AI from possibility into something useful, safe, and scalable.",
-    "ja": "皆さんはデジタル世界の土台を築いてきました。そして今、AIを可能性から、役に立ち、安全で、スケールできるものへと変えていくのも皆さんです。"
+    "ja": "皆さんはデジタル世界の土台を築いてきました。そして今、AIを可能性から、役に立ち、安全で、スケールできるものへと変えていくのも皆さんです。",
+    "end": 1855.788
   },
   {
     "start": 1856.73,
     "text": "And developers like you were essential in the past.",
-    "ja": "皆さんのような開発者は、過去にも不可欠でした。"
+    "ja": "皆さんのような開発者は、過去にも不可欠でした。",
+    "end": 1859.76
   },
   {
     "start": 1859.76,
     "text": "They're essential today, and you will be essential in the future.",
-    "ja": "今も不可欠です。そして未来にも不可欠です。"
+    "ja": "今も不可欠です。そして未来にも不可欠です。",
+    "end": 1865.343
   },
   {
     "start": 1866.66,
     "text": "The United Nations expects that by 2050, we have 2 billion more people on this planet.",
-    "ja": "国連は、2050年までに地球上の人口が20億人増えると予測しています。"
+    "ja": "国連は、2050年までに地球上の人口が20億人増えると予測しています。",
+    "end": 1873.923
   },
   {
     "start": 1874.85,
     "text": "How are we gonna feed them?",
-    "ja": "その人たちをどうやって養うのでしょう？"
+    "ja": "その人たちをどうやって養うのでしょう？",
+    "end": 1876.98
   },
   {
     "start": 1876.98,
     "text": "How are we gonna make sure we have an economic future?",
-    "ja": "どうやって経済的な未来を確かなものにするのでしょう？"
+    "ja": "どうやって経済的な未来を確かなものにするのでしょう？",
+    "end": 1879.2
   },
   {
     "start": 1879.2,
     "text": "How can we make sure we have healthcare?",
-    "ja": "どうやって医療を行き渡らせるのでしょう？"
+    "ja": "どうやって医療を行き渡らせるのでしょう？",
+    "end": 1881.69
   },
   {
     "start": 1881.69,
     "text": "That's on us to develop technologies so that we can help solve some of the world's biggest problems, us as technologists have that ability to do.",
-    "ja": "世界最大の問題のいくつかを解決するために、私たち技術者はテクノロジーを生み出す責任があります。私たちには、それを実現する力があるのです。"
+    "ja": "世界最大の問題のいくつかを解決するために、私たち技術者はテクノロジーを生み出す責任があります。私たちには、それを実現する力があるのです。",
+    "end": 1895.703
   },
   {
     "start": 1897.05,
     "text": "And if I look at some of you who spent so much of their time, not just to actually build some things in the corner of your room but actually help others.",
-    "ja": "そして、皆さんの中には、自分の部屋の片隅でものを作るだけでなく、他の人を助けるために多くの時間を使っている人もいます。"
+    "ja": "そして、皆さんの中には、自分の部屋の片隅でものを作るだけでなく、他の人を助けるために多くの時間を使っている人もいます。",
+    "end": 1912.23
   },
   {
     "start": 1912.23,
     "text": "The AWS Heroes.",
-    "ja": "AWS Heroesです。"
+    "ja": "AWS Heroesです。",
+    "end": 1916.16
   },
   {
     "start": 1916.16,
     "text": "We now have 200.",
-    "ja": "今では200人います。"
+    "ja": "今では200人います。",
+    "end": 1918.214
   },
   {
     "start": 1919.047,
     "text": "Yeah, they deserve an applause.",
-    "ja": "そう、彼らには拍手を送るべきです。"
+    "ja": "そう、彼らには拍手を送るべきです。",
+    "end": 1920.623
   },
   {
     "start": 1923.75,
     "text": "They're there.",
-    "ja": "彼らはここにいます。"
+    "ja": "彼らはここにいます。",
+    "end": 1924.583
   },
   {
     "start": 1927.26,
     "text": "So, I've met community builders, I've met AWS Heroes, and these are people that are solving heart problems in their own corners of their world.",
-    "ja": "私はコミュニティビルダーやAWS Heroesに会ってきました。彼らはそれぞれの地域で、世界が抱える難しい問題に取り組んでいる人たちです。"
+    "ja": "私はコミュニティビルダーやAWS Heroesに会ってきました。彼らはそれぞれの地域で、世界が抱える難しい問題に取り組んでいる人たちです。",
+    "end": 1936.833
   },
   {
     "start": 1937.762,
     "text": "There are now 265 heroes across 58 countries.",
-    "ja": "今では58か国に265人のHeroesがいます。"
+    "ja": "今では58か国に265人のHeroesがいます。",
+    "end": 1942.56
   },
   {
     "start": 1942.56,
     "text": "But what constantly amazed me is how much we can learn from them.",
-    "ja": "でも私がいつも驚かされるのは、私たちが彼らからどれほど多くを学べるかということです。"
+    "ja": "でも私がいつも驚かされるのは、私たちが彼らからどれほど多くを学べるかということです。",
+    "end": 1948.353
   },
   {
     "start": 1949.76,
     "text": "By the way, this year's Now Go Build awards goes to Raphael Quisumbing.",
-    "ja": "ちなみに、今年のNow Go Build AwardはRaphael Quisumbingに贈られます。"
+    "ja": "ちなみに、今年のNow Go Build AwardはRaphael Quisumbingに贈られます。",
+    "end": 1960.014
   },
   {
     "start": 1961.43,
     "text": "Stand up, Raphael.",
-    "ja": "ラファエル、立ってください。"
+    "ja": "ラファエル、立ってください。",
+    "end": 1962.783
   },
   {
     "start": 1965.575,
     "text": "Raffy, Raffy, Raffy, Raffy, Raffy, Raffy.",
-    "ja": "ラフィー！ ラフィー！ ラフィー！ ラフィー！ ラフィー！ ラフィー！"
+    "ja": "ラフィー！ ラフィー！ ラフィー！ ラフィー！ ラフィー！ ラフィー！",
+    "end": 1970.075
   },
   {
     "start": 1972.26,
     "text": "Raffy absolutely embodies the Renaissance Developer.",
-    "ja": "ラフィーはまさに、ルネサンス・デベロッパーそのものです。"
+    "ja": "ラフィーはまさに、ルネサンス・デベロッパーそのものです。",
+    "end": 1976.91
   },
   {
     "start": 1976.91,
     "text": "He doesn't just write codes, he builds communities, he mentors others and he co-leads the AWS user group in the Philippines since 2013.",
-    "ja": "彼はコードを書くだけではありません。コミュニティを作り、人を指導し、2013年からフィリピンのAWSユーザーグループの共同リーダーを務めています。"
+    "ja": "彼はコードを書くだけではありません。コミュニティを作り、人を指導し、2013年からフィリピンのAWSユーザーグループの共同リーダーを務めています。",
+    "end": 1987.41
   },
   {
     "start": 1987.41,
     "text": "Come on, Raffy, one more round applause for him.",
-    "ja": "さあラフィー、もう一度、大きな拍手を送りましょう。"
+    "ja": "さあラフィー、もう一度、大きな拍手を送りましょう。",
+    "end": 1991.16
   },
   {
     "start": 2000.67,
     "text": "So, the first quality I think that a Renaissance Developer needs to have is to be curious.",
-    "ja": "だから、ルネサンス・デベロッパーに必要な第一の資質は、好奇心を持つことだと思います。"
+    "ja": "だから、ルネサンス・デベロッパーに必要な第一の資質は、好奇心を持つことだと思います。",
+    "end": 2010.66
   },
   {
     "start": 2010.66,
     "text": "And I like this quote from Walt Whitman, \"We are not what we know, but what we are willing to learn.\"",
-    "ja": "ウォルト・ホイットマンのこの言葉が好きです。「私たちは、知っていることではなく、学ぼうとするものである。」"
+    "ja": "ウォルト・ホイットマンのこの言葉が好きです。「私たちは、知っていることではなく、学ぼうとするものである。」",
+    "end": 2018.787
   },
   {
     "start": 2022.09,
     "text": "Another quality that I think the Renaissance Developer has is that he thinks in systems.",
-    "ja": "ルネサンス・デベロッパーのもう一つの資質は、システム思考だと思います。"
+    "ja": "ルネサンス・デベロッパーのもう一つの資質は、システム思考だと思います。",
+    "end": 2029.113
   },
   {
     "start": 2032.644,
     "text": "And just come with me for a moment.",
-    "ja": "少し私についてきてください。"
+    "ja": "少し私についてきてください。",
+    "end": 2033.64
   },
   {
     "start": 2033.64,
     "text": "If you don't really understand, I don't mean the computer system in this case, but in a big system.",
-    "ja": "ここで言っているのはコンピューターシステムそのものではなく、もっと大きなシステムのことです。"
+    "ja": "ここで言っているのはコンピューターシステムそのものではなく、もっと大きなシステムのことです。",
+    "end": 2039.4
   },
   {
     "start": 2039.4,
     "text": "So, in the '70s, an ecologist called Donella Meadows began studying how complex systems behave.",
-    "ja": "70年代、Donella Meadowsという生態学者が、複雑なシステムがどう振る舞うのかを研究し始めました。"
+    "ja": "70年代、Donella Meadowsという生態学者が、複雑なシステムがどう振る舞うのかを研究し始めました。",
+    "end": 2048.64
   },
   {
     "start": 2048.64,
     "text": "She wasn't even a computer scientist, but her insights describe our world of software perfectly.",
-    "ja": "彼女はコンピューター科学者ですらありませんでした。でも、その洞察はソフトウェアの世界を見事に説明しています。"
+    "ja": "彼女はコンピューター科学者ですらありませんでした。でも、その洞察はソフトウェアの世界を見事に説明しています。",
+    "end": 2055.2
   },
   {
     "start": 2055.21,
     "text": "And she wrote, \"A system is a set of things, people, cells or whatever, interconnected in such a way that they produce their own patterns of behavior over time.\"",
-    "ja": "彼女はこう書いています。「システムとは、もの、人、細胞などが、時間とともに独自の行動パターンを生み出すように相互につながった集合体である。」"
+    "ja": "彼女はこう書いています。「システムとは、もの、人、細胞などが、時間とともに独自の行動パターンを生み出すように相互につながった集合体である。」",
+    "end": 2068.62
   },
   {
     "start": 2068.62,
     "text": "And that was an extraordinary definition, because it capture what every engineer eventually learns that our systems have lives of their own.",
-    "ja": "これは非常に優れた定義でした。なぜなら、どんなエンジニアも最終的には、システムにはそれぞれ固有の命があるように振る舞うことを学ぶからです。"
+    "ja": "これは非常に優れた定義でした。なぜなら、どんなエンジニアも最終的には、システムにはそれぞれ固有の命があるように振る舞うことを学ぶからです。",
+    "end": 2078.553
   },
   {
     "start": 2079.39,
     "text": "Let me give you an example.",
-    "ja": "例を挙げましょう。"
+    "ja": "例を挙げましょう。",
+    "end": 2080.35
   },
   {
     "start": 2080.35,
     "text": "By the way, that is not computer related.",
-    "ja": "ちなみに、これはコンピューターとは関係ありません。"
+    "ja": "ちなみに、これはコンピューターとは関係ありません。",
+    "end": 2082.4
   },
   {
     "start": 2083.47,
     "text": "One of the most striking examples of systems comes from ecology.",
-    "ja": "システムの最も印象的な例の一つは、生態系から学べます。"
+    "ja": "システムの最も印象的な例の一つは、生態系から学べます。",
+    "end": 2088.27
   },
   {
     "start": 2088.27,
     "text": "In the early 20th century, the wolves were removed from Yellowstone National Park.",
-    "ja": "20世紀初頭、イエローストーン国立公園ではオオカミが駆除されました。"
+    "ja": "20世紀初頭、イエローストーン国立公園ではオオカミが駆除されました。",
+    "end": 2095.17
   },
   {
     "start": 2095.17,
     "text": "It seems logical.",
-    "ja": "一見すると、筋が通っているように思えます。"
+    "ja": "一見すると、筋が通っているように思えます。",
+    "end": 2096.223
   },
   {
     "start": 2097.63,
     "text": "Few predators meant more elk, meant more life.",
-    "ja": "捕食者が減れば、ヘラジカが増え、命に満ちた環境になる、と考えたわけです。"
+    "ja": "捕食者が減れば、ヘラジカが増え、命に満ちた環境になる、と考えたわけです。",
+    "end": 2101.694
   },
   {
     "start": 2103.27,
     "text": "But the opposite happened.",
-    "ja": "ところが、起きたことは逆でした。"
+    "ja": "ところが、起きたことは逆でした。",
+    "end": 2105.103
   },
   {
     "start": 2106.27,
     "text": "The valleys were overgrazed, the trees disappeared, the rivers began to erode.",
-    "ja": "谷では過放牧が進み、木々がなくなり、川では浸食が始まりました。"
+    "ja": "谷では過放牧が進み、木々がなくなり、川では浸食が始まりました。",
+    "end": 2113.26
   },
   {
     "start": 2113.26,
     "text": "And this phenomena is called the trophic cascades.",
-    "ja": "この現象は「栄養段階カスケード」と呼ばれています。"
+    "ja": "この現象は「栄養段階カスケード」と呼ばれています。",
+    "end": 2117.313
   },
   {
     "start": 2119.14,
     "text": "When we reinduced in 2010, wolves back into the park, slowly the park started to heal.",
-    "ja": "2010年にオオカミを公園へ再導入すると、少しずつ公園は回復し始めました。"
+    "ja": "2010年にオオカミを公園へ再導入すると、少しずつ公園は回復し始めました。",
+    "end": 2128.653
   },
   {
     "start": 2129.55,
     "text": "Vegetation returned, beavers came back.",
-    "ja": "植物が戻り、ビーバーも戻ってきました。"
+    "ja": "植物が戻り、ビーバーも戻ってきました。",
+    "end": 2132.7
   },
   {
     "start": 2132.7,
     "text": "Even rivers changed course.",
-    "ja": "川の流れさえ変わりました。"
+    "ja": "川の流れさえ変わりました。",
+    "end": 2135.07
   },
   {
     "start": 2135.07,
     "text": "The wolves didn't move the rivers,",
-    "ja": "オオカミが川を動かしたわけではありません。"
+    "ja": "オオカミが川を動かしたわけではありません。",
+    "end": 2137.713
   },
   {
     "start": 2140.38,
     "text": "they changed the behavior of the overall system.",
-    "ja": "生態系全体の振る舞いを変えたのです。"
+    "ja": "生態系全体の振る舞いを変えたのです。",
+    "end": 2144.79
   },
   {
     "start": 2144.79,
     "text": "That single feedback loop, predator and prey, reshaped the balance of the entire system.",
-    "ja": "捕食者と獲物という一つのフィードバックループが、生態系全体のバランスを作り変えました。"
+    "ja": "捕食者と獲物という一つのフィードバックループが、生態系全体のバランスを作り変えました。",
+    "end": 2153.91
   },
   {
     "start": 2153.91,
     "text": "And then, structure changes, behavior changes.",
-    "ja": "構造が変われば、振る舞いが変わります。"
+    "ja": "構造が変われば、振る舞いが変わります。",
+    "end": 2157.48
   },
   {
     "start": 2157.48,
     "text": "And when feedback changes, outcome changes.",
-    "ja": "そしてフィードバックが変われば、結果も変わります。"
+    "ja": "そしてフィードバックが変われば、結果も変わります。",
+    "end": 2161.71
   },
   {
     "start": 2161.71,
     "text": "That's what's called systems thinking.",
-    "ja": "これがシステム思考です。"
+    "ja": "これがシステム思考です。",
+    "end": 2165.16
   },
   {
     "start": 2165.16,
     "text": "So, when thinking in systems, we think in complete systems, not just in isolated parts.",
-    "ja": "だからシステム思考では、個々の部分だけを見るのではなく、システム全体を考えます。"
+    "ja": "だからシステム思考では、個々の部分だけを見るのではなく、システム全体を考えます。",
+    "end": 2174.28
   },
   {
     "start": 2174.28,
     "text": "Every service, every API, every queue is part of a larger system.",
-    "ja": "すべてのサービス、すべてのAPI、すべてのキューは、より大きなシステムの一部です。"
+    "ja": "すべてのサービス、すべてのAPI、すべてのキューは、より大きなシステムの一部です。",
+    "end": 2181.33
   },
   {
     "start": 2181.33,
     "text": "You can't change one part in isolation, alter or rewrite policy and you affect load.",
-    "ja": "一つの部分を切り離して変更することはできません。たとえばポリシーを変更すれば、負荷にも影響します。"
+    "ja": "一つの部分を切り離して変更することはできません。たとえばポリシーを変更すれば、負荷にも影響します。",
+    "end": 2188.47
   },
   {
     "start": 2188.47,
     "text": "You add a cache, then you change traffic load, you change traffic flow, you shift team ownership, you change the pace of delivery.",
-    "ja": "キャッシュを追加すればトラフィック負荷が変わり、トラフィックの流れも変わります。チームの所有範囲を変えれば、デリバリーの速度も変わります。"
+    "ja": "キャッシュを追加すればトラフィック負荷が変わり、トラフィックの流れも変わります。チームの所有範囲を変えれば、デリバリーの速度も変わります。",
+    "end": 2199.123
   },
   {
     "start": 2200.17,
     "text": "Each change creates new patterns, some stable, some not.",
-    "ja": "一つ一つの変更が新しいパターンを生み出します。安定するものもあれば、そうでないものもあります。"
+    "ja": "一つ一つの変更が新しいパターンを生み出します。安定するものもあれば、そうでないものもあります。",
+    "end": 2205.17
   },
   {
     "start": 2208.12,
     "text": "Every dynamic system is shaped by feedback loops.",
-    "ja": "あらゆる動的システムは、フィードバックループによって形作られます。"
+    "ja": "あらゆる動的システムは、フィードバックループによって形作られます。",
+    "end": 2212.56
   },
   {
     "start": 2212.56,
     "text": "Reinforcing loops, sometimes called positive loops, amplify change.",
-    "ja": "強化ループ、いわゆる正のフィードバックループは、変化を増幅します。"
+    "ja": "強化ループ、いわゆる正のフィードバックループは、変化を増幅します。",
+    "end": 2217.9
   },
   {
     "start": 2217.9,
     "text": "Balancing loops or negative loops counteract, they change and push the system back into an equilibrium.",
-    "ja": "均衡ループ、あるいは負のフィードバックループは変化に対抗し、システムを均衡状態へ戻そうとします。"
+    "ja": "均衡ループ、あるいは負のフィードバックループは変化に対抗し、システムを均衡状態へ戻そうとします。",
+    "end": 2224.533
   },
   {
     "start": 2225.58,
     "text": "Meadows thought that once you see patterns like this, you start to see where small well placed changes might shift the overall systems behavior.",
-    "ja": "Meadowsは、こうしたパターンが見えるようになると、小さく適切な変更を加えることで、システム全体の振る舞いを変えられる場所が見えてくると考えました。"
+    "ja": "Meadowsは、こうしたパターンが見えるようになると、小さく適切な変更を加えることで、システム全体の振る舞いを変えられる場所が見えてくると考えました。",
+    "end": 2239.443
   },
   {
     "start": 2240.926,
     "text": "Donella wrote a paper, a paper, it's called \"Leverage Points: Places to Intervene in the System,\" where she put all of these things together.",
-    "ja": "Donellaは「Leverage Points: Places to Intervene in a System（レバレッジ・ポイント：システムに介入する場所）」という論文を書き、これらをまとめています。"
+    "ja": "Donellaは「Leverage Points: Places to Intervene in a System（レバレッジ・ポイント：システムに介入する場所）」という論文を書き、これらをまとめています。",
+    "end": 2248.59
   },
   {
     "start": 2248.59,
     "text": "There's some words that we know from computer science on a daily basis, positive and negative feedback loops.",
-    "ja": "正のフィードバックループや負のフィードバックループという言葉は、コンピューター科学でも日常的に耳にします。"
+    "ja": "正のフィードバックループや負のフィードバックループという言葉は、コンピューター科学でも日常的に耳にします。",
+    "end": 2255.49
   },
   {
     "start": 2255.49,
     "text": "But you really should read this paper.",
-    "ja": "でも、この論文はぜひ読んでください。"
+    "ja": "でも、この論文はぜひ読んでください。",
+    "end": 2258.67
   },
   {
     "start": 2258.67,
     "text": "Call this homework.",
-    "ja": "これを宿題にしましょう。"
+    "ja": "これを宿題にしましょう。",
+    "end": 2260.47
   },
   {
     "start": 2260.47,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 2261.303
   },
   {
     "start": 2262.54,
     "text": "Take a picture of the QR code, and that's your homework for the coming week.",
-    "ja": "QRコードを写真に撮って、これを来週までの宿題にしてください。"
+    "ja": "QRコードを写真に撮って、これを来週までの宿題にしてください。",
+    "end": 2266.92
   },
   {
     "start": 2268.63,
     "text": "The Renaissance Developer thinks in systems.",
-    "ja": "ルネサンス・デベロッパーはシステムで考えます。"
+    "ja": "ルネサンス・デベロッパーはシステムで考えます。",
+    "end": 2273.63
   },
   {
     "start": 2275.29,
     "text": "And to build resilient systems, you need to understand the bigger picture.",
-    "ja": "そしてレジリエントなシステムを作るには、より大きな全体像を理解する必要があります。"
+    "ja": "そしてレジリエントなシステムを作るには、より大きな全体像を理解する必要があります。",
+    "end": 2282.043
   },
   {
     "start": 2284.74,
     "text": "If I think about a third quality of the Renaissance Developer, it's communication, he/she communicates.",
-    "ja": "ルネサンス・デベロッパーの第三の資質を考えるなら、それはコミュニケーションです。意思を伝える力です。"
+    "ja": "ルネサンス・デベロッパーの第三の資質を考えるなら、それはコミュニケーションです。意思を伝える力です。",
+    "end": 2295.393
   },
   {
     "start": 2296.41,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 2297.632
   },
   {
     "start": 2297.632,
     "text": "And if you step into this broader view, you realize that the ability to express your thinking clearly is just as critical as the thinking itself.",
-    "ja": "この広い視点に立つと、自分の考えを明確に表現する能力は、考えることそのものと同じくらい重要だと分かります。"
+    "ja": "この広い視点に立つと、自分の考えを明確に表現する能力は、考えることそのものと同じくらい重要だと分かります。",
+    "end": 2307.933
   },
   {
     "start": 2308.86,
     "text": "And this is why I believe that one of the most important things that an engineer or technical leader can do for their career is to practice, develop strong communication skills.",
-    "ja": "だから私は、エンジニアやテクニカルリーダーがキャリアのためにできる最も重要なことの一つは、強いコミュニケーション能力を磨き、鍛えることだと思っています。"
+    "ja": "だから私は、エンジニアやテクニカルリーダーがキャリアのためにできる最も重要なことの一つは、強いコミュニケーション能力を磨き、鍛えることだと思っています。",
+    "end": 2321.613
   },
   {
     "start": 2323.29,
     "text": "Let me give you an example.",
-    "ja": "例を挙げましょう。"
+    "ja": "例を挙げましょう。",
+    "end": 2324.49
   },
   {
     "start": 2324.49,
     "text": "Let's go back two years when we did \"The Frugal Architect.\"",
-    "ja": "2年前、「The Frugal Architect」をやったときに戻りましょう。"
+    "ja": "2年前、「The Frugal Architect」をやったときに戻りましょう。",
+    "end": 2328.57
   },
   {
     "start": 2328.57,
     "text": "Don't know if you remember this picture, this is the Amazon homepage.",
-    "ja": "この写真を覚えていますか？ Amazonのホームページです。"
+    "ja": "この写真を覚えていますか？ Amazonのホームページです。",
+    "end": 2332.8
   },
   {
     "start": 2332.8,
     "text": "And I explained to you how we had divided that homepage or the overall Amazon system into three different tiers.",
-    "ja": "ここで私は、このホームページ、つまりAmazon全体のシステムを3つのティアに分けて説明しました。"
+    "ja": "ここで私は、このホームページ、つまりAmazon全体のシステムを3つのティアに分けて説明しました。",
+    "end": 2342.31
   },
   {
     "start": 2342.31,
     "text": "Tier one is something that's absolutely necessary to make the system work.",
-    "ja": "Tier 1は、システムを動かすために絶対に必要なものです。"
+    "ja": "Tier 1は、システムを動かすために絶対に必要なものです。",
+    "end": 2347.173
   },
   {
     "start": 2348.16,
     "text": "Search, browse, shopping cart, checkout and reviews.",
-    "ja": "検索、閲覧、ショッピングカート、チェックアウト、そしてレビューです。"
+    "ja": "検索、閲覧、ショッピングカート、チェックアウト、そしてレビューです。",
+    "end": 2353.16
   },
   {
     "start": 2353.17,
     "text": "Without those five things, the site doesn't work.",
-    "ja": "この5つがなければ、サイトは動きません。"
+    "ja": "この5つがなければ、サイトは動きません。",
+    "end": 2356.74
   },
   {
     "start": 2356.74,
     "text": "Tier one.",
-    "ja": "これがTier 1です。"
+    "ja": "これがTier 1です。",
+    "end": 2358.12
   },
   {
     "start": 2358.12,
     "text": "Tier two are things that are important to our customers, personalization, recommendations, things like that.",
-    "ja": "Tier 2は、パーソナライゼーションやレコメンデーションなど、お客様にとって重要なものです。"
+    "ja": "Tier 2は、パーソナライゼーションやレコメンデーションなど、お客様にとって重要なものです。",
+    "end": 2364.33
   },
   {
     "start": 2364.33,
     "text": "And tier three might be nice to have kind of parts.",
-    "ja": "Tier 3は、あれば便利、といった種類の機能です。"
+    "ja": "Tier 3は、あれば便利、といった種類の機能です。",
+    "end": 2369.073
   },
   {
     "start": 2369.97,
     "text": "To be able to do this, it's important not just for us as engineers, but as communication tools towards the business.",
-    "ja": "これができることは、エンジニアである私たちにとってだけでなく、ビジネスとのコミュニケーション手段としても重要です。"
+    "ja": "これができることは、エンジニアである私たちにとってだけでなく、ビジネスとのコミュニケーション手段としても重要です。",
+    "end": 2379.84
   },
   {
     "start": 2379.84,
     "text": "You go and sit round the table with the business and talk about how many nines available does tier one need to be?",
-    "ja": "ビジネス側とテーブルを囲んで、Tier 1には「ナイン」がいくつ必要なのかを話し合うわけです。"
+    "ja": "ビジネス側とテーブルを囲んで、Tier 1には「ナイン」がいくつ必要なのかを話し合うわけです。",
+    "end": 2388.543
   },
   {
     "start": 2390.13,
     "text": "Oh, four nines.",
-    "ja": "4ナイン、としましょう。"
+    "ja": "4ナイン、としましょう。",
+    "end": 2391.69
   },
   {
     "start": 2391.69,
     "text": "That will cost you that much, yeah?",
-    "ja": "そうすると、それだけのコストがかかりますよね？"
+    "ja": "そうすると、それだけのコストがかかりますよね？",
+    "end": 2394.99
   },
   {
     "start": 2394.99,
     "text": "Or tier two, maybe three nines.",
-    "ja": "Tier 2なら、3ナインかもしれません。"
+    "ja": "Tier 2なら、3ナインかもしれません。",
+    "end": 2399.048
   },
   {
     "start": 2399.048,
     "text": "Tier three, maybe you don't care at all, two nines.",
-    "ja": "Tier 3なら、そもそもあまり気にしなくてよくて、2ナインかもしれません。"
+    "ja": "Tier 3なら、そもそもあまり気にしなくてよくて、2ナインかもしれません。",
+    "end": 2402.55
   },
   {
     "start": 2402.55,
     "text": "We think, well, we'll do a manual fail if data center goes offline.",
-    "ja": "データセンターが停止したら、手動でフェイルオーバーすればいい、と考えるわけです。"
+    "ja": "データセンターが停止したら、手動でフェイルオーバーすればいい、と考えるわけです。",
+    "end": 2408.1
   },
   {
     "start": 2408.1,
     "text": "But it's a communication that you need to have, you need to be able to clearly describe your system and the capabilities and your opportunities towards the business.",
-    "ja": "でも、これは私たちが持つべきコミュニケーションです。システムを、その能力やビジネスにとっての可能性まで含めて、明確に説明できなければなりません。"
+    "ja": "でも、これは私たちが持つべきコミュニケーションです。システムを、その能力やビジネスにとっての可能性まで含めて、明確に説明できなければなりません。",
+    "end": 2419.98
   },
   {
     "start": 2419.98,
     "text": "Communication is crucial.",
-    "ja": "コミュニケーションは極めて重要です。"
+    "ja": "コミュニケーションは極めて重要です。",
+    "end": 2422.98
   },
   {
     "start": 2422.98,
     "text": "Now, human languages, it's a bit of a challenge, isn't it?",
-    "ja": "では、人間の言語はどうでしょう。ちょっと難しいですよね？"
+    "ja": "では、人間の言語はどうでしょう。ちょっと難しいですよね？",
+    "end": 2428.35
   },
   {
     "start": 2428.35,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 2429.183
   },
   {
     "start": 2431.8,
     "text": "'Cause natural language is ambiguous.",
-    "ja": "なぜなら、自然言語は曖昧だからです。"
+    "ja": "なぜなら、自然言語は曖昧だからです。",
+    "end": 2435.043
   },
   {
     "start": 2436.57,
     "text": "But we have so many different senses at the same time that we can turn this natural language into something less ambiguous.",
-    "ja": "でも私たちは、同時にさまざまな意味を読み取ることができるので、その自然言語を、より曖昧さの少ないものとして扱えるんです。"
+    "ja": "でも私たちは、同時にさまざまな意味を読み取ることができるので、その自然言語を、より曖昧さの少ないものとして扱えるんです。",
+    "end": 2449.083
   },
   {
     "start": 2453.82,
     "text": "Do we put grandma on the grill, or are we having dinner tonight?",
-    "ja": "「おばあちゃんをグリルに乗せる」のか、それとも「今夜は夕食を食べる」のか？"
+    "ja": "「おばあちゃんをグリルに乗せる」のか、それとも「今夜は夕食を食べる」のか？",
+    "end": 2460
   },
   {
     "start": 2460,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 2460.833
   },
   {
     "start": 2462.01,
     "text": "Even without a comma, you probably already have figured this one out.",
-    "ja": "コンマがなくても、たぶんどちらの意味かはもう分かったでしょう。"
+    "ja": "コンマがなくても、たぶんどちらの意味かはもう分かったでしょう。",
+    "end": 2465.613
   },
   {
     "start": 2467.05,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 2468.43
   },
   {
     "start": 2468.43,
     "text": "Now, we've always communicated to machines through programming languages, because they were precise.",
-    "ja": "これまで私たちは、機械とはプログラミング言語を通じてコミュニケーションしてきました。プログラミング言語は正確だからです。"
+    "ja": "これまで私たちは、機械とはプログラミング言語を通じてコミュニケーションしてきました。プログラミング言語は正確だからです。",
+    "end": 2477.19
   },
   {
     "start": 2477.19,
     "text": "We could precisely indicate to the machine what we wanted it to do.",
-    "ja": "機械に、何をしてほしいのかを正確に指示できました。"
+    "ja": "機械に、何をしてほしいのかを正確に指示できました。",
+    "end": 2483.433
   },
   {
     "start": 2487.66,
     "text": "But in today's world of AI assisted coding, we increasingly communicate with the machine in natural language, which is ambiguous.",
-    "ja": "ところが今のAI支援コーディングの世界では、曖昧な自然言語を使って機械とコミュニケーションすることが増えています。"
+    "ja": "ところが今のAI支援コーディングの世界では、曖昧な自然言語を使って機械とコミュニケーションすることが増えています。",
+    "end": 2498.193
   },
   {
     "start": 2499.24,
     "text": "So, we need to help to develop mechanisms to reduce the ambiguity of that language.",
-    "ja": "だから、その言語の曖昧さを減らすための仕組みを作る必要があります。"
+    "ja": "だから、その言語の曖昧さを減らすための仕組みを作る必要があります。",
+    "end": 2507.28
   },
   {
     "start": 2507.28,
     "text": "And reduce the ambiguity of the human so that the machine can create logic.",
-    "ja": "そして、人間側の曖昧さも減らして、機械が正しいロジックを作れるようにする必要があります。"
+    "ja": "そして、人間側の曖昧さも減らして、機械が正しいロジックを作れるようにする必要があります。",
+    "end": 2513.883
   },
   {
     "start": 2516.25,
     "text": "Specifications reduce ambiguity.",
-    "ja": "仕様は、曖昧さを減らします。"
+    "ja": "仕様は、曖昧さを減らします。",
+    "end": 2521.023
   },
   {
     "start": 2522.16,
     "text": "And our history is rich with stories of spec-driven development.",
-    "ja": "そして私たちの歴史には、仕様駆動開発の物語がたくさんあります。"
+    "ja": "そして私たちの歴史には、仕様駆動開発の物語がたくさんあります。",
+    "end": 2526.48
   },
   {
     "start": 2526.48,
     "text": "Dijkstra's structure programming environment, before it was based on formal specifications, but that proved program correctness before you even implemented it.",
-    "ja": "Dijkstraの構造化プログラミングの環境では、正式な仕様に基づいて、実装する前にプログラムの正しさを証明していました。"
+    "ja": "Dijkstraの構造化プログラミングの環境では、正式な仕様に基づいて、実装する前にプログラムの正しさを証明していました。",
+    "end": 2536.893
   },
   {
     "start": 2538,
     "text": "The Apollo Guidance System relied on meticulous specifications that guided its 145,000 lines of code, a blueprint so precise that has helped land people on the moon.",
-    "ja": "Apollo誘導システムも、14万5000行のコードを導く綿密な仕様に頼っていました。月面に人を送り届けるほど正確な設計図だったのです。"
+    "ja": "Apollo誘導システムも、14万5000行のコードを導く綿密な仕様に頼っていました。月面に人を送り届けるほど正確な設計図だったのです。",
+    "end": 2553.573
   },
   {
     "start": 2555.46,
     "text": "And to talk more to you about specifications, I'd like to welcome Clare Liguori, senior principle developer on the Kiro team.",
-    "ja": "仕様についてもっと詳しくお話しするために、Kiroチームのシニア・プリンシパル・デベロッパー、Clare Liguoriをお迎えしたいと思います。"
+    "ja": "仕様についてもっと詳しくお話しするために、Kiroチームのシニア・プリンシパル・デベロッパー、Clare Liguoriをお迎えしたいと思います。",
+    "end": 2564.01
   },
   {
     "start": 2564.01,
     "text": "Clare, up to you.",
-    "ja": "クレア、お願いします。"
+    "ja": "クレア、お願いします。",
+    "end": 2565.346
   },
   {
     "start": 2574.63,
     "text": "Thank you, Werner.",
-    "ja": "ありがとうございます、Werner。"
+    "ja": "ありがとうございます、Werner。",
+    "end": 2575.713
   },
   {
     "start": 2576.76,
     "text": "Sometime last year, I started noticing that as I was vibe coding more and more",
-    "ja": "去年のある時期から、Vibe Codingをどんどんやるようになって、"
+    "ja": "去年のある時期から、Vibe Codingをどんどんやるようになって、",
+    "end": 2581.86
   },
   {
     "start": 2581.86,
     "text": "I had a communication problem.",
-    "ja": "私はコミュニケーションの問題を抱えていることに気づきました。"
+    "ja": "私はコミュニケーションの問題を抱えていることに気づきました。",
+    "end": 2584.23
   },
   {
     "start": 2584.23,
     "text": "I was spending more and more time trying to describe to the AI what I wanted.",
-    "ja": "AIに自分が何を望んでいるのか説明するために、ますます時間を使うようになっていたんです。"
+    "ja": "AIに自分が何を望んでいるのか説明するために、ますます時間を使うようになっていたんです。",
+    "end": 2589.303
   },
   {
     "start": 2590.26,
     "text": "The code that the AI generated was good, but the end software didn't do what I wanted it to do.",
-    "ja": "AIが生成するコード自体は良かった。でも完成したソフトウェアは、私が望んだ動きをしてくれませんでした。"
+    "ja": "AIが生成するコード自体は良かった。でも完成したソフトウェアは、私が望んだ動きをしてくれませんでした。",
+    "end": 2596.47
   },
   {
     "start": 2596.47,
     "text": "I would often try to start over with a new prompt and start all over again and try again.",
-    "ja": "そこで、新しいプロンプトで最初からやり直し、また試す、ということを何度もしていました。"
+    "ja": "そこで、新しいプロンプトで最初からやり直し、また試す、ということを何度もしていました。",
+    "end": 2602.173
   },
   {
     "start": 2603.4,
     "text": "I noticed that over time, I wrote longer and longer, more detailed prompts, trying to define what the software should do.",
-    "ja": "時間が経つにつれて、ソフトウェアがどう動くべきなのかを定義しようとして、より長く、より詳しいプロンプトを書くようになりました。"
+    "ja": "時間が経つにつれて、ソフトウェアがどう動くべきなのかを定義しようとして、より長く、より詳しいプロンプトを書くようになりました。",
+    "end": 2611.59
   },
   {
     "start": 2611.59,
     "text": "I would write these long mark detailed prompts in obsidian and markdown, and then I would copy and paste it over to my coding assistant.",
-    "ja": "ObsidianとMarkdownで、長くて詳細なプロンプトを書き、それをコーディングアシスタントにコピー＆ペーストしていました。"
+    "ja": "ObsidianとMarkdownで、長くて詳細なプロンプトを書き、それをコーディングアシスタントにコピー＆ペーストしていました。",
+    "end": 2620.233
   },
   {
     "start": 2621.37,
     "text": "I was essentially creating a specification to better communicate with the AI what I wanted.",
-    "ja": "つまり私は、AIに自分の望むものをよりうまく伝えるための「仕様」を作っていたんです。"
+    "ja": "つまり私は、AIに自分の望むものをよりうまく伝えるための「仕様」を作っていたんです。",
+    "end": 2628.18
   },
   {
     "start": 2628.18,
     "text": "Software specifications can clearly communicate how a system should behave, what it should and shouldn't do.",
-    "ja": "ソフトウェア仕様は、システムがどう振る舞うべきか、何をすべきで何をすべきでないかを明確に伝えられます。"
+    "ja": "ソフトウェア仕様は、システムがどう振る舞うべきか、何をすべきで何をすべきでないかを明確に伝えられます。",
+    "end": 2634.48
   },
   {
     "start": 2634.48,
     "text": "And like Werner said, many systems in history have been based on specifications like Apollo missions.",
-    "ja": "Wernerが言ったように、歴史上の多くのシステムは、Apolloミッションのように仕様をもとに作られてきました。"
+    "ja": "Wernerが言ったように、歴史上の多くのシステムは、Apolloミッションのように仕様をもとに作られてきました。",
+    "end": 2641.293
   },
   {
     "start": 2642.4,
     "text": "It felt like specifications were exactly what was missing from my interactions with my coding assistant.",
-    "ja": "私のコーディングアシスタントとのやり取りに、まさに欠けていたのが仕様だったように感じました。"
+    "ja": "私のコーディングアシスタントとのやり取りに、まさに欠けていたのが仕様だったように感じました。",
+    "end": 2648.643
   },
   {
     "start": 2649.54,
     "text": "But then I thought, how could we use this idea of specs as prompts?",
-    "ja": "そこで、仕様という考え方をプロンプトとして使えないか、と考えました。"
+    "ja": "そこで、仕様という考え方をプロンプトとして使えないか、と考えました。",
+    "end": 2655.63
   },
   {
     "start": 2655.63,
     "text": "What would spec-driven development look like?",
-    "ja": "仕様駆動開発とは、どんなものになるだろう？"
+    "ja": "仕様駆動開発とは、どんなものになるだろう？",
+    "end": 2659.26
   },
   {
     "start": 2659.26,
     "text": "And this spark of an idea led us to start work on the Kiro IDE.",
-    "ja": "この小さなひらめきが、私たちをKiro IDEの開発へと導きました。"
+    "ja": "この小さなひらめきが、私たちをKiro IDEの開発へと導きました。",
+    "end": 2662.713
   },
   {
     "start": 2664.39,
     "text": "With this idea though, we now had a new communication challenge, how can we communicate and validate this idea with potential users?",
-    "ja": "でも、このアイデアには新しいコミュニケーションの課題もありました。見込みユーザーに、このアイデアをどう伝え、どう検証すればいいのか？"
+    "ja": "でも、このアイデアには新しいコミュニケーションの課題もありました。見込みユーザーに、このアイデアをどう伝え、どう検証すればいいのか？",
+    "end": 2673.57
   },
   {
     "start": 2673.57,
     "text": "We didn't know what it would look like and we didn't know what users wanted.",
-    "ja": "私たちは、それがどんなものになるのかも、ユーザーが何を望んでいるのかも分かりませんでした。"
+    "ja": "私たちは、それがどんなものになるのかも、ユーザーが何を望んでいるのかも分かりませんでした。",
+    "end": 2677.59
   },
   {
     "start": 2677.59,
     "text": "It was also kind of difficult to describe what spec-driven development was.",
-    "ja": "仕様駆動開発が何なのかを説明すること自体も、かなり難しかったんです。"
+    "ja": "仕様駆動開発が何なのかを説明すること自体も、かなり難しかったんです。",
+    "end": 2682.81
   },
   {
     "start": 2682.81,
     "text": "They hadn't seen it before and we hadn't built it yet.",
-    "ja": "ユーザーはまだそれを見たことがなく、私たち自身もまだ作っていませんでした。"
+    "ja": "ユーザーはまだそれを見たことがなく、私たち自身もまだ作っていませんでした。",
+    "end": 2685.873
   },
   {
     "start": 2687.01,
     "text": "One of the best ways to get your ideas across is to quickly build a prototype, something that your users can see and touch.",
-    "ja": "アイデアを伝える最良の方法の一つは、すぐにプロトタイプを作ることです。ユーザーが見たり触ったりできるものを作るんです。"
+    "ja": "アイデアを伝える最良の方法の一つは、すぐにプロトタイプを作ることです。ユーザーが見たり触ったりできるものを作るんです。",
+    "end": 2695.62
   },
   {
     "start": 2695.62,
     "text": "Rapid prototyping is of course not a new idea.",
-    "ja": "もちろん、ラピッドプロトタイピング自体は新しい考えではありません。"
+    "ja": "もちろん、ラピッドプロトタイピング自体は新しい考えではありません。",
+    "end": 2698.62
   },
   {
     "start": 2698.62,
     "text": "Let's go back to the '60s to the time of punch cards.",
-    "ja": "60年代、パンチカードの時代まで戻ってみましょう。"
+    "ja": "60年代、パンチカードの時代まで戻ってみましょう。",
+    "end": 2702.013
   },
   {
     "start": 2703.12,
     "text": "In 1964, Doug Engelbart at SRI had a rough idea for a device that had wheels on the bottom, and you would slide it across the tabletop",
-    "ja": "1964年、SRIのDoug Engelbartは、底に車輪が付いていて、机の上を滑らせることで、コンピューター画面上の何かを指せる装置を考えました。"
+    "ja": "1964年、SRIのDoug Engelbartは、底に車輪が付いていて、机の上を滑らせることで、コンピューター画面上の何かを指せる装置を考えました。",
+    "end": 2712.33
   },
   {
     "start": 2712.33,
     "text": "to point to something on a computer screen.",
-    "ja": "机の上を滑らせて、画面上の何かを指し示すわけです。"
+    "ja": "机の上を滑らせて、画面上の何かを指し示すわけです。",
+    "end": 2714.97
   },
   {
     "start": 2714.97,
     "text": "And we can probably all picture this device in our head.",
-    "ja": "この装置がどんなものだったか、皆さんも頭に思い浮かべられるでしょう。"
+    "ja": "この装置がどんなものだったか、皆さんも頭に思い浮かべられるでしょう。",
+    "end": 2718.84
   },
   {
     "start": 2718.84,
     "text": "But can you imagine going back to the '60s and trying to describe what a mouse is to this guy?",
-    "ja": "でも60年代に戻って、この人に「マウスとは何か」を説明しようとするところを想像できますか？"
+    "ja": "でも60年代に戻って、この人に「マウスとは何か」を説明しようとするところを想像できますか？",
+    "end": 2725.293
   },
   {
     "start": 2726.7,
     "text": "Engelbart's team rapidly built a prototype out of a block of wood.",
-    "ja": "Engelbartのチームは、木の塊からすぐにプロトタイプを作りました。"
+    "ja": "Engelbartのチームは、木の塊からすぐにプロトタイプを作りました。",
+    "end": 2731.68
   },
   {
     "start": 2731.68,
     "text": "It was a wooden shell, it had wheels on the bottom and a button on top.",
-    "ja": "木製の外殻で、底に車輪があり、上にはボタンが一つ付いていました。"
+    "ja": "木製の外殻で、底に車輪があり、上にはボタンが一つ付いていました。",
+    "end": 2735.88
   },
   {
     "start": 2735.88,
     "text": "And this rough prototype communicated better what a mouse was, better than any drawing or description could have.",
-    "ja": "この粗いプロトタイプは、どんな図や説明よりも、マウスが何なのかをうまく伝えました。"
+    "ja": "この粗いプロトタイプは、どんな図や説明よりも、マウスが何なのかをうまく伝えました。",
+    "end": 2743.62
   },
   {
     "start": 2743.62,
     "text": "It let people put their hands on it, and get the concept immediately.",
-    "ja": "実際に手に取って触れることで、コンセプトをすぐ理解できたんです。"
+    "ja": "実際に手に取って触れることで、コンセプトをすぐ理解できたんです。",
+    "end": 2747.88
   },
   {
     "start": 2747.88,
     "text": "It had great ergonomics, it felt great in their hands.",
-    "ja": "人間工学にも優れていて、手に持った感触もとても良かった。"
+    "ja": "人間工学にも優れていて、手に持った感触もとても良かった。",
+    "end": 2751.273
   },
   {
     "start": 2752.2,
     "text": "And like the mouse, rapid prototyping was crucial for Kiro.",
-    "ja": "そしてマウスと同じように、ラピッドプロトタイピングはKiroにとっても重要でした。"
+    "ja": "そしてマウスと同じように、ラピッドプロトタイピングはKiroにとっても重要でした。",
+    "end": 2756.31
   },
   {
     "start": 2756.31,
     "text": "We knew that the ergonomics of spec-driven development was going to be important, how it felt in the hands of a developer.",
-    "ja": "仕様駆動開発がどんな感触になるか、つまり開発者の手になじむかどうかが重要だと分かっていました。"
+    "ja": "仕様駆動開発がどんな感触になるか、つまり開発者の手になじむかどうかが重要だと分かっていました。",
+    "end": 2763.81
   },
   {
     "start": 2763.81,
     "text": "We rapidly built prototypes of how we thought spec-driven development could work.",
-    "ja": "そこで、仕様駆動開発がどう機能するかを考えたプロトタイプを、すぐにいくつも作りました。"
+    "ja": "そこで、仕様駆動開発がどう機能するかを考えたプロトタイプを、すぐにいくつも作りました。",
+    "end": 2768.49
   },
   {
     "start": 2768.49,
     "text": "And we put those prototypes in the hands of some internal users, and we asked them to use Kiro every day.",
-    "ja": "そしてそのプロトタイプを社内のユーザーに渡し、毎日Kiroを使ってもらいました。"
+    "ja": "そしてそのプロトタイプを社内のユーザーに渡し、毎日Kiroを使ってもらいました。",
+    "end": 2775.6
   },
   {
     "start": 2775.6,
     "text": "That was going to be the best way for us to understand what felt good and what didn't feel good.",
-    "ja": "それが、何が使いやすく、何が使いにくいのかを理解する最良の方法だったんです。"
+    "ja": "それが、何が使いやすく、何が使いにくいのかを理解する最良の方法だったんです。",
+    "end": 2781.003
   },
   {
     "start": 2782.11,
     "text": "This is a great example of what AI can do for us now.",
-    "ja": "これは、今のAIで何ができるのかを示す良い例です。"
+    "ja": "これは、今のAIで何ができるのかを示す良い例です。",
+    "end": 2785.77
   },
   {
     "start": 2785.77,
     "text": "AI has fundamentally enabled rapid prototyping for software.",
-    "ja": "AIによって、ソフトウェアのラピッドプロトタイピングが根本的に可能になりました。"
+    "ja": "AIによって、ソフトウェアのラピッドプロトタイピングが根本的に可能になりました。",
+    "end": 2790.77
   },
   {
     "start": 2790.81,
     "text": "I'm sure that in the past, we've all spent months manually coding a single idea.",
-    "ja": "以前なら、私たちは一つのアイデアを手作業でコードにするのに、何か月もかけていたと思います。"
+    "ja": "以前なら、私たちは一つのアイデアを手作業でコードにするのに、何か月もかけていたと思います。",
+    "end": 2797.02
   },
   {
     "start": 2797.02,
     "text": "And now, we can give our users real working prototypes and minutes to get feedback about what feels right.",
-    "ja": "今では、本当に動くプロトタイプを数分でユーザーに渡し、「これでいい」と感じるかどうかのフィードバックをもらえます。"
+    "ja": "今では、本当に動くプロトタイプを数分でユーザーに渡し、「これでいい」と感じるかどうかのフィードバックをもらえます。",
+    "end": 2805.063
   },
   {
     "start": 2806.38,
     "text": "Rapidly prototyping Kiro even let us use Kiro to build Kiro.",
-    "ja": "Kiroを素早くプロトタイプしたことで、KiroそのものをKiroで作ることまで可能になりました。"
+    "ja": "Kiroを素早くプロトタイプしたことで、KiroそのものをKiroで作ることまで可能になりました。",
+    "end": 2811.38
   },
   {
     "start": 2811.54,
     "text": "Our very first prototype of the Kiro IDE could only do vibe coding.",
-    "ja": "最初のKiro IDEのプロトタイプでできたのは、Vibe Codingだけでした。"
+    "ja": "最初のKiro IDEのプロトタイプでできたのは、Vibe Codingだけでした。",
+    "end": 2815.89
   },
   {
     "start": 2815.89,
     "text": "But from that moment on, we were able to use the Kiro IDE to generate the code for the Kiro IDE.",
-    "ja": "でもそこから、Kiro IDEを使ってKiro IDEのコードそのものを生成できるようになりました。"
+    "ja": "でもそこから、Kiro IDEを使ってKiro IDEのコードそのものを生成できるようになりました。",
+    "end": 2822.013
   },
   {
     "start": 2823.51,
     "text": "And by using the Kiro IDE to build out the product, we were able to iterate through many ideas of how spec-driven development could work.",
-    "ja": "Kiro IDEで製品を作りながら、仕様駆動開発がどうあるべきかについて、多くのアイデアを試し、改善していくことができました。"
+    "ja": "Kiro IDEで製品を作りながら、仕様駆動開発がどうあるべきかについて、多くのアイデアを試し、改善していくことができました。",
+    "end": 2833.413
   },
   {
     "start": 2834.55,
     "text": "One idea was test-driven development specs, taking inspiration from TDD techniques.",
-    "ja": "その一つが、TDDの手法に着想を得た、テスト駆動開発の仕様でした。"
+    "ja": "その一つが、TDDの手法に着想を得た、テスト駆動開発の仕様でした。",
+    "end": 2839.86
   },
   {
     "start": 2839.86,
     "text": "You would describe a change that you wanted and Kiro would generate tests to validate the behavior that you described.",
-    "ja": "変更したい内容を説明すると、Kiroが、その動作を検証するテストを生成します。"
+    "ja": "変更したい内容を説明すると、Kiroが、その動作を検証するテストを生成します。",
+    "end": 2847.213
   },
   {
     "start": 2848.74,
     "text": "Kiro would then generate application code and made sure that it passed those tests.",
-    "ja": "そしてKiroがアプリケーションコードを生成し、そのテストを通ることまで確認します。"
+    "ja": "そしてKiroがアプリケーションコードを生成し、そのテストを通ることまで確認します。",
+    "end": 2853.75
   },
   {
     "start": 2853.75,
     "text": "But we found that developers couldn't always capture the nuance of what they wanted their software to do or look like with tests only.",
-    "ja": "でも、テストだけでは、ソフトウェアに何をさせたいのか、どんな見た目にしたいのか、その細かなニュアンスまで開発者が常に表現できるわけではないと分かりました。"
+    "ja": "でも、テストだけでは、ソフトウェアに何をさせたいのか、どんな見た目にしたいのか、その細かなニュアンスまで開発者が常に表現できるわけではないと分かりました。",
+    "end": 2861.433
   },
   {
     "start": 2862.51,
     "text": "We tried out traditional technical specifications similar to those that Werner described for the Apollo Guidance System.",
-    "ja": "そこで、WernerがApollo誘導システムについて説明したものに似た、従来型の技術仕様も試しました。"
+    "ja": "そこで、WernerがApollo誘導システムについて説明したものに似た、従来型の技術仕様も試しました。",
+    "end": 2870.4
   },
   {
     "start": 2870.4,
     "text": "They described the system as a whole and each component in detail.",
-    "ja": "システム全体と、それぞれのコンポーネントを詳細に記述する仕様です。"
+    "ja": "システム全体と、それぞれのコンポーネントを詳細に記述する仕様です。",
+    "end": 2874.663
   },
   {
     "start": 2875.65,
     "text": "With this, you'd add a new feature to the overall spec, and Kiro would kick off coding tasks based on the changes that you described.",
-    "ja": "そこに新しい機能を追加すると、その変更に基づいてKiroがコーディングタスクを開始します。"
+    "ja": "そこに新しい機能を追加すると、その変更に基づいてKiroがコーディングタスクを開始します。",
+    "end": 2883.93
   },
   {
     "start": 2883.93,
     "text": "These specs were great context for the AI and even for developers who weren't very familiar with this code base.",
-    "ja": "こうした仕様はAIにとって優れたコンテキストになり、そのコードベースに詳しくない開発者にとっても役に立ちました。"
+    "ja": "こうした仕様はAIにとって優れたコンテキストになり、そのコードベースに詳しくない開発者にとっても役に立ちました。",
+    "end": 2891.16
   },
   {
     "start": 2891.16,
     "text": "But for real world projects, they sometimes became overwhelmingly long.",
-    "ja": "ただ、実際のプロジェクトでは、仕様が長くなりすぎることもありました。"
+    "ja": "ただ、実際のプロジェクトでは、仕様が長くなりすぎることもありました。",
+    "end": 2895.42
   },
   {
     "start": 2895.42,
     "text": "So, it was difficult to figure out where in this long spec you should put your changes for your new feature.",
-    "ja": "そのため、この長大な仕様のどこに新機能の変更を入れるべきなのか、分からなくなることがありました."
+    "ja": "そのため、この長大な仕様のどこに新機能の変更を入れるべきなのか、分からなくなることがありました.",
+    "end": 2900.58
   },
   {
     "start": 2901.78,
     "text": "We took a step back and we looked at how we already worked as a team.",
-    "ja": "そこでいったん立ち止まって、私たちがチームとして普段どう仕事をしているのかを見直しました。"
+    "ja": "そこでいったん立ち止まって、私たちがチームとして普段どう仕事をしているのかを見直しました。",
+    "end": 2905.68
   },
   {
     "start": 2905.68,
     "text": "When we had a new feature idea, we would describe it.",
-    "ja": "新しい機能のアイデアが出ると、まずそれを説明します。"
+    "ja": "新しい機能のアイデアが出ると、まずそれを説明します。",
+    "end": 2909.19
   },
   {
     "start": 2909.19,
     "text": "We would work through product requirements, review a design doc, and create sprint tasks.",
-    "ja": "プロダクト要件を詰め、設計ドキュメントをレビューし、スプリントのタスクを作ります。"
+    "ja": "プロダクト要件を詰め、設計ドキュメントをレビューし、スプリントのタスクを作ります。",
+    "end": 2917.34
   },
   {
     "start": 2917.38,
     "text": "And we thought that perhaps specs could follow this same pattern, and that became feature driven specs.",
-    "ja": "ならば仕様も同じ流れにできるのではないかと考え、それが「フィーチャー駆動の仕様」になりました。"
+    "ja": "ならば仕様も同じ流れにできるのではないかと考え、それが「フィーチャー駆動の仕様」になりました。",
+    "end": 2923.53
   },
   {
     "start": 2923.53,
     "text": "We separated the flow into three documents, requirements, designs, and tasks.",
-    "ja": "私たちはその流れを、要件、設計、タスクという3つの文書に分けました。"
+    "ja": "私たちはその流れを、要件、設計、タスクという3つの文書に分けました。",
+    "end": 2929.47
   },
   {
     "start": 2929.47,
     "text": "And we found that this gave developers more control over the AI and let them better communicate what they wanted.",
-    "ja": "すると、開発者はAIをよりコントロールでき、自分たちが望むものを、よりうまく伝えられるようになりました。"
+    "ja": "すると、開発者はAIをよりコントロールでき、自分たちが望むものを、よりうまく伝えられるようになりました。",
+    "end": 2936.283
   },
   {
     "start": 2937.18,
     "text": "All of these rapid prototypes gave us critical user feedback that led to today's spec-driven development workflow that's in the Kiro IDE.",
-    "ja": "こうしたラピッドプロトタイプから得られた重要なユーザーフィードバックが、現在Kiro IDEに搭載されている仕様駆動開発のワークフローにつながったのです。"
+    "ja": "こうしたラピッドプロトタイプから得られた重要なユーザーフィードバックが、現在Kiro IDEに搭載されている仕様駆動開発のワークフローにつながったのです。",
+    "end": 2945.433
   },
   {
     "start": 2946.57,
     "text": "With a spec workflow now in place in Kiro, we could use it more effectively to keep building out the product.",
-    "ja": "Kiroに仕様ワークフローが整ったことで、それを使って製品開発をさらに効果的に進められるようになりました。"
+    "ja": "Kiroに仕様ワークフローが整ったことで、それを使って製品開発をさらに効果的に進められるようになりました。",
+    "end": 2953.14
   },
   {
     "start": 2953.14,
     "text": "Because now we could communicate more precisely with the AI what we wanted.",
-    "ja": "AIに自分たちの望むものを、より正確に伝えられるようになったからです。"
+    "ja": "AIに自分たちの望むものを、より正確に伝えられるようになったからです。",
+    "end": 2958.333
   },
   {
     "start": 2959.44,
     "text": "Often with vibe coding, I find that we give these very ambiguous tasks to the AI.",
-    "ja": "Vibe Codingでは、AIにかなり曖昧なタスクを渡してしまうことがよくあります。"
+    "ja": "Vibe Codingでは、AIにかなり曖昧なタスクを渡してしまうことがよくあります。",
+    "end": 2964.87
   },
   {
     "start": 2964.87,
     "text": "We might say, \"Build me a web trivia game.\"",
-    "ja": "たとえば「Webのトリビアゲームを作って」と言うかもしれません。"
+    "ja": "たとえば「Webのトリビアゲームを作って」と言うかもしれません。",
+    "end": 2967.72
   },
   {
     "start": 2967.72,
     "text": "And out of this very short prompt, there's probably a million possible different final outcomes, but probably only one of those is what you have in your head.",
-    "ja": "こんな短いプロンプトからでも、最終的な形は100万通りくらい考えられます。でも、そのうち本当に自分の頭の中にあるものは、おそらく一つだけです。"
+    "ja": "こんな短いプロンプトからでも、最終的な形は100万通りくらい考えられます。でも、そのうち本当に自分の頭の中にあるものは、おそらく一つだけです。",
+    "end": 2979
   },
   {
     "start": 2979,
     "text": "With vibe coding, the AI is going to take its best guess as to what you meant, it'll generate code, but that leaves you to iterate on the code with the AI",
-    "ja": "Vibe Codingでは、AIがこちらの意図を推測してコードを生成します。でもその結果、私たちは元々何を作りたかったのかではなく、生成されたコードをAIと一緒に修正していくことになります。"
+    "ja": "Vibe Codingでは、AIがこちらの意図を推測してコードを生成します。でもその結果、私たちは元々何を作りたかったのかではなく、生成されたコードをAIと一緒に修正していくことになります。",
+    "end": 2988.12
   },
   {
     "start": 2988.12,
     "text": "instead of on what you originally meant.",
-    "ja": "本来の意図ではなく、出来上がったコードを相手に試行錯誤することになるわけです。"
+    "ja": "本来の意図ではなく、出来上がったコードを相手に試行錯誤することになるわけです。",
+    "end": 2990.673
   },
   {
     "start": 2991.57,
     "text": "With spec-driven development, you have an opportunity to refine what you mean more precisely through specs.",
-    "ja": "仕様駆動開発なら、仕様を通じて、自分の意図をより正確に練り上げることができます。"
+    "ja": "仕様駆動開発なら、仕様を通じて、自分の意図をより正確に練り上げることができます。",
+    "end": 2997.75
   },
   {
     "start": 2997.75,
     "text": "You can give the Kiro IDE that same ambiguous task, but instead of jumping into the code right away, it's going to first generate requirements, designs, tasks.",
-    "ja": "同じ曖昧なタスクをKiro IDEに渡しても、いきなりコードを書くのではなく、まず要件、設計、タスクを生成します。"
+    "ja": "同じ曖昧なタスクをKiro IDEに渡しても、いきなりコードを書くのではなく、まず要件、設計、タスクを生成します。",
+    "end": 3009.15
   },
   {
     "start": 3009.15,
     "text": "And if those don't match what's in your head, you have the opportunity to ask Kiro to change it and refine it.",
-    "ja": "そして、それが自分の頭の中にあるものと違えば、Kiroに変更や改善を求めることができます。"
+    "ja": "そして、それが自分の頭の中にあるものと違えば、Kiroに変更や改善を求めることができます。",
+    "end": 3015.783
   },
   {
     "start": 3016.77,
     "text": "Let's walk through a real example of a production feature that we built in the Kiro IDE using spec-driven development system notifications.",
-    "ja": "では、Kiro IDEで仕様駆動開発を使って実際に構築した、本番機能の例を見てみましょう。システム通知です。"
+    "ja": "では、Kiro IDEで仕様駆動開発を使って実際に構築した、本番機能の例を見てみましょう。システム通知です。",
+    "end": 3025.74
   },
   {
     "start": 3025.74,
     "text": "We started here with a little annoyance that we ourselves experienced with an early version of the Kiro IDE.",
-    "ja": "これは、初期バージョンのKiro IDEで私たち自身が感じていた、ちょっとした不便から始まりました。"
+    "ja": "これは、初期バージョンのKiro IDEで私たち自身が感じていた、ちょっとした不便から始まりました。",
+    "end": 3032.04
   },
   {
     "start": 3032.04,
     "text": "Agents can take a while to complete their coding work.",
-    "ja": "エージェントがコーディング作業を終えるまでには、時間がかかることがあります。"
+    "ja": "エージェントがコーディング作業を終えるまでには、時間がかかることがあります。",
+    "end": 3035.4
   },
   {
     "start": 3035.4,
     "text": "And meanwhile, we would switch away to a different app, but then the agent would need user input or it would complete its work, and we would have no idea",
-    "ja": "その間、私たちは別のアプリに切り替えるのですが、エージェントがユーザーの入力を必要としていたり、作業を終えていたりしても、それに気づけません。"
+    "ja": "その間、私たちは別のアプリに切り替えるのですが、エージェントがユーザーの入力を必要としていたり、作業を終えていたりしても、それに気づけません。",
+    "end": 3044.97
   },
   {
     "start": 3044.97,
     "text": "that it was sitting there idle while we were away doing other work.",
-    "ja": "別の仕事をしている間、エージェントがそこで何もせず待っていたとしても、分からなかったのです。"
+    "ja": "別の仕事をしている間、エージェントがそこで何もせず待っていたとしても、分からなかったのです。",
+    "end": 3048.753
   },
   {
     "start": 3049.8,
     "text": "So, we set out to build a feature that would notify the user when the agent needed its attention.",
-    "ja": "そこで、エージェントがユーザーの注意を必要としたときに通知する機能を作ることにしました。"
+    "ja": "そこで、エージェントがユーザーの注意を必要としたときに通知する機能を作ることにしました。",
+    "end": 3055.263
   },
   {
     "start": 3056.4,
     "text": "We started by having Kiro generate a spec and the generator requirements actually helped us to think through some details like which agent actions should trigger notifications to the user.",
-    "ja": "まずKiroに仕様を生成させました。そのとき生成された要件のおかげで、どのエージェントの動作がユーザーへの通知を発生させるべきか、といった細かな点まで考えられました。"
+    "ja": "まずKiroに仕様を生成させました。そのとき生成された要件のおかげで、どのエージェントの動作がユーザーへの通知を発生させるべきか、といった細かな点まで考えられました。",
+    "end": 3067.293
   },
   {
     "start": 3068.31,
     "text": "When we got to the design phase, we'd expected this to be a pretty simple integration into the Kiro agent code.",
-    "ja": "設計フェーズに入ったとき、私たちはKiroエージェントのコードに簡単な統合をすれば済むと思っていました。"
+    "ja": "設計フェーズに入ったとき、私たちはKiroエージェントのコードに簡単な統合をすれば済むと思っていました。",
+    "end": 3074.64
   },
   {
     "start": 3074.64,
     "text": "But instead, Kiro generated this very complex design that would build an entirely new notification system directly in our agent code.",
-    "ja": "ところがKiroは、エージェントのコードそのものに新しい通知システムを丸ごと構築する、非常に複雑な設計を生成しました。"
+    "ja": "ところがKiroは、エージェントのコードそのものに新しい通知システムを丸ごと構築する、非常に複雑な設計を生成しました。",
+    "end": 3083.313
   },
   {
     "start": 3084.33,
     "text": "Now, if we had vibe coded this, we would've ended up with a lot of code that we didn't actually want.",
-    "ja": "もしこれをVibe Codingで進めていたら、本当に欲しかったものとは違うコードを大量に作ってしまっていたでしょう。"
+    "ja": "もしこれをVibe Codingで進めていたら、本当に欲しかったものとは違うコードを大量に作ってしまっていたでしょう。",
+    "end": 3090.54
   },
   {
     "start": 3090.54,
     "text": "But instead, the spec process helped us quickly realize this was a much bigger project than we originally thought.",
-    "ja": "でも仕様のプロセスを使ったことで、これは当初考えていたよりはるかに大きなプロジェクトだと、すぐに気づけました。"
+    "ja": "でも仕様のプロセスを使ったことで、これは当初考えていたよりはるかに大きなプロジェクトだと、すぐに気づけました。",
+    "end": 3097.323
   },
   {
     "start": 3098.43,
     "text": "We iterated on the spec to first focus on building a notification system directly outside of the agent code, and directly in the underlying IDE code.",
-    "ja": "そこで仕様を改良し、まずエージェントのコードの外側、つまり基盤となるIDEのコード側に通知システムを構築することに集中しました。"
+    "ja": "そこで仕様を改良し、まずエージェントのコードの外側、つまり基盤となるIDEのコード側に通知システムを構築することに集中しました。",
+    "end": 3108.123
   },
   {
     "start": 3108.99,
     "text": "This needed to be built on top of electron's native notification API.",
-    "ja": "そのシステムは、Electronのネイティブ通知APIの上に構築する必要がありました。"
+    "ja": "そのシステムは、Electronのネイティブ通知APIの上に構築する必要がありました。",
+    "end": 3112.623
   },
   {
     "start": 3113.58,
     "text": "Kiro IDE is based on code OSS, which is a code base that spans 10 years of development and 2 million lines of code.",
-    "ja": "Kiro IDEはCode-OSSをベースにしていて、そのコードベースは10年にわたる開発の歴史と200万行のコードを抱えています。"
+    "ja": "Kiro IDEはCode-OSSをベースにしていて、そのコードベースは10年にわたる開発の歴史と200万行のコードを抱えています。",
+    "end": 3121.35
   },
   {
     "start": 3121.35,
     "text": "It can be difficult for any developer to figure out where they need to make changes in this code base.",
-    "ja": "そんなコードベースのどこを変更すべきかを把握するのは、どんな開発者にとっても難しいことです。"
+    "ja": "そんなコードベースのどこを変更すべきかを把握するのは、どんな開発者にとっても難しいことです。",
+    "end": 3127.8
   },
   {
     "start": 3127.8,
     "text": "But Kiro spec workflow actually helped us to explore and understand where these changes needed to be made.",
-    "ja": "でもKiroの仕様ワークフローは、どこにどんな変更を加えるべきなのかを調べ、理解する助けになりました。"
+    "ja": "でもKiroの仕様ワークフローは、どこにどんな変更を加えるべきなのかを調べ、理解する助けになりました。",
+    "end": 3134.82
   },
   {
     "start": 3134.82,
     "text": "And once these changes were in place, we were again able to use spec-driven development to integrate it into our agent code.",
-    "ja": "そして変更を入れた後、今度は仕様駆動開発を使って、それをエージェントのコードに組み込むことができました。"
+    "ja": "そして変更を入れた後、今度は仕様駆動開発を使って、それをエージェントのコードに組み込むことができました。",
+    "end": 3141.663
   },
   {
     "start": 3142.65,
     "text": "Throughout this prospect, we were able to quickly iterate on our specs till we got exactly what we wanted from the AI.",
-    "ja": "この一連のプロセスを通じて、AIから本当に欲しいものが得られるまで、仕様を素早く何度も改善できました。"
+    "ja": "この一連のプロセスを通じて、AIから本当に欲しいものが得られるまで、仕様を素早く何度も改善できました。",
+    "end": 3150.12
   },
   {
     "start": 3150.12,
     "text": "With spec-driven development, we shipped this agent in roughly half the time as if we had vibe coded it.",
-    "ja": "仕様駆動開発を使ったことで、このエージェントをVibe Codingだけで作る場合と比べて、およそ半分の時間でリリースできました。"
+    "ja": "仕様駆動開発を使ったことで、このエージェントをVibe Codingだけで作る場合と比べて、およそ半分の時間でリリースできました。",
+    "end": 3157.38
   },
   {
     "start": 3158.28,
     "text": "In our experience building Kiro, we realized that AI has changed how we communicate and how fast we can iterate.",
-    "ja": "Kiroを作る経験を通じて、AIによってコミュニケーションの方法も、反復できるスピードも変わったことに気づきました。"
+    "ja": "Kiroを作る経験を通じて、AIによってコミュニケーションの方法も、反復できるスピードも変わったことに気づきました。",
+    "end": 3167.403
   },
   {
     "start": 3169.65,
     "text": "We can iterate on the software design by communicating with the AI through specs, and we can iterate on what the software does by putting real working applications fast",
-    "ja": "仕様を使ってAIとコミュニケーションすることでソフトウェアの設計を反復し、実際に動くアプリケーションをすばやくユーザーの手元に届けることで、ソフトウェアの動きについても反復できます。"
+    "ja": "仕様を使ってAIとコミュニケーションすることでソフトウェアの設計を反復し、実際に動くアプリケーションをすばやくユーザーの手元に届けることで、ソフトウェアの動きについても反復できます。",
+    "end": 3180.09
   },
   {
     "start": 3180.09,
     "text": "into our users' hands and get feedback.",
-    "ja": "そして、そこからフィードバックを得られます。"
+    "ja": "そして、そこからフィードバックを得られます。",
+    "end": 3182.253
   },
   {
     "start": 3183.42,
     "text": "AI and spec-driven development helped us to build a better Kiro IDE, and this was in large part due to more precise communication with our users through rapid prototypes,",
-    "ja": "AIと仕様駆動開発によって、より良いKiro IDEを作ることができました。その大きな理由の一つは、ラピッドプロトタイプを通じてユーザーとのコミュニケーションをより正確にし、"
+    "ja": "AIと仕様駆動開発によって、より良いKiro IDEを作ることができました。その大きな理由の一つは、ラピッドプロトタイプを通じてユーザーとのコミュニケーションをより正確にし、",
+    "end": 3194.16
   },
   {
     "start": 3194.16,
     "text": "and with AI through specs.",
-    "ja": "仕様を通じてAIとのコミュニケーションもより正確にできたことです。"
+    "ja": "仕様を通じてAIとのコミュニケーションもより正確にできたことです。",
+    "end": 3196.263
   },
   {
     "start": 3197.73,
     "text": "Natural language doesn't have to mean high ambiguity.",
-    "ja": "自然言語だからといって、必ずしも曖昧でなければならないわけではありません。"
+    "ja": "自然言語だからといって、必ずしも曖昧でなければならないわけではありません。",
+    "end": 3201.54
   },
   {
     "start": 3201.54,
     "text": "And personally, this is what I think makes Kiro IDE so special.",
-    "ja": "そして個人的には、それこそがKiro IDEを特別なものにしていると思います。"
+    "ja": "そして個人的には、それこそがKiro IDEを特別なものにしていると思います。",
+    "end": 3205.89
   },
   {
     "start": 3205.89,
     "text": "Kiro IDE brings precision to natural language.",
-    "ja": "Kiro IDEは、自然言語に正確さをもたらします。"
+    "ja": "Kiro IDEは、自然言語に正確さをもたらします。",
+    "end": 3209.28
   },
   {
     "start": 3209.28,
     "text": "And with that, I'll hand it back over to Werner.",
-    "ja": "それでは、Wernerにお返しします。"
+    "ja": "それでは、Wernerにお返しします。",
+    "end": 3211.855
   },
   {
     "start": 3219.96,
     "text": "Thanks, Clare.",
-    "ja": "ありがとう、Clare。"
+    "ja": "ありがとう、Clare。",
+    "end": 3220.937
   },
   {
     "start": 3222.09,
     "text": "Communication is so important that Clare shows, it leads to systems that have fewer mistakes.",
-    "ja": "Clareが示してくれたように、コミュニケーションはとても重要です。それによって、ミスの少ないシステムを作ることにつながります。"
+    "ja": "Clareが示してくれたように、コミュニケーションはとても重要です。それによって、ミスの少ないシステムを作ることにつながります。",
+    "end": 3230.043
   },
   {
     "start": 3231.24,
     "text": "Actually, let me get tell you a story again, sort of, outta my own youth.",
-    "ja": "ではまた、私自身の若い頃の話を一つしましょう。"
+    "ja": "ではまた、私自身の若い頃の話を一つしましょう。",
+    "end": 3237.66
   },
   {
     "start": 3237.66,
     "text": "When I went to computer science school, there was a class called Interview Technique, and I go, \"What, interviews?\"",
-    "ja": "私がコンピューターサイエンスの学校に通っていたころ、「インタビュー技法」という授業がありました。私は「インタビュー？」と思ったものです。"
+    "ja": "私がコンピューターサイエンスの学校に通っていたころ、「インタビュー技法」という授業がありました。私は「インタビュー？」と思ったものです。",
+    "end": 3248.31
   },
   {
     "start": 3248.31,
     "text": "Because you think about journalists and things like that.",
-    "ja": "ジャーナリストのインタビューなどを思い浮かべますよね。"
+    "ja": "ジャーナリストのインタビューなどを思い浮かべますよね。",
+    "end": 3251.04
   },
   {
     "start": 3251.04,
     "text": "No, it was how to learn to talk to your customer to really trying to understand what he or she actually really wanted.",
-    "ja": "でも実際は、お客様と話し、本当に相手が何を望んでいるのかを理解するための方法を学ぶ授業でした。"
+    "ja": "でも実際は、お客様と話し、本当に相手が何を望んでいるのかを理解するための方法を学ぶ授業でした。",
+    "end": 3260.79
   },
   {
     "start": 3260.79,
     "text": "Because they may come to you already with a technology solution, like knowing anything about technology.",
-    "ja": "お客様は、テクノロジーについて何も知らなくても、すでに技術的な解決策を持って相談に来ることがあります。"
+    "ja": "お客様は、テクノロジーについて何も知らなくても、すでに技術的な解決策を持って相談に来ることがあります。",
+    "end": 3266.73
   },
   {
     "start": 3266.73,
     "text": "Wouldn't be the first time these days when I meet a customer who says, \"What should I be doing with GenAI?\"",
-    "ja": "最近、お客様から「GenAIを使って、私は何をすべきでしょうか？」と聞かれることがあります。"
+    "ja": "最近、お客様から「GenAIを使って、私は何をすべきでしょうか？」と聞かれることがあります。",
+    "end": 3273.627
   },
   {
     "start": 3275.28,
     "text": "And then, because you really trained in trying to figure out into depth, say I'm very apologize to answer your question with a question, but why are you asking me this?",
-    "ja": "そういうとき、私は深く掘り下げて考えるよう訓練されているので、「質問に質問で返して申し訳ありません。でも、なぜそれを私に聞くのですか？」と尋ねます。"
+    "ja": "そういうとき、私は深く掘り下げて考えるよう訓練されているので、「質問に質問で返して申し訳ありません。でも、なぜそれを私に聞くのですか？」と尋ねます。",
+    "end": 3288.333
   },
   {
     "start": 3289.62,
     "text": "Most of this is fear of missing out.",
-    "ja": "その多くは、取り残されることへの不安から来ています。"
+    "ja": "その多くは、取り残されることへの不安から来ています。",
+    "end": 3292.083
   },
   {
     "start": 3293.13,
     "text": "And so, really diving into it with the customer to understand what's the problem they want to solve, what's the opportunity that they see?",
-    "ja": "だからこそ、お客様と一緒に深く掘り下げて、どんな問題を解決したいのか、どんな可能性を見ているのかを理解することが大切です。"
+    "ja": "だからこそ、お客様と一緒に深く掘り下げて、どんな問題を解決したいのか、どんな可能性を見ているのかを理解することが大切です。",
+    "end": 3301.26
   },
   {
     "start": 3301.26,
     "text": "All of that is communication that we as engineers should have.",
-    "ja": "それが、私たちエンジニアが身につけるべきコミュニケーションです。"
+    "ja": "それが、私たちエンジニアが身につけるべきコミュニケーションです。",
+    "end": 3307.503
   },
   {
     "start": 3308.94,
     "text": "Now, let's go to the fourth, what I call the fourth quality of the Renaissance Developer.",
-    "ja": "では、ルネサンス・デベロッパーの第四の資質について話しましょう。"
+    "ja": "では、ルネサンス・デベロッパーの第四の資質について話しましょう。",
+    "end": 3317.753
   },
   {
     "start": 3317.753,
     "text": "The developer is an owner, ownership.",
-    "ja": "開発者はオーナーであること、つまりオーナーシップです。"
+    "ja": "開発者はオーナーであること、つまりオーナーシップです。",
+    "end": 3322.753
   },
   {
     "start": 3322.86,
     "text": "I've spoken about it before, but today, I want to focus on one part of it.",
-    "ja": "以前にも話しましたが、今日はその中の一つに焦点を当てたいと思います。"
+    "ja": "以前にも話しましたが、今日はその中の一つに焦点を当てたいと思います。",
+    "end": 3328.35
   },
   {
     "start": 3328.35,
     "text": "Owning the quality of your software.",
-    "ja": "それは、自分が作るソフトウェアの品質に責任を持つことです。"
+    "ja": "それは、自分が作るソフトウェアの品質に責任を持つことです。",
+    "end": 3331.953
   },
   {
     "start": 3333.54,
     "text": "AI will let us build things, bigger systems, explore more ideas, move faster than ever before.",
-    "ja": "AIを使えば、これまでより大きなシステムを作り、より多くのアイデアを試し、これまで以上の速さで進めるようになります。"
+    "ja": "AIを使えば、これまでより大きなシステムを作り、より多くのアイデアを試し、これまで以上の速さで進めるようになります。",
+    "end": 3343.35
   },
   {
     "start": 3343.35,
     "text": "These tools will, as the modern day philosophers Daft Punk said, \"Help us build harder, better, faster, and stronger.\"",
-    "ja": "現代の哲学者、Daft Punkが言うように、こうしたツールは「もっと強く、もっと良く、もっと速く、もっと力強く」ものを作る助けになります。"
+    "ja": "現代の哲学者、Daft Punkが言うように、こうしたツールは「もっと強く、もっと良く、もっと速く、もっと力強く」ものを作る助けになります。",
+    "end": 3353.217
   },
   {
     "start": 3354.48,
     "text": "And if we use these tools correctly, they can help us produce high quality software.",
-    "ja": "そして、正しく使えば、高品質なソフトウェアを作る助けになります。"
+    "ja": "そして、正しく使えば、高品質なソフトウェアを作る助けになります。",
+    "end": 3360.873
   },
   {
     "start": 3363.18,
     "text": "But there is a risk in how some developers are starting to use these tools.",
-    "ja": "でも、一部の開発者がこうしたツールを使い始めているやり方には、リスクがあります。"
+    "ja": "でも、一部の開発者がこうしたツールを使い始めているやり方には、リスクがあります。",
+    "end": 3368.13
   },
   {
     "start": 3368.13,
     "text": "Vibe coding is fine, but only if you pay close attention to what is being built.",
-    "ja": "Vibe Coding自体は問題ありません。ただし、何が作られているのかを注意深く確認する場合に限ります。"
+    "ja": "Vibe Coding自体は問題ありません。ただし、何が作られているのかを注意深く確認する場合に限ります。",
+    "end": 3375.56
   },
   {
     "start": 3375.6,
     "text": "We can't just pull a lever on your IDE and hope that something good comes out.",
-    "ja": "IDEのレバーをただ引いて、何か良いものが出てくることを期待するだけではいけません。"
+    "ja": "IDEのレバーをただ引いて、何か良いものが出てくることを期待するだけではいけません。",
+    "end": 3382.02
   },
   {
     "start": 3382.02,
     "text": "That's not software engineering, that's gambling, and you need to be out there somewhere for that.",
-    "ja": "それはソフトウェアエンジニアリングではありません。それはギャンブルです。そしてギャンブルをする場所なら、ほかにいくらでもあります。"
+    "ja": "それはソフトウェアエンジニアリングではありません。それはギャンブルです。そしてギャンブルをする場所なら、ほかにいくらでもあります。",
+    "end": 3388.98
   },
   {
     "start": 3388.98,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 3390.57
   },
   {
     "start": 3390.57,
     "text": "Remember what I said at the beginning, the work is yours, not the tools.",
-    "ja": "最初に言ったことを思い出してください。仕事はあなたのものであって、ツールのものではありません。"
+    "ja": "最初に言ったことを思い出してください。仕事はあなたのものであって、ツールのものではありません。",
+    "end": 3398.223
   },
   {
     "start": 3399.42,
     "text": "If you subject to regulatory requirement, let's say, healthcare, financial services and whatever, if AI creates some code that certainly violates the regulatory requirement,",
-    "ja": "医療や金融サービスなど、規制要件のある分野で仕事をしているとしましょう。もしAIが規制に違反するコードを作ったとしても、"
+    "ja": "医療や金融サービスなど、規制要件のある分野で仕事をしているとしましょう。もしAIが規制に違反するコードを作ったとしても、",
+    "end": 3410.85
   },
   {
     "start": 3410.85,
     "text": "you can't go to the regulator and say, \"Oh, it was AI.\"",
-    "ja": "規制当局に「AIがやったことです」と言うことはできません。"
+    "ja": "規制当局に「AIがやったことです」と言うことはできません。",
+    "end": 3414.72
   },
   {
     "start": 3414.72,
     "text": "No, it's still your responsibility, the work is yours, not that of the tools.",
-    "ja": "最終的な責任はあなたにあります。仕事はあなたのものであって、ツールのものではないのです。"
+    "ja": "最終的な責任はあなたにあります。仕事はあなたのものであって、ツールのものではないのです。",
+    "end": 3423.14
   },
   {
     "start": 3426.801,
     "text": "Now, the world is changing.",
-    "ja": "さて、世界は変化しています。"
+    "ja": "さて、世界は変化しています。",
+    "end": 3430.143
   },
   {
     "start": 3431.31,
     "text": "You will write less code, 'cause generation is so fast, you will review more code because understanding it takes time.",
-    "ja": "コードを書く量は減るでしょう。コード生成は非常に速くなるからです。その一方で、理解するには時間がかかるので、コードをレビューする量は増えるでしょう。"
+    "ja": "コードを書く量は減るでしょう。コード生成は非常に速くなるからです。その一方で、理解するには時間がかかるので、コードをレビューする量は増えるでしょう。",
+    "end": 3441.723
   },
   {
     "start": 3442.74,
     "text": "And when you write a code yourself, comprehension comes with the act of creation.",
-    "ja": "自分でコードを書くときは、作るという行為そのものの中に理解が含まれています。"
+    "ja": "自分でコードを書くときは、作るという行為そのものの中に理解が含まれています。",
+    "end": 3448.923
   },
   {
     "start": 3450.15,
     "text": "When the machine writes it, you'll have to rebuild that comprehension during review.",
-    "ja": "でも機械がコードを書くなら、レビューの中でもう一度その理解を作り直さなければなりません。"
+    "ja": "でも機械がコードを書くなら、レビューの中でもう一度その理解を作り直さなければなりません。",
+    "end": 3456.993
   },
   {
     "start": 3459.96,
     "text": "That's what's called verification debt.",
-    "ja": "これを「検証負債」と呼びます。"
+    "ja": "これを「検証負債」と呼びます。",
+    "end": 3463.86
   },
   {
     "start": 3463.86,
     "text": "And it's one of the two main challenges that I hear when I speak with developers about this new style of work.",
-    "ja": "そしてこれは、私がこの新しい働き方について開発者と話すときによく聞く、二つの大きな課題の一つです。"
+    "ja": "そしてこれは、私がこの新しい働き方について開発者と話すときによく聞く、二つの大きな課題の一つです。",
+    "end": 3470.01
   },
   {
     "start": 3470.01,
     "text": "AI can generate code faster than you can understand it.",
-    "ja": "AIは、あなたが理解するよりも速くコードを生成できます。"
+    "ja": "AIは、あなたが理解するよりも速くコードを生成できます。",
+    "end": 3474.39
   },
   {
     "start": 3474.39,
     "text": "Code arrives instantly, but comprehension does not.",
-    "ja": "コードは瞬時に届きます。でも、理解は瞬時には進みません。"
+    "ja": "コードは瞬時に届きます。でも、理解は瞬時には進みません。",
+    "end": 3479.317
   },
   {
     "start": 3480.42,
     "text": "That gap allows software to move towards production before anyone has truly validated what it actually does.",
-    "ja": "そのギャップによって、本当に何をしているのかを誰も十分に検証しないまま、ソフトウェアが本番環境へ進んでしまう可能性があります。"
+    "ja": "そのギャップによって、本当に何をしているのかを誰も十分に検証しないまま、ソフトウェアが本番環境へ進んでしまう可能性があります。",
+    "end": 3488.973
   },
   {
     "start": 3490.68,
     "text": "The second challenge, of course, is hallucination.",
-    "ja": "もちろん、二つ目の課題はハルシネーションです。"
+    "ja": "もちろん、二つ目の課題はハルシネーションです。",
+    "end": 3494.58
   },
   {
     "start": 3494.58,
     "text": "Clare showed really a perfect example of that earlier.",
-    "ja": "Clareが先ほど、その完璧な例を見せてくれました。"
+    "ja": "Clareが先ほど、その完璧な例を見せてくれました。",
+    "end": 3498.06
   },
   {
     "start": 3498.06,
     "text": "The model produced the design that looked confident but was completely wrong for the architecture.",
-    "ja": "モデルは自信ありげに見える設計を出しましたが、アーキテクチャには完全に合っていませんでした。"
+    "ja": "モデルは自信ありげに見える設計を出しましたが、アーキテクチャには完全に合っていませんでした。",
+    "end": 3504.93
   },
   {
     "start": 3504.93,
     "text": "Some APIs change and LMS invent attributes that do not exist.",
-    "ja": "APIの仕様が変わっていたり、存在しない属性をモデルが勝手に作り出したりすることもあります。"
+    "ja": "APIの仕様が変わっていたり、存在しない属性をモデルが勝手に作り出したりすることもあります。",
+    "end": 3511.56
   },
   {
     "start": 3511.56,
     "text": "Sometimes they propose solutions that are completely inappropriate or over-engineered, or ignore your system's own talents.",
-    "ja": "場合によっては、まったく不適切だったり、過剰設計だったりする解決策を提案したり、あなたのシステム固有の事情を無視したりします。"
+    "ja": "場合によっては、まったく不適切だったり、過剰設計だったりする解決策を提案したり、あなたのシステム固有の事情を無視したりします。",
+    "end": 3520.65
   },
   {
     "start": 3520.65,
     "text": "These outputs look plausible, but they're not grounded in reality.",
-    "ja": "こうした出力はもっともらしく見えます。でも現実に根ざしているとは限りません。"
+    "ja": "こうした出力はもっともらしく見えます。でも現実に根ざしているとは限りません。",
+    "end": 3526.953
   },
   {
     "start": 3528.54,
     "text": "I think we're making progress there.",
-    "ja": "その点では、私たちは前進していると思います。"
+    "ja": "その点では、私たちは前進していると思います。",
+    "end": 3531
   },
   {
     "start": 3531,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 3531.833
   },
   {
     "start": 3531.833,
     "text": "We're developing practices that like spec-driven development, which Clare showed how it can dramatically improve quality.",
-    "ja": "Clareが示したように、仕様駆動開発のような実践を取り入れることで、品質を大幅に改善できます。"
+    "ja": "Clareが示したように、仕様駆動開発のような実践を取り入れることで、品質を大幅に改善できます。",
+    "end": 3540.77
   },
   {
     "start": 3541.08,
     "text": "Byron keynote showed how tools like Kiro can actually use automatic reasoning with your specification to create code that is verified.",
-    "ja": "Byronの基調講演では、Kiroのようなツールが仕様を使って自動推論を行い、検証されたコードを作れることが示されました。"
+    "ja": "Byronの基調講演では、Kiroのようなツールが仕様を使って自動推論を行い、検証されたコードを作れることが示されました。",
+    "end": 3551.763
   },
   {
     "start": 3552.6,
     "text": "We showed how we can also use automatic reasoning to ensure that codes generated against AWS APIs is correct.",
-    "ja": "AWS APIに対して生成されたコードが正しいことを確認するために、自動推論を使えることも紹介しました。"
+    "ja": "AWS APIに対して生成されたコードが正しいことを確認するために、自動推論を使えることも紹介しました。",
+    "end": 3561.32
   },
   {
     "start": 3563.07,
     "text": "I also see many developers looking at their CICD pipelines, then build in more and more automated testing.",
-    "ja": "また、多くの開発者がCI/CDパイプラインを見直し、自動テストをどんどん追加しているのも目にします。"
+    "ja": "また、多くの開発者がCI/CDパイプラインを見直し、自動テストをどんどん追加しているのも目にします。",
+    "end": 3570.963
   },
   {
     "start": 3571.8,
     "text": "These are all types of mechanisms.",
-    "ja": "これらはすべて、仕組み（メカニズム）の一種です。"
+    "ja": "これらはすべて、仕組み（メカニズム）の一種です。",
+    "end": 3576.213
   },
   {
     "start": 3577.35,
     "text": "Here, I wanna make a change.",
-    "ja": "ここで、一つ話を変えたいと思います。"
+    "ja": "ここで、一つ話を変えたいと思います。",
+    "end": 3579.6
   },
   {
     "start": 3579.6,
     "text": "I want you to really understand these two things.",
-    "ja": "この二つを本当に理解してほしいのです。"
+    "ja": "この二つを本当に理解してほしいのです。",
+    "end": 3583.44
   },
   {
     "start": 3583.44,
     "text": "There are mechanisms and there are good intentions.",
-    "ja": "仕組みと、善意があります。"
+    "ja": "仕組みと、善意があります。",
+    "end": 3587.73
   },
   {
     "start": 3587.73,
     "text": "They're not the same.",
-    "ja": "この二つは同じではありません。"
+    "ja": "この二つは同じではありません。",
+    "end": 3588.813
   },
   {
     "start": 3590.25,
     "text": "And let me do you that by, again, going back a little bit in the past, and tell you a story about Jeff Bezos.",
-    "ja": "そのことを説明するために、もう一度少し昔に戻って、Jeff Bezosの話をしましょう。"
+    "ja": "そのことを説明するために、もう一度少し昔に戻って、Jeff Bezosの話をしましょう。",
+    "end": 3598.863
   },
   {
     "start": 3600.93,
     "text": "In the early days of Amazon, as we as executives were required each year to spend two days with customer service, and take calls from customers so that we would truly understand",
-    "ja": "Amazonの初期には、私たち幹部は毎年2日間、カスタマーサービスの現場に入り、お客様からの電話を取ることになっていました。お客様が何を経験しているのかを本当に理解するためです。"
+    "ja": "Amazonの初期には、私たち幹部は毎年2日間、カスタマーサービスの現場に入り、お客様からの電話を取ることになっていました。お客様が何を経験しているのかを本当に理解するためです。",
+    "end": 3614.763
   },
   {
     "start": 3614.763,
     "text": "what the customers were going through.",
-    "ja": "それは幹部だけではなく、Jeff自身もそうしていました。"
+    "ja": "それは幹部だけではなく、Jeff自身もそうしていました。",
+    "end": 3617.49
   },
   {
     "start": 3617.49,
     "text": "And not just executives, Jeff himself.",
-    "ja": "そしてJeffは、あるカスタマーサービス担当者の隣に座りました。"
+    "ja": "そしてJeffは、あるカスタマーサービス担当者の隣に座りました。",
+    "end": 3622.71
   },
   {
     "start": 3622.71,
     "text": "So, Jeff sits next to this customer service agent.",
-    "ja": "電話が鳴ると、自動システムがそのお客様の注文履歴などをすぐに表示します。"
+    "ja": "電話が鳴ると、自動システムがそのお客様の注文履歴などをすぐに表示します。",
+    "end": 3626.34
   },
   {
     "start": 3626.34,
     "text": "Phone goes and automatic system already spits up the order, histories of this customer.",
-    "ja": "すると、お客様が何か言う前に、担当者がJeffに「この人はあのテーブルを返品する」と言いました。実際、お客様はそのテーブルを返品したいと思っていました。壊れていたからです。"
+    "ja": "すると、お客様が何か言う前に、担当者がJeffに「この人はあのテーブルを返品する」と言いました。実際、お客様はそのテーブルを返品したいと思っていました。壊れていたからです。",
+    "end": 3633.06
   },
   {
     "start": 3633.06,
     "text": "And before that the customer says anything, the customer agent says to Jeff, \"She's gonna return that table,\" and indeed the customer wants to return the table because it's damaged.",
-    "ja": "電話が終わり、Jeffは担当者を見て、「どうして分かったの？」と尋ねました。"
+    "ja": "電話が終わり、Jeffは担当者を見て、「どうして分かったの？」と尋ねました。",
+    "end": 3646.53
   },
   {
     "start": 3646.53,
     "text": "Call us over, and Jeff looks at the agent says, says, \"How did you know that?\"",
-    "ja": "彼女は「そのテーブルの70%が返品されているんです。発送業者が、ちゃんと梱包する方法を分かっていないからです」と答えました。"
+    "ja": "彼女は「そのテーブルの70%が返品されているんです。発送業者が、ちゃんと梱包する方法を分かっていないからです」と答えました。",
+    "end": 3650.43
   },
   {
     "start": 3650.43,
     "text": "She says, \"Well, 70% of those tables are coming back because there's some drop shipper that actually doesn't really know how to package them right.\"",
-    "ja": "当然、Jeffは関係者全員を部屋に集めました。"
+    "ja": "当然、Jeffは関係者全員を部屋に集めました。",
+    "end": 3658.437
   },
   {
     "start": 3659.49,
     "text": "Of course, Jeff gets everybody in the room",
-    "ja": "そして、みんな善意で取り組んでいることについて考え始めました。"
+    "ja": "そして、みんな善意で取り組んでいることについて考え始めました。",
+    "end": 3662.71
   },
   {
     "start": 3665.46,
     "text": "and starts to think about sort of, has good intentions.",
-    "ja": "もちろん、私たちはこんなことが起きてほしいわけではありません。"
+    "ja": "もちろん、私たちはこんなことが起きてほしいわけではありません。",
+    "end": 3670.17
   },
   {
     "start": 3670.17,
     "text": "No, of course we don't want this to happen.",
-    "ja": "でも仕組みがなければ、何も変わりません。みんなすでに善意を持っていたからです。"
+    "ja": "でも仕組みがなければ、何も変わりません。みんなすでに善意を持っていたからです。",
+    "end": 3673.02
   },
   {
     "start": 3673.02,
     "text": "But without a mechanism, nothing changed because everybody already has good intentions.",
-    "ja": "そこで彼は新しい仕組みを導入しました。トヨタで有名な「アンドンコード」をAmazon向けにしたものです。"
+    "ja": "そこで彼は新しい仕組みを導入しました。トヨタで有名な「アンドンコード」をAmazon向けにしたものです。",
+    "end": 3680.163
   },
   {
     "start": 3681.33,
     "text": "So, he introduced a new mechanism, Amazon's version of Toyota's famous Andon Cord.",
-    "ja": "トヨタのアンドンコードの原則は、既知の不具合がある車を生産ラインから出してはいけない、というものでした。"
+    "ja": "トヨタのアンドンコードの原則は、既知の不具合がある車を生産ラインから出してはいけない、というものでした。",
+    "end": 3688.08
   },
   {
     "start": 3688.08,
     "text": "So, the Andon Cord in Toyota was, the principle was no car should leave the production line with a known defect.",
-    "ja": "そしてラインで働くどのエンジニアもコードを引くことができ、不具合が直るまで製造ライン全体を止められました。"
+    "ja": "そしてラインで働くどのエンジニアもコードを引くことができ、不具合が直るまで製造ライン全体を止められました。",
+    "end": 3696.18
   },
   {
     "start": 3696.18,
     "text": "And then, any engineer working on the line could pull this cords and bring the whole manufacturing line to a standstill until the defect was fixed.",
-    "ja": "カスタマーサービス担当者に与えられたAmazon版のアンドンコードは、問題のある商品を販売停止にするためのボタンでした。"
+    "ja": "カスタマーサービス担当者に与えられたAmazon版のアンドンコードは、問題のある商品を販売停止にするためのボタンでした。",
+    "end": 3707.643
   },
   {
     "start": 3708.54,
     "text": "The Andon Cord that the customer service agents got was a button to make the product unviable.",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 3717.753
   },
   {
     "start": 3718.89,
     "text": "Yeah?",
-    "ja": "それを押すとアラームが鳴り、その商品の責任者が対応して修正する仕組みです。"
+    "ja": "それを押すとアラームが鳴り、その商品の責任者が対応して修正する仕組みです。",
+    "end": 3719.723
   },
   {
     "start": 3719.723,
     "text": "That made alarms go off if the people that were responsible for the products to go and fix it.",
-    "ja": "それ以前から、みんな善意では取り組んでいました。でも仕組みを導入するまでは、何も変わりませんでした。"
+    "ja": "それ以前から、みんな善意では取り組んでいました。でも仕組みを導入するまでは、何も変わりませんでした。",
+    "end": 3723.94
   },
   {
     "start": 3724.994,
     "text": "But before this, everybody already had good intentions, but until we introduced the mechanism, nothing changed.",
-    "ja": "では、もう一度テクノロジーの世界に戻りましょう。"
+    "ja": "では、もう一度テクノロジーの世界に戻りましょう。",
+    "end": 3734.93
   },
   {
     "start": 3737.37,
     "text": "Now, let's go back to our technology world.",
-    "ja": "仕組みにはさまざまな形があります。"
+    "ja": "仕組みにはさまざまな形があります。",
+    "end": 3741.09
   },
   {
     "start": 3741.09,
     "text": "Mechanisms take many forms.",
-    "ja": "各チームが、自分たちの規模や、新しい仕事の性質に合った仕組みを作ります。"
+    "ja": "各チームが、自分たちの規模や、新しい仕事の性質に合った仕組みを作ります。",
+    "end": 3743.16
   },
   {
     "start": 3743.16,
     "text": "Each team builds their own one that fits the scale, that new nature of their work.",
-    "ja": "例えばS3チームには「durability reviews（耐久性レビュー）」と呼ばれる仕組みがあります。"
+    "ja": "例えばS3チームには「durability reviews（耐久性レビュー）」と呼ばれる仕組みがあります。",
+    "end": 3748.347
   },
   {
     "start": 3748.347,
     "text": "The S3 team, for example, uses something which they call durability reviews.",
-    "ja": "耐久性に影響する可能性のある変更をエンジニアが提案すると、いったん立ち止まり、リスクをモデル化します。"
+    "ja": "耐久性に影響する可能性のある変更をエンジニアが提案すると、いったん立ち止まり、リスクをモデル化します。",
+    "end": 3755.31
   },
   {
     "start": 3755.31,
     "text": "When an engineer proposes a change that might touch durability, they pause, and model the risks.",
-    "ja": "変更点を書き出し、考えられる脅威をすべて洗い出し、データを安全に保つためのガードレールを設計します。これは非常に強力な効果を持つ仕組みです。"
+    "ja": "変更点を書き出し、考えられる脅威をすべて洗い出し、データを安全に保つためのガードレールを設計します。これは非常に強力な効果を持つ仕組みです。",
+    "end": 3762.78
   },
   {
     "start": 3762.78,
     "text": "They write down the changes, they list every threat imaginable, map out the guardrails to keep the data safe, and is a mechanism with a very powerful effect.",
-    "ja": "耐久性をコードの性質から、組織の習慣へと変えていきます。"
+    "ja": "耐久性をコードの性質から、組織の習慣へと変えていきます。",
+    "end": 3776.51
   },
   {
     "start": 3776.67,
     "text": "It turns durability from a property of code into the habit of the organization.",
-    "ja": "そしてエンジニアに、うまくいく場合だけではなく、障害の起こり方（failure modes）で考えさせます。"
+    "ja": "そしてエンジニアに、うまくいく場合だけではなく、障害の起こり方（failure modes）で考えさせます。",
+    "end": 3783.6
   },
   {
     "start": 3783.6,
     "text": "It makes engineers think in failure modes, not happy paths.",
-    "ja": "それが、なぜ仕組みが重要なのかを示しています。"
+    "ja": "それが、なぜ仕組みが重要なのかを示しています。",
+    "end": 3788.6
   },
   {
     "start": 3788.97,
     "text": "And it shows why mechanisms matter.",
-    "ja": "仕組みは、善意を一貫した結果へと変えてくれます。"
+    "ja": "仕組みは、善意を一貫した結果へと変えてくれます。",
+    "end": 3791.253
   },
   {
     "start": 3792.24,
     "text": "They convert good intentions into consistent outcomes.",
-    "ja": "考えてみれば、コードレビューも仕組みです。"
+    "ja": "考えてみれば、コードレビューも仕組みです。",
+    "end": 3797.24
   },
   {
     "start": 3801.81,
     "text": "Now, if you think about it, code reviews are also a mechanism.",
-    "ja": "分かっています。私たちはみんなコードレビューが嫌いですよね。"
+    "ja": "分かっています。私たちはみんなコードレビューが嫌いですよね。",
+    "end": 3807.33
   },
   {
     "start": 3808.75,
     "text": "And I know it, we all hate code reviews.",
-    "ja": "12歳の子どもが教室の前に立たされるような気分です。"
+    "ja": "12歳の子どもが教室の前に立たされるような気分です。",
+    "end": 3811.92
   },
   {
     "start": 3811.92,
     "text": "It's like being 12-year-old and standing in front of the class, yeah?",
-    "ja": "でもコードレビューは非常に重要な仕組みです。意図と実装を突き合わせる瞬間を作るからです。"
+    "ja": "でもコードレビューは非常に重要な仕組みです。意図と実装を突き合わせる瞬間を作るからです。",
+    "end": 3816.273
   },
   {
     "start": 3817.29,
     "text": "But they were very important mechanism because they create a moment where intent and implementation meet.",
-    "ja": "そこで別のエンジニアが前提に疑問を投げかけ、自分ではもう見えなくなっているものを見つけられます。"
+    "ja": "そこで別のエンジニアが前提に疑問を投げかけ、自分ではもう見えなくなっているものを見つけられます。",
+    "end": 3826.23
   },
   {
     "start": 3826.23,
     "text": "Where another engineer can question assumptions, and catch things that you alter no longer sees.",
-    "ja": "AI主導の世界では、これはこれまで以上に重要になります。"
+    "ja": "AI主導の世界では、これはこれまで以上に重要になります。",
+    "end": 3833.493
   },
   {
     "start": 3834.54,
     "text": "In an AI driven world, they matter more than ever.",
-    "ja": "AI主導の世界では、まさに不可欠です。"
+    "ja": "AI主導の世界では、まさに不可欠です。",
+    "end": 3839.16
   },
   {
     "start": 3839.16,
     "text": "In an AI driven world, they are crucial.",
-    "ja": "モデルは、私たちが理解するより速くコードを生成できます。"
+    "ja": "モデルは、私たちが理解するより速くコードを生成できます。",
+    "end": 3842.523
   },
   {
     "start": 3843.39,
     "text": "Models can generate code faster than we can understand it.",
-    "ja": "だからレビューが、バランスを取り戻すためのコントロールポイントになります。"
+    "ja": "だからレビューが、バランスを取り戻すためのコントロールポイントになります。",
+    "end": 3846.81
   },
   {
     "start": 3846.81,
     "text": "So, the review becomes the control point to restore balance.",
-    "ja": "レビューは人間の判断をもう一度ループの中に戻し、ソフトウェアが本当に期待どおりに動くことを確かめる場所です。"
+    "ja": "レビューは人間の判断をもう一度ループの中に戻し、ソフトウェアが本当に期待どおりに動くことを確かめる場所です。",
+    "end": 3851.81
   },
   {
     "start": 3854.31,
     "text": "It is where we bring human judgment back into the loop, and make sure that the software actually does what we expect it to do.",
-    "ja": "皆さんには、人間同士のコードレビューをこれからも続け、さらに増やしてほしいと思います。"
+    "ja": "皆さんには、人間同士のコードレビューをこれからも続け、さらに増やしてほしいと思います。",
+    "end": 3866.043
   },
   {
     "start": 3867.9,
     "text": "I encourage all of you to continue and you increase your human to human code reviews.",
-    "ja": "シニアとジュニアのエンジニアが一緒にコードを見ていくことで、最も効果的な学習の仕組みの一つになります。"
+    "ja": "シニアとジュニアのエンジニアが一緒にコードを見ていくことで、最も効果的な学習の仕組みの一つになります。",
+    "end": 3876.74
   },
   {
     "start": 3877.89,
     "text": "When senior and junior engineers work through code together, it becomes one of the most effective learning mechanisms we have.",
-    "ja": "シニアは、パターンを見抜く力と、経験から培った判断力を持ち寄ります。"
+    "ja": "シニアは、パターンを見抜く力と、経験から培った判断力を持ち寄ります。",
+    "end": 3887.04
   },
   {
     "start": 3887.04,
     "text": "Seniors bring pattern recognition, and high hard-earned judgment.",
-    "ja": "ジュニアは、新鮮な目で見て、細かな点を見つけることがあります。"
+    "ja": "ジュニアは、新鮮な目で見て、細かな点を見つけることがあります。",
+    "end": 3892.5
   },
   {
     "start": 3892.5,
     "text": "Juniors bring fresh eyes and often spot details.",
-    "ja": "そうやって知識を受け渡し、次の世代のものづくりを担う人たちを育てていくのです。"
+    "ja": "そうやって知識を受け渡し、次の世代のものづくりを担う人たちを育てていくのです。",
+    "end": 3895.86
   },
   {
     "start": 3895.86,
     "text": "Others of, look, this is how we transfer knowledge, and how we grow the next generation of builders.",
-    "ja": "AIによって多くのことは変わります。でも、技術を身につけることは今も人から人へ行われます。"
+    "ja": "AIによって多くのことは変わります。でも、技術を身につけることは今も人から人へ行われます。",
+    "end": 3905.42
   },
   {
     "start": 3905.52,
     "text": "AI will change many things, but the craft is still learned person to person.",
-    "ja": "だから、私から見たルネサンス・デベロッパーの第四の資質は、オーナーであることです。"
+    "ja": "だから、私から見たルネサンス・デベロッパーの第四の資質は、オーナーであることです。",
+    "end": 3913.863
   },
   {
     "start": 3916.26,
     "text": "So, the fourth quality in my eyes of the Renaissance Developer is an owner.",
-    "ja": "自分で作ったものは、自分が責任を持つ。"
+    "ja": "自分で作ったものは、自分が責任を持つ。",
+    "end": 3922.473
   },
   {
     "start": 3923.76,
     "text": "You build it, you own it.",
-    "ja": "作るのは自分、所有するのも自分です。"
+    "ja": "作るのは自分、所有するのも自分です。",
+    "end": 3926.523
   },
   {
     "start": 3929.01,
     "text": "The last quality that I wanna talk to you about is that, I think, you, the future Renaissance Developers,",
-    "ja": "そして最後に話したい資質は、皆さん、未来のルネサンス・デベロッパーに、ポリマスになってほしいということです。"
+    "ja": "そして最後に話したい資質は、皆さん、未来のルネサンス・デベロッパーに、ポリマスになってほしいということです。",
+    "end": 3937.61
   },
   {
     "start": 3939.6,
     "text": "need to become a polymath.",
-    "ja": "ポリマスになる必要があります。"
+    "ja": "ポリマスになる必要があります。",
+    "end": 3941.763
   },
   {
     "start": 3944.01,
     "text": "Now, it has nothing to do with math, by the way.",
-    "ja": "ちなみに、これは数学とは何の関係もありません。"
+    "ja": "ちなみに、これは数学とは何の関係もありません。",
+    "end": 3948.93
   },
   {
     "start": 3948.93,
     "text": "It's not mathematics or maths, or whatever you want to call it.",
-    "ja": "数学とかmathsとか、どう呼ぶかという話ではありません。"
+    "ja": "数学とかmathsとか、どう呼ぶかという話ではありません。",
+    "end": 3952.21
   },
   {
     "start": 3954.72,
     "text": "The word polymath has nothing to do with that.",
-    "ja": "「polymath」という言葉は、それとは何の関係もありません。"
+    "ja": "「polymath」という言葉は、それとは何の関係もありません。",
+    "end": 3957.84
   },
   {
     "start": 3957.84,
     "text": "It actually means many because the math comes from the Greek work manthanein, which means to learn.",
-    "ja": "これは「多く」を意味します。mathの語源は、学ぶことを意味するギリシャ語の「manthanein」にあります。"
+    "ja": "これは「多く」を意味します。mathの語源は、学ぶことを意味するギリシャ語の「manthanein」にあります。",
+    "end": 3968.793
   },
   {
     "start": 3969.78,
     "text": "It's about having deep domain experience, but also have knowledge that spans many different subjects.",
-    "ja": "一つの専門分野について深い経験を持ちながら、同時にさまざまな分野にまたがる知識を持つことです。"
+    "ja": "一つの専門分野について深い経験を持ちながら、同時にさまざまな分野にまたがる知識を持つことです。",
+    "end": 3977.55
   },
   {
     "start": 3977.55,
     "text": "Da Vinci probably was the absolute best example of a polymath because he worked across so many different disciplines.",
-    "ja": "ダ・ヴィンチは、多くの異なる分野にまたがって仕事をしたので、ポリマスの最も優れた例だったでしょう。"
+    "ja": "ダ・ヴィンチは、多くの異なる分野にまたがって仕事をしたので、ポリマスの最も優れた例だったでしょう。",
+    "end": 3987.39
   },
   {
     "start": 3987.39,
     "text": "He was a painter, he was an engineer, he was an economist and he was an inventor.",
-    "ja": "画家であり、エンジニアであり、経済学者であり、発明家でもありました。"
+    "ja": "画家であり、エンジニアであり、経済学者であり、発明家でもありました。",
+    "end": 3992.733
   },
   {
     "start": 3994.17,
     "text": "Now, I do not expect you all to become a Da Vinci.",
-    "ja": "もちろん、皆さん全員にダ・ヴィンチになってほしいと言っているわけではありません。"
+    "ja": "もちろん、皆さん全員にダ・ヴィンチになってほしいと言っているわけではありません。",
+    "end": 3999.17
   },
   {
     "start": 4000.32,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 4001.893
   },
   {
     "start": 4001.893,
     "text": "But you should expand your knowledge just beyond deep domain expertise.",
-    "ja": "でも、深い専門性だけにとどまらず、知識の幅を広げてほしいのです。"
+    "ja": "でも、深い専門性だけにとどまらず、知識の幅を広げてほしいのです。",
+    "end": 4009.023
   },
   {
     "start": 4010.28,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 4011.21
   },
   {
     "start": 4011.21,
     "text": "This is what I would call an I-developer.",
-    "ja": "これを私は「I型の開発者」と呼びたいと思います。"
+    "ja": "これを私は「I型の開発者」と呼びたいと思います。",
+    "end": 4016.21
   },
   {
     "start": 4017.87,
     "text": "An I-shape developer is someone who is really deep and really highly specialized in one area.",
-    "ja": "I型の開発者とは、一つの分野について非常に深く、高度に専門化している人です。"
+    "ja": "I型の開発者とは、一つの分野について非常に深く、高度に専門化している人です。",
+    "end": 4027.323
   },
   {
     "start": 4028.73,
     "text": "Let me tell you again an interesting story out of my own experience.",
-    "ja": "ここでもう一つ、私自身の経験から興味深い話をしましょう。"
+    "ja": "ここでもう一つ、私自身の経験から興味深い話をしましょう。",
+    "end": 4034.04
   },
   {
     "start": 4034.04,
     "text": "This is my old mentor and friend, Jim Gray.",
-    "ja": "これは私の昔の師であり友人でもある、Jim Grayです。"
+    "ja": "これは私の昔の師であり友人でもある、Jim Grayです。",
+    "end": 4038.633
   },
   {
     "start": 4039.59,
     "text": "And Jim got a Turing Award because actually you should all know Jim Gray, because he's the inventor of transactions.",
-    "ja": "Jimはチューリング賞を受賞しました。実は皆さんもJim Grayを知っておくべきです。トランザクションの発明者だからです。"
+    "ja": "Jimはチューリング賞を受賞しました。実は皆さんもJim Grayを知っておくべきです。トランザクションの発明者だからです。",
+    "end": 4048.62
   },
   {
     "start": 4048.62,
     "text": "Every transaction you do today, we have Jim to thank for this.",
-    "ja": "今日皆さんが行っているあらゆるトランザクションについて、Jimに感謝すべきでしょう。"
+    "ja": "今日皆さんが行っているあらゆるトランザクションについて、Jimに感謝すべきでしょう。",
+    "end": 4054.5
   },
   {
     "start": 4054.5,
     "text": "But he also had this great mind, he was interested in so many more things than just databases.",
-    "ja": "でも彼は本当に素晴らしい知性の持ち主で、データベース以外にも非常に多くのことに関心を持っていました。"
+    "ja": "でも彼は本当に素晴らしい知性の持ち主で、データベース以外にも非常に多くのことに関心を持っていました。",
+    "end": 4061.43
   },
   {
     "start": 4061.43,
     "text": "And this is one of his famous sort of challenges.",
-    "ja": "これは、彼がよくしていた有名な問いかけの一つです。"
+    "ja": "これは、彼がよくしていた有名な問いかけの一つです。",
+    "end": 4063.65
   },
   {
     "start": 4063.65,
     "text": "Give me 20 questions, 20 important questions that you want to ask of your data and I will design the system for you.",
-    "ja": "「あなたのデータに尋ねたい重要な質問を20個ください。そうすれば、そのためのシステムを私が設計します。」"
+    "ja": "「あなたのデータに尋ねたい重要な質問を20個ください。そうすれば、そのためのシステムを私が設計します。」",
+    "end": 4072.083
   },
   {
     "start": 4073.94,
     "text": "One of the first ones he worked on was",
-    "ja": "彼が初期に取り組んだものの一つが、"
+    "ja": "彼が初期に取り組んだものの一つが、",
+    "end": 4076.68
   },
   {
     "start": 4078.83,
     "text": "the Sloan Digital Sky Survey.",
-    "ja": "Sloan Digital Sky Surveyです。"
+    "ja": "Sloan Digital Sky Surveyです。",
+    "end": 4081.71
   },
   {
     "start": 4081.71,
     "text": "This was one of the first massive data sets that were out there.",
-    "ja": "これは当時存在した、最初期の巨大データセットの一つでした。"
+    "ja": "これは当時存在した、最初期の巨大データセットの一つでした。",
+    "end": 4086.36
   },
   {
     "start": 4086.36,
     "text": "It was groundbreaking work in developing the SkyServer.",
-    "ja": "SkyServerの開発における画期的な仕事でした。"
+    "ja": "SkyServerの開発における画期的な仕事でした。",
+    "end": 4090.08
   },
   {
     "start": 4090.08,
     "text": "Yeah?",
-    "ja": "そうですよね？"
+    "ja": "そうですよね？",
+    "end": 4090.913
   },
   {
     "start": 4090.913,
     "text": "Jim's in-depth knowledge as a database expert was transformative for the computation in astronomy data.",
-    "ja": "データベース専門家としてのJimの深い知識が、天文学データの計算処理を大きく変えました。"
+    "ja": "データベース専門家としてのJimの深い知識が、天文学データの計算処理を大きく変えました。",
+    "end": 4098.963
   },
   {
     "start": 4099.98,
     "text": "There is actually a really funny story about that.",
-    "ja": "実は、これにはとても面白い話があります。"
+    "ja": "実は、これにはとても面白い話があります。",
+    "end": 4104.39
   },
   {
     "start": 4104.39,
     "text": "At some moment, Jim goes to Philadelphia, Baltimore, where the group is, and he walks into the server room.",
-    "ja": "あるときJimが、グループのいるフィラデルフィアだかボルチモアだかへ行って、サーバールームに入っていきました。"
+    "ja": "あるときJimが、グループのいるフィラデルフィアだかボルチモアだかへ行って、サーバールームに入っていきました。",
+    "end": 4113.47
   },
   {
     "start": 4114.2,
     "text": "30 seconds later, he walks out and he tells them that a database layout is wrong, and everybody looks at him and says, \"How do you know that?\"",
-    "ja": "30秒後、彼は出てきて「データベースのレイアウトが間違っている」と言いました。みんな彼を見て、「どうして分かったんですか？」と聞きました。"
+    "ja": "30秒後、彼は出てきて「データベースのレイアウトが間違っている」と言いました。みんな彼を見て、「どうして分かったんですか？」と聞きました。",
+    "end": 4127.36
   },
   {
     "start": 4127.94,
     "text": "By just listening to the rattling of the discs, he knew that there was way too much random access.",
-    "ja": "ディスクがガタガタと音を立てるのを聞いただけで、ランダムアクセスが多すぎると分かったのです。"
+    "ja": "ディスクがガタガタと音を立てるのを聞いただけで、ランダムアクセスが多すぎると分かったのです。",
+    "end": 4135.26
   },
   {
     "start": 4135.26,
     "text": "This intuition built from decades of experience, had given him a sixth sense of how systems should behave.",
-    "ja": "何十年もの経験から培われたこの直感が、システムがどう動くべきかを感じ取る、第六感のようなものを彼に与えていました。"
+    "ja": "何十年もの経験から培われたこの直感が、システムがどう動くべきかを感じ取る、第六感のようなものを彼に与えていました。",
+    "end": 4143.39
   },
   {
     "start": 4143.39,
     "text": "He tries him to redesign the architecture and performance improved dramatically.",
-    "ja": "彼にアーキテクチャを再設計してもらうと、パフォーマンスは劇的に改善しました。"
+    "ja": "彼にアーキテクチャを再設計してもらうと、パフォーマンスは劇的に改善しました。",
+    "end": 4149.063
   },
   {
     "start": 4151.407,
     "text": "Now, Jim wasn't what I would call an I-shaped developer at all.",
-    "ja": "Jimは、私がI型と呼ぶ開発者とはまったく違いました。"
+    "ja": "Jimは、私がI型と呼ぶ開発者とはまったく違いました。",
+    "end": 4158.42
   },
   {
     "start": 4158.42,
     "text": "His curiosity reached far beyond databases.",
-    "ja": "彼の好奇心は、データベースをはるかに超えていました。"
+    "ja": "彼の好奇心は、データベースをはるかに超えていました。",
+    "end": 4163.228
   },
   {
     "start": 4163.228,
     "text": "He understood people, he understood business, and he understood a wide range of technologists.",
-    "ja": "人を理解し、ビジネスを理解し、そして幅広い技術分野を理解していました。"
+    "ja": "人を理解し、ビジネスを理解し、そして幅広い技術分野を理解していました。",
+    "end": 4169.793
   },
   {
     "start": 4170.63,
     "text": "And my great technologist, I will describe him as T-shaped.",
-    "ja": "私が偉大な技術者だと思う彼を表すなら、T型です。"
+    "ja": "私が偉大な技術者だと思う彼を表すなら、T型です。",
+    "end": 4175.63
   },
   {
     "start": 4176.42,
     "text": "Yeah?",
-    "ja": "そうでしょう？"
+    "ja": "そうでしょう？",
+    "end": 4177.253
   },
   {
     "start": 4177.253,
     "text": "Deep in one domain, but brought an understanding.",
-    "ja": "一つの分野では深く、同時に幅広い理解を持っていました。"
+    "ja": "一つの分野では深く、同時に幅広い理解を持っていました。",
+    "end": 4181.643
   },
   {
     "start": 4184.19,
     "text": "The skills you need to be successful in your job are a unique mix of personal skills, functional depth, industry knowledge.",
-    "ja": "仕事で成功するために必要なスキルは、対人スキル、専門分野の深さ、業界知識などが組み合わさった、独自のものです。"
+    "ja": "仕事で成功するために必要なスキルは、対人スキル、専門分野の深さ、業界知識などが組み合わさった、独自のものです。",
+    "end": 4194.03
   },
   {
     "start": 4194.03,
     "text": "A database developer who understands font and performance or cost aware architectures can make a better architectural choices because they see how their work shapes the overall system.",
-    "ja": "たとえば、データベース開発者がフォントやパフォーマンス、あるいはコストを意識したアーキテクチャまで理解していれば、より良いアーキテクチャ上の選択ができます。自分の仕事がシステム全体をどう形作るかが見えるからです。"
+    "ja": "たとえば、データベース開発者がフォントやパフォーマンス、あるいはコストを意識したアーキテクチャまで理解していれば、より良いアーキテクチャ上の選択ができます。自分の仕事がシステム全体をどう形作るかが見えるからです。",
+    "end": 4208.69
   },
   {
     "start": 4210.23,
     "text": "That breadth of knowledge gives you the perspective to improve what you build because you understand the trade-offs.",
-    "ja": "その幅広い知識があるからこそ、トレードオフを理解したうえで、自分が作るものを改善する視点を持てます。"
+    "ja": "その幅広い知識があるからこそ、トレードオフを理解したうえで、自分が作るものを改善する視点を持てます。",
+    "end": 4219.443
   },
   {
     "start": 4222.41,
     "text": "T-shaped developers combine depth with breadth.",
-    "ja": "T型の開発者は、深さと幅を兼ね備えています。"
+    "ja": "T型の開発者は、深さと幅を兼ね備えています。",
+    "end": 4227.033
   },
   {
     "start": 4228.2,
     "text": "They can dive deep into a specific problems, but we'll also understand how it fits into a larger system.",
-    "ja": "特定の問題を深く掘り下げることができる一方で、それがより大きなシステムの中でどう位置づくのかも理解できます。"
+    "ja": "特定の問題を深く掘り下げることができる一方で、それがより大きなシステムの中でどう位置づくのかも理解できます。",
+    "end": 4235.523
   },
   {
     "start": 4236.93,
     "text": "That is my advice to all of you, build both.",
-    "ja": "これが皆さんへの私からのアドバイスです。両方を身につけてください。"
+    "ja": "これが皆さんへの私からのアドバイスです。両方を身につけてください。",
+    "end": 4241.93
   },
   {
     "start": 4242,
     "text": "Develop depth in your domain, but cultivate, cultivate the range to connect to multiple disciplines and ideas.",
-    "ja": "自分の専門分野では深さを磨きながら、複数の分野やアイデアをつなげられる幅も育ててください。"
+    "ja": "自分の専門分野では深さを磨きながら、複数の分野やアイデアをつなげられる幅も育ててください。",
+    "end": 4254.033
   },
   {
     "start": 4255.26,
     "text": "So, the last takeaway from the Renaissance Developer is become a polymath.",
-    "ja": "ですから、ルネサンス・デベロッパーからの最後のメッセージは、ポリマスになろう、ということです。"
+    "ja": "ですから、ルネサンス・デベロッパーからの最後のメッセージは、ポリマスになろう、ということです。",
+    "end": 4260.24
   },
   {
     "start": 4260.24,
     "text": "Well, I don't expect you all to become that, but you should broaden your T.",
-    "ja": "もちろん、皆さん全員にそうなってほしいというわけではありません。でもT字の横棒は広げてください。"
+    "ja": "もちろん、皆さん全員にそうなってほしいというわけではありません。でもT字の横棒は広げてください。",
+    "end": 4265.7
   },
   {
     "start": 4265.7,
     "text": "Great developers are T-shaped.",
-    "ja": "優れた開発者はT型です。"
+    "ja": "優れた開発者はT型です。",
+    "end": 4269.15
   },
   {
     "start": 4269.15,
     "text": "They're experts in their field who understand their work fits into a larger system.",
-    "ja": "自分の専門分野のプロでありながら、自分の仕事がより大きなシステムのどこに位置するのかを理解しています。"
+    "ja": "自分の専門分野のプロでありながら、自分の仕事がより大きなシステムのどこに位置するのかを理解しています。",
+    "end": 4274.82
   },
   {
     "start": 4274.82,
     "text": "You must broaden your team.",
-    "ja": "自分のTを広げなければなりません。"
+    "ja": "自分のTを広げなければなりません。",
+    "end": 4277.853
   },
   {
     "start": 4279.32,
     "text": "Now, if we look at sort of the Renaissance Developer throughout the stock, I've called them they different ways.",
-    "ja": "ここまでルネサンス・デベロッパーについて、私はいろいろな言い方をしてきました。"
+    "ja": "ここまでルネサンス・デベロッパーについて、私はいろいろな言い方をしてきました。",
+    "end": 4287.213
   },
   {
     "start": 4288.23,
     "text": "I think you need to be curious and keep learning.",
-    "ja": "好奇心を持ち、学び続けることが必要です。"
+    "ja": "好奇心を持ち、学び続けることが必要です。",
+    "end": 4293.23
   },
   {
     "start": 4294.32,
     "text": "Think in systems, communicate with precision, be an owner.",
-    "ja": "システムで考え、正確にコミュニケーションし、オーナーシップを持つこと。"
+    "ja": "システムで考え、正確にコミュニケーションし、オーナーシップを持つこと。",
+    "end": 4299.32
   },
   {
     "start": 4303.08,
     "text": "If you build it, you own it.",
-    "ja": "自分で作ったものは、自分が責任を持つ。"
+    "ja": "自分で作ったものは、自分が責任を持つ。",
+    "end": 4305.723
   },
   {
     "start": 4306.65,
     "text": "And finally, become a polymath, expand your knowledge.",
-    "ja": "そして最後に、ポリマスになり、知識の幅を広げることです。"
+    "ja": "そして最後に、ポリマスになり、知識の幅を広げることです。",
+    "end": 4311.243
   },
   {
     "start": 4312.17,
     "text": "Then, you'll have plenty of time next week to start putting all of this into practice.",
-    "ja": "そうすれば、来週にはここで学んだことを実践に移す時間がたっぷりあるでしょう。"
+    "ja": "そうすれば、来週にはここで学んだことを実践に移す時間がたっぷりあるでしょう。",
+    "end": 4318.2
   },
   {
     "start": 4318.2,
     "text": "Before tonight, join me at the Las Vegas Festival Grounds.",
-    "ja": "今夜はその前に、ラスベガス・フェスティバル・グラウンズで私と一緒に過ごしてください。"
+    "ja": "今夜はその前に、ラスベガス・フェスティバル・グラウンズで私と一緒に過ごしてください。",
+    "end": 4323.2
   },
   {
     "start": 4325.4,
     "text": "There'll be great food, some crazy games, and, of course, live music headline by Beck and Kaskade.",
-    "ja": "おいしい料理に、ちょっとクレイジーなゲーム、そしてもちろんBeckとKaskadeがヘッドライナーを務めるライブ音楽があります。"
+    "ja": "おいしい料理に、ちょっとクレイジーなゲーム、そしてもちろんBeckとKaskadeがヘッドライナーを務めるライブ音楽があります。",
+    "end": 4332.71
   },
   {
     "start": 4332.71,
     "text": "And it's a chance to celebrate with your teams and unwind after a week of serious learning and building.",
-    "ja": "チームのみんなと祝い、真剣に学び、ものを作った一週間のあとに、ゆっくりくつろぐ機会です。"
+    "ja": "チームのみんなと祝い、真剣に学び、ものを作った一週間のあとに、ゆっくりくつろぐ機会です。",
+    "end": 4342.023
   },
   {
     "start": 4343.73,
     "text": "Now, there's one more thing.",
-    "ja": "さて、もう一つあります。"
+    "ja": "さて、もう一つあります。",
+    "end": 4345.13
   },
   {
     "start": 4351.62,
     "text": "I want you to leave you with this.",
-    "ja": "最後に、これだけは皆さんに持ち帰ってほしいと思います。"
+    "ja": "最後に、これだけは皆さんに持ち帰ってほしいと思います。",
+    "end": 4353.993
   },
   {
     "start": 4353.993,
     "text": "When you build something like an app, do customers ever thought about all the work that goes underneath there?",
-    "ja": "アプリのようなものを作るとき、お客様はその裏側で行われているすべての仕事について考えるでしょうか？"
+    "ja": "アプリのようなものを作るとき、お客様はその裏側で行われているすべての仕事について考えるでしょうか？",
+    "end": 4363.65
   },
   {
     "start": 4365.24,
     "text": "An Amazon customer will click a button and the package arrives.",
-    "ja": "Amazonのお客様はボタンをクリックすれば、荷物が届きます。"
+    "ja": "Amazonのお客様はボタンをクリックすれば、荷物が届きます。",
+    "end": 4369.533
   },
   {
     "start": 4370.43,
     "text": "Does it think about the people that actually maintain the catalog,",
-    "ja": "でも、そのカタログを実際に維持している人たちや、"
+    "ja": "でも、そのカタログを実際に維持している人たちや、",
+    "end": 4374.993
   },
   {
     "start": 4377.35,
     "text": "that do the supply chain?",
-    "ja": "サプライチェーンを支えている人たちのことを考えるでしょうか？"
+    "ja": "サプライチェーンを支えている人たちのことを考えるでしょうか？",
+    "end": 4379.04
   },
   {
     "start": 4379.04,
     "text": "All of that work, nobody sees that, yeah?",
-    "ja": "そうした仕事は全部、誰にも見えていませんよね？"
+    "ja": "そうした仕事は全部、誰にも見えていませんよね？",
+    "end": 4383.083
   },
   {
     "start": 4384.56,
     "text": "Your customers are never going to tell you that your database engineers are doing amazing work and they love what they've done.",
-    "ja": "お客様が、「あなたのデータベースエンジニアは素晴らしい仕事をしていて、やったことを本当に気に入っている」と言ってくれることは、まずありません。"
+    "ja": "お客様が、「あなたのデータベースエンジニアは素晴らしい仕事をしていて、やったことを本当に気に入っている」と言ってくれることは、まずありません。",
+    "end": 4393.86
   },
   {
     "start": 4393.86,
     "text": "Only you understand that work that goes into it.",
-    "ja": "その仕事の中身を理解しているのは、あなた自身だけです。"
+    "ja": "その仕事の中身を理解しているのは、あなた自身だけです。",
+    "end": 4398.86
   },
   {
     "start": 4401.48,
     "text": "I believe it is important for all of us to have pride in our work, in the unseen systems that stay up for the night,",
-    "ja": "だからこそ私たち全員が、自分の仕事に、そして夜通し動き続ける見えないシステムに誇りを持つことが重要だと思います。"
+    "ja": "だからこそ私たち全員が、自分の仕事に、そして夜通し動き続ける見えないシステムに誇りを持つことが重要だと思います。",
+    "end": 4413.24
   },
   {
     "start": 4413.24,
     "text": "in clean deployments, the rollbacks that nobody notices.",
-    "ja": "きれいなデプロイや、誰にも気づかれないロールバックにも誇りを持ってください。"
+    "ja": "きれいなデプロイや、誰にも気づかれないロールバックにも誇りを持ってください。",
+    "end": 4418.24
   },
   {
     "start": 4418.52,
     "text": "Most of what we built, nobody will ever see.",
-    "ja": "私たちが作ったもののほとんどは、誰の目にも触れることはありません。"
+    "ja": "私たちが作ったもののほとんどは、誰の目にも触れることはありません。",
+    "end": 4423.52
   },
   {
     "start": 4424.67,
     "text": "And the only reason why we do this well is our own professional pride in operational excellence.",
-    "ja": "それでも私たちがこれをうまくやっている唯一の理由は、運用の卓越性に対する、自分たち自身のプロフェッショナルとしての誇りです。"
+    "ja": "それでも私たちがこれをうまくやっている唯一の理由は、運用の卓越性に対する、自分たち自身のプロフェッショナルとしての誇りです。",
+    "end": 4433.63
   },
   {
     "start": 4435.05,
     "text": "That is what defines the best builders.",
-    "ja": "それこそが、優れたビルダーを形作るものです。"
+    "ja": "それこそが、優れたビルダーを形作るものです。",
+    "end": 4438.47
   },
   {
     "start": 4438.47,
     "text": "They do the things properly, even when nobody's watching.",
-    "ja": "誰にも見られていなくても、正しくやるのです。"
+    "ja": "誰にも見られていなくても、正しくやるのです。",
+    "end": 4443.47
   },
   {
     "start": 4446.09,
     "text": "And when I look at the work that you deliver every day, I see that commitment everywhere.",
-    "ja": "そして皆さんが毎日届けている仕事を見ると、その姿勢があらゆるところに表れているのが分かります。"
+    "ja": "そして皆さんが毎日届けている仕事を見ると、その姿勢があらゆるところに表れているのが分かります。",
+    "end": 4455.99
   },
   {
     "start": 4455.99,
     "text": "So for that, I am immensely proud of you.",
-    "ja": "だから私は、皆さんを心から誇りに思います。"
+    "ja": "だから私は、皆さんを心から誇りに思います。",
+    "end": 4460.99
   },
   {
     "start": 4462.8,
     "text": "Thank you for all that you do.",
-    "ja": "皆さんがしているすべてのことに、ありがとう。"
+    "ja": "皆さんがしているすべてのことに、ありがとう。",
+    "end": 4465.323
   },
   {
     "start": 4466.7,
     "text": "Two more.",
-    "ja": "あと二つ。"
+    "ja": "あと二つ。",
+    "end": 4468.457
   },
   {
     "start": 4468.457,
     "text": "Oh.",
-    "ja": "ああ。"
+    "ja": "ああ。",
+    "end": 4469.29
   },
   {
     "start": 4488.538,
     "text": "Two more words.",
-    "ja": "あと二言だけ。"
+    "ja": "あと二言だけ。",
+    "end": 4489.788
   },
   {
     "start": 4490.738,
     "text": "Werner out.",
-    "ja": "Werner、以上です。"
+    "ja": "Werner、以上です。",
+    "end": 4492.073
   }
 ]
