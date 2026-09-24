@@ -16,9 +16,7 @@ async function loadData() {
   if (!transcriptResponse.ok) throw new Error(`transcript: HTTP ${transcriptResponse.status}`);
   state.transcript = await transcriptResponse.json();
   if (!Array.isArray(state.transcript) || state.transcript.length === 0) throw new Error('Transcript is empty');
-
-  
-
+}
 
 function getCurrentIndex(time) {
   let index = 0;
@@ -96,7 +94,6 @@ document.querySelectorAll('.language-button').forEach(button => {
   button.addEventListener('click', () => {
     setLanguage(button.dataset.language);
   });
-}
 
 function onYouTubeIframeAPIReady() {
   state.player = new YT.Player('player', {
