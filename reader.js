@@ -114,9 +114,17 @@ function clearPauseTimer() {
 }
 
 function updateModeButton() {
-  document.querySelectorAll('.mode-button').forEach(button => {
-    button.classList.toggle('active', button.dataset.mode === state.playbackMode);
-  });
+  const button = document.getElementById('modeButton');
+  const label = document.getElementById('modeLabel');
+  if (!button || !label) return;
+
+  const isPauseMode = state.playbackMode === 'pause';
+  label.textContent = isPauseMode ? '間隔' : '連続';
+  button.setAttribute(
+    'aria-label',
+    isPauseMode ? '間隔再生（センテンスごとに停止）' : '連続再生'
+  );
+  button.setAttribute('aria-pressed', String(isPauseMode));
 }
 
 function setPlaybackMode(mode) {
@@ -125,39 +133,6 @@ function setPlaybackMode(mode) {
   updateModeButton();
 
   if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING) return;
-
-  if (mode === 'pause') {
-    schedulePauseAtSentenceEnd();
-  }
-}
-
-function schedulePauseAtSentenceEnd() {
-  if (
-    state.playbackMode !== 'pause' ||
-    !state.player ||
-    state.currentIndex < 0 ||
-    state.currentIndex >= state.transcript.length - 1
-  ) {
-    return;
-  }
-
-  const item = state.transcript[state.currentIndex];
-  const now = state.player.getCurrentTime();
-  const remaining = Math.max(0, Number(item.end) - now);
-
-  clearPauseTimer();
-  state.pauseTimer = setTimeout(() => {
-    state.pauseTimer = null;
-    if (
-      state.playbackMode !== 'pause' ||
-      !state.player ||
-      state.player.getPlayerState() !== YT.PlayerState.PLAYING
-    ) {
-      return;
-    }
-
-    scheduleNextSentence();
-  }, Math.max(50, remaining * 1000));
 }
 
 function scheduleNextSentence() {
@@ -209,11 +184,8 @@ function updatePlaybackButton() {
   button.setAttribute('aria-label', isPlaying ? '一時停止' : '再生');
 }
 
-document.querySelectorAll('.mode-button').forEach(button => {
-  button.addEventListener('click', () => {
-    button.blur();
-    setPlaybackMode(button.dataset.mode);
-  });
+document.getElementById('modeButton').addEventListener('click', () => {
+  setPlaybackMode(state.playbackMode === 'continuous' ? 'pause' : 'continuous');
 });
 
 document.getElementById('playbackButton').addEventListener('click', () => {
@@ -256,9 +228,15 @@ function updateCurrentSentence() {
   if (index !== state.currentIndex) {
     state.currentIndex = index;
     renderLyrics(index);
+  }
 
-    if (state.playbackMode === 'pause') {
-      schedulePauseAtSentenceEnd();
+  if (
+    state.playbackMode === 'pause' &&
+    state.currentIndex < state.transcript.length - 1
+  ) {
+    const item = state.transcript[state.currentIndex];
+    if (Number(item.end) <= time + 0.05) {
+      scheduleNextSentence();
     }
   }
 }
