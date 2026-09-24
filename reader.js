@@ -106,7 +106,7 @@ function clearPauseTimer() {
 function updateModeButton() {
   const button = document.getElementById('modeButton');
   if (button) {
-    button.textContent = state.playbackMode === 'continuous' ? '連続' : 'リピーティング';
+    button.textContent = state.playbackMode === 'continuous' ? '連続再生' : 'リピーティング';
   }
 }
 
