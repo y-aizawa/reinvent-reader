@@ -125,7 +125,9 @@ function scheduleRepeatingPause() {
 
   const item = state.transcript[state.currentIndex];
   const now = state.player.getCurrentTime();
-  const remaining = Math.max(0, Number(item.end) - now);
+  // Pause slightly before the transcript boundary so the next sentence
+  // cannot leak through while YouTube processes pauseVideo().
+  const remaining = Math.max(0, (Number(item.end) - now) - 0.12);
 
   clearPauseTimer();
   state.pauseTimer = setTimeout(() => {
