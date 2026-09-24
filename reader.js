@@ -87,6 +87,7 @@ function setLanguage(language) {
   const button = document.getElementById('languageButton');
   if (button) {
     button.textContent = language === 'en' ? 'EN' : '日本語';
+    button.classList.add('active');
   }
   renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
 }
@@ -107,6 +108,7 @@ function updateModeButton() {
   const button = document.getElementById('modeButton');
   if (button) {
     button.textContent = state.playbackMode === 'continuous' ? '連続再生' : 'リピーティング';
+    button.classList.add('active');
   }
 }
 
