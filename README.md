@@ -6,7 +6,7 @@
 
 The app combines video playback with a synchronized transcript so that learners can follow the speaker's words while listening. English and Japanese translations are provided together to make it easier to check the meaning of each sentence while practicing.
 
-The project is designed with a simple, mobile-friendly interface and is published through GitHub Pages. It can also be installed as a PWA on supported devices.
+The app is designed with a simple interface optimized for mobile devices and is published through GitHub Pages. It can also be installed as a PWA on supported devices.
 
 ## Project Structure
 
