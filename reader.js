@@ -141,9 +141,6 @@ function scheduleRepeatingPause() {
     const pauseDuration = Math.max(500, duration * 1000 * 1.5);
 
     state.player.pauseVideo();
-    // YouTube can advance a fraction past the cue end before pause takes effect.
-    // Re-seek to just before the sentence end while already paused.
-    state.player.seekTo(Math.max(Number(item.start), Number(item.end) - 0.02), true);
     state.pauseTimer = setTimeout(() => {
       state.pauseTimer = null;
 
