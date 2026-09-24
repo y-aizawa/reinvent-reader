@@ -94,6 +94,7 @@ document.querySelectorAll('.language-button').forEach(button => {
   button.addEventListener('click', () => {
     setLanguage(button.dataset.language);
   });
+});
 
 function onYouTubeIframeAPIReady() {
   state.player = new YT.Player('player', {
