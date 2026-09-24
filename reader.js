@@ -1,0 +1,118 @@
+const params = new URLSearchParams(window.location.search);
+const videoKey = params.get('video');
+const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1 };
+
+async function loadData() {
+  const [videosResponse] = await Promise.all([
+    fetch('./videos.json', { cache: 'no-store' })
+  ]);
+  if (!videosResponse.ok) throw new Error(`videos.json: HTTP ${videosResponse.status}`);
+  state.videos = await videosResponse.json();
+  state.currentVideo = state.videos.find(v => v.key === videoKey);
+  if (!state.currentVideo) throw new Error('Video not found');
+  document.getElementById('videoTitle').textContent = state.currentVideo.title;
+
+  const transcriptResponse = await fetch(`./${state.currentVideo.transcript}`, { cache: 'no-store' });
+  if (!transcriptResponse.ok) throw new Error(`transcript: HTTP ${transcriptResponse.status}`);
+  state.transcript = await transcriptResponse.json();
+  if (!Array.isArray(state.transcript) || state.transcript.length === 0) throw new Error('Transcript is empty');
+}
+
+function getCurrentIndex(time) {
+  let index = 0;
+  for (let i = 0; i < state.transcript.length; i++) {
+    if (Number(state.transcript[i].start) <= time) index = i;
+    else break;
+  }
+  return index;
+}
+
+function moveCurrentLine(container, element) {
+  if (!element) return;
+
+  // 現在の字幕を「字幕表示エリア」の最上部に置く。
+  // document/body のスクロールではなく、.lyrics 自体だけをスクロールする。
+  const containerRect = container.getBoundingClientRect();
+  const elementRect = element.getBoundingClientRect();
+  const nextScrollTop = Math.max(
+    0,
+    container.scrollTop + elementRect.top - containerRect.top
+  );
+
+  container.scrollTo({
+    top: nextScrollTop,
+    behavior: 'auto'
+  });
+}
+
+function renderLyrics(index) {
+  const container = document.getElementById('lyrics');
+  container.innerHTML = '';
+  state.transcript.forEach((item, i) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'line';
+    if (i === index) button.classList.add('active');
+    else if (Math.abs(i - index) === 1) button.classList.add('near');
+    button.textContent = item.text || item.en || '';
+    button.addEventListener('click', () => {
+      if (!state.player) return;
+      // 先にフォーカスを外す。renderLyrics() でDOMを作り直した後だと、
+      // Android/Chromeが古いボタンの位置へページ全体をスクロールすることがある。
+      button.blur();
+      state.player.seekTo(Number(item.start), true);
+      state.player.playVideo();
+      state.currentIndex = i;
+      renderLyrics(i);
+    });
+    container.appendChild(button);
+  });
+
+  // DOM反映後に実際の表示位置を測ってスクロールする。
+  requestAnimationFrame(() => {
+    moveCurrentLine(
+      container,
+      container.querySelector('.active'),
+      index
+    );
+  });
+
+  document.getElementById('info').textContent = `Sentence ${index + 1} / ${state.transcript.length}`;
+}
+
+function onYouTubeIframeAPIReady() {
+  state.player = new YT.Player('player', {
+    videoId: state.currentVideo.id,
+    playerVars: { playsinline: 1, rel: 0, cc_load_policy: 0 },
+    events: {
+      onReady: () => {
+        state.currentIndex = 0;
+        renderLyrics(0);
+        setInterval(updateCurrentSentence, 250);
+      }
+    }
+  });
+}
+
+function updateCurrentSentence() {
+  if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING || state.transcript.length === 0) return;
+  const index = getCurrentIndex(state.player.getCurrentTime());
+  if (index !== state.currentIndex) {
+    state.currentIndex = index;
+    renderLyrics(index);
+  }
+}
+
+(async () => {
+  try {
+    if (!videoKey) throw new Error('Missing video parameter');
+    await loadData();
+    const script = document.createElement('script');
+    script.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(script);
+  } catch (error) {
+    console.error(error);
+    document.getElementById('lyrics').innerHTML = '<div class="loading">動画またはTranscriptの読み込みに失敗しました。</div>';
+    document.getElementById('info').textContent = 'Load error';
+  }
+})();
