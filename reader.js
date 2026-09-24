@@ -96,13 +96,39 @@ document.querySelectorAll('.language-button').forEach(button => {
   });
 });
 
+function updatePlaybackButton() {
+  const button = document.getElementById('playbackButton');
+  const icon = document.getElementById('playbackIcon');
+  if (!button || !icon) return;
+
+  const isPlaying = state.player &&
+    state.player.getPlayerState() === YT.PlayerState.PLAYING;
+
+  icon.textContent = isPlaying ? '⏸' : '▶';
+  button.setAttribute('aria-label', isPlaying ? '一時停止' : '再生');
+}
+
+document.getElementById('playbackButton').addEventListener('click', () => {
+  if (!state.player) return;
+
+  if (state.player.getPlayerState() === YT.PlayerState.PLAYING) {
+    state.player.pauseVideo();
+  } else {
+    state.player.playVideo();
+  }
+});
+
 function onYouTubeIframeAPIReady() {
   state.player = new YT.Player('player', {
     videoId: state.currentVideo.id,
     playerVars: { playsinline: 1, rel: 0, cc_load_policy: 0 },
     events: {
       onReady: () => {
+        updatePlaybackButton();
         setInterval(updateCurrentSentence, 250);
+      },
+      onStateChange: () => {
+        updatePlaybackButton();
       }
     }
   });
