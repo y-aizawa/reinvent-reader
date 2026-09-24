@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
-const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en' };
+const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en', playbackMode: 'continuous', pauseTimer: null };
 
 async function loadData() {
   const [videosResponse] = await Promise.all([
@@ -96,6 +96,93 @@ document.querySelectorAll('.language-button').forEach(button => {
   });
 });
 
+function clearPauseTimer() {
+  if (state.pauseTimer) {
+    clearTimeout(state.pauseTimer);
+    state.pauseTimer = null;
+  }
+}
+
+function updateModeButton() {
+  document.querySelectorAll('.mode-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.mode === state.playbackMode);
+  });
+}
+
+function scheduleRepeatingPause() {
+  if (
+    state.playbackMode !== 'pause' ||
+    !state.player ||
+    state.currentIndex < 0 ||
+    state.currentIndex >= state.transcript.length - 1 ||
+    state.player.getPlayerState() !== YT.PlayerState.PLAYING
+  ) {
+    return;
+  }
+
+  const item = state.transcript[state.currentIndex];
+  const now = state.player.getCurrentTime();
+  const remaining = Math.max(0, Number(item.end) - now);
+
+  clearPauseTimer();
+  state.pauseTimer = setTimeout(() => {
+    state.pauseTimer = null;
+
+    if (
+      state.playbackMode !== 'pause' ||
+      !state.player ||
+      state.player.getPlayerState() !== YT.PlayerState.PLAYING
+    ) {
+      return;
+    }
+
+    const duration = Math.max(0, Number(item.end) - Number(item.start));
+    const pauseDuration = Math.max(500, duration * 1000 * 1.1);
+
+    state.player.pauseVideo();
+    state.pauseTimer = setTimeout(() => {
+      state.pauseTimer = null;
+
+      if (
+        state.playbackMode !== 'pause' ||
+        !state.player ||
+        state.player.getPlayerState() === YT.PlayerState.ENDED
+      ) {
+        return;
+      }
+
+      const nextIndex = state.currentIndex + 1;
+      if (nextIndex >= state.transcript.length) return;
+
+      state.currentIndex = nextIndex;
+      state.player.seekTo(Number(state.transcript[nextIndex].start), true);
+      renderLyrics(nextIndex);
+      state.player.playVideo();
+    }, pauseDuration);
+  }, Math.max(50, remaining * 1000));
+}
+
+function setPlaybackMode(mode) {
+  state.playbackMode = mode;
+  clearPauseTimer();
+  updateModeButton();
+
+  if (
+    mode === 'pause' &&
+    state.player &&
+    state.player.getPlayerState() === YT.PlayerState.PLAYING
+  ) {
+    scheduleRepeatingPause();
+  }
+}
+
+document.querySelectorAll('.mode-button').forEach(button => {
+  button.addEventListener('click', () => {
+    button.blur();
+    setPlaybackMode(button.dataset.mode);
+  });
+});
+
 function updatePlaybackButton() {
   const button = document.getElementById('playbackButton');
   const icon = document.getElementById('playbackIcon');
@@ -113,10 +200,15 @@ function updatePlaybackButton() {
 document.getElementById('playbackButton').addEventListener('click', () => {
   if (!state.player) return;
 
+  clearPauseTimer();
+
   if (state.player.getPlayerState() === YT.PlayerState.PLAYING) {
     state.player.pauseVideo();
   } else {
     state.player.playVideo();
+    if (state.playbackMode === 'pause') {
+      scheduleRepeatingPause();
+    }
   }
 });
 
@@ -127,10 +219,18 @@ function onYouTubeIframeAPIReady() {
     events: {
       onReady: () => {
         updatePlaybackButton();
+        updateModeButton();
         setInterval(updateCurrentSentence, 250);
       },
       onStateChange: () => {
         updatePlaybackButton();
+
+        if (
+          state.player &&
+          state.player.getPlayerState() !== YT.PlayerState.PLAYING
+        ) {
+          clearPauseTimer();
+        }
       }
     }
   });
@@ -139,6 +239,15 @@ function onYouTubeIframeAPIReady() {
 function updateCurrentSentence() {
   if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING || state.transcript.length === 0) return;
   const index = getCurrentIndex(state.player.getCurrentTime());
+  if (state.playbackMode === 'pause') {
+    if (index !== state.currentIndex) {
+      state.currentIndex = index;
+      renderLyrics(index);
+    }
+    scheduleRepeatingPause();
+    return;
+  }
+
   if (index !== state.currentIndex) {
     state.currentIndex = index;
     renderLyrics(index);
@@ -153,6 +262,7 @@ function updateCurrentSentence() {
     // TranscriptはYouTube APIの準備を待たずに表示する。
     // YouTube側で問題が起きても字幕一覧自体は確認できるようにする。
     state.currentIndex = 0;
+    updateModeButton();
     renderLyrics(0);
 
     const script = document.createElement('script');
@@ -164,19 +274,3 @@ function updateCurrentSentence() {
     document.getElementById('info').textContent = 'Load error';
   }
 })();
-
-// Playback mode UI only: behavior will be added separately.
-function updateModeButton() {
-  document.querySelectorAll('.mode-button').forEach(button => {
-    button.classList.toggle('active', button.dataset.mode === (window.playbackMode || 'continuous'));
-  });
-}
-window.playbackMode = 'continuous';
-document.querySelectorAll('.mode-button').forEach(button => {
-  button.addEventListener('click', () => {
-    button.blur();
-    window.playbackMode = button.dataset.mode;
-    updateModeButton();
-  });
-});
-updateModeButton();
