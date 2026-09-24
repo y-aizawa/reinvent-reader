@@ -5,22 +5,24 @@ body { overflow-x: hidden; }
 .topbar { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-bottom: 1px solid #24262b; background: #151619; }
 .back { color: #fff; text-decoration: none; font-size: 13px; }
 .title { min-width: 0; flex: 1; color: #c9ccd2; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.language-toggle { position: fixed; right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 100; display: flex; border: 1px solid #30333a; border-radius: 12px; overflow: hidden; background: rgba(29,32,37,.94); box-shadow: 0 4px 16px rgba(0,0,0,.35); }
+.bottom-controls { position: fixed; left: 50%; bottom: 0; z-index: 100; width: min(100%, 640px); height: calc(76px + env(safe-area-inset-bottom)); padding: 0 16px env(safe-area-inset-bottom); display: flex; align-items: center; justify-content: flex-end; background: #101114; }
+.language-toggle { display: flex; flex: 0 0 auto; border: 1px solid #30333a; border-radius: 12px; overflow: hidden; background: #1d2025; box-shadow: 0 4px 16px rgba(0,0,0,.35); }
 .language-button { min-width: 48px; min-height: 44px; border: 0; padding: 8px 12px; background: transparent; color: #8f929a; font: inherit; font-size: 13px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .language-button.active { background: #4f2eea; color: #fff; }
-.playback-button { position: fixed; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 100; width: 56px; height: 56px; transform: translateX(-50%); border: 1px solid #3a3e46; border-radius: 50%; background: rgba(29,32,37,.96); color: #fff; box-shadow: 0 4px 18px rgba(0,0,0,.4); display: grid; place-items: center; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-.playback-icon { font-size: 22px; line-height: 1; }
-.playback-button:active { transform: translateX(-50%) scale(.96); }
+.playback-button { position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); border: 1px solid #3a3e46; border-radius: 50%; background: #1d2025; color: #fff; box-shadow: 0 4px 18px rgba(0,0,0,.4); display: grid; place-items: center; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.playback-icon { width: 24px; height: 24px; display: grid; place-items: center; }
+.playback-icon svg { width: 24px; height: 24px; fill: #fff; stroke: #fff; }
+.playback-button:active { transform: translate(-50%, -50%) scale(.96); }
 .video { width: 100%; aspect-ratio: 16/9; background: #000; overflow: hidden; }
 #player { width: 100%; height: 100%; }
-.lyrics { height: calc(100vh - 320px); min-height: 320px; overflow-y: auto; overflow-x: hidden; padding: 0 20px 70%; scroll-behavior: smooth; overscroll-behavior: contain; touch-action: pan-y; }
+.lyrics { height: calc(100vh - 320px); min-height: 320px; overflow-y: auto; overflow-x: hidden; padding: 0 20px calc(70% + 76px); scroll-behavior: smooth; overscroll-behavior: contain; touch-action: pan-y; }
 .line { display: block; width: 100%; margin: 0; padding: 14px 0; border: 0; outline: none; background: transparent; color: rgba(255,255,255,.28); text-align: left; font-size: 21px; line-height: 1.45; font-weight: 700; cursor: pointer; transition: color .2s ease, font-size .2s ease; }
 .line.near { color: rgba(255,255,255,.58); }
 .line.active { color: #fff; font-size: 29px; }
 .info { padding: 10px 20px 16px; border-top: 1px solid #24262b; color: #92959d; font-size: 12px; }
 .loading { padding: 30px 20px; color: #92959d; }
 @media (max-width: 480px) {
-  .lyrics { height: calc(100vh - 250px); min-height: 300px; padding: 0 18px 70%; }
+  .lyrics { height: calc(100vh - 250px); min-height: 300px; padding: 0 18px calc(70% + 76px); }
   .line { font-size: 19px; }
   .line.active { font-size: 27px; }
   .info { padding-left: 18px; padding-right: 18px; }
