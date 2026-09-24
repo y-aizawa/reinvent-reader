@@ -2,6 +2,8 @@
 
 **re:Invent Reader** is a web application for practicing English listening, reading aloud, and shadowing with AWS re:Invent keynote videos.
 
+**Demo:** https://y-aizawa.github.io/reinvent-reader/
+
 The app combines video playback with a synchronized transcript so that learners can follow the speaker's words while listening. English and Japanese translations are provided together to make it easier to check the meaning of each sentence while practicing.
 
 The project is designed with a simple, mobile-friendly interface and is published through GitHub Pages. It can also be installed as a PWA on supported devices.
