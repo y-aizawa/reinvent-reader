@@ -125,6 +125,39 @@ function setPlaybackMode(mode) {
   updateModeButton();
 
   if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING) return;
+
+  if (mode === 'pause') {
+    schedulePauseAtSentenceEnd();
+  }
+}
+
+function schedulePauseAtSentenceEnd() {
+  if (
+    state.playbackMode !== 'pause' ||
+    !state.player ||
+    state.currentIndex < 0 ||
+    state.currentIndex >= state.transcript.length - 1
+  ) {
+    return;
+  }
+
+  const item = state.transcript[state.currentIndex];
+  const now = state.player.getCurrentTime();
+  const remaining = Math.max(0, Number(item.end) - now);
+
+  clearPauseTimer();
+  state.pauseTimer = setTimeout(() => {
+    state.pauseTimer = null;
+    if (
+      state.playbackMode !== 'pause' ||
+      !state.player ||
+      state.player.getPlayerState() !== YT.PlayerState.PLAYING
+    ) {
+      return;
+    }
+
+    scheduleNextSentence();
+  }, Math.max(50, remaining * 1000));
 }
 
 function scheduleNextSentence() {
@@ -223,15 +256,9 @@ function updateCurrentSentence() {
   if (index !== state.currentIndex) {
     state.currentIndex = index;
     renderLyrics(index);
-  }
 
-  if (
-    state.playbackMode === 'pause' &&
-    state.currentIndex < state.transcript.length - 1
-  ) {
-    const item = state.transcript[state.currentIndex];
-    if (Number(item.end) <= time + 0.05) {
-      scheduleNextSentence();
+    if (state.playbackMode === 'pause') {
+      schedulePauseAtSentenceEnd();
     }
   }
 }
