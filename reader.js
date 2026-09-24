@@ -114,17 +114,9 @@ function clearPauseTimer() {
 }
 
 function updateModeButton() {
-  const button = document.getElementById('modeButton');
-  const label = document.getElementById('modeLabel');
-  if (!button || !label) return;
-
-  const isPauseMode = state.playbackMode === 'pause';
-  label.textContent = isPauseMode ? 'リピーティング' : '連続';
-  button.setAttribute(
-    'aria-label',
-    isPauseMode ? 'リピート再生' : '連続再生'
-  );
-  button.setAttribute('aria-pressed', String(isPauseMode));
+  document.querySelectorAll('.mode-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.mode === state.playbackMode);
+  });
 }
 
 function setPlaybackMode(mode) {
@@ -184,8 +176,11 @@ function updatePlaybackButton() {
   button.setAttribute('aria-label', isPlaying ? '一時停止' : '再生');
 }
 
-document.getElementById('modeButton').addEventListener('click', () => {
-  setPlaybackMode(state.playbackMode === 'continuous' ? 'pause' : 'continuous');
+document.querySelectorAll('.mode-button').forEach(button => {
+  button.addEventListener('click', () => {
+    button.blur();
+    setPlaybackMode(button.dataset.mode);
+  });
 });
 
 document.getElementById('playbackButton').addEventListener('click', () => {
