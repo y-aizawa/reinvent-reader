@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
-const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1 };
+const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en' };
 
 async function loadData() {
   const [videosResponse] = await Promise.all([
@@ -54,7 +54,9 @@ function renderLyrics(index) {
     button.className = 'line';
     if (i === index) button.classList.add('active');
     else if (Math.abs(i - index) === 1) button.classList.add('near');
-    button.textContent = item.text || item.en || '';
+    button.textContent = state.language === 'ja'
+      ? (item.ja || item.text || item.en || '')
+      : (item.text || item.en || '');
     button.addEventListener('click', () => {
       if (!state.player) return;
       // 先にフォーカスを外す。renderLyrics() でDOMを作り直した後だと、
@@ -78,6 +80,20 @@ function renderLyrics(index) {
   });
 
   document.getElementById('info').textContent = `Sentence ${index + 1} / ${state.transcript.length}`;
+}
+
+function setLanguage(language) {
+  state.language = language;
+  document.querySelectorAll('.language-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.language === language);
+  });
+  renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
+}
+
+document.querySelectorAll('.language-button').forEach(button => {
+  button.addEventListener('click', () => {
+    setLanguage(button.dataset.language);
+  });
 }
 
 function onYouTubeIframeAPIReady() {
