@@ -33,3 +33,5 @@ body { overflow-x: hidden; }
   .mode-button { left: calc(50% - 110px - 22px); }
   .language-button { right: calc(50% - 110px - 22px); }
 }
+.mode-button.active,
+.language-button.active { background: #4f2eea; color: #fff; border-color: #5f45ee; }
