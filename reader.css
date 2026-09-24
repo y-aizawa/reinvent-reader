@@ -6,26 +6,8 @@ body { overflow-x: hidden; }
 .back { color: #fff; text-decoration: none; font-size: 13px; }
 .title { min-width: 0; flex: 1; color: #c9ccd2; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .bottom-controls { position: fixed; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: calc(76px + env(safe-area-inset-bottom)); padding: 0 16px env(safe-area-inset-bottom); display: flex; align-items: center; justify-content: center; background: #101114; }
-.mode-button {
-  position: absolute;
-  left: 16px;
-  min-width: 64px;
-  min-height: 44px;
-  padding: 8px 12px;
-  border: 1px solid #30333a;
-  border-radius: 12px;
-  background: #1d2025;
-  color: #fff;
-  font: inherit;
-  font-size: 13px;
-  cursor: pointer;
-  box-shadow: 0 4px 16px rgba(0,0,0,.35);
-  -webkit-tap-highlight-color: transparent;
-}
-.mode-button[aria-pressed="true"] {
-  background: #4f2eea;
-  border-color: #4f2eea;
-}
+.mode-button { position: absolute; left: 16px; min-width: 112px; min-height: 44px; padding: 8px 12px; border: 1px solid #30333a; border-radius: 12px; background: #1d2025; color: #8f929a; font: inherit; font-size: 13px; cursor: pointer; box-shadow: 0 4px 16px rgba(0,0,0,.35); -webkit-tap-highlight-color: transparent; }
+.mode-button[aria-pressed="true"] { background: #4f2eea; border-color: #4f2eea; color: #fff; }
 .language-toggle { position: absolute; right: 16px; display: flex; flex: 0 0 auto; border: 1px solid #30333a; border-radius: 12px; overflow: hidden; background: #1d2025; box-shadow: 0 4px 16px rgba(0,0,0,.35); }
 .language-button { min-width: 48px; min-height: 44px; border: 0; padding: 8px 12px; background: transparent; color: #8f929a; font: inherit; font-size: 13px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .language-button.active { background: #4f2eea; color: #fff; }
