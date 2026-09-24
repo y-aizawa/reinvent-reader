@@ -24,17 +24,11 @@
   </div>
 
   <div class="bottom-controls">
-    <div class="mode-toggle" role="group" aria-label="再生モード">
-      <button id="continuousModeButton" class="mode-button active" type="button" data-mode="continuous">連続</button>
-      <button id="repeatModeButton" class="mode-button" type="button" data-mode="pause">リピーティング</button>
-    </div>
+    <button id="modeButton" class="mode-button" type="button" aria-label="再生モード切替">連続</button>
     <button id="playbackButton" class="playback-button" type="button" aria-label="再生">
       <span id="playbackIcon" class="playback-icon" aria-hidden="true"></span>
     </button>
-    <div class="language-toggle" role="group" aria-label="字幕言語">
-      <button type="button" class="language-button active" data-language="en">EN</button>
-      <button type="button" class="language-button" data-language="ja">日本語</button>
-    </div>
+    <button id="languageButton" class="language-button" type="button" aria-label="字幕言語切替">EN</button>
   </div>
 
   <script src="./reader.js"></script>
