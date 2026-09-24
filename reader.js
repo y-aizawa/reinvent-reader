@@ -104,7 +104,9 @@ function updatePlaybackButton() {
   const isPlaying = state.player &&
     state.player.getPlayerState() === YT.PlayerState.PLAYING;
 
-  icon.textContent = isPlaying ? '⏸' : '▶';
+  icon.innerHTML = isPlaying
+    ? '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="4" width="5" height="16" rx="1"></rect><rect x="14" y="4" width="5" height="16" rx="1"></rect></svg>'
+    : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.87l10-6.5a1.03 1.03 0 0 0 0-1.74l-10-6.5A1 1 0 0 0 8 5.5Z"></path></svg>';
   button.setAttribute('aria-label', isPlaying ? '一時停止' : '再生');
 }
 
