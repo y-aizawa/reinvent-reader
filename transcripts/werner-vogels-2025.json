@@ -1,119 +1,11 @@
 [
   {
-    "start": 0.96,
-    "text": "(pensive music)\n(computer bleeping)"
-  },
-  {
-    "start": 3.429,
-    "text": "(phone ringing)"
-  },
-  {
-    "start": 5.897,
-    "text": "(newspaper rustling)"
-  },
-  {
-    "start": 8.497,
-    "text": "- Mm."
-  },
-  {
     "start": 9.728,
     "text": "End of the developer."
   },
   {
     "start": 11.34,
     "text": "I've heard that before."
-  },
-  {
-    "start": 14.8,
-    "text": "(gentle ethereal music)"
-  },
-  {
-    "start": 19.399,
-    "text": "(footsteps tapping)"
-  },
-  {
-    "start": 20.599,
-    "text": "(gentle suspenseful music)"
-  },
-  {
-    "start": 22.04,
-    "text": "(door clicks and creaks)"
-  },
-  {
-    "start": 26.759,
-    "text": "(gentle suspenseful music)\n(electricity crackling)"
-  },
-  {
-    "start": 32.866,
-    "text": "(car door hisses and clicks)"
-  },
-  {
-    "start": 36.089,
-    "text": "(sunglasses click)"
-  },
-  {
-    "start": 37.558,
-    "text": "(monitor beeping)"
-  },
-  {
-    "start": 39.337,
-    "text": "(palms rustling)"
-  },
-  {
-    "start": 41.377,
-    "text": "(buttons beeping)"
-  },
-  {
-    "start": 43.147,
-    "text": "(engine whirring)"
-  },
-  {
-    "start": 46.467,
-    "text": "(car engine revving)\n(electricity crackling)"
-  },
-  {
-    "start": 49.857,
-    "text": "(Werner shouting)\n(suspenseful music)"
-  },
-  {
-    "start": 53.027,
-    "text": "(monitor beeping)"
-  },
-  {
-    "start": 57.297,
-    "text": "(car engine whirs)"
-  },
-  {
-    "start": 60.689,
-    "text": "(pensive music)"
-  },
-  {
-    "start": 62.198,
-    "text": "(office workers chattering)"
-  },
-  {
-    "start": 67.529,
-    "text": "(phone ringing)"
-  },
-  {
-    "start": 70.996,
-    "text": "(cards rustling)"
-  },
-  {
-    "start": 73.459,
-    "text": "(buttons clicking)"
-  },
-  {
-    "start": 74.489,
-    "text": "(cards thudding)"
-  },
-  {
-    "start": 75.556,
-    "text": "(Lorraine sighs)"
-  },
-  {
-    "start": 78.147,
-    "text": "(chair thuds)"
   },
   {
     "start": 79.297,
@@ -125,23 +17,15 @@
   },
   {
     "start": 82.557,
-    "text": "- Oh, you know, organizing\nyesterday's program cards,"
-  },
-  {
-    "start": 85.38,
-    "text": "which got dropped."
+    "text": "Oh, you know, organizing yesterday's program cards, which got dropped."
   },
   {
     "start": 86.52,
-    "text": "Figuring out why the machine\nkeeps stopping on card 4042."
+    "text": "Figuring out why the machine keeps stopping on card 4042."
   },
   {
     "start": 89.97,
-    "text": "Logging this really awkward\nbug in the bogo compiler,"
-  },
-  {
-    "start": 92.82,
-    "text": "and talking to you."
+    "text": "Logging this really awkward bug in the bogo compiler, and talking to you."
   },
   {
     "start": 97.5,
@@ -149,27 +33,23 @@
   },
   {
     "start": 102.06,
-    "text": "- I've been reading about this, uh, COBOL."
+    "text": "I've been reading about this, COBOL."
   },
   {
     "start": 107.91,
-    "text": "- Yes, that's the new high level language."
+    "text": "Yes, that's the new high level language."
   },
   {
     "start": 110.01,
-    "text": "- It's amazing."
+    "text": "It's amazing."
   },
   {
     "start": 111.75,
     "text": "Now, anyone can write code."
   },
   {
-    "start": 113.249,
-    "text": "(newspaper rustles)"
-  },
-  {
     "start": 114.6,
-    "text": "- I don't know about anyone."
+    "text": "I don't know about anyone."
   },
   {
     "start": 116.73,
@@ -177,59 +57,15 @@
   },
   {
     "start": 119.58,
-    "text": "- Soft, what?"
+    "text": "Soft, what?"
   },
   {
     "start": 124.08,
-    "text": "- Software."
+    "text": "Software."
   },
   {
     "start": 125.97,
-    "text": "- Where?"
-  },
-  {
-    "start": 128.396,
-    "text": "(suspenseful music)\n(buttons beeping)"
-  },
-  {
-    "start": 130.152,
-    "text": "(machine whirring)"
-  },
-  {
-    "start": 131.36,
-    "text": "(Werner shouting)"
-  },
-  {
-    "start": 134.09,
-    "text": "(suspenseful music)"
-  },
-  {
-    "start": 137.94,
-    "text": "(monitor beeping)"
-  },
-  {
-    "start": 142.467,
-    "text": "(monitor beeping)"
-  },
-  {
-    "start": 146.215,
-    "text": "(pensive music)"
-  },
-  {
-    "start": 147.677,
-    "text": "(phone ringing)"
-  },
-  {
-    "start": 149.975,
-    "text": "(upbeat music)"
-  },
-  {
-    "start": 152.885,
-    "text": "(phone ringing)"
-  },
-  {
-    "start": 155.693,
-    "text": "(pensive music)"
+    "text": "Where?"
   },
   {
     "start": 156.54,
@@ -237,15 +73,15 @@
   },
   {
     "start": 159.723,
-    "text": "- Just learning some VP."
+    "text": "Just learning some VP."
   },
   {
     "start": 162.48,
-    "text": "- Visual Programming, huh?"
+    "text": "Visual Programming, huh?"
   },
   {
     "start": 164.5,
-    "text": "(scoffs) Coding's history, Marty."
+    "text": "Coding's history, Marty."
   },
   {
     "start": 166.98,
@@ -253,83 +89,35 @@
   },
   {
     "start": 169.56,
-    "text": "- Drag and drop is still code."
+    "text": "Drag and drop is still code."
   },
   {
     "start": 171.6,
-    "text": "It still has bugs and it\nstill needs an engineer."
-  },
-  {
-    "start": 175.629,
-    "text": "(monitor warbling)"
-  },
-  {
-    "start": 178.46,
-    "text": "(machine whirring)"
-  },
-  {
-    "start": 179.991,
-    "text": "(gentle chimes music)"
+    "text": "It still has bugs and it still needs an engineer."
   },
   {
     "start": 180.93,
-    "text": "- Everything fails all the time."
-  },
-  {
-    "start": 184.471,
-    "text": "(machine whirring)"
-  },
-  {
-    "start": 185.689,
-    "text": "(bell dings)"
-  },
-  {
-    "start": 187.369,
-    "text": "(suspenseful music)\n(electricity crackling)"
-  },
-  {
-    "start": 189.874,
-    "text": "(monitor beeping)"
-  },
-  {
-    "start": 192.471,
-    "text": "(pensive music)"
-  },
-  {
-    "start": 208.721,
-    "text": "(Marty sighs)"
+    "text": "Everything fails all the time."
   },
   {
     "start": 209.681,
-    "text": "- Is this for real?"
+    "text": "Is this for real?"
   },
   {
     "start": 211.8,
-    "text": "Could cloud mean there\nwill be less engineers?"
+    "text": "Could cloud mean there will be less engineers?"
   },
   {
     "start": 216.03,
-    "text": "- [Werner] Less engineers. (chuckles)"
+    "text": "Less engineers."
   },
   {
     "start": 218.13,
     "text": "Time for an air drop."
   },
   {
-    "start": 220.001,
-    "text": "(book whooshes)"
-  },
-  {
-    "start": 220.834,
-    "text": "(book thuds)"
-  },
-  {
-    "start": 222.761,
-    "text": "(gentle suspenseful music)"
-  },
-  {
     "start": 224.484,
-    "text": "- Huh?"
+    "text": "Huh?"
   },
   {
     "start": 225.84,
@@ -349,19 +137,11 @@
   },
   {
     "start": 234.444,
-    "text": "(chuckles softly) You learn\nsomething new every day."
-  },
-  {
-    "start": 236.473,
-    "text": "(electricity crackling and whirring)"
-  },
-  {
-    "start": 239.655,
-    "text": "(exciting music)"
+    "text": "You learn something new every day."
   },
   {
     "start": 245.07,
-    "text": "- You build it."
+    "text": "You build it."
   },
   {
     "start": 246.27,
@@ -369,19 +149,15 @@
   },
   {
     "start": 252.268,
-    "text": "- Mom."
+    "text": "Mom."
   },
   {
     "start": 253.101,
-    "text": "- Hi, sweetie, don't forget to call Mom."
-  },
-  {
-    "start": 257.003,
-    "text": "(electricity crackling and whirring)"
+    "text": "Hi, sweetie, don't forget to call Mom."
   },
   {
     "start": 258.48,
-    "text": "- Hi, there, Marty, it's\na nice wormhole, isn't it?"
+    "text": "Hi, there, Marty, it's a nice wormhole, isn't it?"
   },
   {
     "start": 263.032,
@@ -392,88 +168,40 @@
     "text": "Oi, you can skip this worm."
   },
   {
-    "start": 275.875,
-    "text": "(pensive music)"
-  },
-  {
     "start": 279.54,
-    "text": "- Is this the end of\ndevelopment as we know it?"
+    "text": "Is this the end of development as we know it?"
   },
   {
     "start": 284.67,
-    "text": "- Or is it just another new beginning?"
-  },
-  {
-    "start": 289.197,
-    "text": "(triumphant music)"
-  },
-  {
-    "start": 294.317,
-    "text": "(car engine whirs)"
-  },
-  {
-    "start": 295.765,
-    "text": "(car engine revving)\n(monitor beeping)"
-  },
-  {
-    "start": 298.925,
-    "text": "(triumphant music)"
+    "text": "Or is it just another new beginning?"
   },
   {
     "start": 308.79,
-    "text": "- [Announcer] Please\nwelcome the vice president"
-  },
-  {
-    "start": 310.71,
-    "text": "and CTO of Amazon.com, Dr. Werner Vogels."
-  },
-  {
-    "start": 314.936,
-    "text": "(upbeat music)\n(audience clapping)"
-  },
-  {
-    "start": 319.274,
-    "text": "(audience cheering)"
+    "text": "Please welcome the vice president and CTO of Amazon.com, Dr. Werner Vogels."
   },
   {
     "start": 322.606,
-    "text": "- [Audience] Werner, Werner,\nWerner, Werner, Werner."
+    "text": "Werner, Werner, Werner, Werner, Werner."
   },
   {
     "start": 326.652,
     "text": "Werner, Werner, Werner, Werner, Werner."
   },
   {
-    "start": 330.046,
-    "text": "(Werner chuckles)"
-  },
-  {
     "start": 330.879,
-    "text": "- Thank you, okay."
+    "text": "Thank you, okay."
   },
   {
     "start": 332.243,
-    "text": "- [Audience] Werner, Werner."
+    "text": "Werner, Werner."
   },
   {
     "start": 334.967,
-    "text": "- First, I seek and I find in you"
-  },
-  {
-    "start": 339.3,
-    "text": "something new for us every."
+    "text": "First, I seek and I find in you something new for us every."
   },
   {
     "start": 342.48,
-    "text": "No, every day for us something new,"
-  },
-  {
-    "start": 346.14,
-    "text": "an open mind for a different view"
-  },
-  {
-    "start": 349.89,
-    "text": "and nothing else matters."
+    "text": "No, every day for us something new, an open mind for a different view and nothing else matters."
   },
   {
     "start": 353.52,
@@ -489,27 +217,15 @@
   },
   {
     "start": 357.66,
-    "text": "So, the video showed you\nevery generation of developers"
-  },
-  {
-    "start": 361.95,
-    "text": "that face the new wave of change, yeah?"
+    "text": "So, the video showed you every generation of developers that face the new wave of change, yeah?"
   },
   {
     "start": 365.25,
-    "text": "Tools evolve, architectures\nevolve, expectations evolve,"
-  },
-  {
-    "start": 371.07,
-    "text": "and so do we."
+    "text": "Tools evolve, architectures evolve, expectations evolve, and so do we."
   },
   {
     "start": 373.71,
     "text": "But before we talk about that,"
-  },
-  {
-    "start": 379.161,
-    "text": "(Werner clears throat)"
   },
   {
     "start": 380.46,
@@ -521,19 +237,11 @@
   },
   {
     "start": 386.55,
-    "text": "I've been giving this keynote since 2012,"
-  },
-  {
-    "start": 390.54,
-    "text": "and I've done all of them."
+    "text": "I've been giving this keynote since 2012, and I've done all of them."
   },
   {
     "start": 392.01,
     "text": "That's a lot of T-shirts, by the way."
-  },
-  {
-    "start": 394.56,
-    "text": "Yeah."
   },
   {
     "start": 396.0,
@@ -544,48 +252,24 @@
     "text": "This is my final re:Invent keynotes."
   },
   {
-    "start": 403.95,
-    "text": "Yeah."
-  },
-  {
-    "start": 404.904,
-    "text": "(audience gasping)"
-  },
-  {
     "start": 407.37,
     "text": "I've still things to do."
   },
   {
     "start": 408.9,
-    "text": "I'm not leaving Amazon\nor anything like that."
+    "text": "I'm not leaving Amazon or anything like that."
   },
   {
     "start": 410.88,
-    "text": "But I think that after 14 of re:Invents,"
-  },
-  {
-    "start": 415.71,
-    "text": "you guys are owned\nyoung, fresh, new voices."
+    "text": "But I think that after 14 of re:Invents, you guys are owned young, fresh, new voices."
   },
   {
     "start": 421.95,
-    "text": "There are so many amazing\nengineers at Amazon"
-  },
-  {
-    "start": 427.17,
-    "text": "that have great stories to tell,"
-  },
-  {
-    "start": 430.14,
-    "text": "to teach, to help you, to educate you."
+    "text": "There are so many amazing engineers at Amazon that have great stories to tell, to teach, to help you, to educate you."
   },
   {
     "start": 434.16,
-    "text": "And I think it's time for\nthose younger different voices"
-  },
-  {
-    "start": 439.02,
-    "text": "of AWS to be in front of you."
+    "text": "And I think it's time for those younger different voices of AWS to be in front of you."
   },
   {
     "start": 441.78,
@@ -593,31 +277,19 @@
   },
   {
     "start": 443.73,
-    "text": "I'm not leaving Amazon\nor anything like this."
+    "text": "I'm not leaving Amazon or anything like this."
   },
   {
     "start": 446.7,
-    "text": "This is my decision to make sure"
-  },
-  {
-    "start": 450.0,
-    "text": "that you get to hear different\nvoices than just mine."
+    "text": "This is my decision to make sure that you get to hear different voices than just mine."
   },
   {
     "start": 457.11,
-    "text": "Now, let's talk about the\nother elephants in the room."
+    "text": "Now, let's talk about the other elephants in the room."
   },
   {
     "start": 463.83,
-    "text": "I visited AWS customers\nall over the world,"
-  },
-  {
-    "start": 467.991,
-    "text": "and there is one question"
-  },
-  {
-    "start": 470.67,
-    "text": "that keeps coming up in every\ncountry and in every city."
+    "text": "I visited AWS customers all over the world, and there is one question that keeps coming up in every country and in every city."
   },
   {
     "start": 478.8,
@@ -628,24 +300,12 @@
     "text": "Maybe."
   },
   {
-    "start": 488.708,
-    "text": "(audience laughing)"
-  },
-  {
-    "start": 491.16,
-    "text": "Yeah."
-  },
-  {
     "start": 492.326,
     "text": "Or else transform."
   },
   {
     "start": 494.52,
-    "text": "Some tasks will be automated,"
-  },
-  {
-    "start": 497.04,
-    "text": "some skills will become obsolete."
+    "text": "Some tasks will be automated, some skills will become obsolete."
   },
   {
     "start": 501.15,
@@ -653,7 +313,7 @@
   },
   {
     "start": 504.24,
-    "text": "So, maybe we should rephrase\nand reframe this question."
+    "text": "So, maybe we should rephrase and reframe this question."
   },
   {
     "start": 512.73,
@@ -668,36 +328,16 @@
     "text": "Absolutely not."
   },
   {
-    "start": 524.4,
-    "text": "Yeah."
-  },
-  {
     "start": 528.03,
     "text": "If you evolve."
   },
   {
-    "start": 530.944,
-    "text": "Yeah."
-  },
-  {
     "start": 532.26,
-    "text": "And if I look at the past years at Amazon"
-  },
-  {
-    "start": 535.59,
-    "text": "where we've been using\nall of these new tools,"
-  },
-  {
-    "start": 539.58,
-    "text": "we've seen how you can evolve over time"
+    "text": "And if I look at the past years at Amazon where we've been using all of these new tools, we've seen how you can evolve over time"
   },
   {
     "start": 545.49,
-    "text": "and still be a great engineer"
-  },
-  {
-    "start": 548.04,
-    "text": "with just a new set of\ntools in your hands."
+    "text": "and still be a great engineer with just a new set of tools in your hands."
   },
   {
     "start": 552.15,
@@ -717,15 +357,11 @@
   },
   {
     "start": 566.4,
-    "text": "And this has always been\nthe case, it's nothing new."
+    "text": "And this has always been the case, it's nothing new."
   },
   {
     "start": 571.898,
     "text": "Yeah?"
-  },
-  {
-    "start": 572.731,
-    "text": "Yeah."
   },
   {
     "start": 573.564,
@@ -733,39 +369,19 @@
   },
   {
     "start": 576.31,
-    "text": "Just for the heck, when I went to school,"
-  },
-  {
-    "start": 579.42,
-    "text": "I was taught 68,000\nAssembler, COBOL and Pascal."
+    "text": "Just for the heck, when I went to school, I was taught 68,000 Assembler, COBOL and Pascal."
   },
   {
     "start": 585.18,
-    "text": "None of these languages\nare being used anymore."
+    "text": "None of these languages are being used anymore."
   },
   {
     "start": 589.2,
-    "text": "And in the '60s, we\ncertainly got compilers,"
-  },
-  {
-    "start": 593.1,
-    "text": "and you didn't really matter anymore"
-  },
-  {
-    "start": 595.05,
-    "text": "what kind of assembly\nthose compilers spit out."
+    "text": "And in the '60s, we certainly got compilers, and you didn't really matter anymore what kind of assembly those compilers spit out."
   },
   {
     "start": 599.88,
-    "text": "However, by learning assembly, I knew,"
-  },
-  {
-    "start": 605.31,
-    "text": "I learned how that loop in Pascal"
-  },
-  {
-    "start": 608.1,
-    "text": "actually translated into machine code."
+    "text": "However, by learning assembly, I knew, I learned how that loop in Pascal actually translated into machine code."
   },
   {
     "start": 611.1,
@@ -773,63 +389,31 @@
   },
   {
     "start": 615.27,
-    "text": "And over time, compilers became"
-  },
-  {
-    "start": 617.07,
-    "text": "the highest level of abstractions"
-  },
-  {
-    "start": 618.57,
-    "text": "that most developers needed."
+    "text": "And over time, compilers became the highest level of abstractions that most developers needed."
   },
   {
     "start": 622.38,
-    "text": "In the '70s, suddenly structured\nprogramming became popular."
-  },
-  {
-    "start": 627.45,
-    "text": "Yeah."
+    "text": "In the '70s, suddenly structured programming became popular."
   },
   {
     "start": 628.283,
-    "text": "And we're moving towards that, compilers,"
-  },
-  {
-    "start": 630.33,
-    "text": "and Bell Labs and Berkeley,\nthey supported this shift."
+    "text": "And we're moving towards that, compilers, and Bell Labs and Berkeley, they supported this shift."
   },
   {
     "start": 634.23,
-    "text": "They give developers a\nclearer, control overflow"
-  },
-  {
-    "start": 638.61,
-    "text": "and help them escape the\nchaos of unstructured code."
+    "text": "They give developers a clearer, control overflow and help them escape the chaos of unstructured code."
   },
   {
     "start": 643.32,
-    "text": "And then, a few years later\nbehind the stress trap,"
-  },
-  {
-    "start": 646.83,
-    "text": "he started exploring how to\nmodel real world concepts"
-  },
-  {
-    "start": 650.49,
-    "text": "directly into coding objects and classes."
+    "text": "And then, a few years later behind the stress trap, he started exploring how to model real world concepts directly into coding objects and classes."
   },
   {
     "start": 654.75,
-    "text": "And that became C++"
-  },
-  {
-    "start": 656.1,
-    "text": "and helped shape\nobject-oriented programming."
+    "text": "And that became C++ and helped shape object-oriented programming."
   },
   {
     "start": 662.67,
-    "text": "In late 1990s, Amazon was\nstill running as a monolith."
+    "text": "In late 1990s, Amazon was still running as a monolith."
   },
   {
     "start": 668.49,
@@ -837,55 +421,23 @@
   },
   {
     "start": 673.77,
-    "text": "the growth accelerated to such a point"
-  },
-  {
-    "start": 676.5,
-    "text": "that the team began breaking\noff pieces of this monolith"
-  },
-  {
-    "start": 680.37,
-    "text": "into services."
+    "text": "the growth accelerated to such a point that the team began breaking off pieces of this monolith into services."
   },
   {
     "start": 682.38,
-    "text": "And each service had\nownership of their servers,"
-  },
-  {
-    "start": 686.34,
-    "text": "had their own interface,"
-  },
-  {
-    "start": 688.05,
-    "text": "and they completely changed\nhow developers worked."
+    "text": "And each service had ownership of their servers, had their own interface, and they completely changed how developers worked."
   },
   {
     "start": 691.063,
-    "text": "They had moved faster,"
-  },
-  {
-    "start": 692.343,
-    "text": "they became independent of other teams,"
-  },
-  {
-    "start": 695.1,
-    "text": "they owned their systems end to end."
+    "text": "They had moved faster, they became independent of other teams, they owned their systems end to end."
   },
   {
     "start": 699.48,
-    "text": "And over time, the industry\nat large became adopting"
-  },
-  {
-    "start": 703.89,
-    "text": "these kind of practices as a\npractical model for building"
-  },
-  {
-    "start": 708.467,
-    "text": "and operating large scale\ndistributed systems."
+    "text": "And over time, the industry at large became adopting these kind of practices as a practical model for building and operating large scale distributed systems."
   },
   {
     "start": 713.25,
-    "text": "Actually, and what about\nthe tools in those days?"
+    "text": "Actually, and what about the tools in those days?"
   },
   {
     "start": 717.78,
@@ -893,11 +445,7 @@
   },
   {
     "start": 718.83,
-    "text": "But in the 2000s, the most developers,"
-  },
-  {
-    "start": 721.11,
-    "text": "they were still building and\ndeploying things on premise."
+    "text": "But in the 2000s, the most developers, they were still building and deploying things on premise."
   },
   {
     "start": 725.4,
@@ -905,27 +453,15 @@
   },
   {
     "start": 726.48,
-    "text": "And writing code meant\nwrestling with hardware,"
-  },
-  {
-    "start": 730.98,
-    "text": "capacity planning, long\nprocurement cycles."
+    "text": "And writing code meant wrestling with hardware, capacity planning, long procurement cycles."
   },
   {
     "start": 733.89,
-    "text": "And when cloud services arrived,"
-  },
-  {
-    "start": 735.69,
-    "text": "they changed the expectation\nof the world again."
+    "text": "And when cloud services arrived, they changed the expectation of the world again."
   },
   {
     "start": 738.72,
-    "text": "Developers suddenly had\nowned amount infrastructure,"
-  },
-  {
-    "start": 741.87,
-    "text": "freedom to experiment."
+    "text": "Developers suddenly had owned amount infrastructure, freedom to experiment."
   },
   {
     "start": 745.05,
@@ -937,15 +473,7 @@
   },
   {
     "start": 750.03,
-    "text": "And developers everywhere\nadopted to a world"
-  },
-  {
-    "start": 752.97,
-    "text": "where cloud infrastructure\njust became the normal way"
-  },
-  {
-    "start": 757.68,
-    "text": "to build and operate software."
+    "text": "And developers everywhere adopted to a world where cloud infrastructure just became the normal way to build and operate software."
   },
   {
     "start": 762.48,
@@ -964,14 +492,6 @@
     "text": "No, I'm not an EMAX person."
   },
   {
-    "start": 772.14,
-    "text": "Yeah."
-  },
-  {
-    "start": 773.131,
-    "text": "(audience cheering and clapping)"
-  },
-  {
     "start": 773.964,
     "text": "Just to say."
   },
@@ -981,15 +501,7 @@
   },
   {
     "start": 783.9,
-    "text": "We got Microsoft at some moment,"
-  },
-  {
-    "start": 786.24,
-    "text": "you could draw boxes on the screen"
-  },
-  {
-    "start": 788.4,
-    "text": "and you had this first real IDE."
+    "text": "We got Microsoft at some moment, you could draw boxes on the screen and you had this first real IDE."
   },
   {
     "start": 791.82,
@@ -997,19 +509,11 @@
   },
   {
     "start": 795.21,
-    "text": "And then Visual Studio\nCode became the default,"
-  },
-  {
-    "start": 798.51,
-    "text": "'cause of all the amazing\nplugins in all of that."
+    "text": "And then Visual Studio Code became the default, 'cause of all the amazing plugins in all of that."
   },
   {
     "start": 801.96,
-    "text": "And today's environment,\nour cursor and (indistinct),"
-  },
-  {
-    "start": 806.82,
-    "text": "and that's the new workflow."
+    "text": "And today's environment, our cursor and, and that's the new workflow."
   },
   {
     "start": 810.87,
@@ -1028,36 +532,20 @@
     "text": "Of course, there is."
   },
   {
-    "start": 818.85,
-    "text": "Yeah."
-  },
-  {
     "start": 819.84,
-    "text": "Our tools today though I think\nare kind of extraordinary."
+    "text": "Our tools today though I think are kind of extraordinary."
   },
   {
     "start": 825.93,
-    "text": "In Matt's keynote,"
-  },
-  {
-    "start": 827.94,
-    "text": "we already saw examples of developers"
-  },
-  {
-    "start": 829.65,
-    "text": "becoming dramatically more productive"
-  },
-  {
-    "start": 832.77,
-    "text": "with AI assisted workflows."
+    "text": "In Matt's keynote, we already saw examples of developers becoming dramatically more productive with AI assisted workflows."
   },
   {
     "start": 835.38,
-    "text": "But none of this removes the\nwork that only you can do."
+    "text": "But none of this removes the work that only you can do."
   },
   {
     "start": 844.44,
-    "text": "Remember, the work is yours,\nnot that of the tools."
+    "text": "Remember, the work is yours, not that of the tools."
   },
   {
     "start": 852.36,
@@ -1069,19 +557,11 @@
   },
   {
     "start": 857.67,
-    "text": "Our tools have changed so many times"
-  },
-  {
-    "start": 859.44,
-    "text": "over the course of my career,"
-  },
-  {
-    "start": 861.3,
-    "text": "and they will continue to change."
+    "text": "Our tools have changed so many times over the course of my career, and they will continue to change."
   },
   {
     "start": 864.75,
-    "text": "We are still builders,\nwe're still important."
+    "text": "We are still builders, we're still important."
   },
   {
     "start": 869.07,
@@ -1089,27 +569,15 @@
   },
   {
     "start": 876.33,
-    "text": "There's never been a\ntime to be more excited"
-  },
-  {
-    "start": 880.5,
-    "text": "about being a developer."
+    "text": "There's never been a time to be more excited about being a developer."
   },
   {
     "start": 882.15,
-    "text": "Bezos, not that long ago in an interview,"
-  },
-  {
-    "start": 885.48,
-    "text": "he talked about this that we\nare living at the epicenter"
-  },
-  {
-    "start": 890.16,
-    "text": "of a multiple simultaneous\ngolden ages coming together."
+    "text": "Bezos, not that long ago in an interview, he talked about this that we are living at the epicenter of a multiple simultaneous golden ages coming together."
   },
   {
     "start": 896.19,
-    "text": "Space travel, artificial\nintelligence, robotics."
+    "text": "Space travel, artificial intelligence, robotics."
   },
   {
     "start": 899.79,
@@ -1117,27 +585,15 @@
   },
   {
     "start": 905.16,
-    "text": "But what makes this moment different"
-  },
-  {
-    "start": 908.91,
-    "text": "is how these breakthroughs\nactually reinforce each other."
+    "text": "But what makes this moment different is how these breakthroughs actually reinforce each other."
   },
   {
     "start": 914.64,
-    "text": "Progress in one field accelerates progress"
-  },
-  {
-    "start": 918.75,
-    "text": "in the other fields."
+    "text": "Progress in one field accelerates progress in the other fields."
   },
   {
     "start": 921.27,
-    "text": "And this actually made\nme think back in history"
-  },
-  {
-    "start": 926.4,
-    "text": "at a time when that was kind of similar."
+    "text": "And this actually made me think back in history at a time when that was kind of similar."
   },
   {
     "start": 932.88,
@@ -1161,19 +617,11 @@
   },
   {
     "start": 950.37,
-    "text": "And anyone who knows Monty Python knows"
-  },
-  {
-    "start": 953.04,
-    "text": "about how that looked like."
+    "text": "And anyone who knows Monty Python knows about how that looked like."
   },
   {
     "start": 956.22,
-    "text": "But the Renaissance was a\nperiod where everything changed"
-  },
-  {
-    "start": 961.92,
-    "text": "because people became curious."
+    "text": "But the Renaissance was a period where everything changed because people became curious."
   },
   {
     "start": 965.94,
@@ -1181,31 +629,15 @@
   },
   {
     "start": 970.32,
-    "text": "And the result of that\nis amazing scientists"
-  },
-  {
-    "start": 974.52,
-    "text": "and philosophers."
+    "text": "And the result of that is amazing scientists and philosophers."
   },
   {
     "start": 976.08,
-    "text": "And if you look at this,"
-  },
-  {
-    "start": 979.47,
-    "text": "de Medici is probably the first version"
-  },
-  {
-    "start": 982.65,
-    "text": "of a venture capitalist or philanthropist,"
-  },
-  {
-    "start": 985.29,
-    "text": "or whoever you want to name it."
+    "text": "And if you look at this, de Medici is probably the first version of a venture capitalist or philanthropist, or whoever you want to name it."
   },
   {
     "start": 987.6,
-    "text": "Galileo and Copernicus\nwere amazing scientists."
+    "text": "Galileo and Copernicus were amazing scientists."
   },
   {
     "start": 994.14,
@@ -1217,7 +649,7 @@
   },
   {
     "start": 1001.572,
-    "text": "But what also evolved at the\nsame time were their tools."
+    "text": "But what also evolved at the same time were their tools."
   },
   {
     "start": 1008.84,
@@ -1225,31 +657,15 @@
   },
   {
     "start": 1013.25,
-    "text": "A pencil was invented,"
-  },
-  {
-    "start": 1014.57,
-    "text": "that seems nothing to be invented today,"
-  },
-  {
-    "start": 1017.75,
-    "text": "but it was a major thing."
+    "text": "A pencil was invented, that seems nothing to be invented today, but it was a major thing."
   },
   {
     "start": 1020.9,
-    "text": "The fact that they start thinking"
-  },
-  {
-    "start": 1023.75,
-    "text": "about something called a vanishing point."
+    "text": "The fact that they start thinking about something called a vanishing point."
   },
   {
     "start": 1027.5,
-    "text": "Well, certainly, that if you\ncompare paintings and drawings"
-  },
-  {
-    "start": 1031.1,
-    "text": "before the Renaissance,\nthey were all flat."
+    "text": "Well, certainly, that if you compare paintings and drawings before the Renaissance, they were all flat."
   },
   {
     "start": 1035.12,
@@ -1257,43 +673,19 @@
   },
   {
     "start": 1035.953,
-    "text": "In the Renaissance,\nsuddenly depth appeared"
-  },
-  {
-    "start": 1039.53,
-    "text": "and different lighting appeared\nin paintings and drawings."
+    "text": "In the Renaissance, suddenly depth appeared and different lighting appeared in paintings and drawings."
   },
   {
     "start": 1044.78,
-    "text": "And then, these tools like the microscope"
-  },
-  {
-    "start": 1047.36,
-    "text": "and the telescope of course\ninvented by Dutch people."
-  },
-  {
-    "start": 1052.07,
-    "text": "Yeah.\n(audience chuckling)"
+    "text": "And then, these tools like the microscope and the telescope of course invented by Dutch people."
   },
   {
     "start": 1053.33,
     "text": "Not saying anything."
   },
   {
-    "start": 1055.372,
-    "text": "(Werner chuckles)"
-  },
-  {
     "start": 1056.54,
-    "text": "And then, the printing press,"
-  },
-  {
-    "start": 1059.57,
-    "text": "of course, we all see as sort\nof the pinnacle of invention"
-  },
-  {
-    "start": 1064.19,
-    "text": "in the Renaissance."
+    "text": "And then, the printing press, of course, we all see as sort of the pinnacle of invention in the Renaissance."
   },
   {
     "start": 1065.57,
@@ -1301,11 +693,7 @@
   },
   {
     "start": 1069.2,
-    "text": "Gutenberg actually used a\nwine press as his first tape,"
-  },
-  {
-    "start": 1073.58,
-    "text": "but that was not the only\nthing he needed to invent."
+    "text": "Gutenberg actually used a wine press as his first tape, but that was not the only thing he needed to invent."
   },
   {
     "start": 1077.39,
@@ -1313,19 +701,11 @@
   },
   {
     "start": 1080.21,
-    "text": "Basically that you have characters"
-  },
-  {
-    "start": 1082.04,
-    "text": "that you can put together."
+    "text": "Basically that you have characters that you can put together."
   },
   {
     "start": 1083.3,
-    "text": "He had to invent an ink"
-  },
-  {
-    "start": 1085.76,
-    "text": "that actually could be\nput on those characters."
+    "text": "He had to invent an ink that actually could be put on those characters."
   },
   {
     "start": 1089.27,
@@ -1337,23 +717,15 @@
   },
   {
     "start": 1097.67,
-    "text": "It was a time where art and science"
-  },
-  {
-    "start": 1101.06,
-    "text": "were part of the same conversation."
+    "text": "It was a time where art and science were part of the same conversation."
   },
   {
     "start": 1103.49,
-    "text": "Creativity and technology\nevolved together."
+    "text": "Creativity and technology evolved together."
   },
   {
     "start": 1111.26,
-    "text": "I've spent some time to think about"
-  },
-  {
-    "start": 1113.84,
-    "text": "what made people so\neffective in that world."
+    "text": "I've spent some time to think about what made people so effective in that world."
   },
   {
     "start": 1118.04,
@@ -1365,7 +737,7 @@
   },
   {
     "start": 1124.76,
-    "text": "They learned broadly and\napplied that learning deeply."
+    "text": "They learned broadly and applied that learning deeply."
   },
   {
     "start": 1128.75,
@@ -1377,11 +749,7 @@
   },
   {
     "start": 1134.18,
-    "text": "They were also bold\nexperimenters, they sketched,"
-  },
-  {
-    "start": 1137.15,
-    "text": "they measured, they\nfailed, they tried again."
+    "text": "They were also bold experimenters, they sketched, they measured, they failed, they tried again."
   },
   {
     "start": 1140.81,
@@ -1389,55 +757,23 @@
   },
   {
     "start": 1144.41,
-    "text": "So, if I take all of that in,"
-  },
-  {
-    "start": 1147.59,
-    "text": "I think by putting that together,"
-  },
-  {
-    "start": 1149.99,
-    "text": "I think we are again in\nthe time of Renaissance."
-  },
-  {
-    "start": 1154.893,
-    "text": "(upbeat music)"
+    "text": "So, if I take all of that in, I think by putting that together, I think we are again in the time of Renaissance."
   },
   {
     "start": 1156.29,
     "text": "And you are the new Renaissance Developer."
   },
   {
-    "start": 1160.85,
-    "text": "Yeah."
-  },
-  {
     "start": 1162.92,
-    "text": "Those qualities of those\nscientists in the Renaissance"
-  },
-  {
-    "start": 1167.48,
-    "text": "are just as relevant today."
+    "text": "Those qualities of those scientists in the Renaissance are just as relevant today."
   },
   {
     "start": 1170.93,
-    "text": "So, I've brought them\ntogether into a framework"
-  },
-  {
-    "start": 1173.12,
-    "text": "that I call the Renaissance Developer."
+    "text": "So, I've brought them together into a framework that I call the Renaissance Developer."
   },
   {
     "start": 1176.75,
-    "text": "And I want to show you\ntoday this framework"
-  },
-  {
-    "start": 1180.05,
-    "text": "hopefully help you\nevolve and be successful"
-  },
-  {
-    "start": 1184.07,
-    "text": "in this new era as well."
+    "text": "And I want to show you today this framework hopefully help you evolve and be successful in this new era as well."
   },
   {
     "start": 1189.53,
@@ -1445,11 +781,7 @@
   },
   {
     "start": 1193.31,
-    "text": "It's the first quality that\nyou need to nurture is,"
-  },
-  {
-    "start": 1198.5,
-    "text": "you need to be curious."
+    "text": "It's the first quality that you need to nurture is, you need to be curious."
   },
   {
     "start": 1201.92,
@@ -1457,19 +789,11 @@
   },
   {
     "start": 1204.2,
-    "text": "As developers, you always\nhad to continuously learn"
-  },
-  {
-    "start": 1208.64,
-    "text": "because everything changed all the time."
+    "text": "As developers, you always had to continuously learn because everything changed all the time."
   },
   {
     "start": 1214.64,
-    "text": "And every developer I've\nmet has this instinct"
-  },
-  {
-    "start": 1218.51,
-    "text": "to take something apart and\nthen look at how it works."
+    "text": "And every developer I've met has this instinct to take something apart and then look at how it works."
   },
   {
     "start": 1223.88,
@@ -1477,55 +801,31 @@
   },
   {
     "start": 1225.89,
-    "text": "The desire to understand,\nto improve, to build,"
-  },
-  {
-    "start": 1230.33,
-    "text": "you have to protect that instinct."
+    "text": "The desire to understand, to improve, to build, you have to protect that instinct."
   },
   {
     "start": 1233.87,
-    "text": "Stay curious,"
-  },
-  {
-    "start": 1235.985,
-    "text": "'cause curiosity leads to\nlearning and invention."
+    "text": "Stay curious, 'cause curiosity leads to learning and invention."
   },
   {
     "start": 1242.6,
-    "text": "Equally important for\nlearning is two things."
-  },
-  {
-    "start": 1248.24,
-    "text": "Yeah."
+    "text": "Equally important for learning is two things."
   },
   {
     "start": 1249.073,
-    "text": "For all new inventions\nyou need to experiment,"
-  },
-  {
-    "start": 1253.37,
-    "text": "and to experiment well, you\nneed to be willing to fail."
+    "text": "For all new inventions you need to experiment, and to experiment well, you need to be willing to fail."
   },
   {
     "start": 1259.01,
-    "text": "After all, Da Vinci made an\nairplane that never flew,"
+    "text": "After all, Da Vinci made an airplane that never flew,"
   },
   {
     "start": 1266.15,
     "text": "but we are flying now."
   },
   {
-    "start": 1269.21,
-    "text": "Yeah."
-  },
-  {
     "start": 1271.07,
-    "text": "And by the way, an experiment\nis not an experiment"
-  },
-  {
-    "start": 1276.89,
-    "text": "if you already know the outcome."
+    "text": "And by the way, an experiment is not an experiment if you already know the outcome."
   },
   {
     "start": 1279.35,
@@ -1533,7 +833,7 @@
   },
   {
     "start": 1280.49,
-    "text": "It drives experimentation,\ndrives to learning."
+    "text": "It drives experimentation, drives to learning."
   },
   {
     "start": 1284.96,
@@ -1541,31 +841,15 @@
   },
   {
     "start": 1290.0,
-    "text": "When I learned a new language,"
-  },
-  {
-    "start": 1291.23,
-    "text": "I read that this Dutch or\nEnglish or Portuguese or German,"
-  },
-  {
-    "start": 1294.41,
-    "text": "I find that the same principles apply."
+    "text": "When I learned a new language, I read that this Dutch or English or Portuguese or German, I find that the same principles apply."
   },
   {
     "start": 1297.53,
-    "text": "The best way to learn is\nfail and be gently corrected."
+    "text": "The best way to learn is fail and be gently corrected."
   },
   {
     "start": 1303.92,
-    "text": "You can study grammar all you like,"
-  },
-  {
-    "start": 1307.37,
-    "text": "but relearning begins where you\nstumble into a conversation,"
-  },
-  {
-    "start": 1311.42,
-    "text": "and stumble helps you to get it right."
+    "text": "You can study grammar all you like, but relearning begins where you stumble into a conversation, and stumble helps you to get it right."
   },
   {
     "start": 1315.11,
@@ -1573,91 +857,47 @@
   },
   {
     "start": 1318.56,
-    "text": "You can read documentation endlessly,"
-  },
-  {
-    "start": 1322.19,
-    "text": "but it is the failed built\nand the broken assumptions"
-  },
-  {
-    "start": 1327.05,
-    "text": "that really teach you\nhow a system behaves."
+    "text": "You can read documentation endlessly, but it is the failed built and the broken assumptions that really teach you how a system behaves."
   },
   {
     "start": 1332.06,
-    "text": "And any of you who have\nrecently used the Rust compiler"
-  },
-  {
-    "start": 1336.68,
-    "text": "knows how much feedback\nyou can really get."
+    "text": "And any of you who have recently used the Rust compiler knows how much feedback you can really get."
   },
   {
     "start": 1342.65,
-    "text": "And there are some things\nthat you can only do"
-  },
-  {
-    "start": 1346.91,
-    "text": "and only learn by doing."
+    "text": "And there are some things that you can only do and only learn by doing."
   },
   {
     "start": 1350.48,
-    "text": "Reading, watching, listening\nonly takes you so far."
+    "text": "Reading, watching, listening only takes you so far."
   },
   {
     "start": 1353.57,
-    "text": "But relearning happens when you engage,"
-  },
-  {
-    "start": 1358.43,
-    "text": "when there's some pressure,\nwhen the outcome matters."
+    "text": "But relearning happens when you engage, when there's some pressure, when the outcome matters."
   },
   {
     "start": 1362.6,
-    "text": "There is a relationship between stress"
-  },
-  {
-    "start": 1365.9,
-    "text": "and performance called\nthe Yerkes and Dodson Law"
+    "text": "There is a relationship between stress and performance called the Yerkes and Dodson Law"
   },
   {
     "start": 1369.86,
-    "text": "The picture is a bell curve,"
-  },
-  {
-    "start": 1372.08,
-    "text": "too little pressure and you're disengaged,"
-  },
-  {
-    "start": 1375.53,
-    "text": "too much pressure and you're overwhelmed."
+    "text": "The picture is a bell curve, too little pressure and you're disengaged, too much pressure and you're overwhelmed."
   },
   {
     "start": 1379.01,
-    "text": "The sweet spot is somewhere\non that rising slope"
-  },
-  {
-    "start": 1382.94,
-    "text": "where curiosity meets challenge."
+    "text": "The sweet spot is somewhere on that rising slope where curiosity meets challenge."
   },
   {
     "start": 1386.75,
-    "text": "That's when your brain\nis fully alert, focused,"
-  },
-  {
-    "start": 1389.96,
-    "text": "and ready to grow."
-  },
-  {
-    "start": 1392.42,
-    "text": "Yeah."
+    "text": "That's when your brain is fully alert, focused, and ready to grow."
   },
   {
     "start": 1393.32,
-    "text": "You can't reach that point\nby sitting comfortably."
+    "text": "You can't reach that point by sitting comfortably."
   },
   {
     "start": 1397.1,
-    "text": "You have to put yourself\nin positions that test you."
+    "text": "You have to put yourself in positions that test you."
   },
   {
     "start": 1403.1,
@@ -1665,23 +905,11 @@
   },
   {
     "start": 1407.45,
-    "text": "And that newspaper that you\nall found on your seats today,"
-  },
-  {
-    "start": 1411.387,
-    "text": "\"The Kernel,\" there's an article\nin there by Andy Warfield"
-  },
-  {
-    "start": 1415.64,
-    "text": "who writes about this."
+    "text": "And that newspaper that you all found on your seats today, \"The Kernel,\" there's an article in there by Andy Warfield who writes about this."
   },
   {
     "start": 1417.59,
-    "text": "I urge you all to read that article"
-  },
-  {
-    "start": 1420.83,
-    "text": "if you really want to\nunderstand more of that."
+    "text": "I urge you all to read that article if you really want to understand more of that."
   },
   {
     "start": 1425.639,
@@ -1693,19 +921,15 @@
   },
   {
     "start": 1433.43,
-    "text": "We're not here only to sit in the room"
-  },
-  {
-    "start": 1437.0,
-    "text": "and listen to one person\ntelling you exactly what to do."
+    "text": "We're not here only to sit in the room and listen to one person telling you exactly what to do."
   },
   {
     "start": 1441.77,
-    "text": "The thing you really learn\nis by talking to each other."
+    "text": "The thing you really learn is by talking to each other."
   },
   {
     "start": 1445.37,
-    "text": "Learning isn't just\ncognitive, it is social."
+    "text": "Learning isn't just cognitive, it is social."
   },
   {
     "start": 1449.0,
@@ -1713,31 +937,23 @@
   },
   {
     "start": 1452.63,
-    "text": "And by that I mean,"
-  },
-  {
-    "start": 1453.59,
-    "text": "you have to get out of\nyour usual environment."
+    "text": "And by that I mean, you have to get out of your usual environment."
   },
   {
     "start": 1455.96,
-    "text": "Go to a user group, attend\nto conference like re:Invent."
+    "text": "Go to a user group, attend to conference like re:Invent."
   },
   {
     "start": 1460.37,
-    "text": "I have coffee with a friend\nand talk about systems."
+    "text": "I have coffee with a friend and talk about systems."
   },
   {
     "start": 1463.31,
-    "text": "One of the best ways to stay sharp"
-  },
-  {
-    "start": 1466.43,
-    "text": "is to be around other people\nwho are building things."
+    "text": "One of the best ways to stay sharp is to be around other people who are building things."
   },
   {
     "start": 1470.54,
-    "text": "And for me, that often\nhappens when I'm on the road."
+    "text": "And for me, that often happens when I'm on the road."
   },
   {
     "start": 1474.77,
@@ -1745,39 +961,23 @@
   },
   {
     "start": 1476.81,
-    "text": "And those trips keep me connected"
-  },
-  {
-    "start": 1479.78,
-    "text": "to how people are\nactually using technology,"
-  },
-  {
-    "start": 1483.71,
-    "text": "not just how we imagine they might."
+    "text": "And those trips keep me connected to how people are actually using technology, not just how we imagine they might."
   },
   {
     "start": 1488.15,
-    "text": "This year, very fortunately,\nI took two-month long trips."
+    "text": "This year, very fortunately, I took two-month long trips."
   },
   {
     "start": 1493.1,
-    "text": "One to Africa, trip to Sahara, Africa,"
-  },
-  {
-    "start": 1495.68,
-    "text": "and the other two, Latin America."
+    "text": "One to Africa, trip to Sahara, Africa, and the other two, Latin America."
   },
   {
     "start": 1498.11,
-    "text": "In both regions I gave some talks"
-  },
-  {
-    "start": 1499.76,
-    "text": "with the mostly meet with customers."
+    "text": "In both regions I gave some talks with the mostly meet with customers."
   },
   {
     "start": 1502.25,
-    "text": "And the real thing I do is\nlearning from those customers."
+    "text": "And the real thing I do is learning from those customers."
   },
   {
     "start": 1508.25,
@@ -1789,47 +989,19 @@
   },
   {
     "start": 1514.189,
-    "text": "This is actually also, it took me 21 years"
-  },
-  {
-    "start": 1518.42,
-    "text": "to actually end up on the Amazon."
-  },
-  {
-    "start": 1521.45,
-    "text": "Yeah."
+    "text": "This is actually also, it took me 21 years to actually end up on the Amazon."
   },
   {
     "start": 1523.82,
-    "text": "And so, a group of AJE\nis a beverage company."
+    "text": "And so, a group of AJE is a beverage company."
   },
   {
     "start": 1527.39,
-    "text": "They support communities\nalong the Amazon River"
-  },
-  {
-    "start": 1530.78,
-    "text": "in a way that they give young\npeople an economic future"
-  },
-  {
-    "start": 1535.13,
-    "text": "so that they don't leave their villages"
-  },
-  {
-    "start": 1537.2,
-    "text": "to go to the big towns."
+    "text": "They support communities along the Amazon River in a way that they give young people an economic future so that they don't leave their villages to go to the big towns."
   },
   {
     "start": 1538.79,
-    "text": "It is a brilliant experience"
-  },
-  {
-    "start": 1541.07,
-    "text": "and a great example of how\ndoing good can be profitable"
-  },
-  {
-    "start": 1547.64,
-    "text": "at the same time."
+    "text": "It is a brilliant experience and a great example of how doing good can be profitable at the same time."
   },
   {
     "start": 1550.28,
@@ -1840,56 +1012,20 @@
     "text": "I saw pink dolphins."
   },
   {
-    "start": 1556.04,
-    "text": "Yeah."
-  },
-  {
     "start": 1557.06,
-    "text": "But it reminded something\nelse that I learned"
-  },
-  {
-    "start": 1559.31,
-    "text": "that not all of this is so great."
+    "text": "But it reminded something else that I learned that not all of this is so great."
   },
   {
     "start": 1564.47,
-    "text": "Early in the year,"
-  },
-  {
-    "start": 1565.61,
-    "text": "I spoke with Boyan Slat from\nThe Ocean Cleanup project"
-  },
-  {
-    "start": 1570.29,
-    "text": "during an episode of \"The Frugal\" podcast."
+    "text": "Early in the year, I spoke with Boyan Slat from The Ocean Cleanup project during an episode of \"The Frugal\" podcast."
   },
   {
     "start": 1574.31,
-    "text": "And he taught me that 80% of\nthe plastic found in the ocean"
-  },
-  {
-    "start": 1580.31,
-    "text": "originates from just a thousandth"
-  },
-  {
-    "start": 1583.52,
-    "text": "of the world's 3 million rivers."
+    "text": "And he taught me that 80% of the plastic found in the ocean originates from just a thousandth of the world's 3 million rivers."
   },
   {
     "start": 1587.66,
-    "text": "With the oceans of plastic,"
-  },
-  {
-    "start": 1590.12,
-    "text": "they need not only to clean\nup what is already out there,"
-  },
-  {
-    "start": 1593.39,
-    "text": "but also to stop new plastics\nfrom entering the ocean"
-  },
-  {
-    "start": 1597.32,
-    "text": "via these rivers."
+    "text": "With the oceans of plastic, they need not only to clean up what is already out there, but also to stop new plastics from entering the ocean via these rivers."
   },
   {
     "start": 1599.87,
@@ -1897,111 +1033,43 @@
   },
   {
     "start": 1601.43,
-    "text": "They've created a river\nmobile using drones,"
-  },
-  {
-    "start": 1605.12,
-    "text": "AI camera analysis, even\nGPS tracks dummy plastic"
-  },
-  {
-    "start": 1611.09,
-    "text": "in the place where we went\nonto the Amazon near Manaus,"
-  },
-  {
-    "start": 1614.81,
-    "text": "they actually took plastics"
+    "text": "They've created a river mobile using drones, AI camera analysis, even GPS tracks dummy plastic in the place where we went onto the Amazon near Manaus, they actually took plastics"
   },
   {
     "start": 1616.82,
-    "text": "and put GPSs in the foods in\nthe river, see where ended up."
+    "text": "and put GPSs in the foods in the river, see where ended up."
   },
   {
     "start": 1620.6,
-    "text": "Turns out the Amazon is\nnot a big polluter at all."
+    "text": "Turns out the Amazon is not a big polluter at all."
   },
   {
     "start": 1626.99,
-    "text": "But this computational\nmodel that they've built,"
-  },
-  {
-    "start": 1630.08,
-    "text": "these AI cameras that are on bridges,"
-  },
-  {
-    "start": 1632.96,
-    "text": "that are on the back of ships."
-  },
-  {
-    "start": 1635.81,
-    "text": "Yeah."
+    "text": "But this computational model that they've built, these AI cameras that are on bridges, that are on the back of ships."
   },
   {
     "start": 1636.71,
-    "text": "They create a computational\nmodel that predicts how"
-  },
-  {
-    "start": 1640.55,
-    "text": "and where this plastic will traffic,"
-  },
-  {
-    "start": 1643.97,
-    "text": "and helping them position\ntheir cleanup systems"
-  },
-  {
-    "start": 1647.09,
-    "text": "for maximum impact."
+    "text": "They create a computational model that predicts how and where this plastic will traffic, and helping them position their cleanup systems for maximum impact."
   },
   {
     "start": 1651.05,
-    "text": "Now, another thing that totally\nblew me away on this trip"
-  },
-  {
-    "start": 1657.02,
-    "text": "was actually in Rwanda."
+    "text": "Now, another thing that totally blew me away on this trip was actually in Rwanda."
   },
   {
     "start": 1661.19,
-    "text": "In Rwanda, this is the headquarters"
-  },
-  {
-    "start": 1665.96,
-    "text": "of the Ministry of Health."
+    "text": "In Rwanda, this is the headquarters of the Ministry of Health."
   },
   {
     "start": 1669.65,
-    "text": "And this is the health\nintelligence center."
+    "text": "And this is the health intelligence center."
   },
   {
     "start": 1673.22,
-    "text": "In the operations centers,"
-  },
-  {
-    "start": 1674.6,
-    "text": "huge screens display near real time data"
-  },
-  {
-    "start": 1679.22,
-    "text": "from four different tiers\nof healthcare facilities"
-  },
-  {
-    "start": 1681.89,
-    "text": "across the country."
+    "text": "In the operations centers, huge screens display near real time data from four different tiers of healthcare facilities across the country."
   },
   {
     "start": 1683.78,
-    "text": "They've built an impressive\nsystem that ingests"
-  },
-  {
-    "start": 1687.95,
-    "text": "and processes vast amount\nof healthcare data,"
-  },
-  {
-    "start": 1691.58,
-    "text": "visualizing everything\nfrom disease outbreaks"
-  },
-  {
-    "start": 1696.14,
-    "text": "to maternal health outcomes."
+    "text": "They've built an impressive system that ingests and processes vast amount of healthcare data, visualizing everything from disease outbreaks to maternal health outcomes."
   },
   {
     "start": 1700.34,
@@ -2009,55 +1077,19 @@
   },
   {
     "start": 1706.97,
-    "text": "They've created this model"
-  },
-  {
-    "start": 1708.86,
-    "text": "which shows that which\nparts of the country"
-  },
-  {
-    "start": 1712.07,
-    "text": "are more than a 30-minute walk away"
-  },
-  {
-    "start": 1715.34,
-    "text": "from a healthcare provider."
+    "text": "They've created this model which shows that which parts of the country are more than a 30-minute walk away from a healthcare provider."
   },
   {
     "start": 1717.8,
-    "text": "And they use this data"
-  },
-  {
-    "start": 1719.54,
-    "text": "to strategically place new\nmaternal health facilities"
-  },
-  {
-    "start": 1723.77,
-    "text": "in underserved areas."
+    "text": "And they use this data to strategically place new maternal health facilities in underserved areas."
   },
   {
     "start": 1726.95,
-    "text": "They use data to drive policy,"
-  },
-  {
-    "start": 1731.15,
-    "text": "and to actually implement that policy."
+    "text": "They use data to drive policy, and to actually implement that policy."
   },
   {
     "start": 1735.95,
-    "text": "Another visit that actually, I mean,"
-  },
-  {
-    "start": 1739.22,
-    "text": "most of these trips I get\nblown away every time,"
-  },
-  {
-    "start": 1742.58,
-    "text": "especially about, well, how\nyoung companies are attacking"
-  },
-  {
-    "start": 1746.45,
-    "text": "some of the world's hardest problems."
+    "text": "Another visit that actually, I mean, most of these trips I get blown away every time, especially about, well, how young companies are attacking some of the world's hardest problems."
   },
   {
     "start": 1749.69,
@@ -2065,15 +1097,7 @@
   },
   {
     "start": 1753.56,
-    "text": "And I learned that in many places there,"
-  },
-  {
-    "start": 1756.71,
-    "text": "people will just borrow a\ndollar or $2 in the morning,"
-  },
-  {
-    "start": 1761.18,
-    "text": "buy some goods, go and\nsell it on the market"
+    "text": "And I learned that in many places there, people will just borrow a dollar or $2 in the morning, buy some goods, go and sell it on the market"
   },
   {
     "start": 1764.42,
@@ -2081,15 +1105,7 @@
   },
   {
     "start": 1766.07,
-    "text": "And in the evening, they\nwill give these dollars back,"
-  },
-  {
-    "start": 1768.89,
-    "text": "and hopefully, have 40 or 50 cents,"
-  },
-  {
-    "start": 1772.4,
-    "text": "which they made that day."
+    "text": "And in the evening, they will give these dollars back, and hopefully, have 40 or 50 cents, which they made that day."
   },
   {
     "start": 1775.97,
@@ -2101,55 +1117,31 @@
   },
   {
     "start": 1781.13,
-    "text": "It is not enough though"
-  },
-  {
-    "start": 1783.41,
-    "text": "to also buy the gas to cook your food."
+    "text": "It is not enough though to also buy the gas to cook your food."
   },
   {
     "start": 1788.75,
-    "text": "So, in those poorer parts,\nit's all burned on carbon,"
-  },
-  {
-    "start": 1795.38,
-    "text": "which is massively polluting."
+    "text": "So, in those poorer parts, it's all burned on carbon, which is massively polluting."
   },
   {
     "start": 1798.08,
-    "text": "So, it is young company\ncalled KOKO Networks."
+    "text": "So, it is young company called KOKO Networks."
   },
   {
     "start": 1800.96,
-    "text": "They came up with a\ncompletely different solution."
+    "text": "They came up with a completely different solution."
   },
   {
     "start": 1804.8,
-    "text": "They basically built\nthese kind of ATM machines"
-  },
-  {
-    "start": 1807.77,
-    "text": "with ethanol in them, and a\nsmall canister that people have."
+    "text": "They basically built these kind of ATM machines with ethanol in them, and a small canister that people have."
   },
   {
     "start": 1812.75,
-    "text": "And they can basically\nwalk up to the machine,"
-  },
-  {
-    "start": 1817.25,
-    "text": "plug in their canister and\nask for five cents of gas,"
-  },
-  {
-    "start": 1822.47,
-    "text": "which will be enough to\ncook their food that night."
+    "text": "And they can basically walk up to the machine, plug in their canister and ask for five cents of gas, which will be enough to cook their food that night."
   },
   {
     "start": 1828.05,
-    "text": "This is what happens when\ndevelopers apply their skills"
-  },
-  {
-    "start": 1833.75,
-    "text": "to real human challenges."
+    "text": "This is what happens when developers apply their skills to real human challenges."
   },
   {
     "start": 1839.39,
@@ -2157,35 +1149,19 @@
   },
   {
     "start": 1842.21,
-    "text": "You have built the foundations\nof the digital world,"
-  },
-  {
-    "start": 1845.57,
-    "text": "and today, you are the\nones tuning, turning to AI"
-  },
-  {
-    "start": 1850.788,
-    "text": "from possibility into something\nuseful, safe, and scalable."
+    "text": "You have built the foundations of the digital world, and today, you are the ones tuning, turning to AI from possibility into something useful, safe, and scalable."
   },
   {
     "start": 1856.73,
-    "text": "And developers like you\nwere essential in the past."
+    "text": "And developers like you were essential in the past."
   },
   {
     "start": 1859.76,
-    "text": "They're essential today,"
-  },
-  {
-    "start": 1861.56,
-    "text": "and you will be essential in the future."
+    "text": "They're essential today, and you will be essential in the future."
   },
   {
     "start": 1866.66,
-    "text": "The United Nations expects that by 2050,"
-  },
-  {
-    "start": 1870.55,
-    "text": "we have 2 billion more\npeople on this planet."
+    "text": "The United Nations expects that by 2050, we have 2 billion more people on this planet."
   },
   {
     "start": 1874.85,
@@ -2193,7 +1169,7 @@
   },
   {
     "start": 1876.98,
-    "text": "How are we gonna make sure\nwe have an economic future?"
+    "text": "How are we gonna make sure we have an economic future?"
   },
   {
     "start": 1879.2,
@@ -2201,59 +1177,23 @@
   },
   {
     "start": 1881.69,
-    "text": "That's on us to develop technologies"
-  },
-  {
-    "start": 1886.171,
-    "text": "so that we can help solve"
-  },
-  {
-    "start": 1888.05,
-    "text": "some of the world's biggest problems,"
-  },
-  {
-    "start": 1890.9,
-    "text": "us as technologists\nhave that ability to do."
+    "text": "That's on us to develop technologies so that we can help solve some of the world's biggest problems, us as technologists have that ability to do."
   },
   {
     "start": 1897.05,
-    "text": "And if I look at some of you"
-  },
-  {
-    "start": 1900.02,
-    "text": "who spent so much of their time,"
-  },
-  {
-    "start": 1903.77,
-    "text": "not just to actually build some things"
-  },
-  {
-    "start": 1907.79,
-    "text": "in the corner of your room\nbut actually help others."
+    "text": "And if I look at some of you who spent so much of their time, not just to actually build some things in the corner of your room but actually help others."
   },
   {
     "start": 1912.23,
     "text": "The AWS Heroes."
   },
   {
-    "start": 1915.23,
-    "text": "Yeah."
-  },
-  {
     "start": 1916.16,
     "text": "We now have 200."
   },
   {
-    "start": 1918.214,
-    "text": "(audience clapping)"
-  },
-  {
     "start": 1919.047,
     "text": "Yeah, they deserve an applause."
-  },
-  {
-    "start": 1920.623,
-    "text": "(audience cheering and clapping)"
   },
   {
     "start": 1923.75,
@@ -2261,39 +1201,19 @@
   },
   {
     "start": 1927.26,
-    "text": "So, I've met community\nbuilders, I've met AWS Heroes,"
-  },
-  {
-    "start": 1930.23,
-    "text": "and these are people that\nare solving heart problems"
-  },
-  {
-    "start": 1934.82,
-    "text": "in their own corners of their world."
+    "text": "So, I've met community builders, I've met AWS Heroes, and these are people that are solving heart problems in their own corners of their world."
   },
   {
     "start": 1937.762,
-    "text": "There are now 265 heroes\nacross 58 countries."
+    "text": "There are now 265 heroes across 58 countries."
   },
   {
     "start": 1942.56,
-    "text": "But what constantly amazed me is"
-  },
-  {
-    "start": 1945.71,
-    "text": "how much we can learn from them."
+    "text": "But what constantly amazed me is how much we can learn from them."
   },
   {
     "start": 1949.76,
-    "text": "By the way, this year's\nNow Go Build awards"
-  },
-  {
-    "start": 1955.4,
-    "text": "goes to Raphael Quisumbing."
-  },
-  {
-    "start": 1960.014,
-    "text": "(audience cheering and clapping)"
+    "text": "By the way, this year's Now Go Build awards goes to Raphael Quisumbing."
   },
   {
     "start": 1961.43,
@@ -2301,55 +1221,31 @@
   },
   {
     "start": 1965.575,
-    "text": "- [Audience] Raffy, Raffy,\nRaffy, Raffy, Raffy, Raffy."
+    "text": "Raffy, Raffy, Raffy, Raffy, Raffy, Raffy."
   },
   {
     "start": 1972.26,
-    "text": "- Raffy absolutely embodies\nthe Renaissance Developer."
+    "text": "Raffy absolutely embodies the Renaissance Developer."
   },
   {
     "start": 1976.91,
-    "text": "He doesn't just write codes,\nhe builds communities,"
-  },
-  {
-    "start": 1980.63,
-    "text": "he mentors others and he\nco-leads the AWS user group"
-  },
-  {
-    "start": 1984.05,
-    "text": "in the Philippines since 2013."
+    "text": "He doesn't just write codes, he builds communities, he mentors others and he co-leads the AWS user group in the Philippines since 2013."
   },
   {
     "start": 1987.41,
-    "text": "Come on, Raffy, one more\nround applause for him."
-  },
-  {
-    "start": 1991.16,
-    "text": "(audience cheering and clapping)"
+    "text": "Come on, Raffy, one more round applause for him."
   },
   {
     "start": 2000.67,
-    "text": "So, the first quality I think\nthat a Renaissance Developer"
-  },
-  {
-    "start": 2006.19,
-    "text": "needs to have is to be curious."
+    "text": "So, the first quality I think that a Renaissance Developer needs to have is to be curious."
   },
   {
     "start": 2010.66,
-    "text": "And I like this quote from Walt Whitman,"
-  },
-  {
-    "start": 2013.787,
-    "text": "\"We are not what we know, but\nwhat we are willing to learn.\""
+    "text": "And I like this quote from Walt Whitman, \"We are not what we know, but what we are willing to learn.\""
   },
   {
     "start": 2022.09,
-    "text": "Another quality that I think\nthe Renaissance Developer has"
-  },
-  {
-    "start": 2025.75,
-    "text": "is that he thinks in systems."
+    "text": "Another quality that I think the Renaissance Developer has is that he thinks in systems."
   },
   {
     "start": 2032.644,
@@ -2357,55 +1253,23 @@
   },
   {
     "start": 2033.64,
-    "text": "If you don't really understand,"
-  },
-  {
-    "start": 2034.733,
-    "text": "I don't mean the computer\nsystem in this case,"
-  },
-  {
-    "start": 2037.03,
-    "text": "but in a big system."
+    "text": "If you don't really understand, I don't mean the computer system in this case, but in a big system."
   },
   {
     "start": 2039.4,
-    "text": "So, in the '70s, an ecologist\ncalled Donella Meadows"
-  },
-  {
-    "start": 2044.86,
-    "text": "began studying how complex systems behave."
+    "text": "So, in the '70s, an ecologist called Donella Meadows began studying how complex systems behave."
   },
   {
     "start": 2048.64,
-    "text": "She wasn't even a computer scientist,"
-  },
-  {
-    "start": 2050.2,
-    "text": "but her insights describe our\nworld of software perfectly."
+    "text": "She wasn't even a computer scientist, but her insights describe our world of software perfectly."
   },
   {
     "start": 2055.21,
-    "text": "And she wrote, \"A system\nis a set of things,"
-  },
-  {
-    "start": 2059.41,
-    "text": "people, cells or whatever,\ninterconnected in such a way"
-  },
-  {
-    "start": 2064.57,
-    "text": "that they produce their own\npatterns of behavior over time.\""
+    "text": "And she wrote, \"A system is a set of things, people, cells or whatever, interconnected in such a way that they produce their own patterns of behavior over time.\""
   },
   {
     "start": 2068.62,
-    "text": "And that was an extraordinary definition,"
-  },
-  {
-    "start": 2070.72,
-    "text": "because it capture what every\nengineer eventually learns"
-  },
-  {
-    "start": 2075.94,
-    "text": "that our systems have lives of their own."
+    "text": "And that was an extraordinary definition, because it capture what every engineer eventually learns that our systems have lives of their own."
   },
   {
     "start": 2079.39,
@@ -2417,19 +1281,11 @@
   },
   {
     "start": 2083.47,
-    "text": "One of the most striking examples"
-  },
-  {
-    "start": 2085.6,
-    "text": "of systems comes from ecology."
+    "text": "One of the most striking examples of systems comes from ecology."
   },
   {
     "start": 2088.27,
-    "text": "In the early 20th century,"
-  },
-  {
-    "start": 2090.85,
-    "text": "the wolves were removed from\nYellowstone National Park."
+    "text": "In the early 20th century, the wolves were removed from Yellowstone National Park."
   },
   {
     "start": 2095.17,
@@ -2437,11 +1293,7 @@
   },
   {
     "start": 2097.63,
-    "text": "Few predators meant more\nelk, meant more life."
-  },
-  {
-    "start": 2101.694,
-    "text": "(wolves howling)"
+    "text": "Few predators meant more elk, meant more life."
   },
   {
     "start": 2103.27,
@@ -2449,23 +1301,15 @@
   },
   {
     "start": 2106.27,
-    "text": "The valleys were overgrazed,\nthe trees disappeared,"
-  },
-  {
-    "start": 2110.38,
-    "text": "the rivers began to erode."
+    "text": "The valleys were overgrazed, the trees disappeared, the rivers began to erode."
   },
   {
     "start": 2113.26,
-    "text": "And this phenomena is\ncalled the trophic cascades."
+    "text": "And this phenomena is called the trophic cascades."
   },
   {
     "start": 2119.14,
-    "text": "When we reinduced in 2010,\nwolves back into the park,"
-  },
-  {
-    "start": 2125.59,
-    "text": "slowly the park started to heal."
+    "text": "When we reinduced in 2010, wolves back into the park, slowly the park started to heal."
   },
   {
     "start": 2129.55,
@@ -2481,23 +1325,19 @@
   },
   {
     "start": 2140.38,
-    "text": "they changed the behavior\nof the overall system."
+    "text": "they changed the behavior of the overall system."
   },
   {
     "start": 2144.79,
-    "text": "That single feedback\nloop, predator and prey,"
-  },
-  {
-    "start": 2149.53,
-    "text": "reshaped the balance of the entire system."
+    "text": "That single feedback loop, predator and prey, reshaped the balance of the entire system."
   },
   {
     "start": 2153.91,
-    "text": "And then, structure\nchanges, behavior changes."
+    "text": "And then, structure changes, behavior changes."
   },
   {
     "start": 2157.48,
-    "text": "And when feedback\nchanges, outcome changes."
+    "text": "And when feedback changes, outcome changes."
   },
   {
     "start": 2161.71,
@@ -2505,99 +1345,47 @@
   },
   {
     "start": 2165.16,
-    "text": "So, when thinking in systems,"
-  },
-  {
-    "start": 2169.33,
-    "text": "we think in complete systems,\nnot just in isolated parts."
+    "text": "So, when thinking in systems, we think in complete systems, not just in isolated parts."
   },
   {
     "start": 2174.28,
-    "text": "Every service, every API,"
-  },
-  {
-    "start": 2177.16,
-    "text": "every queue is part of a larger system."
+    "text": "Every service, every API, every queue is part of a larger system."
   },
   {
     "start": 2181.33,
-    "text": "You can't change one part in isolation,"
-  },
-  {
-    "start": 2184.72,
-    "text": "alter or rewrite policy\nand you affect load."
+    "text": "You can't change one part in isolation, alter or rewrite policy and you affect load."
   },
   {
     "start": 2188.47,
-    "text": "You add a cache, then\nyou change traffic load,"
-  },
-  {
-    "start": 2192.91,
-    "text": "you change traffic flow,\nyou shift team ownership,"
-  },
-  {
-    "start": 2197.23,
-    "text": "you change the pace of delivery."
+    "text": "You add a cache, then you change traffic load, you change traffic flow, you shift team ownership, you change the pace of delivery."
   },
   {
     "start": 2200.17,
-    "text": "Each change creates new\npatterns, some stable, some not."
+    "text": "Each change creates new patterns, some stable, some not."
   },
   {
     "start": 2208.12,
-    "text": "Every dynamic system is\nshaped by feedback loops."
+    "text": "Every dynamic system is shaped by feedback loops."
   },
   {
     "start": 2212.56,
-    "text": "Reinforcing loops, sometimes\ncalled positive loops,"
-  },
-  {
-    "start": 2215.98,
-    "text": "amplify change."
+    "text": "Reinforcing loops, sometimes called positive loops, amplify change."
   },
   {
     "start": 2217.9,
-    "text": "Balancing loops or\nnegative loops counteract,"
-  },
-  {
-    "start": 2220.69,
-    "text": "they change and push the system\nback into an equilibrium."
+    "text": "Balancing loops or negative loops counteract, they change and push the system back into an equilibrium."
   },
   {
     "start": 2225.58,
-    "text": "Meadows thought that once\nyou see patterns like this,"
-  },
-  {
-    "start": 2230.26,
-    "text": "you start to see where\nsmall well placed changes"
-  },
-  {
-    "start": 2235.66,
-    "text": "might shift the overall systems behavior."
+    "text": "Meadows thought that once you see patterns like this, you start to see where small well placed changes might shift the overall systems behavior."
   },
   {
     "start": 2240.926,
-    "text": "Donella wrote a paper,\na (indistinct) paper,"
-  },
-  {
-    "start": 2243.67,
-    "text": "it's called \"Leverage Points:"
-  },
-  {
-    "start": 2245.08,
-    "text": "Places to Intervene in the System,\""
-  },
-  {
-    "start": 2246.137,
-    "text": "where she put all of\nthese things together."
+    "text": "Donella wrote a paper, a paper, it's called \"Leverage Points: Places to Intervene in the System,\" where she put all of these things together."
   },
   {
     "start": 2248.59,
-    "text": "There's some words that we\nknow from computer science"
-  },
-  {
-    "start": 2251.56,
-    "text": "on a daily basis, positive\nand negative feedback loops."
+    "text": "There's some words that we know from computer science on a daily basis, positive and negative feedback loops."
   },
   {
     "start": 2255.49,
@@ -2613,35 +1401,19 @@
   },
   {
     "start": 2262.54,
-    "text": "Take a picture of the QR code,"
-  },
-  {
-    "start": 2264.67,
-    "text": "and that's your homework\nfor the coming week."
+    "text": "Take a picture of the QR code, and that's your homework for the coming week."
   },
   {
     "start": 2268.63,
-    "text": "The Renaissance Developer\nthinks in systems."
+    "text": "The Renaissance Developer thinks in systems."
   },
   {
     "start": 2275.29,
-    "text": "And to build resilient systems,"
-  },
-  {
-    "start": 2278.32,
-    "text": "you need to understand the bigger picture."
+    "text": "And to build resilient systems, you need to understand the bigger picture."
   },
   {
     "start": 2284.74,
-    "text": "If I think about a third quality"
-  },
-  {
-    "start": 2287.86,
-    "text": "of the Renaissance Developer,\nit's communication,"
-  },
-  {
-    "start": 2293.32,
-    "text": "he/she communicates."
+    "text": "If I think about a third quality of the Renaissance Developer, it's communication, he/she communicates."
   },
   {
     "start": 2296.41,
@@ -2649,35 +1421,11 @@
   },
   {
     "start": 2297.632,
-    "text": "And if you step into this broader view,"
-  },
-  {
-    "start": 2299.35,
-    "text": "you realize that the ability"
-  },
-  {
-    "start": 2300.67,
-    "text": "to express your thinking clearly"
-  },
-  {
-    "start": 2304.06,
-    "text": "is just as critical as\nthe thinking itself."
+    "text": "And if you step into this broader view, you realize that the ability to express your thinking clearly is just as critical as the thinking itself."
   },
   {
     "start": 2308.86,
-    "text": "And this is why I believe"
-  },
-  {
-    "start": 2310.15,
-    "text": "that one of the most important\nthings that an engineer"
-  },
-  {
-    "start": 2313.51,
-    "text": "or technical leader can do for\ntheir career is to practice,"
-  },
-  {
-    "start": 2317.83,
-    "text": "develop strong communication skills."
+    "text": "And this is why I believe that one of the most important things that an engineer or technical leader can do for their career is to practice, develop strong communication skills."
   },
   {
     "start": 2323.29,
@@ -2685,39 +1433,27 @@
   },
   {
     "start": 2324.49,
-    "text": "Let's go back two years when\nwe did \"The Frugal Architect.\""
+    "text": "Let's go back two years when we did \"The Frugal Architect.\""
   },
   {
     "start": 2328.57,
-    "text": "Don't know if you remember this picture,"
-  },
-  {
-    "start": 2330.19,
-    "text": "this is the Amazon homepage."
+    "text": "Don't know if you remember this picture, this is the Amazon homepage."
   },
   {
     "start": 2332.8,
-    "text": "And I explained to you how\nwe had divided that homepage"
-  },
-  {
-    "start": 2337.96,
-    "text": "or the overall Amazon system\ninto three different tiers."
+    "text": "And I explained to you how we had divided that homepage or the overall Amazon system into three different tiers."
   },
   {
     "start": 2342.31,
-    "text": "Tier one is something\nthat's absolutely necessary"
-  },
-  {
-    "start": 2345.91,
-    "text": "to make the system work."
+    "text": "Tier one is something that's absolutely necessary to make the system work."
   },
   {
     "start": 2348.16,
-    "text": "Search, browse, shopping\ncart, checkout and reviews."
+    "text": "Search, browse, shopping cart, checkout and reviews."
   },
   {
     "start": 2353.17,
-    "text": "Without those five things,\nthe site doesn't work."
+    "text": "Without those five things, the site doesn't work."
   },
   {
     "start": 2356.74,
@@ -2725,39 +1461,19 @@
   },
   {
     "start": 2358.12,
-    "text": "Tier two are things that are\nimportant to our customers,"
-  },
-  {
-    "start": 2361.15,
-    "text": "personalization, recommendations,\nthings like that."
+    "text": "Tier two are things that are important to our customers, personalization, recommendations, things like that."
   },
   {
     "start": 2364.33,
-    "text": "And tier three might be\nnice to have kind of parts."
+    "text": "And tier three might be nice to have kind of parts."
   },
   {
     "start": 2369.97,
-    "text": "To be able to do this,"
-  },
-  {
-    "start": 2371.443,
-    "text": "it's important not just\nfor us as engineers,"
-  },
-  {
-    "start": 2375.7,
-    "text": "but as communication tools\ntowards the business."
+    "text": "To be able to do this, it's important not just for us as engineers, but as communication tools towards the business."
   },
   {
     "start": 2379.84,
-    "text": "You go and sit round the\ntable with the business"
-  },
-  {
-    "start": 2383.02,
-    "text": "and talk about how many nines available"
-  },
-  {
-    "start": 2386.95,
-    "text": "does tier one need to be?"
+    "text": "You go and sit round the table with the business and talk about how many nines available does tier one need to be?"
   },
   {
     "start": 2390.13,
@@ -2773,31 +1489,15 @@
   },
   {
     "start": 2399.048,
-    "text": "Tier three, maybe you don't\ncare at all, two nines."
+    "text": "Tier three, maybe you don't care at all, two nines."
   },
   {
     "start": 2402.55,
-    "text": "We think, well, we'll do a manual fail"
-  },
-  {
-    "start": 2406.11,
-    "text": "if data center goes offline."
+    "text": "We think, well, we'll do a manual fail if data center goes offline."
   },
   {
     "start": 2408.1,
-    "text": "But it's a communication\nthat you need to have,"
-  },
-  {
-    "start": 2411.43,
-    "text": "you need to be able to\nclearly describe your system"
-  },
-  {
-    "start": 2415.69,
-    "text": "and the capabilities\nand your opportunities"
-  },
-  {
-    "start": 2417.67,
-    "text": "towards the business."
+    "text": "But it's a communication that you need to have, you need to be able to clearly describe your system and the capabilities and your opportunities towards the business."
   },
   {
     "start": 2419.98,
@@ -2805,11 +1505,7 @@
   },
   {
     "start": 2422.98,
-    "text": "Now, human languages,"
-  },
-  {
-    "start": 2426.55,
-    "text": "it's a bit of a challenge, isn't it?"
+    "text": "Now, human languages, it's a bit of a challenge, isn't it?"
   },
   {
     "start": 2428.35,
@@ -2821,27 +1517,11 @@
   },
   {
     "start": 2436.57,
-    "text": "But we have so many different\nsenses at the same time"
-  },
-  {
-    "start": 2441.58,
-    "text": "that we can turn this natural language"
-  },
-  {
-    "start": 2445.66,
-    "text": "into something less ambiguous."
+    "text": "But we have so many different senses at the same time that we can turn this natural language into something less ambiguous."
   },
   {
     "start": 2453.82,
-    "text": "Do we put grandma on the grill,"
-  },
-  {
-    "start": 2456.405,
-    "text": "(audience laughing)"
-  },
-  {
-    "start": 2457.238,
-    "text": "or are we having dinner tonight?"
+    "text": "Do we put grandma on the grill, or are we having dinner tonight?"
   },
   {
     "start": 2460.0,
@@ -2849,11 +1529,7 @@
   },
   {
     "start": 2462.01,
-    "text": "Even without a comma,"
-  },
-  {
-    "start": 2463.15,
-    "text": "you probably already have\nfigured this one out."
+    "text": "Even without a comma, you probably already have figured this one out."
   },
   {
     "start": 2467.05,
@@ -2861,47 +1537,23 @@
   },
   {
     "start": 2468.43,
-    "text": "Now, we've always communicated to machines"
-  },
-  {
-    "start": 2472.63,
-    "text": "through programming languages,\nbecause they were precise."
+    "text": "Now, we've always communicated to machines through programming languages, because they were precise."
   },
   {
     "start": 2477.19,
-    "text": "We could precisely indicate to the machine"
-  },
-  {
-    "start": 2480.97,
-    "text": "what we wanted it to do."
+    "text": "We could precisely indicate to the machine what we wanted it to do."
   },
   {
     "start": 2487.66,
-    "text": "But in today's world\nof AI assisted coding,"
-  },
-  {
-    "start": 2491.77,
-    "text": "we increasingly communicate\nwith the machine"
-  },
-  {
-    "start": 2494.65,
-    "text": "in natural language, which is ambiguous."
+    "text": "But in today's world of AI assisted coding, we increasingly communicate with the machine in natural language, which is ambiguous."
   },
   {
     "start": 2499.24,
-    "text": "So, we need to help to develop mechanisms"
-  },
-  {
-    "start": 2503.05,
-    "text": "to reduce the ambiguity of that language."
+    "text": "So, we need to help to develop mechanisms to reduce the ambiguity of that language."
   },
   {
     "start": 2507.28,
-    "text": "And reduce the ambiguity of the human"
-  },
-  {
-    "start": 2510.67,
-    "text": "so that the machine can create logic."
+    "text": "And reduce the ambiguity of the human so that the machine can create logic."
   },
   {
     "start": 2516.25,
@@ -2909,83 +1561,31 @@
   },
   {
     "start": 2522.16,
-    "text": "And our history is rich with stories"
-  },
-  {
-    "start": 2524.14,
-    "text": "of spec-driven development."
+    "text": "And our history is rich with stories of spec-driven development."
   },
   {
     "start": 2526.48,
-    "text": "Dijkstra's structure\nprogramming environment,"
-  },
-  {
-    "start": 2529.24,
-    "text": "before it was based on\nformal specifications,"
-  },
-  {
-    "start": 2532.51,
-    "text": "but that proved program correctness"
-  },
-  {
-    "start": 2534.91,
-    "text": "before you even implemented it."
+    "text": "Dijkstra's structure programming environment, before it was based on formal specifications, but that proved program correctness before you even implemented it."
   },
   {
     "start": 2538.0,
-    "text": "The Apollo Guidance System relied"
-  },
-  {
-    "start": 2540.88,
-    "text": "on meticulous specifications"
-  },
-  {
-    "start": 2543.49,
-    "text": "that guided its 145,000 lines of code,"
-  },
-  {
-    "start": 2547.48,
-    "text": "a blueprint so precise"
-  },
-  {
-    "start": 2550.87,
-    "text": "that has helped land people on the moon."
+    "text": "The Apollo Guidance System relied on meticulous specifications that guided its 145,000 lines of code, a blueprint so precise that has helped land people on the moon."
   },
   {
     "start": 2555.46,
-    "text": "And to talk more to you\nabout specifications,"
-  },
-  {
-    "start": 2558.46,
-    "text": "I'd like to welcome Clare Liguori,"
-  },
-  {
-    "start": 2561.13,
-    "text": "senior principle developer\non the Kiro team."
+    "text": "And to talk more to you about specifications, I'd like to welcome Clare Liguori, senior principle developer on the Kiro team."
   },
   {
     "start": 2564.01,
     "text": "Clare, up to you."
   },
   {
-    "start": 2565.346,
-    "text": "(upbeat music)"
-  },
-  {
-    "start": 2567.095,
-    "text": "(audience clapping and cheering)"
-  },
-  {
     "start": 2574.63,
-    "text": "- Thank you, Werner."
+    "text": "Thank you, Werner."
   },
   {
     "start": 2576.76,
-    "text": "Sometime last year, I started noticing"
-  },
-  {
-    "start": 2579.85,
-    "text": "that as I was vibe coding more and more"
+    "text": "Sometime last year, I started noticing that as I was vibe coding more and more"
   },
   {
     "start": 2581.86,
@@ -2993,563 +1593,259 @@
   },
   {
     "start": 2584.23,
-    "text": "I was spending more and\nmore time trying to describe"
-  },
-  {
-    "start": 2587.38,
-    "text": "to the AI what I wanted."
+    "text": "I was spending more and more time trying to describe to the AI what I wanted."
   },
   {
     "start": 2590.26,
-    "text": "The code that the AI generated was good,"
-  },
-  {
-    "start": 2592.99,
-    "text": "but the end software didn't\ndo what I wanted it to do."
+    "text": "The code that the AI generated was good, but the end software didn't do what I wanted it to do."
   },
   {
     "start": 2596.47,
-    "text": "I would often try to start\nover with a new prompt"
-  },
-  {
-    "start": 2599.62,
-    "text": "and start all over again and try again."
+    "text": "I would often try to start over with a new prompt and start all over again and try again."
   },
   {
     "start": 2603.4,
-    "text": "I noticed that over time,"
-  },
-  {
-    "start": 2604.93,
-    "text": "I wrote longer and longer,\nmore detailed prompts,"
-  },
-  {
-    "start": 2608.32,
-    "text": "trying to define what\nthe software should do."
+    "text": "I noticed that over time, I wrote longer and longer, more detailed prompts, trying to define what the software should do."
   },
   {
     "start": 2611.59,
-    "text": "I would write these long\nmark detailed prompts"
-  },
-  {
-    "start": 2615.01,
-    "text": "in obsidian and markdown, and\nthen I would copy and paste it"
-  },
-  {
-    "start": 2618.7,
-    "text": "over to my coding assistant."
+    "text": "I would write these long mark detailed prompts in obsidian and markdown, and then I would copy and paste it over to my coding assistant."
   },
   {
     "start": 2621.37,
-    "text": "I was essentially creating a specification"
-  },
-  {
-    "start": 2624.58,
-    "text": "to better communicate\nwith the AI what I wanted."
+    "text": "I was essentially creating a specification to better communicate with the AI what I wanted."
   },
   {
     "start": 2628.18,
-    "text": "Software specifications\ncan clearly communicate"
-  },
-  {
-    "start": 2630.82,
-    "text": "how a system should behave,\nwhat it should and shouldn't do."
+    "text": "Software specifications can clearly communicate how a system should behave, what it should and shouldn't do."
   },
   {
     "start": 2634.48,
-    "text": "And like Werner said,"
-  },
-  {
-    "start": 2635.8,
-    "text": "many systems in history have\nbeen based on specifications"
-  },
-  {
-    "start": 2639.49,
-    "text": "like Apollo missions."
+    "text": "And like Werner said, many systems in history have been based on specifications like Apollo missions."
   },
   {
     "start": 2642.4,
-    "text": "It felt like specifications\nwere exactly what was missing"
-  },
-  {
-    "start": 2646.15,
-    "text": "from my interactions\nwith my coding assistant."
+    "text": "It felt like specifications were exactly what was missing from my interactions with my coding assistant."
   },
   {
     "start": 2649.54,
-    "text": "But then I thought,"
-  },
-  {
-    "start": 2651.28,
-    "text": "how could we use this\nidea of specs as prompts?"
+    "text": "But then I thought, how could we use this idea of specs as prompts?"
   },
   {
     "start": 2655.63,
-    "text": "What would spec-driven\ndevelopment look like?"
+    "text": "What would spec-driven development look like?"
   },
   {
     "start": 2659.26,
-    "text": "And this spark of an\nidea led us to start work"
-  },
-  {
-    "start": 2661.66,
-    "text": "on the Kiro IDE."
+    "text": "And this spark of an idea led us to start work on the Kiro IDE."
   },
   {
     "start": 2664.39,
-    "text": "With this idea though,"
-  },
-  {
-    "start": 2665.59,
-    "text": "we now had a new communication challenge,"
-  },
-  {
-    "start": 2668.44,
-    "text": "how can we communicate\nand validate this idea"
-  },
-  {
-    "start": 2671.32,
-    "text": "with potential users?"
+    "text": "With this idea though, we now had a new communication challenge, how can we communicate and validate this idea with potential users?"
   },
   {
     "start": 2673.57,
-    "text": "We didn't know what it would look like"
-  },
-  {
-    "start": 2675.1,
-    "text": "and we didn't know what users wanted."
+    "text": "We didn't know what it would look like and we didn't know what users wanted."
   },
   {
     "start": 2677.59,
-    "text": "It was also kind of difficult to describe"
-  },
-  {
-    "start": 2680.17,
-    "text": "what spec-driven development was."
+    "text": "It was also kind of difficult to describe what spec-driven development was."
   },
   {
     "start": 2682.81,
-    "text": "They hadn't seen it before\nand we hadn't built it yet."
+    "text": "They hadn't seen it before and we hadn't built it yet."
   },
   {
     "start": 2687.01,
-    "text": "One of the best ways to\nget your ideas across"
-  },
-  {
-    "start": 2689.95,
-    "text": "is to quickly build a prototype,"
-  },
-  {
-    "start": 2691.9,
-    "text": "something that your\nusers can see and touch."
+    "text": "One of the best ways to get your ideas across is to quickly build a prototype, something that your users can see and touch."
   },
   {
     "start": 2695.62,
-    "text": "Rapid prototyping is of\ncourse not a new idea."
+    "text": "Rapid prototyping is of course not a new idea."
   },
   {
     "start": 2698.62,
-    "text": "Let's go back to the '60s\nto the time of punch cards."
+    "text": "Let's go back to the '60s to the time of punch cards."
   },
   {
     "start": 2703.12,
-    "text": "In 1964, Doug Engelbart at SRI\nhad a rough idea for a device"
-  },
-  {
-    "start": 2708.37,
-    "text": "that had wheels on the bottom,"
-  },
-  {
-    "start": 2710.11,
-    "text": "and you would slide it across the tabletop"
+    "text": "In 1964, Doug Engelbart at SRI had a rough idea for a device that had wheels on the bottom, and you would slide it across the tabletop"
   },
   {
     "start": 2712.33,
-    "text": "to point to something\non a computer screen."
+    "text": "to point to something on a computer screen."
   },
   {
     "start": 2714.97,
-    "text": "And we can probably all picture\nthis device in our head."
+    "text": "And we can probably all picture this device in our head."
   },
   {
     "start": 2718.84,
-    "text": "But can you imagine going back to the '60s"
-  },
-  {
-    "start": 2721.87,
-    "text": "and trying to describe what\na mouse is to this guy?"
+    "text": "But can you imagine going back to the '60s and trying to describe what a mouse is to this guy?"
   },
   {
     "start": 2726.7,
-    "text": "Engelbart's team rapidly built a prototype"
-  },
-  {
-    "start": 2729.76,
-    "text": "out of a block of wood."
+    "text": "Engelbart's team rapidly built a prototype out of a block of wood."
   },
   {
     "start": 2731.68,
-    "text": "It was a wooden shell,"
-  },
-  {
-    "start": 2732.88,
-    "text": "it had wheels on the\nbottom and a button on top."
+    "text": "It was a wooden shell, it had wheels on the bottom and a button on top."
   },
   {
     "start": 2735.88,
-    "text": "And this rough prototype\ncommunicated better"
-  },
-  {
-    "start": 2738.88,
-    "text": "what a mouse was,"
-  },
-  {
-    "start": 2740.38,
-    "text": "better than any drawing\nor description could have."
+    "text": "And this rough prototype communicated better what a mouse was, better than any drawing or description could have."
   },
   {
     "start": 2743.62,
-    "text": "It let people put their hands on it,"
-  },
-  {
-    "start": 2745.51,
-    "text": "and get the concept immediately."
+    "text": "It let people put their hands on it, and get the concept immediately."
   },
   {
     "start": 2747.88,
-    "text": "It had great ergonomics, it\nfelt great in their hands."
+    "text": "It had great ergonomics, it felt great in their hands."
   },
   {
     "start": 2752.2,
-    "text": "And like the mouse, rapid\nprototyping was crucial for Kiro."
+    "text": "And like the mouse, rapid prototyping was crucial for Kiro."
   },
   {
     "start": 2756.31,
-    "text": "We knew that the ergonomics\nof spec-driven development"
-  },
-  {
-    "start": 2759.16,
-    "text": "was going to be important,"
-  },
-  {
-    "start": 2760.69,
-    "text": "how it felt in the hands of a developer."
+    "text": "We knew that the ergonomics of spec-driven development was going to be important, how it felt in the hands of a developer."
   },
   {
     "start": 2763.81,
-    "text": "We rapidly built prototypes"
-  },
-  {
-    "start": 2765.43,
-    "text": "of how we thought spec-driven\ndevelopment could work."
+    "text": "We rapidly built prototypes of how we thought spec-driven development could work."
   },
   {
     "start": 2768.49,
-    "text": "And we put those prototypes"
-  },
-  {
-    "start": 2770.32,
-    "text": "in the hands of some internal users,"
-  },
-  {
-    "start": 2772.39,
-    "text": "and we asked them to use Kiro every day."
+    "text": "And we put those prototypes in the hands of some internal users, and we asked them to use Kiro every day."
   },
   {
     "start": 2775.6,
-    "text": "That was going to be the\nbest way for us to understand"
-  },
-  {
-    "start": 2778.66,
-    "text": "what felt good and what didn't feel good."
+    "text": "That was going to be the best way for us to understand what felt good and what didn't feel good."
   },
   {
     "start": 2782.11,
-    "text": "This is a great example of\nwhat AI can do for us now."
+    "text": "This is a great example of what AI can do for us now."
   },
   {
     "start": 2785.77,
-    "text": "AI has fundamentally enabled\nrapid prototyping for software."
+    "text": "AI has fundamentally enabled rapid prototyping for software."
   },
   {
     "start": 2790.81,
-    "text": "I'm sure that in the past,\nwe've all spent months"
-  },
-  {
-    "start": 2793.84,
-    "text": "manually coding a single idea."
+    "text": "I'm sure that in the past, we've all spent months manually coding a single idea."
   },
   {
     "start": 2797.02,
-    "text": "And now, we can give our\nusers real working prototypes"
-  },
-  {
-    "start": 2800.827,
-    "text": "and minutes to get feedback\nabout what feels right."
+    "text": "And now, we can give our users real working prototypes and minutes to get feedback about what feels right."
   },
   {
     "start": 2806.38,
-    "text": "Rapidly prototyping Kiro even\nlet us use Kiro to build Kiro."
+    "text": "Rapidly prototyping Kiro even let us use Kiro to build Kiro."
   },
   {
     "start": 2811.54,
-    "text": "Our very first prototype of the Kiro IDE"
-  },
-  {
-    "start": 2814.06,
-    "text": "could only do vibe coding."
+    "text": "Our very first prototype of the Kiro IDE could only do vibe coding."
   },
   {
     "start": 2815.89,
-    "text": "But from that moment on, we\nwere able to use the Kiro IDE"
-  },
-  {
-    "start": 2819.91,
-    "text": "to generate the code for the Kiro IDE."
+    "text": "But from that moment on, we were able to use the Kiro IDE to generate the code for the Kiro IDE."
   },
   {
     "start": 2823.51,
-    "text": "And by using the Kiro IDE\nto build out the product,"
-  },
-  {
-    "start": 2827.26,
-    "text": "we were able to iterate through many ideas"
-  },
-  {
-    "start": 2830.53,
-    "text": "of how spec-driven development could work."
+    "text": "And by using the Kiro IDE to build out the product, we were able to iterate through many ideas of how spec-driven development could work."
   },
   {
     "start": 2834.55,
-    "text": "One idea was test-driven\ndevelopment specs,"
-  },
-  {
-    "start": 2837.07,
-    "text": "taking inspiration from TDD techniques."
+    "text": "One idea was test-driven development specs, taking inspiration from TDD techniques."
   },
   {
     "start": 2839.86,
-    "text": "You would describe a\nchange that you wanted"
-  },
-  {
-    "start": 2842.89,
-    "text": "and Kiro would generate tests"
-  },
-  {
-    "start": 2844.51,
-    "text": "to validate the behavior\nthat you described."
+    "text": "You would describe a change that you wanted and Kiro would generate tests to validate the behavior that you described."
   },
   {
     "start": 2848.74,
-    "text": "Kiro would then generate application code"
-  },
-  {
-    "start": 2850.9,
-    "text": "and made sure that it passed those tests."
+    "text": "Kiro would then generate application code and made sure that it passed those tests."
   },
   {
     "start": 2853.75,
-    "text": "But we found that developers\ncouldn't always capture"
-  },
-  {
-    "start": 2855.94,
-    "text": "the nuance of what they\nwanted their software to do"
-  },
-  {
-    "start": 2858.67,
-    "text": "or look like with tests only."
+    "text": "But we found that developers couldn't always capture the nuance of what they wanted their software to do or look like with tests only."
   },
   {
     "start": 2862.51,
-    "text": "We tried out traditional\ntechnical specifications"
-  },
-  {
-    "start": 2866.05,
-    "text": "similar to those that Werner described"
-  },
-  {
-    "start": 2868.63,
-    "text": "for the Apollo Guidance System."
+    "text": "We tried out traditional technical specifications similar to those that Werner described for the Apollo Guidance System."
   },
   {
     "start": 2870.4,
-    "text": "They described the system as a whole"
-  },
-  {
-    "start": 2872.56,
-    "text": "and each component in detail."
+    "text": "They described the system as a whole and each component in detail."
   },
   {
     "start": 2875.65,
-    "text": "With this, you'd add a new\nfeature to the overall spec,"
-  },
-  {
-    "start": 2879.37,
-    "text": "and Kiro would kick off coding\ntasks based on the changes"
-  },
-  {
-    "start": 2882.19,
-    "text": "that you described."
+    "text": "With this, you'd add a new feature to the overall spec, and Kiro would kick off coding tasks based on the changes that you described."
   },
   {
     "start": 2883.93,
-    "text": "These specs were great context for the AI"
-  },
-  {
-    "start": 2887.08,
-    "text": "and even for developers"
-  },
-  {
-    "start": 2888.37,
-    "text": "who weren't very familiar\nwith this code base."
+    "text": "These specs were great context for the AI and even for developers who weren't very familiar with this code base."
   },
   {
     "start": 2891.16,
-    "text": "But for real world projects,"
-  },
-  {
-    "start": 2892.81,
-    "text": "they sometimes became overwhelmingly long."
+    "text": "But for real world projects, they sometimes became overwhelmingly long."
   },
   {
     "start": 2895.42,
-    "text": "So, it was difficult to figure out"
-  },
-  {
-    "start": 2896.8,
-    "text": "where in this long spec\nyou should put your changes"
-  },
-  {
-    "start": 2899.53,
-    "text": "for your new feature."
+    "text": "So, it was difficult to figure out where in this long spec you should put your changes for your new feature."
   },
   {
     "start": 2901.78,
-    "text": "We took a step back"
-  },
-  {
-    "start": 2902.89,
-    "text": "and we looked at how we\nalready worked as a team."
+    "text": "We took a step back and we looked at how we already worked as a team."
   },
   {
     "start": 2905.68,
-    "text": "When we had a new feature\nidea, we would describe it."
+    "text": "When we had a new feature idea, we would describe it."
   },
   {
     "start": 2909.19,
-    "text": "We would work through\nproduct requirements,"
-  },
-  {
-    "start": 2912.34,
-    "text": "review a design doc,\nand create sprint tasks."
+    "text": "We would work through product requirements, review a design doc, and create sprint tasks."
   },
   {
     "start": 2917.38,
-    "text": "And we thought that perhaps specs"
-  },
-  {
-    "start": 2919.27,
-    "text": "could follow this same pattern,"
-  },
-  {
-    "start": 2920.83,
-    "text": "and that became feature driven specs."
+    "text": "And we thought that perhaps specs could follow this same pattern, and that became feature driven specs."
   },
   {
     "start": 2923.53,
-    "text": "We separated the flow\ninto three documents,"
-  },
-  {
-    "start": 2926.41,
-    "text": "requirements, designs, and tasks."
+    "text": "We separated the flow into three documents, requirements, designs, and tasks."
   },
   {
     "start": 2929.47,
-    "text": "And we found"
-  },
-  {
-    "start": 2930.303,
-    "text": "that this gave developers\nmore control over the AI"
-  },
-  {
-    "start": 2933.73,
-    "text": "and let them better\ncommunicate what they wanted."
+    "text": "And we found that this gave developers more control over the AI and let them better communicate what they wanted."
   },
   {
     "start": 2937.18,
-    "text": "All of these rapid prototypes\ngave us critical user feedback"
-  },
-  {
-    "start": 2941.65,
-    "text": "that led to today's spec-driven\ndevelopment workflow"
-  },
-  {
-    "start": 2944.11,
-    "text": "that's in the Kiro IDE."
+    "text": "All of these rapid prototypes gave us critical user feedback that led to today's spec-driven development workflow that's in the Kiro IDE."
   },
   {
     "start": 2946.57,
-    "text": "With a spec workflow now in place in Kiro,"
-  },
-  {
-    "start": 2949.09,
-    "text": "we could use it more effectively"
-  },
-  {
-    "start": 2950.95,
-    "text": "to keep building out the product."
+    "text": "With a spec workflow now in place in Kiro, we could use it more effectively to keep building out the product."
   },
   {
     "start": 2953.14,
-    "text": "Because now we could\ncommunicate more precisely"
-  },
-  {
-    "start": 2955.99,
-    "text": "with the AI what we wanted."
+    "text": "Because now we could communicate more precisely with the AI what we wanted."
   },
   {
     "start": 2959.44,
-    "text": "Often with vibe coding,"
-  },
-  {
-    "start": 2960.85,
-    "text": "I find that we give these very\nambiguous tasks to the AI."
+    "text": "Often with vibe coding, I find that we give these very ambiguous tasks to the AI."
   },
   {
     "start": 2964.87,
-    "text": "We might say, \"Build\nme a web trivia game.\""
+    "text": "We might say, \"Build me a web trivia game.\""
   },
   {
     "start": 2967.72,
-    "text": "And out of this very short prompt,"
-  },
-  {
-    "start": 2969.85,
-    "text": "there's probably a million"
-  },
-  {
-    "start": 2971.71,
-    "text": "possible different final outcomes,"
-  },
-  {
-    "start": 2974.47,
-    "text": "but probably only one of those"
-  },
-  {
-    "start": 2976.3,
-    "text": "is what you have in your head."
+    "text": "And out of this very short prompt, there's probably a million possible different final outcomes, but probably only one of those is what you have in your head."
   },
   {
     "start": 2979.0,
-    "text": "With vibe coding, the AI is\ngoing to take its best guess"
-  },
-  {
-    "start": 2982.06,
-    "text": "as to what you meant, it'll generate code,"
-  },
-  {
-    "start": 2985.24,
-    "text": "but that leaves you to iterate\non the code with the AI"
+    "text": "With vibe coding, the AI is going to take its best guess as to what you meant, it'll generate code, but that leaves you to iterate on the code with the AI"
   },
   {
     "start": 2988.12,
@@ -3557,259 +1853,99 @@
   },
   {
     "start": 2991.57,
-    "text": "With spec-driven development,\nyou have an opportunity"
-  },
-  {
-    "start": 2994.18,
-    "text": "to refine what you mean more\nprecisely through specs."
+    "text": "With spec-driven development, you have an opportunity to refine what you mean more precisely through specs."
   },
   {
     "start": 2997.75,
-    "text": "You can give the Kiro IDE\nthat same ambiguous task,"
-  },
-  {
-    "start": 3001.89,
-    "text": "but instead of jumping\ninto the code right away,"
-  },
-  {
-    "start": 3004.8,
-    "text": "it's going to first generate\nrequirements, designs, tasks."
+    "text": "You can give the Kiro IDE that same ambiguous task, but instead of jumping into the code right away, it's going to first generate requirements, designs, tasks."
   },
   {
     "start": 3009.15,
-    "text": "And if those don't match\nwhat's in your head,"
-  },
-  {
-    "start": 3011.52,
-    "text": "you have the opportunity to ask Kiro"
-  },
-  {
-    "start": 3013.92,
-    "text": "to change it and refine it."
+    "text": "And if those don't match what's in your head, you have the opportunity to ask Kiro to change it and refine it."
   },
   {
     "start": 3016.77,
-    "text": "Let's walk through a real\nexample of a production feature"
-  },
-  {
-    "start": 3019.68,
-    "text": "that we built in the Kiro IDE"
-  },
-  {
-    "start": 3021.84,
-    "text": "using spec-driven development\nsystem notifications."
+    "text": "Let's walk through a real example of a production feature that we built in the Kiro IDE using spec-driven development system notifications."
   },
   {
     "start": 3025.74,
-    "text": "We started here with a little annoyance"
-  },
-  {
-    "start": 3028.02,
-    "text": "that we ourselves experienced\nwith an early version"
-  },
-  {
-    "start": 3030.48,
-    "text": "of the Kiro IDE."
+    "text": "We started here with a little annoyance that we ourselves experienced with an early version of the Kiro IDE."
   },
   {
     "start": 3032.04,
-    "text": "Agents can take a while to\ncomplete their coding work."
+    "text": "Agents can take a while to complete their coding work."
   },
   {
     "start": 3035.4,
-    "text": "And meanwhile, we would switch\naway to a different app,"
-  },
-  {
-    "start": 3039.09,
-    "text": "but then the agent would need user input"
-  },
-  {
-    "start": 3041.52,
-    "text": "or it would complete its work,\nand we would have no idea"
+    "text": "And meanwhile, we would switch away to a different app, but then the agent would need user input or it would complete its work, and we would have no idea"
   },
   {
     "start": 3044.97,
-    "text": "that it was sitting there idle"
-  },
-  {
-    "start": 3046.86,
-    "text": "while we were away doing other work."
+    "text": "that it was sitting there idle while we were away doing other work."
   },
   {
     "start": 3049.8,
-    "text": "So, we set out to build a feature\nthat would notify the user"
-  },
-  {
-    "start": 3053.4,
-    "text": "when the agent needed its attention."
+    "text": "So, we set out to build a feature that would notify the user when the agent needed its attention."
   },
   {
     "start": 3056.4,
-    "text": "We started by having Kiro generate a spec"
-  },
-  {
-    "start": 3058.95,
-    "text": "and the generator requirements\nactually helped us to think"
-  },
-  {
-    "start": 3061.8,
-    "text": "through some details\nlike which agent actions"
-  },
-  {
-    "start": 3064.95,
-    "text": "should trigger notifications to the user."
+    "text": "We started by having Kiro generate a spec and the generator requirements actually helped us to think through some details like which agent actions should trigger notifications to the user."
   },
   {
     "start": 3068.31,
-    "text": "When we got to the design phase,"
-  },
-  {
-    "start": 3070.14,
-    "text": "we'd expected this to be a\npretty simple integration"
-  },
-  {
-    "start": 3072.72,
-    "text": "into the Kiro agent code."
+    "text": "When we got to the design phase, we'd expected this to be a pretty simple integration into the Kiro agent code."
   },
   {
     "start": 3074.64,
-    "text": "But instead, Kiro generated\nthis very complex design"
-  },
-  {
-    "start": 3078.87,
-    "text": "that would build an entirely\nnew notification system"
-  },
-  {
-    "start": 3081.54,
-    "text": "directly in our agent code."
+    "text": "But instead, Kiro generated this very complex design that would build an entirely new notification system directly in our agent code."
   },
   {
     "start": 3084.33,
-    "text": "Now, if we had vibe coded\nthis, we would've ended up"
-  },
-  {
-    "start": 3086.97,
-    "text": "with a lot of code that\nwe didn't actually want."
+    "text": "Now, if we had vibe coded this, we would've ended up with a lot of code that we didn't actually want."
   },
   {
     "start": 3090.54,
-    "text": "But instead, the spec process\nhelped us quickly realize"
-  },
-  {
-    "start": 3094.14,
-    "text": "this was a much bigger project\nthan we originally thought."
+    "text": "But instead, the spec process helped us quickly realize this was a much bigger project than we originally thought."
   },
   {
     "start": 3098.43,
-    "text": "We iterated on the spec to first focus"
-  },
-  {
-    "start": 3100.89,
-    "text": "on building a notification system"
-  },
-  {
-    "start": 3103.02,
-    "text": "directly outside of the agent code,"
-  },
-  {
-    "start": 3105.15,
-    "text": "and directly in the underlying IDE code."
+    "text": "We iterated on the spec to first focus on building a notification system directly outside of the agent code, and directly in the underlying IDE code."
   },
   {
     "start": 3108.99,
-    "text": "This needed to be built on top"
-  },
-  {
-    "start": 3110.25,
-    "text": "of electron's native notification API."
+    "text": "This needed to be built on top of electron's native notification API."
   },
   {
     "start": 3113.58,
-    "text": "Kiro IDE is based on code OSS,"
-  },
-  {
-    "start": 3115.71,
-    "text": "which is a code base that\nspans 10 years of development"
-  },
-  {
-    "start": 3119.28,
-    "text": "and 2 million lines of code."
+    "text": "Kiro IDE is based on code OSS, which is a code base that spans 10 years of development and 2 million lines of code."
   },
   {
     "start": 3121.35,
-    "text": "It can be difficult for\nany developer to figure out"
-  },
-  {
-    "start": 3124.44,
-    "text": "where they need to make\nchanges in this code base."
+    "text": "It can be difficult for any developer to figure out where they need to make changes in this code base."
   },
   {
     "start": 3127.8,
-    "text": "But Kiro spec workflow\nactually helped us to explore"
-  },
-  {
-    "start": 3131.19,
-    "text": "and understand where these\nchanges needed to be made."
+    "text": "But Kiro spec workflow actually helped us to explore and understand where these changes needed to be made."
   },
   {
     "start": 3134.82,
-    "text": "And once these changes were in place,"
-  },
-  {
-    "start": 3136.95,
-    "text": "we were again able to use\nspec-driven development"
-  },
-  {
-    "start": 3139.77,
-    "text": "to integrate it into our agent code."
+    "text": "And once these changes were in place, we were again able to use spec-driven development to integrate it into our agent code."
   },
   {
     "start": 3142.65,
-    "text": "Throughout this prospect, we\nwere able to quickly iterate"
-  },
-  {
-    "start": 3145.86,
-    "text": "on our specs till we got exactly\nwhat we wanted from the AI."
+    "text": "Throughout this prospect, we were able to quickly iterate on our specs till we got exactly what we wanted from the AI."
   },
   {
     "start": 3150.12,
-    "text": "With spec-driven development,"
-  },
-  {
-    "start": 3153.24,
-    "text": "we shipped this agent\nin roughly half the time"
-  },
-  {
-    "start": 3156.03,
-    "text": "as if we had vibe coded it."
+    "text": "With spec-driven development, we shipped this agent in roughly half the time as if we had vibe coded it."
   },
   {
     "start": 3158.28,
-    "text": "In our experience building Kiro,"
-  },
-  {
-    "start": 3160.05,
-    "text": "we realized that AI has\nchanged how we communicate"
-  },
-  {
-    "start": 3164.19,
-    "text": "and how fast we can iterate."
+    "text": "In our experience building Kiro, we realized that AI has changed how we communicate and how fast we can iterate."
   },
   {
     "start": 3169.65,
-    "text": "We can iterate on the software design"
-  },
-  {
-    "start": 3171.54,
-    "text": "by communicating with\nthe AI through specs,"
-  },
-  {
-    "start": 3173.91,
-    "text": "and we can iterate on\nwhat the software does"
-  },
-  {
-    "start": 3176.88,
-    "text": "by putting real working applications fast"
+    "text": "We can iterate on the software design by communicating with the AI through specs, and we can iterate on what the software does by putting real working applications fast"
   },
   {
     "start": 3180.09,
@@ -3817,19 +1953,7 @@
   },
   {
     "start": 3183.42,
-    "text": "AI and spec-driven development helped us"
-  },
-  {
-    "start": 3185.64,
-    "text": "to build a better Kiro IDE,"
-  },
-  {
-    "start": 3187.8,
-    "text": "and this was in large part due\nto more precise communication"
-  },
-  {
-    "start": 3191.76,
-    "text": "with our users through rapid prototypes,"
+    "text": "AI and spec-driven development helped us to build a better Kiro IDE, and this was in large part due to more precise communication with our users through rapid prototypes,"
   },
   {
     "start": 3194.16,
@@ -3837,111 +1961,55 @@
   },
   {
     "start": 3197.73,
-    "text": "Natural language doesn't\nhave to mean high ambiguity."
+    "text": "Natural language doesn't have to mean high ambiguity."
   },
   {
     "start": 3201.54,
-    "text": "And personally,"
-  },
-  {
-    "start": 3202.5,
-    "text": "this is what I think\nmakes Kiro IDE so special."
+    "text": "And personally, this is what I think makes Kiro IDE so special."
   },
   {
     "start": 3205.89,
-    "text": "Kiro IDE brings precision\nto natural language."
+    "text": "Kiro IDE brings precision to natural language."
   },
   {
     "start": 3209.28,
-    "text": "And with that, I'll hand\nit back over to Werner."
-  },
-  {
-    "start": 3211.855,
-    "text": "(audience clapping)\n(upbeat music)"
+    "text": "And with that, I'll hand it back over to Werner."
   },
   {
     "start": 3219.96,
-    "text": "- Thanks, Clare."
+    "text": "Thanks, Clare."
   },
   {
     "start": 3222.09,
-    "text": "Communication is so\nimportant that Clare shows,"
-  },
-  {
-    "start": 3225.66,
-    "text": "it leads to systems that\nhave fewer mistakes."
+    "text": "Communication is so important that Clare shows, it leads to systems that have fewer mistakes."
   },
   {
     "start": 3231.24,
-    "text": "Actually, let me get\ntell you a story again,"
-  },
-  {
-    "start": 3235.92,
-    "text": "sort of, outta my own youth."
+    "text": "Actually, let me get tell you a story again, sort of, outta my own youth."
   },
   {
     "start": 3237.66,
-    "text": "When I went to computer science school,"
-  },
-  {
-    "start": 3241.11,
-    "text": "there was a class called\nInterview Technique,"
-  },
-  {
-    "start": 3245.31,
-    "text": "and I go, \"What, interviews?\""
+    "text": "When I went to computer science school, there was a class called Interview Technique, and I go, \"What, interviews?\""
   },
   {
     "start": 3248.31,
-    "text": "Because you think about\njournalists and things like that."
+    "text": "Because you think about journalists and things like that."
   },
   {
     "start": 3251.04,
-    "text": "No, it was how to learn\nto talk to your customer"
-  },
-  {
-    "start": 3255.09,
-    "text": "to really trying to understand what he"
-  },
-  {
-    "start": 3258.03,
-    "text": "or she actually really wanted."
+    "text": "No, it was how to learn to talk to your customer to really trying to understand what he or she actually really wanted."
   },
   {
     "start": 3260.79,
-    "text": "Because they may come to you already"
-  },
-  {
-    "start": 3262.83,
-    "text": "with a technology solution,"
-  },
-  {
-    "start": 3264.09,
-    "text": "like knowing anything about technology."
+    "text": "Because they may come to you already with a technology solution, like knowing anything about technology."
   },
   {
     "start": 3266.73,
-    "text": "Wouldn't be the first time these\ndays when I meet a customer"
-  },
-  {
-    "start": 3270.9,
-    "text": "who says, \"What should\nI be doing with GenAI?\""
+    "text": "Wouldn't be the first time these days when I meet a customer who says, \"What should I be doing with GenAI?\""
   },
   {
     "start": 3275.28,
-    "text": "And then, because you\nreally trained in trying"
-  },
-  {
-    "start": 3278.85,
-    "text": "to figure out into depth,\nsay I'm very apologize"
-  },
-  {
-    "start": 3283.8,
-    "text": "to answer your question with a question,"
-  },
-  {
-    "start": 3285.84,
-    "text": "but why are you asking me this?"
+    "text": "And then, because you really trained in trying to figure out into depth, say I'm very apologize to answer your question with a question, but why are you asking me this?"
   },
   {
     "start": 3289.62,
@@ -3949,35 +2017,15 @@
   },
   {
     "start": 3293.13,
-    "text": "And so, really diving\ninto it with the customer"
-  },
-  {
-    "start": 3296.28,
-    "text": "to understand what's the\nproblem they want to solve,"
-  },
-  {
-    "start": 3298.77,
-    "text": "what's the opportunity that they see?"
+    "text": "And so, really diving into it with the customer to understand what's the problem they want to solve, what's the opportunity that they see?"
   },
   {
     "start": 3301.26,
-    "text": "All of that is communication"
-  },
-  {
-    "start": 3304.14,
-    "text": "that we as engineers should have."
+    "text": "All of that is communication that we as engineers should have."
   },
   {
     "start": 3308.94,
-    "text": "Now, let's go to the fourth,"
-  },
-  {
-    "start": 3311.34,
-    "text": "what I call the fourth quality\nof the Renaissance Developer."
-  },
-  {
-    "start": 3316.92,
-    "text": "Yeah."
+    "text": "Now, let's go to the fourth, what I call the fourth quality of the Renaissance Developer."
   },
   {
     "start": 3317.753,
@@ -3985,11 +2033,7 @@
   },
   {
     "start": 3322.86,
-    "text": "I've spoken about it before,"
-  },
-  {
-    "start": 3324.18,
-    "text": "but today, I want to\nfocus on one part of it."
+    "text": "I've spoken about it before, but today, I want to focus on one part of it."
   },
   {
     "start": 3328.35,
@@ -3997,67 +2041,31 @@
   },
   {
     "start": 3333.54,
-    "text": "AI will let us build things,"
-  },
-  {
-    "start": 3336.72,
-    "text": "bigger systems, explore more ideas,"
-  },
-  {
-    "start": 3340.17,
-    "text": "move faster than ever before."
+    "text": "AI will let us build things, bigger systems, explore more ideas, move faster than ever before."
   },
   {
     "start": 3343.35,
-    "text": "These tools will,"
-  },
-  {
-    "start": 3344.97,
-    "text": "as the modern day\nphilosophers Daft Punk said,"
-  },
-  {
-    "start": 3348.877,
-    "text": "\"Help us build harder,\nbetter, faster, and stronger.\""
+    "text": "These tools will, as the modern day philosophers Daft Punk said, \"Help us build harder, better, faster, and stronger.\""
   },
   {
     "start": 3354.48,
-    "text": "And if we use these tools correctly,"
-  },
-  {
-    "start": 3357.15,
-    "text": "they can help us produce\nhigh quality software."
+    "text": "And if we use these tools correctly, they can help us produce high quality software."
   },
   {
     "start": 3363.18,
-    "text": "But there is a risk"
-  },
-  {
-    "start": 3364.8,
-    "text": "in how some developers are\nstarting to use these tools."
+    "text": "But there is a risk in how some developers are starting to use these tools."
   },
   {
     "start": 3368.13,
-    "text": "Vibe coding is fine,"
-  },
-  {
-    "start": 3370.56,
-    "text": "but only if you pay close\nattention to what is being built."
+    "text": "Vibe coding is fine, but only if you pay close attention to what is being built."
   },
   {
     "start": 3375.6,
-    "text": "We can't just pull a lever on your IDE"
-  },
-  {
-    "start": 3378.9,
-    "text": "and hope that something good comes out."
+    "text": "We can't just pull a lever on your IDE and hope that something good comes out."
   },
   {
     "start": 3382.02,
-    "text": "That's not software\nengineering, that's gambling,"
-  },
-  {
-    "start": 3385.56,
-    "text": "and you need to be out\nthere somewhere for that."
+    "text": "That's not software engineering, that's gambling, and you need to be out there somewhere for that."
   },
   {
     "start": 3388.98,
@@ -4065,39 +2073,19 @@
   },
   {
     "start": 3390.57,
-    "text": "Remember what I said at the beginning,"
-  },
-  {
-    "start": 3393.33,
-    "text": "the work is yours, not the tools."
+    "text": "Remember what I said at the beginning, the work is yours, not the tools."
   },
   {
     "start": 3399.42,
-    "text": "If you subject to regulatory requirement,"
-  },
-  {
-    "start": 3401.55,
-    "text": "let's say, healthcare,\nfinancial services and whatever,"
-  },
-  {
-    "start": 3405.9,
-    "text": "if AI creates some code"
-  },
-  {
-    "start": 3408.03,
-    "text": "that certainly violates\nthe regulatory requirement,"
+    "text": "If you subject to regulatory requirement, let's say, healthcare, financial services and whatever, if AI creates some code that certainly violates the regulatory requirement,"
   },
   {
     "start": 3410.85,
-    "text": "you can't go to the regulator\nand say, \"Oh, it was AI.\""
+    "text": "you can't go to the regulator and say, \"Oh, it was AI.\""
   },
   {
     "start": 3414.72,
-    "text": "No, it's still your responsibility,"
-  },
-  {
-    "start": 3418.14,
-    "text": "the work is yours, not that of the tools."
+    "text": "No, it's still your responsibility, the work is yours, not that of the tools."
   },
   {
     "start": 3426.801,
@@ -4105,31 +2093,15 @@
   },
   {
     "start": 3431.31,
-    "text": "You will write less code,"
-  },
-  {
-    "start": 3434.49,
-    "text": "'cause generation is so fast,\nyou will review more code"
-  },
-  {
-    "start": 3439.62,
-    "text": "because understanding it takes time."
+    "text": "You will write less code, 'cause generation is so fast, you will review more code because understanding it takes time."
   },
   {
     "start": 3442.74,
-    "text": "And when you write a code yourself,"
-  },
-  {
-    "start": 3445.56,
-    "text": "comprehension comes with\nthe act of creation."
+    "text": "And when you write a code yourself, comprehension comes with the act of creation."
   },
   {
     "start": 3450.15,
-    "text": "When the machine writes it,"
-  },
-  {
-    "start": 3452.37,
-    "text": "you'll have to rebuild that\ncomprehension during review."
+    "text": "When the machine writes it, you'll have to rebuild that comprehension during review."
   },
   {
     "start": 3459.96,
@@ -4137,71 +2109,43 @@
   },
   {
     "start": 3463.86,
-    "text": "And it's one of the two\nmain challenges that I hear"
-  },
-  {
-    "start": 3466.83,
-    "text": "when I speak with developers\nabout this new style of work."
+    "text": "And it's one of the two main challenges that I hear when I speak with developers about this new style of work."
   },
   {
     "start": 3470.01,
-    "text": "AI can generate code faster\nthan you can understand it."
+    "text": "AI can generate code faster than you can understand it."
   },
   {
     "start": 3474.39,
-    "text": "Code arrives instantly,\nbut comprehension does not."
+    "text": "Code arrives instantly, but comprehension does not."
   },
   {
     "start": 3480.42,
-    "text": "That gap allows software\nto move towards production"
-  },
-  {
-    "start": 3484.26,
-    "text": "before anyone has truly\nvalidated what it actually does."
+    "text": "That gap allows software to move towards production before anyone has truly validated what it actually does."
   },
   {
     "start": 3490.68,
-    "text": "The second challenge, of\ncourse, is hallucination."
+    "text": "The second challenge, of course, is hallucination."
   },
   {
     "start": 3494.58,
-    "text": "Clare showed really a perfect\nexample of that earlier."
+    "text": "Clare showed really a perfect example of that earlier."
   },
   {
     "start": 3498.06,
-    "text": "The model produced the\ndesign that looked confident"
-  },
-  {
-    "start": 3501.09,
-    "text": "but was completely wrong\nfor the architecture."
+    "text": "The model produced the design that looked confident but was completely wrong for the architecture."
   },
   {
     "start": 3504.93,
-    "text": "Some APIs change and LMS invent attributes"
-  },
-  {
-    "start": 3510.0,
-    "text": "that do not exist."
+    "text": "Some APIs change and LMS invent attributes that do not exist."
   },
   {
     "start": 3511.56,
-    "text": "Sometimes they propose solutions"
-  },
-  {
-    "start": 3513.09,
-    "text": "that are completely\ninappropriate or over-engineered,"
-  },
-  {
-    "start": 3516.93,
-    "text": "or ignore your system's own talents."
+    "text": "Sometimes they propose solutions that are completely inappropriate or over-engineered, or ignore your system's own talents."
   },
   {
     "start": 3520.65,
-    "text": "These outputs look plausible,"
-  },
-  {
-    "start": 3523.83,
-    "text": "but they're not grounded in reality."
+    "text": "These outputs look plausible, but they're not grounded in reality."
   },
   {
     "start": 3528.54,
@@ -4213,43 +2157,19 @@
   },
   {
     "start": 3531.833,
-    "text": "We're developing practices"
-  },
-  {
-    "start": 3533.16,
-    "text": "that like spec-driven development,"
-  },
-  {
-    "start": 3535.77,
-    "text": "which Clare showed how it can\ndramatically improve quality."
+    "text": "We're developing practices that like spec-driven development, which Clare showed how it can dramatically improve quality."
   },
   {
     "start": 3541.08,
-    "text": "Byron (indistinct) keynote\nshowed how tools like Kiro"
-  },
-  {
-    "start": 3545.7,
-    "text": "can actually use automatic\nreasoning with your specification"
-  },
-  {
-    "start": 3549.51,
-    "text": "to create code that is verified."
+    "text": "Byron keynote showed how tools like Kiro can actually use automatic reasoning with your specification to create code that is verified."
   },
   {
     "start": 3552.6,
-    "text": "We showed how we can also use\nautomatic reasoning to ensure"
-  },
-  {
-    "start": 3556.32,
-    "text": "that codes generated\nagainst AWS APIs is correct."
+    "text": "We showed how we can also use automatic reasoning to ensure that codes generated against AWS APIs is correct."
   },
   {
     "start": 3563.07,
-    "text": "I also see many developers\nlooking at their CICD pipelines,"
-  },
-  {
-    "start": 3568.02,
-    "text": "then build in more and\nmore automated testing."
+    "text": "I also see many developers looking at their CICD pipelines, then build in more and more automated testing."
   },
   {
     "start": 3571.8,
@@ -4261,11 +2181,11 @@
   },
   {
     "start": 3579.6,
-    "text": "I want you to really\nunderstand these two things."
+    "text": "I want you to really understand these two things."
   },
   {
     "start": 3583.44,
-    "text": "There are mechanisms and\nthere are good intentions."
+    "text": "There are mechanisms and there are good intentions."
   },
   {
     "start": 3587.73,
@@ -4273,35 +2193,11 @@
   },
   {
     "start": 3590.25,
-    "text": "And let me do you that by,"
-  },
-  {
-    "start": 3592.92,
-    "text": "again, going back a\nlittle bit in the past,"
-  },
-  {
-    "start": 3595.71,
-    "text": "and tell you a story about Jeff Bezos."
+    "text": "And let me do you that by, again, going back a little bit in the past, and tell you a story about Jeff Bezos."
   },
   {
     "start": 3600.93,
-    "text": "In the early days of Amazon,"
-  },
-  {
-    "start": 3602.52,
-    "text": "as we as executives\nwere required each year"
-  },
-  {
-    "start": 3607.08,
-    "text": "to spend two days with customer service,"
-  },
-  {
-    "start": 3610.74,
-    "text": "and take calls from customers"
-  },
-  {
-    "start": 3612.69,
-    "text": "so that we would truly understand"
+    "text": "In the early days of Amazon, as we as executives were required each year to spend two days with customer service, and take calls from customers so that we would truly understand"
   },
   {
     "start": 3614.763,
@@ -4309,67 +2205,27 @@
   },
   {
     "start": 3617.49,
-    "text": "And not just (indistinct) executives,"
-  },
-  {
-    "start": 3620.61,
-    "text": "Jeff himself (indistinct)."
+    "text": "And not just executives, Jeff himself."
   },
   {
     "start": 3622.71,
-    "text": "So, Jeff sits next to this\ncustomer service agent."
+    "text": "So, Jeff sits next to this customer service agent."
   },
   {
     "start": 3626.34,
-    "text": "Phone goes and automatic system\nalready spits up the order,"
-  },
-  {
-    "start": 3630.84,
-    "text": "histories of this customer."
+    "text": "Phone goes and automatic system already spits up the order, histories of this customer."
   },
   {
     "start": 3633.06,
-    "text": "And before that the\ncustomer says anything,"
-  },
-  {
-    "start": 3636.06,
-    "text": "the customer agent says to Jeff,"
-  },
-  {
-    "start": 3638.197,
-    "text": "\"She's gonna return that table,\""
-  },
-  {
-    "start": 3641.19,
-    "text": "and indeed the customer\nwants to return the table"
-  },
-  {
-    "start": 3644.82,
-    "text": "because it's damaged."
+    "text": "And before that the customer says anything, the customer agent says to Jeff, \"She's gonna return that table,\" and indeed the customer wants to return the table because it's damaged."
   },
   {
     "start": 3646.53,
-    "text": "Call us over, and Jeff looks\nat the agent says, says,"
-  },
-  {
-    "start": 3648.817,
-    "text": "\"How did you know that?\""
+    "text": "Call us over, and Jeff looks at the agent says, says, \"How did you know that?\""
   },
   {
     "start": 3650.43,
-    "text": "She says, \"Well, 70% of\nthose tables are coming back"
-  },
-  {
-    "start": 3654.33,
-    "text": "because there's some drop shipper"
-  },
-  {
-    "start": 3655.8,
-    "text": "that actually doesn't really know"
-  },
-  {
-    "start": 3657.06,
-    "text": "how to package them right.\""
+    "text": "She says, \"Well, 70% of those tables are coming back because there's some drop shipper that actually doesn't really know how to package them right.\""
   },
   {
     "start": 3659.49,
@@ -4377,67 +2233,31 @@
   },
   {
     "start": 3665.46,
-    "text": "and starts to think about sort of,"
-  },
-  {
-    "start": 3668.689,
-    "text": "(indistinct) has good intentions."
+    "text": "and starts to think about sort of, has good intentions."
   },
   {
     "start": 3670.17,
-    "text": "No, of course we don't\nwant this to happen."
+    "text": "No, of course we don't want this to happen."
   },
   {
     "start": 3673.02,
-    "text": "But without a mechanism, nothing changed"
-  },
-  {
-    "start": 3675.99,
-    "text": "because everybody already\nhas good intentions."
+    "text": "But without a mechanism, nothing changed because everybody already has good intentions."
   },
   {
     "start": 3681.33,
-    "text": "So, he introduced a new mechanism,"
-  },
-  {
-    "start": 3684.15,
-    "text": "Amazon's version of\nToyota's famous Andon Cord."
+    "text": "So, he introduced a new mechanism, Amazon's version of Toyota's famous Andon Cord."
   },
   {
     "start": 3688.08,
-    "text": "So, the Andon Cord in Toyota was,"
-  },
-  {
-    "start": 3690.27,
-    "text": "the principle was no car should\nleave the production line"
-  },
-  {
-    "start": 3694.17,
-    "text": "with a known defect."
+    "text": "So, the Andon Cord in Toyota was, the principle was no car should leave the production line with a known defect."
   },
   {
     "start": 3696.18,
-    "text": "And then, any engineer working on the line"
-  },
-  {
-    "start": 3699.66,
-    "text": "could pull this cords"
-  },
-  {
-    "start": 3701.91,
-    "text": "and bring the whole manufacturing\nline to a standstill"
-  },
-  {
-    "start": 3705.09,
-    "text": "until the defect was fixed."
+    "text": "And then, any engineer working on the line could pull this cords and bring the whole manufacturing line to a standstill until the defect was fixed."
   },
   {
     "start": 3708.54,
-    "text": "The Andon Cord that the\ncustomer service agents got"
-  },
-  {
-    "start": 3714.27,
-    "text": "was a button to make the product unviable."
+    "text": "The Andon Cord that the customer service agents got was a button to make the product unviable."
   },
   {
     "start": 3718.89,
@@ -4445,23 +2265,15 @@
   },
   {
     "start": 3719.723,
-    "text": "That made alarms go off if the people"
-  },
-  {
-    "start": 3721.14,
-    "text": "that were responsible for the\nproducts to go and fix it."
+    "text": "That made alarms go off if the people that were responsible for the products to go and fix it."
   },
   {
     "start": 3724.994,
-    "text": "But before this, everybody\nalready had good intentions,"
-  },
-  {
-    "start": 3729.93,
-    "text": "but until we introduced the\nmechanism, nothing changed."
+    "text": "But before this, everybody already had good intentions, but until we introduced the mechanism, nothing changed."
   },
   {
     "start": 3737.37,
-    "text": "Now, let's go back to\nour technology world."
+    "text": "Now, let's go back to our technology world."
   },
   {
     "start": 3741.09,
@@ -4469,59 +2281,27 @@
   },
   {
     "start": 3743.16,
-    "text": "Each team builds their own\none that fits the scale,"
-  },
-  {
-    "start": 3746.88,
-    "text": "that new nature of their work."
+    "text": "Each team builds their own one that fits the scale, that new nature of their work."
   },
   {
     "start": 3748.347,
-    "text": "The S3 team, for example,"
-  },
-  {
-    "start": 3750.66,
-    "text": "uses something which they\ncall durability reviews."
+    "text": "The S3 team, for example, uses something which they call durability reviews."
   },
   {
     "start": 3755.31,
-    "text": "When an engineer proposes a change"
-  },
-  {
-    "start": 3757.56,
-    "text": "that might touch durability, they pause,"
-  },
-  {
-    "start": 3760.92,
-    "text": "and model the risks."
+    "text": "When an engineer proposes a change that might touch durability, they pause, and model the risks."
   },
   {
     "start": 3762.78,
-    "text": "They write down the changes,"
-  },
-  {
-    "start": 3765.33,
-    "text": "they list every threat imaginable,"
-  },
-  {
-    "start": 3767.76,
-    "text": "map out the guardrails\nto keep the data safe,"
-  },
-  {
-    "start": 3771.51,
-    "text": "and is a mechanism with\na very powerful effect."
+    "text": "They write down the changes, they list every threat imaginable, map out the guardrails to keep the data safe, and is a mechanism with a very powerful effect."
   },
   {
     "start": 3776.67,
-    "text": "It turns durability\nfrom a property of code"
-  },
-  {
-    "start": 3780.72,
-    "text": "into the habit of the organization."
+    "text": "It turns durability from a property of code into the habit of the organization."
   },
   {
     "start": 3783.6,
-    "text": "It makes engineers think in\nfailure modes, not happy paths."
+    "text": "It makes engineers think in failure modes, not happy paths."
   },
   {
     "start": 3788.97,
@@ -4529,15 +2309,11 @@
   },
   {
     "start": 3792.24,
-    "text": "They convert good intentions\ninto consistent outcomes."
+    "text": "They convert good intentions into consistent outcomes."
   },
   {
     "start": 3801.81,
-    "text": "Now, if you think about it,"
-  },
-  {
-    "start": 3804.497,
-    "text": "code reviews are also a mechanism."
+    "text": "Now, if you think about it, code reviews are also a mechanism."
   },
   {
     "start": 3808.75,
@@ -4545,35 +2321,19 @@
   },
   {
     "start": 3811.92,
-    "text": "It's like being 12-year-old"
-  },
-  {
-    "start": 3813.75,
-    "text": "and standing in front of the class, yeah?"
+    "text": "It's like being 12-year-old and standing in front of the class, yeah?"
   },
   {
     "start": 3817.29,
-    "text": "But they were very important mechanism"
-  },
-  {
-    "start": 3819.69,
-    "text": "because they create a moment"
-  },
-  {
-    "start": 3821.82,
-    "text": "where intent and implementation meet."
+    "text": "But they were very important mechanism because they create a moment where intent and implementation meet."
   },
   {
     "start": 3826.23,
-    "text": "Where another engineer\ncan question assumptions,"
-  },
-  {
-    "start": 3830.16,
-    "text": "and catch things that\nyou alter no longer sees."
+    "text": "Where another engineer can question assumptions, and catch things that you alter no longer sees."
   },
   {
     "start": 3834.54,
-    "text": "In an AI driven world,\nthey matter more than ever."
+    "text": "In an AI driven world, they matter more than ever."
   },
   {
     "start": 3839.16,
@@ -4581,79 +2341,43 @@
   },
   {
     "start": 3843.39,
-    "text": "Models can generate code faster\nthan we can understand it."
+    "text": "Models can generate code faster than we can understand it."
   },
   {
     "start": 3846.81,
-    "text": "So, the review becomes the\ncontrol point to restore balance."
+    "text": "So, the review becomes the control point to restore balance."
   },
   {
     "start": 3854.31,
-    "text": "It is where we bring human\njudgment back into the loop,"
-  },
-  {
-    "start": 3859.47,
-    "text": "and make sure that the\nsoftware actually does"
-  },
-  {
-    "start": 3863.952,
-    "text": "what we expect it to do."
+    "text": "It is where we bring human judgment back into the loop, and make sure that the software actually does what we expect it to do."
   },
   {
     "start": 3867.9,
-    "text": "I encourage all of you to continue"
-  },
-  {
-    "start": 3871.74,
-    "text": "and you increase your human\nto human code reviews."
+    "text": "I encourage all of you to continue and you increase your human to human code reviews."
   },
   {
     "start": 3877.89,
-    "text": "When senior and junior engineers\nwork through code together,"
-  },
-  {
-    "start": 3882.72,
-    "text": "it becomes one of the most"
-  },
-  {
-    "start": 3884.28,
-    "text": "effective learning mechanisms we have."
+    "text": "When senior and junior engineers work through code together, it becomes one of the most effective learning mechanisms we have."
   },
   {
     "start": 3887.04,
-    "text": "Seniors bring pattern recognition,"
-  },
-  {
-    "start": 3889.8,
-    "text": "and high hard-earned judgment."
+    "text": "Seniors bring pattern recognition, and high hard-earned judgment."
   },
   {
     "start": 3892.5,
-    "text": "Juniors bring fresh eyes\nand often spot details."
+    "text": "Juniors bring fresh eyes and often spot details."
   },
   {
     "start": 3895.86,
-    "text": "Others of, look, this is\nhow we transfer knowledge,"
-  },
-  {
-    "start": 3900.42,
-    "text": "and how we grow the next\ngeneration of builders."
+    "text": "Others of, look, this is how we transfer knowledge, and how we grow the next generation of builders."
   },
   {
     "start": 3905.52,
-    "text": "AI will change many things,"
-  },
-  {
-    "start": 3909.03,
-    "text": "but the craft is still\nlearned person to person."
+    "text": "AI will change many things, but the craft is still learned person to person."
   },
   {
     "start": 3916.26,
-    "text": "So, the fourth quality in my eyes"
-  },
-  {
-    "start": 3919.77,
-    "text": "of the Renaissance Developer is an owner."
+    "text": "So, the fourth quality in my eyes of the Renaissance Developer is an owner."
   },
   {
     "start": 3923.76,
@@ -4661,11 +2385,7 @@
   },
   {
     "start": 3929.01,
-    "text": "The last quality that I\nwanna talk to you about"
-  },
-  {
-    "start": 3932.61,
-    "text": "is that, I think, you, the\nfuture Renaissance Developers,"
+    "text": "The last quality that I wanna talk to you about is that, I think, you, the future Renaissance Developers,"
   },
   {
     "start": 3939.6,
@@ -4673,63 +2393,35 @@
   },
   {
     "start": 3944.01,
-    "text": "Now, it has nothing to\ndo with math, by the way."
+    "text": "Now, it has nothing to do with math, by the way."
   },
   {
     "start": 3948.93,
-    "text": "It's not mathematics or maths,"
-  },
-  {
-    "start": 3950.61,
-    "text": "or whatever you want to call it."
+    "text": "It's not mathematics or maths, or whatever you want to call it."
   },
   {
     "start": 3954.72,
-    "text": "The word polymath has\nnothing to do with that."
+    "text": "The word polymath has nothing to do with that."
   },
   {
     "start": 3957.84,
-    "text": "It actually means many"
-  },
-  {
-    "start": 3961.53,
-    "text": "because the math comes from\nthe Greek work manthanein,"
-  },
-  {
-    "start": 3967.11,
-    "text": "which means to learn."
+    "text": "It actually means many because the math comes from the Greek work manthanein, which means to learn."
   },
   {
     "start": 3969.78,
-    "text": "It's about having deep domain experience,"
-  },
-  {
-    "start": 3972.72,
-    "text": "but also have knowledge that\nspans many different subjects."
+    "text": "It's about having deep domain experience, but also have knowledge that spans many different subjects."
   },
   {
     "start": 3977.55,
-    "text": "Da Vinci probably was\nthe absolute best example"
-  },
-  {
-    "start": 3982.44,
-    "text": "of a polymath because he worked"
-  },
-  {
-    "start": 3984.45,
-    "text": "across so many different disciplines."
+    "text": "Da Vinci probably was the absolute best example of a polymath because he worked across so many different disciplines."
   },
   {
     "start": 3987.39,
-    "text": "He was a painter, he was an\nengineer, he was an economist"
-  },
-  {
-    "start": 3990.693,
-    "text": "and he was an inventor."
+    "text": "He was a painter, he was an engineer, he was an economist and he was an inventor."
   },
   {
     "start": 3994.17,
-    "text": "Now, I do not expect you\nall to become a Da Vinci."
+    "text": "Now, I do not expect you all to become a Da Vinci."
   },
   {
     "start": 4000.32,
@@ -4737,11 +2429,7 @@
   },
   {
     "start": 4001.893,
-    "text": "But you should expand your knowledge"
-  },
-  {
-    "start": 4005.15,
-    "text": "just beyond deep domain expertise."
+    "text": "But you should expand your knowledge just beyond deep domain expertise."
   },
   {
     "start": 4010.28,
@@ -4753,67 +2441,35 @@
   },
   {
     "start": 4017.87,
-    "text": "An I-shape developer is\nsomeone who is really deep"
-  },
-  {
-    "start": 4022.58,
-    "text": "and really highly specialized in one area."
+    "text": "An I-shape developer is someone who is really deep and really highly specialized in one area."
   },
   {
     "start": 4028.73,
-    "text": "Let me tell you again an interesting story"
-  },
-  {
-    "start": 4031.79,
-    "text": "out of my own experience."
+    "text": "Let me tell you again an interesting story out of my own experience."
   },
   {
     "start": 4034.04,
-    "text": "This is my old mentor\nand friend, Jim Gray."
+    "text": "This is my old mentor and friend, Jim Gray."
   },
   {
     "start": 4039.59,
-    "text": "And Jim got a Turing Award"
-  },
-  {
-    "start": 4043.1,
-    "text": "because actually you\nshould all know Jim Gray,"
-  },
-  {
-    "start": 4045.14,
-    "text": "because he's the inventor of transactions."
+    "text": "And Jim got a Turing Award because actually you should all know Jim Gray, because he's the inventor of transactions."
   },
   {
     "start": 4048.62,
-    "text": "Every transaction you do today,"
-  },
-  {
-    "start": 4051.59,
-    "text": "we have Jim to thank for this."
+    "text": "Every transaction you do today, we have Jim to thank for this."
   },
   {
     "start": 4054.5,
-    "text": "But he also had this great\nmind, he was interested"
-  },
-  {
-    "start": 4057.71,
-    "text": "in so many more things\nthan just databases."
+    "text": "But he also had this great mind, he was interested in so many more things than just databases."
   },
   {
     "start": 4061.43,
-    "text": "And this is one of his\nfamous sort of challenges."
+    "text": "And this is one of his famous sort of challenges."
   },
   {
     "start": 4063.65,
-    "text": "Give me 20 questions,\n20 important questions"
-  },
-  {
-    "start": 4067.25,
-    "text": "that you want to ask of your data"
-  },
-  {
-    "start": 4069.62,
-    "text": "and I will design the system for you."
+    "text": "Give me 20 questions, 20 important questions that you want to ask of your data and I will design the system for you."
   },
   {
     "start": 4073.94,
@@ -4825,15 +2481,11 @@
   },
   {
     "start": 4081.71,
-    "text": "This was one of the\nfirst massive data sets"
-  },
-  {
-    "start": 4085.25,
-    "text": "that were out there."
+    "text": "This was one of the first massive data sets that were out there."
   },
   {
     "start": 4086.36,
-    "text": "It was groundbreaking work\nin developing the SkyServer."
+    "text": "It was groundbreaking work in developing the SkyServer."
   },
   {
     "start": 4090.08,
@@ -4841,87 +2493,47 @@
   },
   {
     "start": 4090.913,
-    "text": "Jim's in-depth knowledge\nas a database expert"
-  },
-  {
-    "start": 4094.43,
-    "text": "was transformative for the\ncomputation in astronomy data."
+    "text": "Jim's in-depth knowledge as a database expert was transformative for the computation in astronomy data."
   },
   {
     "start": 4099.98,
-    "text": "There is actually a really\nfunny story about that."
+    "text": "There is actually a really funny story about that."
   },
   {
     "start": 4104.39,
-    "text": "At some moment, Jim goes\nto Philadelphia, Baltimore,"
-  },
-  {
-    "start": 4108.47,
-    "text": "where the group is, and he\nwalks into the server room."
+    "text": "At some moment, Jim goes to Philadelphia, Baltimore, where the group is, and he walks into the server room."
   },
   {
     "start": 4114.2,
-    "text": "30 seconds later, he walks\nout and he tells them"
-  },
-  {
-    "start": 4118.373,
-    "text": "that a database layout is wrong,"
-  },
-  {
-    "start": 4120.634,
-    "text": "(machine rattling)"
-  },
-  {
-    "start": 4122.36,
-    "text": "and everybody looks at him and\nsays, \"How do you know that?\""
+    "text": "30 seconds later, he walks out and he tells them that a database layout is wrong, and everybody looks at him and says, \"How do you know that?\""
   },
   {
     "start": 4127.94,
-    "text": "By just listening to the\nrattling of the discs,"
-  },
-  {
-    "start": 4131.93,
-    "text": "he knew that there was way\ntoo much random access."
+    "text": "By just listening to the rattling of the discs, he knew that there was way too much random access."
   },
   {
     "start": 4135.26,
-    "text": "This intuition built from\ndecades of experience,"
-  },
-  {
-    "start": 4139.22,
-    "text": "had given him a sixth sense\nof how systems should behave."
+    "text": "This intuition built from decades of experience, had given him a sixth sense of how systems should behave."
   },
   {
     "start": 4143.39,
-    "text": "He tries him to redesign the architecture"
-  },
-  {
-    "start": 4145.73,
-    "text": "and performance improved dramatically."
+    "text": "He tries him to redesign the architecture and performance improved dramatically."
   },
   {
     "start": 4151.407,
-    "text": "Now, Jim wasn't what I would call"
-  },
-  {
-    "start": 4155.24,
-    "text": "an I-shaped developer at all."
+    "text": "Now, Jim wasn't what I would call an I-shaped developer at all."
   },
   {
     "start": 4158.42,
-    "text": "His curiosity reached\nfar beyond databases."
+    "text": "His curiosity reached far beyond databases."
   },
   {
     "start": 4163.228,
-    "text": "He understood people,\nhe understood business,"
-  },
-  {
-    "start": 4166.49,
-    "text": "and he understood a wide\nrange of technologists."
+    "text": "He understood people, he understood business, and he understood a wide range of technologists."
   },
   {
     "start": 4170.63,
-    "text": "And my great technologist, I\nwill describe him as T-shaped."
+    "text": "And my great technologist, I will describe him as T-shaped."
   },
   {
     "start": 4176.42,
@@ -4929,91 +2541,43 @@
   },
   {
     "start": 4177.253,
-    "text": "Deep in one domain, but\nbrought an understanding."
+    "text": "Deep in one domain, but brought an understanding."
   },
   {
     "start": 4184.19,
-    "text": "The skills you need to\nbe successful in your job"
-  },
-  {
-    "start": 4187.01,
-    "text": "are a unique mix of personal skills,"
-  },
-  {
-    "start": 4190.97,
-    "text": "functional depth, industry knowledge."
+    "text": "The skills you need to be successful in your job are a unique mix of personal skills, functional depth, industry knowledge."
   },
   {
     "start": 4194.03,
-    "text": "A database developer who\nunderstands font and performance"
-  },
-  {
-    "start": 4198.71,
-    "text": "or cost aware architectures"
-  },
-  {
-    "start": 4200.99,
-    "text": "can make a better architectural choices"
-  },
-  {
-    "start": 4203.69,
-    "text": "because they see how their\nwork shapes the overall system."
+    "text": "A database developer who understands font and performance or cost aware architectures can make a better architectural choices because they see how their work shapes the overall system."
   },
   {
     "start": 4210.23,
-    "text": "That breadth of knowledge\ngives you the perspective"
-  },
-  {
-    "start": 4214.16,
-    "text": "to improve what you build"
-  },
-  {
-    "start": 4216.59,
-    "text": "because you understand the trade-offs."
+    "text": "That breadth of knowledge gives you the perspective to improve what you build because you understand the trade-offs."
   },
   {
     "start": 4222.41,
-    "text": "T-shaped developers\ncombine depth with breadth."
+    "text": "T-shaped developers combine depth with breadth."
   },
   {
     "start": 4228.2,
-    "text": "They can dive deep into\na specific problems,"
-  },
-  {
-    "start": 4230.66,
-    "text": "but we'll also understand how\nit fits into a larger system."
+    "text": "They can dive deep into a specific problems, but we'll also understand how it fits into a larger system."
   },
   {
     "start": 4236.93,
-    "text": "That is my advice to\nall of you, build both."
+    "text": "That is my advice to all of you, build both."
   },
   {
     "start": 4242.0,
-    "text": "Develop depth in your\ndomain, but cultivate,"
-  },
-  {
-    "start": 4247.37,
-    "text": "cultivate the range to connect"
-  },
-  {
-    "start": 4250.67,
-    "text": "to multiple disciplines and ideas."
+    "text": "Develop depth in your domain, but cultivate, cultivate the range to connect to multiple disciplines and ideas."
   },
   {
     "start": 4255.26,
-    "text": "So, the last takeaway from\nthe Renaissance Developer"
-  },
-  {
-    "start": 4257.87,
-    "text": "is become a polymath."
+    "text": "So, the last takeaway from the Renaissance Developer is become a polymath."
   },
   {
     "start": 4260.24,
-    "text": "Well, I don't expect\nyou all to become that,"
-  },
-  {
-    "start": 4263.06,
-    "text": "but you should broaden your T."
+    "text": "Well, I don't expect you all to become that, but you should broaden your T."
   },
   {
     "start": 4265.7,
@@ -5021,11 +2585,7 @@
   },
   {
     "start": 4269.15,
-    "text": "They're experts in their field"
-  },
-  {
-    "start": 4270.77,
-    "text": "who understand their work\nfits into a larger system."
+    "text": "They're experts in their field who understand their work fits into a larger system."
   },
   {
     "start": 4274.82,
@@ -5033,19 +2593,15 @@
   },
   {
     "start": 4279.32,
-    "text": "Now, if we look at sort of\nthe Renaissance Developer"
-  },
-  {
-    "start": 4283.61,
-    "text": "throughout the stock, I've\ncalled them they different ways."
+    "text": "Now, if we look at sort of the Renaissance Developer throughout the stock, I've called them they different ways."
   },
   {
     "start": 4288.23,
-    "text": "I think you need to be\ncurious and keep learning."
+    "text": "I think you need to be curious and keep learning."
   },
   {
     "start": 4294.32,
-    "text": "Think in systems, communicate\nwith precision, be an owner."
+    "text": "Think in systems, communicate with precision, be an owner."
   },
   {
     "start": 4303.08,
@@ -5053,35 +2609,23 @@
   },
   {
     "start": 4306.65,
-    "text": "And finally, become a polymath,\nexpand your knowledge."
+    "text": "And finally, become a polymath, expand your knowledge."
   },
   {
     "start": 4312.17,
-    "text": "Then, you'll have plenty of time next week"
-  },
-  {
-    "start": 4314.81,
-    "text": "to start putting all\nof this into practice."
+    "text": "Then, you'll have plenty of time next week to start putting all of this into practice."
   },
   {
     "start": 4318.2,
-    "text": "Before tonight, join me at the\nLas Vegas Festival Grounds."
+    "text": "Before tonight, join me at the Las Vegas Festival Grounds."
   },
   {
     "start": 4325.4,
-    "text": "There'll be great food, some crazy games,"
-  },
-  {
-    "start": 4328.58,
-    "text": "and, of course, live music\nheadline by Beck and Kaskade."
+    "text": "There'll be great food, some crazy games, and, of course, live music headline by Beck and Kaskade."
   },
   {
     "start": 4332.71,
-    "text": "And it's a chance to celebrate\nwith your teams and unwind"
-  },
-  {
-    "start": 4338.15,
-    "text": "after a week of serious\nlearning and building."
+    "text": "And it's a chance to celebrate with your teams and unwind after a week of serious learning and building."
   },
   {
     "start": 4343.73,
@@ -5093,31 +2637,15 @@
   },
   {
     "start": 4353.993,
-    "text": "When you build something like an app,"
-  },
-  {
-    "start": 4357.65,
-    "text": "do customers ever thought\nabout all the work"
-  },
-  {
-    "start": 4362.3,
-    "text": "that goes underneath there?"
+    "text": "When you build something like an app, do customers ever thought about all the work that goes underneath there?"
   },
   {
     "start": 4365.24,
-    "text": "An Amazon customer will click a button"
-  },
-  {
-    "start": 4368.0,
-    "text": "and the package arrives."
+    "text": "An Amazon customer will click a button and the package arrives."
   },
   {
     "start": 4370.43,
-    "text": "Does it think about the people"
-  },
-  {
-    "start": 4372.2,
-    "text": "that actually maintain the catalog,"
+    "text": "Does it think about the people that actually maintain the catalog,"
   },
   {
     "start": 4377.35,
@@ -5129,47 +2657,27 @@
   },
   {
     "start": 4384.56,
-    "text": "Your customers are never going to tell you"
-  },
-  {
-    "start": 4388.07,
-    "text": "that your database engineers\nare doing amazing work"
-  },
-  {
-    "start": 4391.85,
-    "text": "and they love what they've done."
+    "text": "Your customers are never going to tell you that your database engineers are doing amazing work and they love what they've done."
   },
   {
     "start": 4393.86,
-    "text": "Only you understand that\nwork that goes into it."
+    "text": "Only you understand that work that goes into it."
   },
   {
     "start": 4401.48,
-    "text": "I believe it is important for all of us"
-  },
-  {
-    "start": 4406.34,
-    "text": "to have pride in our work,"
-  },
-  {
-    "start": 4409.85,
-    "text": "in the unseen systems that\nstay up for the night,"
+    "text": "I believe it is important for all of us to have pride in our work, in the unseen systems that stay up for the night,"
   },
   {
     "start": 4413.24,
-    "text": "in clean deployments, the\nrollbacks that nobody notices."
+    "text": "in clean deployments, the rollbacks that nobody notices."
   },
   {
     "start": 4418.52,
-    "text": "Most of what we built,\nnobody will ever see."
+    "text": "Most of what we built, nobody will ever see."
   },
   {
     "start": 4424.67,
-    "text": "And the only reason why we do this well"
-  },
-  {
-    "start": 4428.63,
-    "text": "is our own professional pride\nin operational excellence."
+    "text": "And the only reason why we do this well is our own professional pride in operational excellence."
   },
   {
     "start": 4435.05,
@@ -5177,15 +2685,11 @@
   },
   {
     "start": 4438.47,
-    "text": "They do the things properly,\neven when nobody's watching."
+    "text": "They do the things properly, even when nobody's watching."
   },
   {
     "start": 4446.09,
-    "text": "And when I look at the work\nthat you deliver every day,"
-  },
-  {
-    "start": 4451.49,
-    "text": "I see that commitment everywhere."
+    "text": "And when I look at the work that you deliver every day, I see that commitment everywhere."
   },
   {
     "start": 4455.99,
@@ -5204,35 +2708,11 @@
     "text": "Oh."
   },
   {
-    "start": 4469.29,
-    "text": "(audience clapping and cheering)"
-  },
-  {
     "start": 4488.538,
     "text": "Two more words."
   },
   {
     "start": 4490.738,
     "text": "Werner out."
-  },
-  {
-    "start": 4492.073,
-    "text": "(remote clatters)"
-  },
-  {
-    "start": 4492.906,
-    "text": "(audience clapping and cheering)"
-  },
-  {
-    "start": 4496.434,
-    "text": "(bright music)"
-  },
-  {
-    "start": 4526.779,
-    "text": "(bright music continues)"
-  },
-  {
-    "start": 4556.986,
-    "text": "(bright music continues)"
   }
 ]
