@@ -84,17 +84,17 @@ function renderLyrics(index) {
 
 function setLanguage(language) {
   state.language = language;
-  document.querySelectorAll('.language-button').forEach(button => {
-    button.classList.toggle('active', button.dataset.language === language);
-  });
+  const button = document.getElementById('languageButton');
+  if (button) {
+    button.textContent = language === 'en' ? 'EN' : '日本語';
+  }
   renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
 }
 
-document.querySelectorAll('.language-button').forEach(button => {
-  button.addEventListener('click', () => {
-    setLanguage(button.dataset.language);
-  });
-});
+document.getElementById('languageButton').addEventListener('click', () => {
+  const nextLanguage = state.language === 'en' ? 'ja' : 'en';
+  setLanguage(nextLanguage);
+}););
 
 function clearPauseTimer() {
   if (state.pauseTimer) {
@@ -104,9 +104,10 @@ function clearPauseTimer() {
 }
 
 function updateModeButton() {
-  document.querySelectorAll('.mode-button').forEach(button => {
-    button.classList.toggle('active', button.dataset.mode === state.playbackMode);
-  });
+  const button = document.getElementById('modeButton');
+  if (button) {
+    button.textContent = state.playbackMode === 'continuous' ? '連続' : 'リピーティング';
+  }
 }
 
 function scheduleRepeatingPause() {
@@ -176,11 +177,10 @@ function setPlaybackMode(mode) {
   }
 }
 
-document.querySelectorAll('.mode-button').forEach(button => {
-  button.addEventListener('click', () => {
-    button.blur();
-    setPlaybackMode(button.dataset.mode);
-  });
+document.getElementById('modeButton').addEventListener('click', () => {
+  const button = document.getElementById('modeButton');
+  button.blur();
+  setPlaybackMode(state.playbackMode === 'continuous' ? 'pause' : 'continuous');
 });
 
 function updatePlaybackButton() {
