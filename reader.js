@@ -1,6 +1,15 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
-const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en' };
+const state = {
+  videos: [],
+  currentVideo: null,
+  transcript: [],
+  player: null,
+  currentIndex: -1,
+  language: 'en',
+  playbackMode: 'continuous',
+  pauseTimer: null
+};
 
 async function loadData() {
   const [videosResponse] = await Promise.all([
@@ -62,6 +71,7 @@ function renderLyrics(index) {
       // 先にフォーカスを外す。renderLyrics() でDOMを作り直した後だと、
       // Android/Chromeが古いボタンの位置へページ全体をスクロールすることがある。
       button.blur();
+      clearPauseTimer();
       state.player.seekTo(Number(item.start), true);
       state.player.playVideo();
       state.currentIndex = i;
@@ -96,6 +106,70 @@ document.querySelectorAll('.language-button').forEach(button => {
   });
 });
 
+function clearPauseTimer() {
+  if (state.pauseTimer) {
+    clearTimeout(state.pauseTimer);
+    state.pauseTimer = null;
+  }
+}
+
+function updateModeButton() {
+  const button = document.getElementById('modeButton');
+  const label = document.getElementById('modeLabel');
+  if (!button || !label) return;
+
+  const isPauseMode = state.playbackMode === 'pause';
+  label.textContent = isPauseMode ? '間隔' : '連続';
+  button.setAttribute(
+    'aria-label',
+    isPauseMode ? '間隔再生（センテンスごとに停止）' : '連続再生'
+  );
+  button.setAttribute('aria-pressed', String(isPauseMode));
+}
+
+function setPlaybackMode(mode) {
+  state.playbackMode = mode;
+  clearPauseTimer();
+  updateModeButton();
+
+  if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING) return;
+}
+
+function scheduleNextSentence() {
+  if (
+    state.playbackMode !== 'pause' ||
+    !state.player ||
+    state.currentIndex < 0 ||
+    state.currentIndex >= state.transcript.length - 1
+  ) {
+    return;
+  }
+
+  const item = state.transcript[state.currentIndex];
+  const duration = Math.max(0, Number(item.end) - Number(item.start));
+  const pauseDuration = Math.max(500, duration * 1000 * 1.1);
+
+  clearPauseTimer();
+  state.player.pauseVideo();
+
+  state.pauseTimer = setTimeout(() => {
+    state.pauseTimer = null;
+    if (
+      state.playbackMode !== 'pause' ||
+      !state.player ||
+      state.player.getPlayerState() === YT.PlayerState.ENDED
+    ) {
+      return;
+    }
+
+    const nextIndex = state.currentIndex + 1;
+    state.currentIndex = nextIndex;
+    state.player.seekTo(Number(state.transcript[nextIndex].start), true);
+    renderLyrics(nextIndex);
+    state.player.playVideo();
+  }, pauseDuration);
+}
+
 function updatePlaybackButton() {
   const button = document.getElementById('playbackButton');
   const icon = document.getElementById('playbackIcon');
@@ -110,7 +184,12 @@ function updatePlaybackButton() {
   button.setAttribute('aria-label', isPlaying ? '一時停止' : '再生');
 }
 
+document.getElementById('modeButton').addEventListener('click', () => {
+  setPlaybackMode(state.playbackMode === 'continuous' ? 'pause' : 'continuous');
+});
+
 document.getElementById('playbackButton').addEventListener('click', () => {
+  clearPauseTimer();
   if (!state.player) return;
 
   if (state.player.getPlayerState() === YT.PlayerState.PLAYING) {
@@ -127,6 +206,7 @@ function onYouTubeIframeAPIReady() {
     events: {
       onReady: () => {
         updatePlaybackButton();
+        updateModeButton();
         setInterval(updateCurrentSentence, 250);
       },
       onStateChange: () => {
@@ -137,11 +217,27 @@ function onYouTubeIframeAPIReady() {
 }
 
 function updateCurrentSentence() {
-  if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING || state.transcript.length === 0) return;
-  const index = getCurrentIndex(state.player.getCurrentTime());
+  if (!state.player || state.transcript.length === 0) return;
+
+  const playerState = state.player.getPlayerState();
+  if (playerState !== YT.PlayerState.PLAYING) return;
+
+  const time = state.player.getCurrentTime();
+  const index = getCurrentIndex(time);
+
   if (index !== state.currentIndex) {
     state.currentIndex = index;
     renderLyrics(index);
+  }
+
+  if (
+    state.playbackMode === 'pause' &&
+    state.currentIndex < state.transcript.length - 1
+  ) {
+    const item = state.transcript[state.currentIndex];
+    if (Number(item.end) <= time + 0.05) {
+      scheduleNextSentence();
+    }
   }
 }
 
@@ -153,6 +249,7 @@ function updateCurrentSentence() {
     // TranscriptはYouTube APIの準備を待たずに表示する。
     // YouTube側で問題が起きても字幕一覧自体は確認できるようにする。
     state.currentIndex = 0;
+    updateModeButton();
     renderLyrics(0);
 
     const script = document.createElement('script');
