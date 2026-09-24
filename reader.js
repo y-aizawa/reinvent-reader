@@ -137,7 +137,7 @@ function scheduleRepeatingPause() {
     }
 
     const duration = Math.max(0, Number(item.end) - Number(item.start));
-    const pauseDuration = Math.max(500, duration * 1000 * 1.1);
+    const pauseDuration = Math.max(500, duration * 1000 * 1.5);
 
     state.player.pauseVideo();
     state.pauseTimer = setTimeout(() => {
