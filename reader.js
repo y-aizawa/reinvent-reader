@@ -164,3 +164,19 @@ function updateCurrentSentence() {
     document.getElementById('info').textContent = 'Load error';
   }
 })();
+
+// Playback mode UI only: behavior will be added separately.
+function updateModeButton() {
+  document.querySelectorAll('.mode-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.mode === (window.playbackMode || 'continuous'));
+  });
+}
+window.playbackMode = 'continuous';
+document.querySelectorAll('.mode-button').forEach(button => {
+  button.addEventListener('click', () => {
+    button.blur();
+    window.playbackMode = button.dataset.mode;
+    updateModeButton();
+  });
+});
+updateModeButton();
