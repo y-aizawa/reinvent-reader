@@ -133,7 +133,6 @@ document.querySelectorAll('.mode-button').forEach(button => {
   button.addEventListener('click', () => {
     button.blur();
     setPlaybackMode(button.dataset.mode);
-    showToast(button.dataset.mode === 'continuous' ? '連続再生' : 'ポーズ付き再生');
   });
 });
 
@@ -141,6 +140,7 @@ function setPlaybackMode(mode) {
   state.playbackMode = mode;
   clearPauseTimer();
   updateModeButton();
+  showToast(mode === 'continuous' ? '連続再生' : 'ポーズ付き再生');
 
   if (
     mode === 'pause' &&
