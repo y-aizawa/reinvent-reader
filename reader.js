@@ -62,6 +62,7 @@ function renderLyrics(index) {
       // 先にフォーカスを外す。renderLyrics() でDOMを作り直した後だと、
       // Android/Chromeが古いボタンの位置へページ全体をスクロールすることがある。
       button.blur();
+      clearPauseTimer();
       state.player.seekTo(Number(item.start), true);
       state.player.playVideo();
       state.currentIndex = i;
