@@ -5,7 +5,7 @@ body { overflow-x: hidden; }
 .topbar { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-bottom: 1px solid #24262b; background: #151619; }
 .back { color: #fff; text-decoration: none; font-size: 13px; }
 .title { min-width: 0; flex: 1; color: #c9ccd2; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.bottom-controls { position: fixed; left: 0; right: 0; bottom: 0; z-index: 100; width: 100%; height: calc(76px + env(safe-area-inset-bottom)); padding: 0 16px env(safe-area-inset-bottom); display: flex; align-items: center; justify-content: center; background: #101114; }
+.bottom-controls { position: fixed; left: 50%; right: auto; bottom: 0; z-index: 100; width: 100%; max-width: 640px; transform: translateX(-50%); height: calc(76px + env(safe-area-inset-bottom)); padding: 0 16px env(safe-area-inset-bottom); display: flex; align-items: center; justify-content: center; background: #101114; }
 .mode-toggle,
 .language-toggle {
   position: absolute;
