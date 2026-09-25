@@ -198,6 +198,52 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
+function scheduleRepeatingPause() {
+  if (
+    !state.player ||
+    state.playbackMode !== 'pause' ||
+    state.player.getPlayerState() !== YT.PlayerState.PLAYING ||
+    state.pauseTimer ||
+    state.currentIndex < 0
+  ) return;
+
+  const item = state.transcript[state.currentIndex];
+  if (!item) return;
+
+  const now = state.player.getCurrentTime();
+  const remaining = Math.max(0, (Number(item.end) - now) - 0.3);
+
+  state.pauseTimer = setTimeout(() => {
+    state.pauseTimer = null;
+
+    if (
+      !state.player ||
+      state.playbackMode !== 'pause' ||
+      state.player.getPlayerState() !== YT.PlayerState.PLAYING
+    ) return;
+
+    state.player.pauseVideo();
+
+    const duration = Math.max(0, Number(item.end) - Number(item.start));
+    const pauseDuration = Math.max(500, duration * 1000 * 1.5);
+    const nextIndex = state.currentIndex + 1;
+
+    if (nextIndex >= state.transcript.length) return;
+
+    state.pauseTimer = setTimeout(() => {
+      state.pauseTimer = null;
+
+      if (!state.player || state.playbackMode !== 'pause') return;
+
+      state.currentIndex = nextIndex;
+      state.player.seekTo(Number(state.transcript[nextIndex].start), true);
+      renderLyrics(nextIndex);
+      state.player.playVideo();
+      scheduleRepeatingPause();
+    }, pauseDuration);
+  }, remaining * 1000);
+}
+
 function updateCurrentSentence() {
   if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING || state.transcript.length === 0) return;
   const index = getCurrentIndex(state.player.getCurrentTime());
