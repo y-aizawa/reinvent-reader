@@ -85,8 +85,7 @@ function renderLyrics(index) {
   requestAnimationFrame(() => {
     moveCurrentLine(
       container,
-      container.querySelector('.active'),
-      index
+      container.querySelector('.active')
     );
   });
 
