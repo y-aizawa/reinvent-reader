@@ -67,10 +67,8 @@ body { overflow-x: hidden; }
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
-.mode-button { min-width: 58px; }
-.mode-button[data-mode="pause"] { min-width: 58px; }
-.language-button { min-width: 58px; }
-.language-button[data-language="ja"] { min-width: 68px; }
+.mode-button { min-width: 62px; }
+.language-button { min-width: 62px; }
 .mode-icon {
   display: inline-block;
   font-size: 19px;
