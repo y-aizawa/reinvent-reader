@@ -14,6 +14,7 @@ const state = {
   language: 'en',
   playbackMode: 'continuous',
   pauseTimer: null,
+  repeatingAutoPaused: false,
   videoVisible: true
 };
 
@@ -78,6 +79,7 @@ function renderLyrics(index) {
       // Android/Chromeが古いボタンの位置へページ全体をスクロールすることがある。
       button.blur();
       clearPauseTimer();
+      state.repeatingAutoPaused = false;
       state.player.seekTo(Number(item.start), true);
       state.player.playVideo();
       state.currentIndex = i;
@@ -178,6 +180,7 @@ document.querySelectorAll('.mode-button').forEach(button => {
 function setPlaybackMode(mode) {
   if (mode === state.playbackMode) return;
   state.playbackMode = mode;
+  state.repeatingAutoPaused = false;
   clearPauseTimer();
   updateModeButton();
   showToast(mode === 'continuous' ? '連続再生' : 'リピーティング');
@@ -211,8 +214,23 @@ document.getElementById('playbackButton').addEventListener('click', () => {
   clearPauseTimer();
 
   if (state.player.getPlayerState() === YT.PlayerState.PLAYING) {
+    state.repeatingAutoPaused = false;
     state.player.pauseVideo();
   } else {
+    if (state.playbackMode === 'pause' && state.repeatingAutoPaused) {
+      const nextIndex = state.currentIndex + 1;
+      if (nextIndex >= state.transcript.length) return;
+
+      state.repeatingAutoPaused = false;
+      state.currentIndex = nextIndex;
+      state.player.seekTo(Number(state.transcript[nextIndex].start), true);
+      renderLyrics(nextIndex);
+      state.player.playVideo();
+      scheduleRepeatingPause();
+      return;
+    }
+
+    state.repeatingAutoPaused = false;
     state.player.playVideo();
     if (state.playbackMode === 'pause') {
       const index = getCurrentIndex(state.player.getCurrentTime());
@@ -269,6 +287,7 @@ function scheduleRepeatingPause() {
     ) return;
 
     state.player.pauseVideo();
+    state.repeatingAutoPaused = true;
 
     const duration = Math.max(0, Number(item.end) - Number(item.start));
     const pauseDuration = Math.max(REPEATING_PAUSE_MIN, duration * 1000 * REPEATING_PAUSE_MULTIPLIER);
