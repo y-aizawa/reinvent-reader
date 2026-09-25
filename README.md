@@ -6,7 +6,7 @@
 
 The app combines video playback with a synchronized transcript so that learners can follow the speaker's words while listening. English and Japanese translations are provided together to make it easier to check the meaning of each sentence while practicing.
 
-The reader supports two playback modes: **continuous playback** and **repeating playback**. The repeating mode gives learners time to repeat each sentence before moving on to the next one. Clicking a transcript sentence jumps directly to that point in the video.
+The reader supports two playback modes: **continuous playback mode** and **repeating playback mode**. The repeating playback mode gives learners time to repeat each sentence before moving on to the next one. Clicking a transcript sentence jumps directly to that point in the video.
 
 The interface is designed primarily for mobile devices. The project is published through GitHub Pages and can also be installed as a PWA on supported devices.
 
