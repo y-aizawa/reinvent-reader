@@ -124,6 +124,8 @@ function updateVideoToggle() {
   app.classList.toggle('video-hidden', !state.videoVisible);
   button.classList.toggle('active', state.videoVisible);
   button.setAttribute('aria-pressed', String(state.videoVisible));
+  const label = state.videoVisible ? '非表示' : '表示';
+  button.textContent = label;
   button.setAttribute('aria-label', state.videoVisible ? '動画を非表示' : '動画を表示');
   button.setAttribute('title', state.videoVisible ? '動画を非表示' : '動画を表示');
 }
