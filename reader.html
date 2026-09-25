@@ -28,7 +28,10 @@
     <button id="playbackButton" class="playback-button" type="button" aria-label="再生">
       <span id="playbackIcon" class="playback-icon" aria-hidden="true"></span>
     </button>
-    <button id="languageButton" class="language-button" type="button" aria-label="字幕言語切替">EN</button>
+    <div class="language-toggle" role="group" aria-label="字幕言語">
+      <button class="language-button active" type="button" data-language="en">EN</button>
+      <button class="language-button" type="button" data-language="ja">日本語</button>
+    </div>
   </div>
 
   <script src="./reader.js"></script>
