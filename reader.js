@@ -140,7 +140,7 @@ function setPlaybackMode(mode) {
   state.playbackMode = mode;
   clearPauseTimer();
   updateModeButton();
-  showToast(mode === 'continuous' ? '連続再生' : 'ポーズ付き再生');
+  showToast(mode === 'continuous' ? '連続再生' : 'リピーティング');
 
   if (
     mode === 'pause' &&
