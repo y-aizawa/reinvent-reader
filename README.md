@@ -10,7 +10,7 @@ Tapping a transcript sentence jumps directly to that point in the video.
 
 The reader supports two playback modes: **continuous playback** and **repeating playback**. Repeating playback gives learners time to repeat each sentence before moving on to the next one.
 
-The transcript can be switched between English and Japanese using the language buttons.
+The transcript can be switched between **English** and **Japanese** using the language buttons.
 
 The interface is designed primarily for mobile devices. The project is published through GitHub Pages and can also be installed as a PWA on supported devices.
 
