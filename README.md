@@ -6,7 +6,7 @@
 
 The app combines video playback with a synchronized transcript so that learners can follow the speaker's words while listening.
 
-Clicking a transcript sentence jumps directly to that point in the video.
+Tapping a transcript sentence jumps directly to that point in the video.
 
 The reader supports two playback modes: **continuous playback** and **repeating playback**. Repeating playback gives learners time to repeat each sentence before moving on to the next one.
 
