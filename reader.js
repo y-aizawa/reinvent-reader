@@ -93,7 +93,8 @@ function setLanguage(language) {
 document.querySelectorAll('.language-button').forEach(button => {
   button.addEventListener('click', () => {
     button.blur();
-    setLanguage(button.dataset.language);\n    showToast(button.dataset.language === 'en' ? 'English' : '日本語');
+    setLanguage(button.dataset.language);
+    showToast(button.dataset.language === 'en' ? 'English' : '日本語');
   });
 });
 
@@ -131,7 +132,8 @@ function updateModeButton() {
 document.querySelectorAll('.mode-button').forEach(button => {
   button.addEventListener('click', () => {
     button.blur();
-    setPlaybackMode(button.dataset.mode);\n    showToast(button.dataset.mode === 'continuous' ? '連続再生' : 'ポーズ付き再生');
+    setPlaybackMode(button.dataset.mode);
+    showToast(button.dataset.mode === 'continuous' ? '連続再生' : 'ポーズ付き再生');
   });
 });
 
