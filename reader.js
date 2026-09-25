@@ -84,17 +84,17 @@ function renderLyrics(index) {
 
 function setLanguage(language) {
   state.language = language;
-  const button = document.getElementById('languageButton');
-  if (button) {
-    button.textContent = language === 'en' ? 'EN' : '日本語';
-    button.classList.toggle('active', language === 'ja');
-  }
+  document.querySelectorAll('.language-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.language === language);
+  });
   renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
 }
 
-document.getElementById('languageButton').addEventListener('click', () => {
-  const nextLanguage = state.language === 'en' ? 'ja' : 'en';
-  setLanguage(nextLanguage);
+document.querySelectorAll('.language-button').forEach(button => {
+  button.addEventListener('click', () => {
+    button.blur();
+    setLanguage(button.dataset.language);
+  });
 });
 
 function clearPauseTimer() {
