@@ -251,7 +251,9 @@ function scheduleRepeatingPause() {
   if (!item) return;
 
   const now = state.player.getCurrentTime();
-  const remaining = Math.max(0, (Number(item.end) - now) - 0.3);
+  const remainingToEnd = Math.max(0, Number(item.end) - now);
+  const pauseLead = remainingToEnd > 0.3 ? 0.3 : 0;
+  const remaining = Math.max(0, remainingToEnd - pauseLead);
 
   state.pauseTimer = setTimeout(() => {
     state.pauseTimer = null;
