@@ -105,86 +105,16 @@ function clearPauseTimer() {
 }
 
 function updateModeButton() {
-  const button = document.getElementById('modeButton');
-  if (button) {
-    button.textContent = state.playbackMode === 'continuous' ? '連続再生' : 'リピーティング';
-    button.classList.toggle('active', state.playbackMode === 'pause');
-  }
+  document.querySelectorAll('.mode-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.mode === state.playbackMode);
+  });
 }
 
-function scheduleRepeatingPause() {
-  if (
-    state.playbackMode !== 'pause' ||
-    !state.player ||
-    state.currentIndex < 0 ||
-    state.currentIndex >= state.transcript.length - 1 ||
-    state.player.getPlayerState() !== YT.PlayerState.PLAYING
-  ) {
-    return;
-  }
-
-  const item = state.transcript[state.currentIndex];
-  const now = state.player.getCurrentTime();
-  // Pause slightly before the transcript boundary so the next sentence
-  // cannot leak through while YouTube processes pauseVideo().
-  const remaining = Math.max(0, (Number(item.end) - now) - 0.3);
-
-  clearPauseTimer();
-  state.pauseTimer = setTimeout(() => {
-    state.pauseTimer = null;
-
-    if (
-      state.playbackMode !== 'pause' ||
-      !state.player ||
-      state.player.getPlayerState() !== YT.PlayerState.PLAYING
-    ) {
-      return;
-    }
-
-    const duration = Math.max(0, Number(item.end) - Number(item.start));
-    const pauseDuration = Math.max(500, duration * 1000 * 1.5);
-
-    state.player.pauseVideo();
-    state.pauseTimer = setTimeout(() => {
-      state.pauseTimer = null;
-
-      if (
-        state.playbackMode !== 'pause' ||
-        !state.player ||
-        state.player.getPlayerState() === YT.PlayerState.ENDED
-      ) {
-        return;
-      }
-
-      const nextIndex = state.currentIndex + 1;
-      if (nextIndex >= state.transcript.length) return;
-
-      state.currentIndex = nextIndex;
-      state.player.seekTo(Number(state.transcript[nextIndex].start), true);
-      renderLyrics(nextIndex);
-      state.player.playVideo();
-    }, pauseDuration);
-  }, Math.max(50, remaining * 1000));
-}
-
-function setPlaybackMode(mode) {
-  state.playbackMode = mode;
-  clearPauseTimer();
-  updateModeButton();
-
-  if (
-    mode === 'pause' &&
-    state.player &&
-    state.player.getPlayerState() === YT.PlayerState.PLAYING
-  ) {
-    scheduleRepeatingPause();
-  }
-}
-
-document.getElementById('modeButton').addEventListener('click', () => {
-  const button = document.getElementById('modeButton');
-  button.blur();
-  setPlaybackMode(state.playbackMode === 'continuous' ? 'pause' : 'continuous');
+document.querySelectorAll('.mode-button').forEach(button => {
+  button.addEventListener('click', () => {
+    button.blur();
+    setPlaybackMode(button.dataset.mode);
+  });
 });
 
 function updatePlaybackButton() {
