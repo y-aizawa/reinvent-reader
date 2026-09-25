@@ -40,8 +40,6 @@ body { overflow-x: hidden; }
 .bottom-controls { position: fixed; left: 50%; right: auto; bottom: 0; z-index: 100; width: 100%; max-width: 640px; transform: translateX(-50%); height: calc(76px + env(safe-area-inset-bottom)); padding: 0 16px env(safe-area-inset-bottom); display: grid; grid-template-columns: minmax(0, 1fr) 68px minmax(0, 1fr); align-items: center; justify-items: center; background: #101114; }
 .mode-toggle,
 .language-toggle {
-  position: static;
-  transform: none;
   display: flex;
   flex: 0 0 auto;
   overflow: hidden;
@@ -60,14 +58,12 @@ body { overflow-x: hidden; }
 }
 .mode-button,
 .language-button {
-  position: static;
   flex: 1 1 0;
   min-width: 0;
   min-height: 42px;
   border: 0;
   border-radius: 0;
   padding: 8px 8px;
-  box-sizing: border-box;
   background: transparent;
   color: #92959d;
   font: inherit;
@@ -111,8 +107,6 @@ body { overflow-x: hidden; }
   .line.active { font-size: 27px; }
   .info { padding-left: 18px; padding-right: 18px; }
   .bottom-controls { padding-left: 12px; padding-right: 12px; }
-
-
 }
 
 .toast {
