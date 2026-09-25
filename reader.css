@@ -56,13 +56,10 @@ body { overflow-x: hidden; }
 }
 .language-toggle {
   grid-column: 3;
-  width: 124px;
 }
 .mode-button,
 .language-button {
   position: static;
-  flex: 1 1 0;
-  min-width: 0;
   min-height: 42px;
   border: 0;
   border-radius: 0;
@@ -76,7 +73,17 @@ body { overflow-x: hidden; }
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
-.mode-button { padding-left: 4px; padding-right: 4px; }
+.mode-button {
+  flex: 1 1 0;
+  min-width: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.language-button {
+  flex: 0 0 auto;
+}
+.language-button[data-language="en"] { min-width: 58px; }
+.language-button[data-language="ja"] { min-width: 68px; }
 .mode-icon {
   display: inline-block;
   font-size: 19px;
@@ -114,6 +121,8 @@ body { overflow-x: hidden; }
   .bottom-controls { padding-left: 12px; padding-right: 12px; }
 
   .mode-button { padding-left: 4px; padding-right: 4px; }
+  .language-button[data-language="en"] { min-width: 58px; }
+  .language-button[data-language="ja"] { min-width: 68px; }
 }
 
 .toast {
