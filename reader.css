@@ -76,6 +76,7 @@ body { overflow-x: hidden; }
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
+.mode-button { padding-left: 4px; padding-right: 4px; }
 .mode-icon {
   display: inline-block;
   font-size: 19px;
@@ -112,7 +113,7 @@ body { overflow-x: hidden; }
   .info { padding-left: 18px; padding-right: 18px; }
   .bottom-controls { padding-left: 12px; padding-right: 12px; }
 
-  .mode-button, .language-button { padding-left: 10px; padding-right: 10px; }
+  .mode-button { padding-left: 4px; padding-right: 4px; }
 }
 
 .toast {
