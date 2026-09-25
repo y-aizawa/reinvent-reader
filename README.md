@@ -50,5 +50,5 @@ The project is intentionally kept as a small static web application. The main pa
 
 The project currently includes the AWS re:Invent 2025 keynote featuring Dr. Werner Vogels.
 
-The transcript data is stored as JSON, with the original English text, Japanese translation, and the corresponding **start and end times** for each sentence in the video.
+The transcript data is stored as JSON, with the original English text, Japanese translation, and the corresponding start and end times for each sentence in the video.
 
