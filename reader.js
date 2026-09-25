@@ -295,6 +295,7 @@ function updateCurrentSentence() {
     // YouTube側で問題が起きても字幕一覧自体は確認できるようにする。
     state.currentIndex = 0;
     updateModeButton();
+    updateVideoToggle();
     renderLyrics(0);
 
     const script = document.createElement('script');
