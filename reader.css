@@ -37,9 +37,20 @@ body { overflow-x: hidden; }
   -webkit-tap-highlight-color: transparent;
 }
 .mode-button { min-width: 58px; }
-.mode-button[data-mode="pause"] { min-width: 92px; }
+.mode-button[data-mode="pause"] { min-width: 58px; }
 .language-button { min-width: 58px; }
 .language-button[data-language="ja"] { min-width: 68px; }
+.mode-icon {
+  display: inline-block;
+  font-size: 19px;
+  line-height: 1;
+  letter-spacing: -2px;
+  font-weight: 700;
+  white-space: nowrap;
+  transform: translateY(-1px);
+}
+.mode-icon-pause { letter-spacing: -1px; }
+
 .mode-button.active,
 .language-button.active { background: #4f2eea; color: #fff; }
 
