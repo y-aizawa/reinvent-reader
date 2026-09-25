@@ -6,7 +6,9 @@
 
 The app combines video playback with a synchronized transcript so that learners can follow the speaker's words while listening. English and Japanese translations are provided together to make it easier to check the meaning of each sentence while practicing.
 
-The app is designed with a simple interface optimized for mobile devices and is published through GitHub Pages. It can also be installed as a PWA on supported devices.
+The reader supports two playback modes: **continuous playback** and **playback with pauses between sentences**. The playback mode and subtitle language can be switched from the bottom controls, with a brief toast message confirming the selected setting. Clicking a transcript sentence jumps directly to that point in the video.
+
+The interface is designed primarily for mobile devices, while the reader content and bottom controls stay aligned to the same centered reading area on larger screens. The project is published through GitHub Pages and can also be installed as a PWA on supported devices.
 
 ## Project Structure
 
@@ -48,5 +50,5 @@ The project is intentionally kept as a small static web application. The main pa
 
 The project currently includes the AWS re:Invent 2025 keynote featuring Dr. Werner Vogels.
 
-The transcript data is stored as JSON, with the original English text, Japanese translation, and the corresponding start time in the video.
+The transcript data is stored as JSON, with the original English text, Japanese translation, and the corresponding timing information in the video.
 
