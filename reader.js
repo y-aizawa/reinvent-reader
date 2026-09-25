@@ -124,10 +124,15 @@ function updateVideoToggle() {
   app.classList.toggle('video-hidden', !state.videoVisible);
   button.classList.toggle('active', state.videoVisible);
   button.setAttribute('aria-pressed', String(state.videoVisible));
-  const label = state.videoVisible ? '非表示' : '表示';
-  button.textContent = label;
   button.setAttribute('aria-label', state.videoVisible ? '動画を非表示' : '動画を表示');
   button.setAttribute('title', state.videoVisible ? '動画を非表示' : '動画を表示');
+
+  const icon = button.querySelector('.video-toggle-icon');
+  if (icon) {
+    icon.innerHTML = state.videoVisible
+      ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"></path><circle cx="12" cy="12" r="2.5"></circle></svg>'
+      : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18"></path><path d="M10.6 6.2C11.1 6.1 11.5 6 12 6c6 0 9.5 6 9.5 6-.8 1.3-1.8 2.4-3 3.3M7.2 7.5C4.1 8.9 2.5 12 2.5 12s3.5 6 9.5 6c1.1 0 2.1-.2 3-.5"></path></svg>';
+  }
 }
 
 document.getElementById('videoToggle').addEventListener('click', () => {
@@ -135,7 +140,6 @@ document.getElementById('videoToggle').addEventListener('click', () => {
   updateVideoToggle();
   showToast(state.videoVisible ? '動画表示' : '動画非表示');
 });
-
 function clearPauseTimer() {
   if (state.pauseTimer) {
     clearTimeout(state.pauseTimer);
