@@ -1,6 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
-const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en', playbackMode: 'continuous', pauseTimer: null };
+const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en', playbackMode: 'continuous', pauseTimer: null, videoVisible: true };
 
 async function loadData() {
   const [videosResponse] = await Promise.all([
@@ -115,6 +115,24 @@ function showToast(message) {
     toast.classList.remove('show');
   }, 1000);
 }
+
+function updateVideoToggle() {
+  const app = document.querySelector('.app');
+  const button = document.getElementById('videoToggle');
+  if (!app || !button) return;
+
+  app.classList.toggle('video-hidden', !state.videoVisible);
+  button.classList.toggle('active', state.videoVisible);
+  button.setAttribute('aria-pressed', String(state.videoVisible));
+  button.setAttribute('aria-label', state.videoVisible ? '動画を非表示' : '動画を表示');
+  button.setAttribute('title', state.videoVisible ? '動画を非表示' : '動画を表示');
+}
+
+document.getElementById('videoToggle').addEventListener('click', () => {
+  state.videoVisible = !state.videoVisible;
+  updateVideoToggle();
+  showToast(state.videoVisible ? '動画表示' : '動画非表示');
+});
 
 function clearPauseTimer() {
   if (state.pauseTimer) {
