@@ -52,7 +52,7 @@ body { overflow-x: hidden; }
 }
 .mode-toggle {
   grid-column: 1;
-  width: 124px;
+  width: 132px;
 }
 .language-toggle {
   grid-column: 3;
