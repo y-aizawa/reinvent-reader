@@ -12,6 +12,8 @@ The playback mode can be switched using the mode buttons between **continuous pl
 
 The transcript can be switched between **English** and **Japanese** using the language buttons.
 
+The video can be shown or hidden using the eye button in the top bar.
+
 The interface is designed primarily for mobile devices. The project is published through GitHub Pages and can also be installed as a PWA on supported devices.
 
 ## Project Structure
