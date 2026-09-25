@@ -137,6 +137,20 @@ document.querySelectorAll('.mode-button').forEach(button => {
   });
 });
 
+function setPlaybackMode(mode) {
+  state.playbackMode = mode;
+  clearPauseTimer();
+  updateModeButton();
+
+  if (
+    mode === 'pause' &&
+    state.player &&
+    state.player.getPlayerState() === YT.PlayerState.PLAYING
+  ) {
+    scheduleRepeatingPause();
+  }
+}
+
 function updatePlaybackButton() {
   const button = document.getElementById('playbackButton');
   const icon = document.getElementById('playbackIcon');
