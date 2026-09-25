@@ -1,6 +1,16 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
-const state = { videos: [], currentVideo: null, transcript: [], player: null, currentIndex: -1, language: 'en', playbackMode: 'continuous', pauseTimer: null, videoVisible: true };
+const state = {
+  videos: [],
+  currentVideo: null,
+  transcript: [],
+  player: null,
+  currentIndex: -1,
+  language: 'en',
+  playbackMode: 'continuous',
+  pauseTimer: null,
+  videoVisible: true
+};
 
 async function loadData() {
   const [videosResponse] = await Promise.all([
