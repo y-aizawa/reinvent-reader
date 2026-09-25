@@ -50,15 +50,24 @@ body { overflow-x: hidden; }
   background: #1d2025;
   box-shadow: 0 4px 16px rgba(0,0,0,.35);
 }
-.mode-toggle { grid-column: 1; }
-.language-toggle { grid-column: 3; }
+.mode-toggle {
+  grid-column: 1;
+  width: 124px;
+}
+.language-toggle {
+  grid-column: 3;
+  width: 124px;
+}
 .mode-button,
 .language-button {
   position: static;
+  flex: 1 1 0;
+  min-width: 0;
   min-height: 42px;
   border: 0;
   border-radius: 0;
   padding: 8px 12px;
+  box-sizing: border-box;
   background: transparent;
   color: #92959d;
   font: inherit;
@@ -67,8 +76,6 @@ body { overflow-x: hidden; }
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
-.mode-button { min-width: 62px; }
-.language-button { min-width: 62px; }
 .mode-icon {
   display: inline-block;
   font-size: 19px;
