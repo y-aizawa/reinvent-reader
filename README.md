@@ -8,7 +8,7 @@ The app combines video playback with a synchronized transcript so that learners 
 
 Tapping a transcript sentence jumps directly to that point in the video.
 
-The reader supports two playback modes: **continuous playback** and **repeating playback**. Repeating playback gives learners time to repeat each sentence before moving on to the next one.
+The playback mode can be switched using the mode buttons between **continuous playback** and **repeating playback**. Repeating playback gives learners time to repeat each sentence before moving on to the next one.
 
 The transcript can be switched between **English** and **Japanese** using the language buttons.
 
