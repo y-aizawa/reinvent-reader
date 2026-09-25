@@ -137,6 +137,7 @@ document.querySelectorAll('.mode-button').forEach(button => {
 });
 
 function setPlaybackMode(mode) {
+  if (mode === state.playbackMode) return;
   state.playbackMode = mode;
   clearPauseTimer();
   updateModeButton();
