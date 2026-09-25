@@ -97,6 +97,24 @@ document.querySelectorAll('.language-button').forEach(button => {
   });
 });
 
+let toastTimer = null;
+
+function showToast(message) {
+  let toast = document.getElementById('toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'toast';
+    toast.className = 'toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    toast.classList.remove('show');
+  }, 1000);
+}
+
 function clearPauseTimer() {
   if (state.pauseTimer) {
     clearTimeout(state.pauseTimer);
@@ -113,7 +131,7 @@ function updateModeButton() {
 document.querySelectorAll('.mode-button').forEach(button => {
   button.addEventListener('click', () => {
     button.blur();
-    setPlaybackMode(button.dataset.mode);
+    setPlaybackMode(button.dataset.mode);\n    showToast(button.dataset.mode === 'continuous' ? '連続再生' : 'ポーズ付き再生');
   });
 });
 
