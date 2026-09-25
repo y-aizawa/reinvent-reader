@@ -211,6 +211,11 @@ document.getElementById('playbackButton').addEventListener('click', () => {
   } else {
     state.player.playVideo();
     if (state.playbackMode === 'pause') {
+      const index = getCurrentIndex(state.player.getCurrentTime());
+      if (index !== state.currentIndex) {
+        state.currentIndex = index;
+        renderLyrics(index);
+      }
       scheduleRepeatingPause();
     }
   }
