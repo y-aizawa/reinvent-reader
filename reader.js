@@ -1,5 +1,10 @@
 const params = new URLSearchParams(window.location.search);
 const videoKey = params.get('video');
+
+const REPEATING_PAUSE_LEAD = 0.3;
+const REPEATING_PAUSE_MULTIPLIER = 1.5;
+const REPEATING_PAUSE_MIN = 500;
+const SENTENCE_UPDATE_INTERVAL = 250;
 const state = {
   videos: [],
   currentVideo: null,
@@ -228,7 +233,7 @@ function onYouTubeIframeAPIReady() {
       onReady: () => {
         updatePlaybackButton();
         updateModeButton();
-        setInterval(updateCurrentSentence, 250);
+        setInterval(updateCurrentSentence, SENTENCE_UPDATE_INTERVAL);
       },
       onStateChange: () => {
         updatePlaybackButton();
@@ -251,7 +256,7 @@ function scheduleRepeatingPause() {
 
   const now = state.player.getCurrentTime();
   const remainingToEnd = Math.max(0, Number(item.end) - now);
-  const pauseLead = remainingToEnd > 0.3 ? 0.3 : 0;
+  const pauseLead = remainingToEnd > REPEATING_PAUSE_LEAD ? REPEATING_PAUSE_LEAD : 0;
   const remaining = Math.max(0, remainingToEnd - pauseLead);
 
   state.pauseTimer = setTimeout(() => {
@@ -266,7 +271,7 @@ function scheduleRepeatingPause() {
     state.player.pauseVideo();
 
     const duration = Math.max(0, Number(item.end) - Number(item.start));
-    const pauseDuration = Math.max(500, duration * 1000 * 1.5);
+    const pauseDuration = Math.max(REPEATING_PAUSE_MIN, duration * 1000 * REPEATING_PAUSE_MULTIPLIER);
     const nextIndex = state.currentIndex + 1;
 
     if (nextIndex >= state.transcript.length) return;
