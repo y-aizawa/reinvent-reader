@@ -93,7 +93,7 @@ function setLanguage(language) {
 document.querySelectorAll('.language-button').forEach(button => {
   button.addEventListener('click', () => {
     button.blur();
-    setLanguage(button.dataset.language);
+    setLanguage(button.dataset.language);\n    showToast(button.dataset.language === 'en' ? 'English' : '日本語');
   });
 });
 
