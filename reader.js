@@ -15,6 +15,7 @@ const state = {
   playbackMode: 'continuous',
   pauseTimer: null,
   repeatingAutoPaused: false,
+  wakeLock: null,
   videoVisible: true
 };
 
@@ -157,6 +158,46 @@ document.getElementById('videoToggle').addEventListener('click', () => {
   updateVideoToggle();
   showToast(state.videoVisible ? '動画表示' : '動画非表示');
 });
+async function requestWakeLock() {
+  if (!('wakeLock' in navigator)) return;
+
+  try {
+    if (state.wakeLock && state.wakeLock !== null) return;
+    state.wakeLock = await navigator.wakeLock.request('screen');
+    state.wakeLock.addEventListener('release', () => {
+      state.wakeLock = null;
+    });
+  } catch (error) {
+    console.log('Wake Lock unavailable:', error);
+    state.wakeLock = null;
+  }
+}
+
+function releaseWakeLock() {
+  if (!state.wakeLock) return;
+  state.wakeLock.release().catch(() => {});
+  state.wakeLock = null;
+}
+
+function isRepeatingActive() {
+  return (
+    state.playbackMode === 'pause' &&
+    (
+      state.player?.getPlayerState() === YT.PlayerState.PLAYING ||
+      state.repeatingAutoPaused ||
+      state.pauseTimer
+    )
+  );
+}
+
+function updateWakeLock() {
+  if (isRepeatingActive()) {
+    requestWakeLock();
+  } else {
+    releaseWakeLock();
+  }
+}
+
 function clearPauseTimer() {
   if (state.pauseTimer) {
     clearTimeout(state.pauseTimer);
@@ -183,6 +224,7 @@ function setPlaybackMode(mode) {
   state.repeatingAutoPaused = false;
   clearPauseTimer();
   updateModeButton();
+  updateWakeLock();
   showToast(mode === 'continuous' ? '連続再生' : 'リピーティング');
 
   if (
@@ -216,6 +258,7 @@ document.getElementById('playbackButton').addEventListener('click', () => {
   if (state.player.getPlayerState() === YT.PlayerState.PLAYING) {
     state.repeatingAutoPaused = false;
     state.player.pauseVideo();
+    updateWakeLock();
   } else {
     if (state.playbackMode === 'pause' && state.repeatingAutoPaused) {
       const nextIndex = state.currentIndex + 1;
@@ -226,6 +269,7 @@ document.getElementById('playbackButton').addEventListener('click', () => {
       state.player.seekTo(Number(state.transcript[nextIndex].start), true);
       renderLyrics(nextIndex);
       state.player.playVideo();
+      updateWakeLock();
       scheduleRepeatingPause();
       return;
     }
@@ -255,6 +299,7 @@ function onYouTubeIframeAPIReady() {
       },
       onStateChange: () => {
         updatePlaybackButton();
+        updateWakeLock();
       }
     }
   });
@@ -288,6 +333,7 @@ function scheduleRepeatingPause() {
 
     state.player.pauseVideo();
     state.repeatingAutoPaused = true;
+    updateWakeLock();
 
     const duration = Math.max(0, Number(item.end) - Number(item.start));
     const pauseDuration = Math.max(REPEATING_PAUSE_MIN, duration * 1000 * REPEATING_PAUSE_MULTIPLIER);
@@ -304,6 +350,7 @@ function scheduleRepeatingPause() {
       state.player.seekTo(Number(state.transcript[nextIndex].start), true);
       renderLyrics(nextIndex);
       state.player.playVideo();
+      updateWakeLock();
       scheduleRepeatingPause();
     }, pauseDuration);
   }, remaining * 1000);
@@ -348,3 +395,9 @@ function updateCurrentSentence() {
     document.getElementById('info').textContent = 'Load error';
   }
 })();
+
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') {
+    updateWakeLock();
+  }
+});
