@@ -331,15 +331,20 @@ function scheduleRepeatingPause() {
       state.player.getPlayerState() !== YT.PlayerState.PLAYING
     ) return;
 
-    state.player.pauseVideo();
+    // 自動停止中もWake Lockを維持するため、先に状態を更新する。
     state.repeatingAutoPaused = true;
+    state.player.pauseVideo();
     updateWakeLock();
 
     const duration = Math.max(0, Number(item.end) - Number(item.start));
     const pauseDuration = Math.max(REPEATING_PAUSE_MIN, duration * 1000 * REPEATING_PAUSE_MULTIPLIER);
     const nextIndex = state.currentIndex + 1;
 
-    if (nextIndex >= state.transcript.length) return;
+    if (nextIndex >= state.transcript.length) {
+      state.repeatingAutoPaused = false;
+      updateWakeLock();
+      return;
+    }
 
     state.pauseTimer = setTimeout(() => {
       state.pauseTimer = null;
