@@ -227,7 +227,13 @@ function renderLyrics(index) {
 
 function setLanguage(language) {
   state.language = language;
-  document.getElementById('chapterBar').addEventListener('click', () => {
+  document.querySelectorAll('.language-button').forEach(button => {
+    button.classList.toggle('active', button.dataset.language === language);
+  });
+  renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
+}
+
+document.getElementById('chapterBar').addEventListener('click', () => {
   openChapterSheet();
 });
 document.getElementById('chapterClose').addEventListener('click', () => {
@@ -236,12 +242,6 @@ document.getElementById('chapterClose').addEventListener('click', () => {
 document.getElementById('chapterBackdrop').addEventListener('click', () => {
   closeChapterSheet();
 });
-
-document.querySelectorAll('.language-button').forEach(button => {
-    button.classList.toggle('active', button.dataset.language === language);
-  });
-  renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
-}
 
 document.querySelectorAll('.language-button').forEach(button => {
   button.addEventListener('click', () => {
