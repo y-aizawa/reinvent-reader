@@ -33,11 +33,16 @@ async function loadVideos() {
 
       if (Array.isArray(video.chapters) && video.chapters.length > 0) {
         const totalDuration = Math.max(...video.chapters.map(chapter => Number(chapter.end) || 0));
-        const minutes = Math.floor(totalDuration / 60);
-        const seconds = String(Math.floor(totalDuration % 60)).padStart(2, '0');
+        const totalSeconds = Math.floor(totalDuration);
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = String(totalSeconds % 60).padStart(2, '0');
+        const duration = hours > 0
+          ? `${hours}:${String(minutes).padStart(2, '0')}:${seconds}`
+          : `${minutes}:${seconds}`;
         const meta = document.createElement('div');
         meta.className = 'chapter-meta';
-        meta.textContent = `${video.chapters.length} chapters · ${minutes >= 60 ? `${Math.floor(minutes / 60)}:${String(minutes % 60).padStart(2, '0')}` : `${minutes}:${seconds}`}`;
+        meta.textContent = `${video.chapters.length} chapters · ${duration}`;
         body.appendChild(meta);
       }
 
