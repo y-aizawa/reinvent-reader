@@ -16,7 +16,8 @@ const state = {
   pauseTimer: null,
   repeatingAutoPaused: false,
   wakeLock: null,
-  videoVisible: true
+  videoVisible: true,
+  currentChapter: -1
 };
 
 async function loadData() {
@@ -42,6 +43,130 @@ function getCurrentIndex(time) {
     else break;
   }
   return index;
+}
+
+function formatTime(seconds) {
+  const total = Math.max(0, Math.floor(Number(seconds) || 0));
+  const minutes = Math.floor(total / 60);
+  const secs = total % 60;
+  return minutes >= 60
+    ? `${Math.floor(minutes / 60)}:${String(minutes % 60).padStart(2, '0')}:${String(secs).padStart(2, '0')}`
+    : `${minutes}:${String(secs).padStart(2, '0')}`;
+}
+
+function getChapters() {
+  return Array.isArray(state.currentVideo?.chapters)
+    ? state.currentVideo.chapters
+    : [];
+}
+
+function getCurrentChapterIndex(time) {
+  const chapters = getChapters();
+  if (chapters.length === 0) return -1;
+
+  let index = 0;
+  for (let i = 0; i < chapters.length; i++) {
+    if (Number(chapters[i].start) <= time) index = i;
+    else break;
+  }
+  return index;
+}
+
+function renderChapterList() {
+  const list = document.getElementById('chapterList');
+  if (!list) return;
+
+  const chapters = getChapters();
+  list.innerHTML = '';
+
+  chapters.forEach((chapter, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'chapter-item';
+    button.dataset.chapterIndex = String(index);
+    if (index === state.currentChapter) button.classList.add('active');
+
+    const number = document.createElement('span');
+    number.className = 'chapter-item-number';
+    number.textContent = String(index + 1).padStart(2, '0');
+
+    const title = document.createElement('span');
+    title.className = 'chapter-item-title';
+    title.textContent = chapter.title;
+
+    const duration = document.createElement('span');
+    duration.className = 'chapter-item-duration';
+    duration.textContent = formatTime(Number(chapter.end) - Number(chapter.start));
+
+    button.append(number, title, duration);
+    button.addEventListener('click', () => {
+      button.blur();
+      selectChapter(index);
+    });
+    list.appendChild(button);
+  });
+}
+
+function updateChapterUI(time) {
+  const chapters = getChapters();
+  const bar = document.getElementById('chapterBar');
+  if (!bar) return;
+
+  if (chapters.length === 0) {
+    bar.hidden = true;
+    state.currentChapter = -1;
+    return;
+  }
+
+  const index = getCurrentChapterIndex(time);
+  state.currentChapter = index;
+  const chapter = chapters[index];
+  document.getElementById('chapterNumber').textContent = `Chapter ${index + 1}`;
+  document.getElementById('chapterName').textContent = chapter.title;
+  document.getElementById('chapterDuration').textContent =
+    formatTime(Number(chapter.end) - Number(chapter.start));
+
+  bar.hidden = false;
+  document.querySelectorAll('.chapter-item').forEach((item) => {
+    item.classList.toggle('active', Number(item.dataset.chapterIndex) === index);
+  });
+}
+
+function openChapterSheet() {
+  if (getChapters().length === 0) return;
+  const sheet = document.getElementById('chapterSheet');
+  if (!sheet) return;
+  sheet.hidden = false;
+  document.getElementById('chapterBar')?.setAttribute('aria-expanded', 'true');
+}
+
+function closeChapterSheet() {
+  const sheet = document.getElementById('chapterSheet');
+  if (!sheet) return;
+  sheet.hidden = true;
+  document.getElementById('chapterBar')?.setAttribute('aria-expanded', 'false');
+}
+
+function selectChapter(index) {
+  const chapters = getChapters();
+  const chapter = chapters[index];
+  if (!state.player || !chapter) return;
+
+  clearPauseTimer();
+  state.repeatingAutoPaused = false;
+
+  const wasPlaying = state.player.getPlayerState() === YT.PlayerState.PLAYING;
+  state.player.seekTo(Number(chapter.start), true);
+
+  const sentenceIndex = getCurrentIndex(Number(chapter.start));
+  state.currentIndex = sentenceIndex;
+  renderLyrics(sentenceIndex);
+  updateChapterUI(Number(chapter.start));
+  closeChapterSheet();
+
+  if (wasPlaying) state.player.playVideo();
+  updateWakeLock();
+  showToast(`Chapter ${index + 1}`);
 }
 
 function moveCurrentLine(container, element) {
@@ -102,7 +227,17 @@ function renderLyrics(index) {
 
 function setLanguage(language) {
   state.language = language;
-  document.querySelectorAll('.language-button').forEach(button => {
+  document.getElementById('chapterBar').addEventListener('click', () => {
+  openChapterSheet();
+});
+document.getElementById('chapterClose').addEventListener('click', () => {
+  closeChapterSheet();
+});
+document.getElementById('chapterBackdrop').addEventListener('click', () => {
+  closeChapterSheet();
+});
+
+document.querySelectorAll('.language-button').forEach(button => {
     button.classList.toggle('active', button.dataset.language === language);
   });
   renderLyrics(state.currentIndex < 0 ? 0 : state.currentIndex);
@@ -295,6 +430,7 @@ function onYouTubeIframeAPIReady() {
       onReady: () => {
         updatePlaybackButton();
         updateModeButton();
+        updateChapterUI(state.player.getCurrentTime());
         setInterval(updateCurrentSentence, SENTENCE_UPDATE_INTERVAL);
       },
       onStateChange: () => {
@@ -362,8 +498,14 @@ function scheduleRepeatingPause() {
 }
 
 function updateCurrentSentence() {
-  if (!state.player || state.player.getPlayerState() !== YT.PlayerState.PLAYING || state.transcript.length === 0) return;
-  const index = getCurrentIndex(state.player.getCurrentTime());
+  if (!state.player || state.transcript.length === 0) return;
+
+  const time = state.player.getCurrentTime();
+  updateChapterUI(time);
+
+  if (state.player.getPlayerState() !== YT.PlayerState.PLAYING) return;
+
+  const index = getCurrentIndex(time);
   if (state.playbackMode === 'pause') {
     if (index !== state.currentIndex) {
       state.currentIndex = index;
@@ -387,6 +529,8 @@ function updateCurrentSentence() {
     // TranscriptはYouTube APIの準備を待たずに表示する。
     // YouTube側で問題が起きても字幕一覧自体は確認できるようにする。
     state.currentIndex = 0;
+    renderChapterList();
+    updateChapterUI(0);
     updateModeButton();
     updateVideoToggle();
     renderLyrics(0);
