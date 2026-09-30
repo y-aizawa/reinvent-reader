@@ -5,6 +5,83 @@
     "title": "AWS re:Invent 2025 - Keynote with Dr. Werner Vogels",
     "category": "AWS re:Invent 2025",
     "description": "",
-    "transcript": "transcripts/werner-vogels-2025.json"
+    "transcript": "transcripts/werner-vogels-2025.json",
+    "chapters": [
+      {
+        "title": "Opening",
+        "start": 0,
+        "end": 334.967
+      },
+      {
+        "title": "The End of an Era / AI",
+        "start": 334.967,
+        "end": 573.564
+      },
+      {
+        "title": "How Developers Have Always Evolved",
+        "start": 573.564,
+        "end": 905.16
+      },
+      {
+        "title": "The Renaissance Developer",
+        "start": 905.16,
+        "end": 1193.31
+      },
+      {
+        "title": "Be Curious / Learn by Doing",
+        "start": 1193.31,
+        "end": 1425.64
+      },
+      {
+        "title": "Learn from the World",
+        "start": 1425.64,
+        "end": 1651.05
+      },
+      {
+        "title": "Applying Skills to Real-World Problems",
+        "start": 1651.05,
+        "end": 2000.67
+      },
+      {
+        "title": "Think in Systems",
+        "start": 2000.67,
+        "end": 2284.74
+      },
+      {
+        "title": "Communicate with Precision",
+        "start": 2284.74,
+        "end": 2659.26
+      },
+      {
+        "title": "Rapid Prototyping / Kiro",
+        "start": 2659.26,
+        "end": 2937.18
+      },
+      {
+        "title": "Spec-Driven Development in Practice",
+        "start": 2937.18,
+        "end": 3219.96
+      },
+      {
+        "title": "Understand the Real Problem / Ownership",
+        "start": 3219.96,
+        "end": 3571.8
+      },
+      {
+        "title": "Mechanisms / Code Reviews",
+        "start": 3571.8,
+        "end": 3916.26
+      },
+      {
+        "title": "Become a Polymath",
+        "start": 3916.26,
+        "end": 4288.23
+      },
+      {
+        "title": "The Unseen Work / Closing",
+        "start": 4288.23,
+        "end": 4492.073
+      }
+    ]
   }
 ]
