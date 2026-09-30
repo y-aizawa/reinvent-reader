@@ -20,8 +20,25 @@
       <button id="videoToggle" class="video-toggle" type="button" aria-pressed="true" aria-label="動画を非表示" title="動画を非表示"><span class="video-toggle-icon" aria-hidden="true"></span></button>
     </div>
     <div class="video"><div id="player"></div></div>
+    <button id="chapterBar" class="chapter-bar" type="button" hidden aria-haspopup="dialog" aria-expanded="false">
+      <span id="chapterNumber" class="chapter-number"></span>
+      <span id="chapterName" class="chapter-name"></span>
+      <span id="chapterDuration" class="chapter-duration"></span>
+      <span class="chapter-chevron" aria-hidden="true">⌄</span>
+    </button>
     <div id="lyrics" class="lyrics"><div class="loading">Transcriptを読み込んでいます...</div></div>
     <div id="info" class="info">読み込み中...</div>
+  </div>
+
+  <div id="chapterSheet" class="chapter-sheet" hidden>
+    <button id="chapterBackdrop" class="chapter-backdrop" type="button" aria-label="チャプター一覧を閉じる"></button>
+    <section class="chapter-panel" role="dialog" aria-modal="true" aria-labelledby="chapterSheetTitle">
+      <div class="chapter-panel-header">
+        <div id="chapterSheetTitle">Chapters</div>
+        <button id="chapterClose" class="chapter-close" type="button" aria-label="閉じる">×</button>
+      </div>
+      <div id="chapterList" class="chapter-list"></div>
+    </section>
   </div>
 
   <div class="bottom-controls">
