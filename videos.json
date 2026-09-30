@@ -33,13 +33,13 @@
         "end": 1425.64
       },
       {
-        "title": "Learn from the World",
+        "title": "Learning Is Social / Learn from the World",
         "start": 1425.64,
-        "end": 1651.05
+        "end": 1735.95
       },
       {
         "title": "Applying Skills to Real-World Problems",
-        "start": 1651.05,
+        "start": 1735.95,
         "end": 2000.67
       },
       {
@@ -50,36 +50,51 @@
       {
         "title": "Communicate with Precision",
         "start": 2284.74,
-        "end": 2659.26
+        "end": 2555.46
       },
       {
         "title": "Rapid Prototyping / Kiro",
-        "start": 2659.26,
-        "end": 2937.18
+        "start": 2555.46,
+        "end": 2797.02
       },
       {
         "title": "Spec-Driven Development in Practice",
-        "start": 2937.18,
+        "start": 2797.02,
+        "end": 3016.77
+      },
+      {
+        "title": "A Production Example with Kiro",
+        "start": 3016.77,
         "end": 3219.96
       },
       {
         "title": "Understand the Real Problem / Ownership",
         "start": 3219.96,
-        "end": 3571.8
+        "end": 3470.01
       },
       {
-        "title": "Mechanisms / Code Reviews",
-        "start": 3571.8,
-        "end": 3916.26
+        "title": "Verification Debt & Mechanisms",
+        "start": 3470.01,
+        "end": 3792.24
       },
       {
-        "title": "Become a Polymath",
-        "start": 3916.26,
-        "end": 4288.23
+        "title": "Code Reviews / Human Judgment",
+        "start": 3792.24,
+        "end": 3929.01
+      },
+      {
+        "title": "Become a Polymath / Jim Gray",
+        "start": 3929.01,
+        "end": 4151.41
+      },
+      {
+        "title": "T-Shaped Developer / Recap",
+        "start": 4151.41,
+        "end": 4351.62
       },
       {
         "title": "The Unseen Work / Closing",
-        "start": 4288.23,
+        "start": 4351.62,
         "end": 4492.073
       }
     ]
