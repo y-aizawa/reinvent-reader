@@ -13,7 +13,7 @@
         "end": 334.967
       },
       {
-        "title": "The End of an Era / AI",
+        "title": "The End of an Era / Will AI Take My Job?",
         "start": 334.967,
         "end": 573.564
       },
@@ -33,13 +33,13 @@
         "end": 1425.64
       },
       {
-        "title": "Learning Is Social / Learn from the World",
+        "title": "Learning Is Social / Learn from Customers",
         "start": 1425.64,
-        "end": 1735.95
+        "end": 1651.05
       },
       {
-        "title": "Applying Skills to Real-World Problems",
-        "start": 1735.95,
+        "title": "Applying Skills to Real Human Problems",
+        "start": 1651.05,
         "end": 2000.67
       },
       {
@@ -53,48 +53,38 @@
         "end": 2555.46
       },
       {
-        "title": "Rapid Prototyping / Kiro",
+        "title": "Specifications & Rapid Prototyping",
         "start": 2555.46,
         "end": 2797.02
       },
       {
-        "title": "Spec-Driven Development in Practice",
+        "title": "From Vibe Coding to Spec-Driven Development",
         "start": 2797.02,
         "end": 3016.77
       },
       {
-        "title": "A Production Example with Kiro",
+        "title": "Kiro in Production",
         "start": 3016.77,
         "end": 3219.96
       },
       {
-        "title": "Understand the Real Problem / Ownership",
+        "title": "Understand the Real Problem / Ownership / Verification",
         "start": 3219.96,
-        "end": 3470.01
+        "end": 3571.8
       },
       {
-        "title": "Verification Debt & Mechanisms",
-        "start": 3470.01,
-        "end": 3792.24
-      },
-      {
-        "title": "Code Reviews / Human Judgment",
-        "start": 3792.24,
+        "title": "Mechanisms / Code Reviews / Human Judgment",
+        "start": 3571.8,
         "end": 3929.01
       },
       {
-        "title": "Become a Polymath / Jim Gray",
+        "title": "Become a Polymath / Jim Gray / T-Shaped Developers",
         "start": 3929.01,
-        "end": 4151.41
+        "end": 4288.23
       },
       {
-        "title": "T-Shaped Developer / Recap",
-        "start": 4151.41,
-        "end": 4351.62
-      },
-      {
-        "title": "The Unseen Work / Closing",
-        "start": 4351.62,
+        "title": "Recap / The Unseen Work / Closing",
+        "start": 4288.23,
         "end": 4492.073
       }
     ]
