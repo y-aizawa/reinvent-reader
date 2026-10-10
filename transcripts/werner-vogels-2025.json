@@ -163,14 +163,8 @@
   },
   {
     "start": 245.07,
-    "text": "You build it.",
-    "ja": "自分で作る。",
-    "end": 246.27
-  },
-  {
-    "start": 246.27,
-    "text": "You run it.",
-    "ja": "自分で運用する。",
+    "text": "You build it. You run it.",
+    "ja": "自分で作る。自分で運用する。",
     "end": 247.153
   },
   {
@@ -181,20 +175,14 @@
   },
   {
     "start": 253.101,
-    "text": "Hi, sweetie, don't forget to call Mom.",
+    "text": "Hi, sweetie. Don't forget to call Mom.",
     "ja": "ねえ、ママに電話するのを忘れないでね。",
     "end": 255.513
   },
   {
     "start": 258.48,
-    "text": "Hi, there, Marty, it's a nice wormhole, isn't it?",
-    "ja": "やあ、マーティ。いいワームホールだよね？",
-    "end": 263.032
-  },
-  {
-    "start": 263.032,
-    "text": "Mind if I join you?",
-    "ja": "一緒にいてもいい？",
+    "text": "Hi there, Marty. It's a nice wormhole, isn't it? Mind if I join you?",
+    "ja": "やあ、マーティ。いいワームホールだよね？僕も一緒に行っていい？",
     "end": 263.982
   },
   {

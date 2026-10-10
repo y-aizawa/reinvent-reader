@@ -24,7 +24,7 @@ AWS re:Invent の動画を、技術英語の読み・聞き・音読を練習で
 - AWS re:Invent 2025 — Keynote with Dr. Werner Vogels
 - 動画長: 1:14:52
 - チャプター: 16件
-- transcript: 651項目
+- transcript: 649項目
 
 ## 画面と機能
 
