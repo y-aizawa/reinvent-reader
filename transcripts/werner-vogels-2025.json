@@ -25,13 +25,13 @@
   },
   {
     "start": 86.52,
-    "text": "Figuring out why the machine keeps stopping on card 4042,",
+    "text": "figuring out why the machine keeps stopping on card 4042,",
     "ja": "どうしてマシンがカード4042で止まり続けるのか調べてる。",
     "end": 89.97
   },
   {
     "start": 89.97,
-    "text": "Logging this really awkward bug in the bogo compiler, and talking to you.",
+    "text": "logging this really awkward bug in the bogo compiler, and talking to you.",
     "ja": "この本当に厄介なbogoコンパイラのバグを記録しながら、あなたと話してるの。",
     "end": 95.493
   },
