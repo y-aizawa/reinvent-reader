@@ -7,3 +7,6 @@
 - 英語: `End of the developer. I've heard that before.`
 - 日本語訳も同じ項目へ結合。公開用JSONは659項目から658項目に変更。
 - この変更で音声照合は行っていない。原本JSONは変更していない。
+
+- 79.297–81.086秒: ユーザーの聞き取りに基づき、`Hi, there, Lorraine.` を `Hello, Lorraine.` に修正。
+- 時刻と日本語訳は維持。Codexによる音声照合は未実施。
