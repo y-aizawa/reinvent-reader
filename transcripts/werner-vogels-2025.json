@@ -109,26 +109,14 @@
   },
   {
     "start": 164.5,
-    "text": "Coding's history, Marty.",
-    "ja": "コーディングの歴史だよ、マーティ。",
-    "end": 166.98
-  },
-  {
-    "start": 166.98,
-    "text": "Drag and drop is the future.",
-    "ja": "ドラッグ＆ドロップが未来なんだ。",
+    "text": "Coding's history, Marty. Drag and drop is the future.",
+    "ja": "コーディングの歴史だよ、マーティ。ドラッグ＆ドロップが未来なんだ。",
     "end": 168.453
   },
   {
     "start": 169.56,
-    "text": "Drag and drop is still code.",
-    "ja": "ドラッグ＆ドロップだって、結局はコードだよ。",
-    "end": 171.6
-  },
-  {
-    "start": 171.6,
-    "text": "It still has bugs and it still needs an engineer.",
-    "ja": "バグはあるし、やっぱりエンジニアが必要なんだ。",
+    "text": "Drag and drop is still code. It still has bugs and it still needs an engineer.",
+    "ja": "ドラッグ＆ドロップだって、結局はコードだよ。バグはあるし、やっぱりエンジニアが必要なんだ。",
     "end": 175.629
   },
   {
@@ -163,32 +151,8 @@
   },
   {
     "start": 224.484,
-    "text": "Huh?",
-    "ja": "え？",
-    "end": 225.84
-  },
-  {
-    "start": 225.84,
-    "text": "Servers in minutes.",
-    "ja": "数分でサーバーを用意できる。",
-    "end": 228.21
-  },
-  {
-    "start": 228.21,
-    "text": "Scale on demand.",
-    "ja": "必要に応じてスケールできる。",
-    "end": 229.713
-  },
-  {
-    "start": 230.64,
-    "text": "Pay as you go.",
-    "ja": "使った分だけ支払う。",
-    "end": 232.65
-  },
-  {
-    "start": 232.65,
-    "text": "Wow.",
-    "ja": "すごい。",
+    "text": "Huh? Servers in minutes. Scale on demand. Pay as you go. Wow.",
+    "ja": "え？数分でサーバーを用意できる。必要に応じてスケールできる。使った分だけ支払う。すごい。",
     "end": 233.483
   },
   {

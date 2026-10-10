@@ -1,5 +1,14 @@
 # 字幕修正記録
 
+## 2026-10-11 — 3組の字幕結合
+
+- ユーザーの指示により、変更直前の公開用JSONの19・20番、21・22番をそれぞれ結合。28・29番の結合指示は、その後 `Huh?` から `Wow.` までの結合へ変更。最終的に657項目から651項目へ変更。
+- 旧19・20番 → 新19番: 164.500–168.453秒、`Coding's history, Marty. Drag and drop is the future.`
+- 旧21・22番 → 新20番: 169.560–175.629秒、`Drag and drop is still code. It still has bugs and it still needs an engineer.`
+- 旧28〜32番 → 新26番: 224.484–233.483秒、`Huh? Servers in minutes. Scale on demand. Pay as you go. Wow.`
+- 各組の日本語訳も結合。外側の開始・終了時刻と語句を維持し、19番の日本語訳の修正候補は今回反映していない。
+- Codexによる音声照合は未実施。原本は変更していない。
+
 ## 2026-10-11 — 11〜20番の修正
 
 - ユーザーの指示により11・12番を結合。範囲は110.010–113.249秒、英語は `It's amazing. Now, anyone can write code.`。日本語訳も結合し、公開用JSONは658項目から657項目に変更。
