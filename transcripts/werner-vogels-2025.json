@@ -145,7 +145,7 @@
   },
   {
     "start": 218.13,
-    "text": "Time for an air drop.",
+    "text": "Time for an airdrop.",
     "ja": "エアドロップの時間だ。",
     "end": 220.001
   },
@@ -169,14 +169,8 @@
   },
   {
     "start": 252.268,
-    "text": "Mom.",
-    "ja": "ママ。",
-    "end": 253.101
-  },
-  {
-    "start": 253.101,
-    "text": "Hi, sweetie. Don't forget to call Mom.",
-    "ja": "ねえ、ママに電話するのを忘れないでね。",
+    "text": "Mom. Hi, sweetie. Don't forget to call Mom.",
+    "ja": "ママ。ねえ、ママに電話するのを忘れないでね。",
     "end": 255.513
   },
   {
