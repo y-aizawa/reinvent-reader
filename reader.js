@@ -199,6 +199,13 @@ function renderLyrics(index) {
     button.textContent = state.language === 'ja'
       ? (item.ja || item.text || item.en || '')
       : (item.text || item.en || '');
+    if (item.listeningPending === true) {
+      const status = document.createElement('span');
+      status.className = 'line-review-status';
+      status.lang = state.language === 'ja' ? 'ja' : 'en';
+      status.textContent = state.language === 'ja' ? '聞き取り保留' : 'Transcription pending';
+      button.append(' ', status);
+    }
     button.addEventListener('click', () => {
       if (!state.player) return;
       // 先にフォーカスを外す。renderLyrics() でDOMを作り直した後だと、

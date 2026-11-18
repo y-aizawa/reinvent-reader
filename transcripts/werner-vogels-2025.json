@@ -205,14 +205,8 @@
   },
   {
     "start": 334.967,
-    "text": "First, I seek and I find in you something new for us every.",
-    "ja": "まず、毎日、何か新しいものを皆さんの中に見つけ、見いだしていく。",
-    "end": 342.48
-  },
-  {
-    "start": 342.48,
-    "text": "No, every day for us something new, an open mind for a different view and nothing else matters.",
-    "ja": "いや、毎日、私たちには新しい何かがある。違う見方を受け入れる開かれた心、それ以外は何も重要ではない。",
+    "text": "First, I seek and I find in you something new for us every—no, every day for us something new, an open mind for a different view and nothing else matters.",
+    "ja": "まず、毎日、何か新しいものを皆さんの中に見つけ、見いだしていく……いや、毎日、私たちには新しい何かがある。違う見方を受け入れる開かれた心、それ以外は何も重要ではない。",
     "end": 353.52
   },
   {
@@ -235,8 +229,8 @@
   },
   {
     "start": 357.66,
-    "text": "So, the video showed you every generation of developers that face the new wave of change, yeah?",
-    "ja": "先ほどの動画では、変化の新しい波に直面してきた、さまざまな世代の開発者たちが描かれていましたよね？",
+    "text": "So, the video showed you every generation of developers that face the new wave of change.",
+    "ja": "先ほどの動画では、変化の新しい波に直面してきた、さまざまな世代の開発者たちが描かれていました。",
     "end": 365.25
   },
   {
@@ -250,12 +244,6 @@
     "text": "But before we talk about that, let's talk about the elephant in the room.",
     "ja": "でも、それを話す前に、まず、この場で誰もが気づいている大きな問題について話しましょう。",
     "end": 383.28
-  },
-  {
-    "start": 383.28,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 384.113
   },
   {
     "start": 386.55,
@@ -337,8 +325,8 @@
   },
   {
     "start": 463.83,
-    "text": "I visited AWS customers all over the world, and there is one question that keeps coming up in every country and in every city.",
-    "ja": "世界中のAWSのお客様を訪ねてきましたが、どの国、どの都市でも繰り返し出てくる質問が一つあります。",
+    "text": "I visited AWS customers all over the world, and there is these days one question that keeps coming up in every country and in every city.",
+    "ja": "世界中のAWSのお客様を訪ねてきましたが、最近はどの国、どの都市でも繰り返し出てくる質問が一つあります。",
     "end": 475.67
   },
   {
@@ -357,7 +345,8 @@
     "start": 492.326,
     "text": "Or else transform.",
     "ja": "あるいは、仕事そのものが変わるのかもしれない。",
-    "end": 493.226
+    "end": 493.226,
+    "listeningPending": true
   },
   {
     "start": 494.52,
@@ -376,12 +365,6 @@
     "text": "So, maybe we should rephrase and reframe this question.",
     "ja": "だから、この質問を言い換え、捉え直したほうがいいのかもしれません。",
     "end": 509.24
-  },
-  {
-    "start": 512.73,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 514.35
   },
   {
     "start": 514.35,
@@ -414,12 +397,6 @@
     "end": 556.203
   },
   {
-    "start": 557.43,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 558.583
-  },
-  {
     "start": 558.583,
     "text": "And so must our tools.",
     "ja": "だからこそ、私たちのツールも進化しなければならない。",
@@ -436,12 +413,6 @@
     "text": "And this has always been the case, it's nothing new.",
     "ja": "これは昔からずっとそうで、何も新しいことではありません。",
     "end": 569.733
-  },
-  {
-    "start": 571.898,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 572.731
   },
   {
     "start": 573.564,
@@ -463,7 +434,7 @@
   },
   {
     "start": 589.2,
-    "text": "And in the '60s, we certainly got compilers, and you didn't really matter anymore what kind of assembly those compilers spit out.",
+    "text": "And in the '60s, we suddenly got compilers, and it didn't really matter anymore what kind of assembly those compilers spit out.",
     "ja": "そして60年代にはコンパイラが登場し、コンパイラがどんなアセンブリコードを吐き出すかは、もはやそれほど重要ではなくなりました。",
     "end": 599.88
   },
@@ -481,7 +452,7 @@
   },
   {
     "start": 615.27,
-    "text": "And over time, compilers became the highest level of abstractions that most developers needed.",
+    "text": "And over time, you know, compilers became the highest level of abstractions that most developers needed.",
     "ja": "そして時が経つにつれ、コンパイラが、ほとんどの開発者にとって必要となる最も高いレベルの抽象化になりました。",
     "end": 620.193
   },
@@ -523,7 +494,7 @@
   },
   {
     "start": 668.49,
-    "text": "In the '98, and this is its famous moment, the growth accelerated to such a point that the team began breaking off pieces of this monolith into services.",
+    "text": "In '98—and this is the famous moment—the growth accelerated to such a point that the team began breaking off pieces of this monolith into services.",
     "ja": "1998年です。そして、これが有名な転換点になります。事業の成長があまりにも加速したため、チームはそのモノリスを少しずつサービスへと分割し始めました。",
     "end": 682.38
   },
@@ -552,22 +523,10 @@
     "end": 716.613
   },
   {
-    "start": 717.78,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 718.83
-  },
-  {
     "start": 718.83,
     "text": "But in the 2000s, the most developers, they were still building and deploying things on premise.",
     "ja": "2000年代になっても、多くの開発者はまだオンプレミスでシステムを構築し、デプロイしていました。",
     "end": 724.503
-  },
-  {
-    "start": 725.4,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 726.48
   },
   {
     "start": 726.48,
@@ -643,7 +602,7 @@
   },
   {
     "start": 783.9,
-    "text": "We got Microsoft at some moment, you could draw boxes on the screen and you had this first real IDE.",
+    "text": "We got Microsoft at some moment, you could get to draw boxes on the screen and you had this first real IDE.",
     "ja": "ある時点でMicrosoftのIDEが登場し、画面上でボックスを描けるようになって、これが最初の本格的なIDEでした。",
     "end": 790.473
   },
@@ -661,8 +620,8 @@
   },
   {
     "start": 801.96,
-    "text": "And today's environment, our cursor and, and that's the new workflow.",
-    "ja": "そして今は、Cursorのような環境があって、それが新しいワークフローになっています。",
+    "text": "And today's environment, our Cursor and GitHub, and that's the new workflow.",
+    "ja": "そして今は、CursorやGitHubのような環境があって、それが新しいワークフローになっています。",
     "end": 808.713
   },
   {
@@ -718,12 +677,6 @@
     "text": "It is your work that matters.",
     "ja": "大切なのは、あなた自身の仕事です。",
     "end": 855.933
-  },
-  {
-    "start": 856.83,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 857.67
   },
   {
     "start": 857.67,
@@ -888,14 +841,8 @@
     "end": 1033.773
   },
   {
-    "start": 1035.12,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 1035.953
-  },
-  {
     "start": 1035.953,
-    "text": "In the Renaissance, suddenly depth appeared and different lighting appeared in paintings and drawings.",
+    "text": "In the Renaissance, suddenly depth appears and different lighting appeared in paintings and drawings.",
     "ja": "ところがルネサンスになると、突然、絵画や素描に奥行きが現れ、光の表現も変わりました。",
     "end": 1043.283
   },
@@ -913,7 +860,7 @@
   },
   {
     "start": 1056.54,
-    "text": "And then, the printing press, of course, we all see as sort of the pinnacle of invention in the Renaissance.",
+    "text": "And then, you know, the printing press, of course, we all see as sort of the pinnacle of invention in the Renaissance.",
     "ja": "そして印刷機。もちろん、ルネサンス最大の発明の一つだと私たちは考えています。",
     "end": 1065.57
   },
@@ -949,8 +896,8 @@
   },
   {
     "start": 1089.27,
-    "text": "And then, people on present.",
-    "ja": "そして、人々にもそれを広めていきました。",
+    "text": "And then, paper to press on.",
+    "ja": "それから、活字を押し当てる紙も必要でした。",
     "end": 1091.223
   },
   {
@@ -1003,7 +950,7 @@
   },
   {
     "start": 1131.69,
-    "text": "They built britches between them.",
+    "text": "They built bridges between them.",
     "ja": "むしろ、その間に橋を架けました。",
     "end": 1134.18
   },
@@ -1021,7 +968,7 @@
   },
   {
     "start": 1144.41,
-    "text": "So, if I take all of that in, I think by putting that together, I think we are again in the time of Renaissance.",
+    "text": "So, if I take all of that in, I think by putting it together, I think we are again in the time of Renaissance.",
     "ja": "これらを全部合わせて考えると、私たちは今、再びルネサンスの時代にいるのだと思います。",
     "end": 1154.893
   },

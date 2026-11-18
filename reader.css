@@ -183,6 +183,16 @@ body { overflow-x: hidden; }
 .line { display: block; width: 100%; margin: 0; padding: 14px 0; border: 0; outline: none; background: transparent; color: rgba(255,255,255,.28); text-align: left; font-size: 21px; line-height: 1.45; font-weight: 700; cursor: pointer; transition: color .2s ease, font-size .2s ease; }
 .line.near { color: rgba(255,255,255,.58); }
 .line.active { color: #fff; font-size: 29px; }
+.line-review-status {
+  display: inline-block;
+  margin-inline-start: .25rem;
+  padding: .1rem .45rem;
+  border-radius: .35rem;
+  background: #3d311d;
+  color: #f4d39c;
+  font-size: .75rem;
+  vertical-align: middle;
+}
 .info { padding: 10px 20px 16px; border-top: 1px solid #24262b; color: #92959d; font-size: 12px; }
 .loading { padding: 30px 20px; color: #92959d; }
 @media (max-width: 480px) {
