@@ -1672,7 +1672,7 @@
   {
     "start": 2010.66,
     "text": "And I like this quote from Walt Whitman, \"We are not what we know, but what we are willing to learn.\"",
-    "ja": "ウォルト・ホイットマンのこの言葉が好きです。「私たちは、知っていることではなく、学ぼうとするものである。」",
+    "ja": "ウォルト・ホイットマンのこの言葉が好きです。「私たちを形づくるのは、何を知っているかではなく、何を学ぼうとするかです。」",
     "end": 2018.787
   },
   {
@@ -1683,7 +1683,7 @@
   },
   {
     "start": 2032.644,
-    "text": "And just come with me for a moment.",
+    "text": "And let me—just come with me for a moment.",
     "ja": "少し私についてきてください。",
     "end": 2033.64
   },
@@ -1713,7 +1713,7 @@
   },
   {
     "start": 2068.62,
-    "text": "And that was an extraordinary definition, because it capture what every engineer eventually learns that our systems have lives of their own.",
+    "text": "And that was an extraordinary definition, because it captured what every engineer eventually learns that our systems have lives of their own.",
     "ja": "これは非常に優れた定義でした。なぜなら、どんなエンジニアも最終的には、システムにはそれぞれ固有の命があるように振る舞うことを学ぶからです。",
     "end": 2078.553
   },
@@ -1749,7 +1749,7 @@
   },
   {
     "start": 2097.63,
-    "text": "Few predators meant more elk, meant more life.",
+    "text": "Fewer predators meant more elk, meant more life.",
     "ja": "捕食者が減れば、ヘラジカが増え、命に満ちた環境になる、と考えたわけです。",
     "end": 2101.694
   },
@@ -1773,7 +1773,7 @@
   },
   {
     "start": 2119.14,
-    "text": "When we reinduced in 2010, wolves back into the park, slowly the park started to heal.",
+    "text": "When we reintroduced in 2010, wolves back into the park, slowly the park started to heal.",
     "ja": "2010年にオオカミを公園へ再導入すると、少しずつ公園は回復し始めました。",
     "end": 2128.653
   },
@@ -1791,8 +1791,14 @@
   },
   {
     "start": 2135.07,
-    "text": "The wolves didn't move the rivers, they changed the behavior of the overall system.",
-    "ja": "オオカミが川を動かしたわけではありません。生態系全体の振る舞いを変えたのです。",
+    "text": "The wolves didn't move the rivers.",
+    "ja": "オオカミが川を動かしたわけではありません。",
+    "end": 2138
+  },
+  {
+    "start": 2139,
+    "text": "They changed the behavior of the overall system.",
+    "ja": "生態系全体の振る舞いを変えたのです。",
     "end": 2144.79
   },
   {
@@ -1803,7 +1809,7 @@
   },
   {
     "start": 2153.91,
-    "text": "And then, structure changes, behavior changes.",
+    "text": "And when structure changes, behavior changes.",
     "ja": "構造が変われば、振る舞いが変わります。",
     "end": 2157.48
   },
@@ -1833,8 +1839,8 @@
   },
   {
     "start": 2181.33,
-    "text": "You can't change one part in isolation, alter or rewrite policy and you affect load.",
-    "ja": "一つの部分を切り離して変更することはできません。たとえばポリシーを変更すれば、負荷にも影響します。",
+    "text": "You can't change one part in isolation, alter a retry policy and you affect load.",
+    "ja": "一つの部分を切り離して変更することはできません。たとえばリトライポリシーを変更すれば、負荷にも影響します。",
     "end": 2188.47
   },
   {
@@ -1863,19 +1869,19 @@
   },
   {
     "start": 2217.9,
-    "text": "Balancing loops or negative loops counteract, they change and push the system back into an equilibrium.",
+    "text": "Balancing loops or negative loops counteract the change and push the system back into an equilibrium.",
     "ja": "均衡ループ、あるいは負のフィードバックループは変化に対抗し、システムを均衡状態へ戻そうとします。",
     "end": 2224.533
   },
   {
     "start": 2225.58,
-    "text": "Meadows thought that once you see patterns like this, you start to see where small well placed changes might shift the overall systems behavior.",
+    "text": "Meadows thought that once you see patterns like this, you start to see where small well-placed changes might shift the overall system's behavior.",
     "ja": "Meadowsは、こうしたパターンが見えるようになると、小さく適切な変更を加えることで、システム全体の振る舞いを変えられる場所が見えてくると考えました。",
     "end": 2239.443
   },
   {
     "start": 2240.926,
-    "text": "Donella wrote a paper, a paper, it's called \"Leverage Points: Places to Intervene in the System,\" where she put all of these things together.",
+    "text": "Donella wrote a paper, a paper, it's called \"Leverage Points: Places to Intervene in a System,\" where she put all of these things together.",
     "ja": "Donellaは「Leverage Points: Places to Intervene in a System（レバレッジ・ポイント：システムに介入する場所）」という論文を書き、これらをまとめています。",
     "end": 2248.59
   },
