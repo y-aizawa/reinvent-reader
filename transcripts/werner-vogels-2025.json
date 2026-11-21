@@ -1239,7 +1239,7 @@
   },
   {
     "start": 1455.96,
-    "text": "Go to a user group, attend to conference like re:Invent.",
+    "text": "Go to a user group, attend a conference like re:Invent.",
     "ja": "ユーザーグループに参加したり、re:Inventのようなカンファレンスに出たりしてください。",
     "end": 1460.37
   },
@@ -1275,20 +1275,20 @@
   },
   {
     "start": 1488.15,
-    "text": "This year, very fortunately, I took two-month long trips.",
-    "ja": "今年、幸運にも2か月にわたる旅を2回しました。",
+    "text": "This year, very fortunately, I took two month-long trips.",
+    "ja": "今年、幸運にも1か月にわたる旅を2回しました。",
     "end": 1493.1
   },
   {
     "start": 1493.1,
-    "text": "One to Africa, trip to Sahara, Africa, and the other two, Latin America.",
+    "text": "One to Africa, trip to Sahara, Africa, and the other to Latin America.",
     "ja": "一つはアフリカ、サハラへの旅。そしてもう一つはラテンアメリカです。",
     "end": 1498.11
   },
   {
     "start": 1498.11,
-    "text": "In both regions I gave some talks with the mostly meet with customers.",
-    "ja": "どちらの地域でも講演をしましたが、何より多くの時間をお客様と過ごしました。",
+    "text": "In both regions I gave some talks, but I mostly met with customers.",
+    "ja": "どちらの地域でもいくつか講演をしましたが、主にしていたのはお客様と会うことでした。",
     "end": 1502.25
   },
   {
@@ -1311,14 +1311,14 @@
   },
   {
     "start": 1514.189,
-    "text": "This is actually also, it took me 21 years to actually end up on the Amazon.",
-    "ja": "実はこれも、Amazonにたどり着くまで21年かかりました。",
+    "text": "AJE, this is actually also, it took me 21 years to actually end up on the Amazon.",
+    "ja": "AJEです。実は、アマゾン川にたどり着くまで21年かかりました。",
     "end": 1520.583
   },
   {
     "start": 1523.82,
-    "text": "And so, a group of AJE is a beverage company.",
-    "ja": "AJEというグループは、飲料会社です。",
+    "text": "And so, a group like AJE is a beverage company.",
+    "ja": "たとえばAJEというグループは、飲料会社です。",
     "end": 1527.39
   },
   {
@@ -1330,7 +1330,7 @@
   {
     "start": 1538.79,
     "text": "It is a brilliant experience and a great example of how doing good can be profitable at the same time.",
-    "ja": "これは素晴らしい取り組みで、良いことをしながら同時に利益を上げられることを示す、とても良い例です。",
+    "ja": "これは素晴らしい体験で、良いことをしながら同時に利益を上げられることを示す、とても良い例です。",
     "end": 1548.783
   },
   {
@@ -1359,14 +1359,14 @@
   },
   {
     "start": 1574.31,
-    "text": "And he taught me that 80% of the plastic found in the ocean originates from just a thousandth of the world's 3 million rivers.",
+    "text": "And he taught me that 80% of the plastic found in the ocean originates from just a thousand of the world's 3 million rivers.",
     "ja": "そして彼から、海で見つかるプラスチックの80%は、世界にある300万本の川のうち、わずか1000本ほどから流れ込んでいると教わりました。",
     "end": 1586.163
   },
   {
-    "start": 1587.66,
-    "text": "With the oceans of plastic, they need not only to clean up what is already out there, but also to stop new plastics from entering the ocean via these rivers.",
-    "ja": "海にあるプラスチックの問題に対して、すでに存在するものを回収するだけでなく、こうした川から新たなプラスチックが海に流れ込むのを止める必要があります。",
+    "start": 1587.36,
+    "text": "To rid the oceans of plastic, they need not only to clean up what is already out there, but also to stop new plastics from entering the ocean via these rivers.",
+    "ja": "海からプラスチックを取り除くには、すでに海にあるものを回収するだけでなく、こうした川から新たなプラスチックが海に流れ込むのを防ぐ必要があります。",
     "end": 1598.733
   },
   {
@@ -1377,8 +1377,8 @@
   },
   {
     "start": 1601.43,
-    "text": "They've created a river mobile using drones, AI camera analysis, even GPS tracks dummy plastic in the place where we went onto the Amazon near Manaus, they actually took plastics and put GPSs in the foods in the river, see where ended up.",
-    "ja": "ドローンやAIによるカメラ分析を使った「River Mobile」を作り、GPSで、私たちがマナウス近郊のアマゾン川へ行った場所で、追跡用のダミーのプラスチックを流しました。そして実際のプラスチックにGPSを取り付けて川に流し、どこへ行き着くのかを調べました。",
+    "text": "They've created a river model using drones, AI camera analysis, even GPS tracks dummy plastic in the place where we went onto the Amazon near Manaus, they actually took plastic and put GPSs in it, threw it in the river to see where it ended up.",
+    "ja": "ドローンやAIによるカメラ分析を使った河川モデルを作り、GPSで、私たちがマナウス近郊のアマゾン川へ行った場所で、追跡用のダミーのプラスチックを流しました。そして実際のプラスチックにGPSを取り付けて川に流し、どこへ行き着くのかを調べました。",
     "end": 1620.6
   },
   {
@@ -1395,7 +1395,7 @@
   },
   {
     "start": 1636.71,
-    "text": "They create a computational model that predicts how and where this plastic will traffic, and helping them position their cleanup systems for maximum impact.",
+    "text": "They create a computational model that predicts how and where this plastic will travel, and helping them position their cleanup systems for maximum impact.",
     "ja": "それらによって、プラスチックがどのように、どこへ流れていくかを予測する計算モデルを作り、清掃システムを最大の効果が出る場所に配置できるようにしています。",
     "end": 1649.043
   },
