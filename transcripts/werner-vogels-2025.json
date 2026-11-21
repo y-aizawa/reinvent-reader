@@ -1017,7 +1017,7 @@
   {
     "start": 1204.2,
     "text": "As developers, you always had to continuously learn because everything changed all the time.",
-    "ja": "開発者として、私たちは常に学び続けなければなりません。なぜなら、あらゆるものが絶えず変わるからです。",
+    "ja": "物事が絶えず変わるなかで、開発者はこれまでもずっと学び続ける必要がありました。",
     "end": 1212.273
   },
   {
@@ -1069,12 +1069,6 @@
     "end": 1278.49
   },
   {
-    "start": 1279.35,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 1280.49
-  },
-  {
     "start": 1280.49,
     "text": "It drives experimentation, drives to learning.",
     "ja": "実験することが、学びにつながります。",
@@ -1088,9 +1082,10 @@
   },
   {
     "start": 1290,
-    "text": "When I learned a new language, I read that this Dutch or English or Portuguese or German, I find that the same principles apply.",
+    "text": "When I learned a new language, whether that is Dutch or English or Portuguese or German, I find that the same principles apply.",
     "ja": "私が新しい言語を学んだとき、オランダ語、英語、ポルトガル語、ドイツ語のどれであっても、同じ原則が当てはまると気づきました。",
-    "end": 1297.53
+    "end": 1297.53,
+    "listeningPending": true
   },
   {
     "start": 1297.53,
@@ -1100,8 +1095,8 @@
   },
   {
     "start": 1303.92,
-    "text": "You can study grammar all you like, but relearning begins where you stumble into a conversation, and stumble helps you to get it right.",
-    "ja": "文法はいくら勉強してもいい。でも、本当の学び直しが始まるのは会話でつまずいたときで、そのつまずきが正しく言えるようになる助けになります。",
+    "text": "You can study grammar all you like, but real learning begins where you stumble into a conversation, and stumbling helps you to get it right.",
+    "ja": "文法はいくら勉強してもいい。でも、本当に学び始めるのは、ひょんなことから実際に会話することになったときです。そうした経験が、正しく言えるようになる助けになります。",
     "end": 1314.093
   },
   {
@@ -1112,7 +1107,7 @@
   },
   {
     "start": 1318.56,
-    "text": "You can read documentation endlessly, but it is the failed built and the broken assumptions that really teach you how a system behaves.",
+    "text": "You can read documentation endlessly, but it is the failed builds and the broken assumptions that really teach you how a system behaves.",
     "ja": "ドキュメントを延々と読むことはできます。でも、実際に作って失敗した経験や、崩れた前提こそが、システムがどう振る舞うのかを本当に教えてくれます。",
     "end": 1330.803
   },
@@ -1136,20 +1131,26 @@
   },
   {
     "start": 1353.57,
-    "text": "But relearning happens when you engage, when there's some pressure, when the outcome matters.",
-    "ja": "本当の学び直しが起こるのは、自分が関わり、ある程度のプレッシャーがあり、結果が重要になるときです。",
+    "text": "But real learning happens when you engage, when there's some pressure, when the outcome matters.",
+    "ja": "本当に学べるのは、自分が関わり、ある程度のプレッシャーがあり、結果が重要になるときです。",
     "end": 1362.6
   },
   {
     "start": 1362.6,
-    "text": "There is a relationship between stress and performance called the Yerkes and Dodson Law",
+    "text": "There is a relationship between stress and performance called the Yerkes and Dodson Law.",
     "ja": "ストレスとパフォーマンスの間には、「ヤーキーズ・ドッドソンの法則」と呼ばれる関係があります。",
     "end": 1368.49
   },
   {
     "start": 1369.86,
-    "text": "The picture is a bell curve, too little pressure and you're disengaged, too much pressure and you're overwhelmed.",
-    "ja": "図にするとベル型の曲線です。プレッシャーが少なすぎると身が入らず、多すぎると圧倒されてしまいます。",
+    "text": "The picture is a bell curve.",
+    "ja": "図にするとベル型の曲線です。",
+    "end": 1371
+  },
+  {
+    "start": 1371,
+    "text": "You know, too little pressure and you're disengaged. Too much pressure and you're overwhelmed.",
+    "ja": "プレッシャーが少なすぎると身が入らず、多すぎると圧倒されてしまいます。",
     "end": 1379.01
   },
   {
