@@ -1929,15 +1929,9 @@
   },
   {
     "start": 2284.74,
-    "text": "If I think about a third quality of the Renaissance Developer, it's communication, he/she communicates.",
+    "text": "If I think about a third quality of the Renaissance Developer, it's communication. He, she communicates.",
     "ja": "ルネサンス・デベロッパーの第三の資質を考えるなら、それはコミュニケーションです。意思を伝える力です。",
     "end": 2295.393
-  },
-  {
-    "start": 2296.41,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 2297.632
   },
   {
     "start": 2297.632,
@@ -1972,7 +1966,7 @@
   {
     "start": 2332.8,
     "text": "And I explained to you how we had divided that homepage or the overall Amazon system into three different tiers.",
-    "ja": "ここで私は、このホームページ、つまりAmazon全体のシステムを3つのティアに分けて説明しました。",
+    "ja": "このホームページ、つまりAmazon全体のシステムをどう3つのティアに分けたかを、皆さんに説明しました。",
     "end": 2342.31
   },
   {
@@ -2049,14 +2043,14 @@
   },
   {
     "start": 2402.55,
-    "text": "We think, well, we'll do a manual fail if data center goes offline.",
+    "text": "We think, well, you know, we'll do a manual failover if data center goes offline.",
     "ja": "データセンターが停止したら、手動でフェイルオーバーすればいい、と考えるわけです。",
     "end": 2408.1
   },
   {
     "start": 2408.1,
     "text": "But it's a communication that you need to have, you need to be able to clearly describe your system and the capabilities and your opportunities towards the business.",
-    "ja": "でも、これは私たちが持つべきコミュニケーションです。システムを、その能力やビジネスにとっての可能性まで含めて、明確に説明できなければなりません。",
+    "ja": "でも、こういう話し合いが必要です。システムを、その能力やビジネスにとっての可能性まで含めて、明確に説明できなければなりません。",
     "end": 2419.98
   },
   {
@@ -2072,12 +2066,6 @@
     "end": 2428.35
   },
   {
-    "start": 2428.35,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 2429.183
-  },
-  {
     "start": 2431.8,
     "text": "'Cause natural language is ambiguous.",
     "ja": "なぜなら、自然言語は曖昧だからです。",
@@ -2086,7 +2074,7 @@
   {
     "start": 2436.57,
     "text": "But we have so many different senses at the same time that we can turn this natural language into something less ambiguous.",
-    "ja": "でも私たちは、同時にさまざまな意味を読み取ることができるので、その自然言語を、より曖昧さの少ないものとして扱えるんです。",
+    "ja": "でも私たちは、いくつもの感覚を同時に使えるので、自然言語の曖昧さを減らすことができます。",
     "end": 2449.083
   },
   {
@@ -2096,27 +2084,15 @@
     "end": 2460
   },
   {
-    "start": 2460,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 2460.833
-  },
-  {
-    "start": 2462.01,
+    "start": 2461.81,
     "text": "Even without a comma, you probably already have figured this one out.",
     "ja": "コンマがなくても、たぶんどちらの意味かはもう分かったでしょう。",
     "end": 2465.613
   },
   {
-    "start": 2467.05,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 2468.43
-  },
-  {
     "start": 2468.43,
     "text": "Now, we've always communicated to machines through programming languages, because they were precise.",
-    "ja": "これまで私たちは、機械とはプログラミング言語を通じてコミュニケーションしてきました。プログラミング言語は正確だからです。",
+    "ja": "これまで私たちは、機械とはプログラミング言語を通じてコミュニケーションしてきました。プログラミング言語は正確だったからです。",
     "end": 2477.19
   },
   {
@@ -2127,7 +2103,7 @@
   },
   {
     "start": 2487.66,
-    "text": "But in today's world of AI assisted coding, we increasingly communicate with the machine in natural language, which is ambiguous.",
+    "text": "But in today's world of AI-assisted coding, we increasingly communicate with the machine in natural language, which is ambiguous.",
     "ja": "ところが今のAI支援コーディングの世界では、曖昧な自然言語を使って機械とコミュニケーションすることが増えています。",
     "end": 2498.193
   },
@@ -2140,7 +2116,7 @@
   {
     "start": 2507.28,
     "text": "And reduce the ambiguity of the human so that the machine can create logic.",
-    "ja": "そして、人間側の曖昧さも減らして、機械が正しいロジックを作れるようにする必要があります。",
+    "ja": "そして、人間側の曖昧さも減らして、機械がロジックを作れるようにする必要があります。",
     "end": 2513.883
   },
   {
@@ -2151,19 +2127,19 @@
   },
   {
     "start": 2522.16,
-    "text": "And our history is rich with stories of spec-driven development.",
+    "text": "And our history is rife with stories of spec-driven development.",
     "ja": "そして私たちの歴史には、仕様駆動開発の物語がたくさんあります。",
     "end": 2526.48
   },
   {
     "start": 2526.48,
-    "text": "Dijkstra's structure programming environment, before it was based on formal specifications, but that proved program correctness before you even implemented it.",
+    "text": "Dijkstra's structured programming environment, before it was based on formal specifications, but that proved program correctness before you even implemented it.",
     "ja": "Dijkstraの構造化プログラミングの環境では、正式な仕様に基づいて、実装する前にプログラムの正しさを証明していました。",
     "end": 2536.893
   },
   {
     "start": 2538,
-    "text": "The Apollo Guidance System relied on meticulous specifications that guided its 145,000 lines of code, a blueprint so precise that has helped land people on the moon.",
+    "text": "The Apollo Guidance System relied on meticulous specifications that guided its 145,000 lines of code, a blueprint so precise that it helped land people on the moon.",
     "ja": "Apollo誘導システムも、14万5000行のコードを導く綿密な仕様に頼っていました。月面に人を送り届けるほど正確な設計図だったのです。",
     "end": 2553.573
   },
