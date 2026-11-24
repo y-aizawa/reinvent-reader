@@ -2145,7 +2145,7 @@
   },
   {
     "start": 2555.46,
-    "text": "And to talk more to you about specifications, I'd like to welcome Clare Liguori, senior principle developer on the Kiro team.",
+    "text": "And to talk more to you about specifications, I'd like to welcome Clare Liguori, senior principal developer on the Kiro team.",
     "ja": "仕様についてもっと詳しくお話しするために、Kiroチームのシニア・プリンシパル・デベロッパー、Clare Liguoriをお迎えしたいと思います。",
     "end": 2564.01
   },
@@ -2163,14 +2163,8 @@
   },
   {
     "start": 2576.76,
-    "text": "Sometime last year, I started noticing that as I was vibe coding more and more",
-    "ja": "去年のある時期から、Vibe Codingをどんどんやるようになって、",
-    "end": 2581.86
-  },
-  {
-    "start": 2581.86,
-    "text": "I had a communication problem.",
-    "ja": "私はコミュニケーションの問題を抱えていることに気づきました。",
+    "text": "Sometime last year, I started noticing that as I was vibe coding more and more, I had a communication problem.",
+    "ja": "去年のある時期から、Vibe Codingをどんどんやるようになって、私はコミュニケーションの問題を抱えていることに気づきました。",
     "end": 2584.23
   },
   {
@@ -2199,7 +2193,7 @@
   },
   {
     "start": 2611.59,
-    "text": "I would write these long mark detailed prompts in obsidian and markdown, and then I would copy and paste it over to my coding assistant.",
+    "text": "I would write these long, more detailed prompts in obsidian and markdown, and then I would copy and paste it over to my coding assistant.",
     "ja": "ObsidianとMarkdownで、長くて詳細なプロンプトを書き、それをコーディングアシスタントにコピー＆ペーストしていました。",
     "end": 2620.233
   },
@@ -2290,7 +2284,7 @@
   {
     "start": 2703.12,
     "text": "In 1964, Doug Engelbart at SRI had a rough idea for a device that had wheels on the bottom, and you would slide it across the tabletop to point to something on a computer screen.",
-    "ja": "1964年、SRIのDoug Engelbartは、底に車輪が付いていて、机の上を滑らせることで、コンピューター画面上の何かを指せる装置を考えました。机の上を滑らせて、画面上の何かを指し示すわけです。",
+    "ja": "1964年、SRIのDoug Engelbartは、底に車輪が付いていて、机の上を滑らせることで、コンピューター画面上の何かを指せる装置を考えました。",
     "end": 2714.97
   },
   {
@@ -2374,7 +2368,7 @@
   {
     "start": 2785.77,
     "text": "AI has fundamentally enabled rapid prototyping for software.",
-    "ja": "AIによって、ソフトウェアのラピッドプロトタイピングが根本的に可能になりました。",
+    "ja": "AIはソフトウェアの試作のあり方を根本から変え、短期間で試作できるようにしました。",
     "end": 2790.77
   },
   {
