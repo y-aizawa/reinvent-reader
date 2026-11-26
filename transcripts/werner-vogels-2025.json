@@ -2565,7 +2565,7 @@
   },
   {
     "start": 3016.77,
-    "text": "Let's walk through a real example of a production feature that we built in the Kiro IDE using spec-driven development system notifications.",
+    "text": "Let's walk through a real example of a production feature that we built in the Kiro IDE using spec-driven development. System notifications.",
     "ja": "では、Kiro IDEで仕様駆動開発を使って実際に構築した、本番機能の例を見てみましょう。システム通知です。",
     "end": 3025.74
   },
@@ -2595,7 +2595,7 @@
   },
   {
     "start": 3056.4,
-    "text": "We started by having Kiro generate a spec and the generator requirements actually helped us to think through some details like which agent actions should trigger notifications to the user.",
+    "text": "We started by having Kiro generate a spec and the generated requirements actually helped us to think through some details like which agent actions should trigger notifications to the user.",
     "ja": "まずKiroに仕様を生成させました。そのとき生成された要件のおかげで、どのエージェントの動作がユーザーへの通知を発生させるべきか、といった細かな点まで考えられました。",
     "end": 3067.293
   },
@@ -2631,14 +2631,14 @@
   },
   {
     "start": 3108.99,
-    "text": "This needed to be built on top of electron's native notification API.",
+    "text": "This needed to be built on top of Electron's native notification API.",
     "ja": "そのシステムは、Electronのネイティブ通知APIの上に構築する必要がありました。",
     "end": 3112.623
   },
   {
     "start": 3113.58,
-    "text": "Kiro IDE is based on code OSS, which is a code base that spans 10 years of development and 2 million lines of code.",
-    "ja": "Kiro IDEはCode-OSSをベースにしていて、そのコードベースは10年にわたる開発の歴史と200万行のコードを抱えています。",
+    "text": "Kiro IDE is based on Code - OSS, which is a code base that spans 10 years of development and 2 million lines of code.",
+    "ja": "Kiro IDEはCode - OSSをベースにしていて、そのコードベースは10年にわたる開発の歴史と200万行のコードを抱えています。",
     "end": 3121.35
   },
   {
@@ -2661,7 +2661,7 @@
   },
   {
     "start": 3142.65,
-    "text": "Throughout this prospect, we were able to quickly iterate on our specs till we got exactly what we wanted from the AI.",
+    "text": "Throughout this process, we were able to quickly iterate on our specs till we got exactly what we wanted from the AI.",
     "ja": "この一連のプロセスを通じて、AIから本当に欲しいものが得られるまで、仕様を素早く何度も改善できました。",
     "end": 3150.12
   },
@@ -2674,7 +2674,7 @@
   {
     "start": 3158.28,
     "text": "In our experience building Kiro, we realized that AI has changed how we communicate and how fast we can iterate.",
-    "ja": "Kiroを作る経験を通じて、AIによってコミュニケーションの方法も、反復できるスピードも変わったことに気づきました。",
+    "ja": "Kiroの開発を通じて、AIによって私たちのコミュニケーションの仕方も、どれだけ速く改善を繰り返せるかも変わったことに気づきました。",
     "end": 3167.403
   },
   {
@@ -2686,7 +2686,7 @@
   {
     "start": 3183.42,
     "text": "AI and spec-driven development helped us to build a better Kiro IDE, and this was in large part due to more precise communication with our users through rapid prototypes, and with AI through specs.",
-    "ja": "AIと仕様駆動開発によって、より良いKiro IDEを作ることができました。その大きな理由の一つは、ラピッドプロトタイプを通じてユーザーとのコミュニケーションをより正確にし、仕様を通じてAIとのコミュニケーションもより正確にできたことです。",
+    "ja": "AIと仕様駆動開発によって、より良いKiro IDEを作ることができました。その大きな理由の一つは、短期間で作った試作品を通じてユーザーとのコミュニケーションをより正確にし、仕様を通じてAIとのコミュニケーションもより正確にできたことです。",
     "end": 3196.263
   },
   {
@@ -2721,7 +2721,7 @@
   },
   {
     "start": 3222.09,
-    "text": "Communication is so important that Clare shows, it leads to systems that have fewer mistakes.",
+    "text": "Communication is so important. As Clare showed, it leads to systems that have fewer mistakes.",
     "ja": "Clareが示してくれたように、コミュニケーションはとても重要です。それによって、ミスの少ないシステムを作ることにつながります。",
     "end": 3230.043
   },
@@ -2751,7 +2751,7 @@
   },
   {
     "start": 3260.79,
-    "text": "Because they may come to you already with a technology solution, like knowing anything about technology.",
+    "text": "Because they may come to you already with a technology solution, without knowing anything about technology.",
     "ja": "お客様は、テクノロジーについて何も知らなくても、すでに技術的な解決策を持って相談に来ることがあります。",
     "end": 3266.73
   },
@@ -2763,7 +2763,7 @@
   },
   {
     "start": 3275.28,
-    "text": "And then, because you really trained in trying to figure out into depth, say I'm very apologize to answer your question with a question, but why are you asking me this?",
+    "text": "And then, because you really trained in trying to figure out into depth, say I very apologize to answer your question with a question, but why are you asking me this?",
     "ja": "そういうとき、私は深く掘り下げて考えるよう訓練されているので、「質問に質問で返して申し訳ありません。でも、なぜそれを私に聞くのですか？」と尋ねます。",
     "end": 3288.333
   },
@@ -2817,13 +2817,13 @@
   },
   {
     "start": 3343.35,
-    "text": "These tools will, as the modern day philosophers Daft Punk said, \"Help us build harder, better, faster, and stronger.\"",
-    "ja": "現代の哲学者、Daft Punkが言うように、こうしたツールは「もっと強く、もっと良く、もっと速く、もっと力強く」ものを作る助けになります。",
+    "text": "These tools will, as the modern day philosophers Daft Punk once said, \"Help us build harder, better, faster, and stronger.\"",
+    "ja": "現代の哲学者、Daft Punkがかつて言ったように、こうしたツールは「もっと強く、もっと良く、もっと速く、もっと力強く」ものを作る助けになります。",
     "end": 3353.217
   },
   {
     "start": 3354.48,
-    "text": "And if we use these tools correctly, they can help us produce high quality software.",
+    "text": "And if we use these tools correctly, they can help us produce high-quality software.",
     "ja": "そして、正しく使えば、高品質なソフトウェアを作る助けになります。",
     "end": 3360.873
   },
@@ -2852,12 +2852,6 @@
     "end": 3388.98
   },
   {
-    "start": 3388.98,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 3390.57
-  },
-  {
     "start": 3390.57,
     "text": "Remember what I said at the beginning, the work is yours, not the tools.",
     "ja": "最初に言ったことを思い出してください。仕事はあなたのものであって、ツールのものではありません。",
@@ -2865,7 +2859,7 @@
   },
   {
     "start": 3399.42,
-    "text": "If you subject to regulatory requirement, let's say, healthcare, financial services and whatever, if AI creates some code that certainly violates the regulatory requirement, you can't go to the regulator and say, \"Oh, it was AI.\"",
+    "text": "If you're subject to regulatory requirement, let's say, healthcare, financial services and whatever, if AI creates some code that certainly violates the regulatory requirement, you can't go to the regulator and say, \"Oh, it was AI.\"",
     "ja": "医療や金融サービスなど、規制要件のある分野で仕事をしているとしましょう。もしAIが規制に違反するコードを作ったとしても、規制当局に「AIがやったことです」と言うことはできません。",
     "end": 3414.72
   },
@@ -2877,7 +2871,7 @@
   },
   {
     "start": 3426.801,
-    "text": "Now, the world is changing.",
+    "text": "Now, you know, the world is changing.",
     "ja": "さて、世界は変化しています。",
     "end": 3430.143
   },
@@ -2889,7 +2883,7 @@
   },
   {
     "start": 3442.74,
-    "text": "And when you write a code yourself, comprehension comes with the act of creation.",
+    "text": "And when you write the code yourself, comprehension comes with the act of creation.",
     "ja": "自分でコードを書くときは、作るという行為そのものの中に理解が含まれています。",
     "end": 3448.923
   },
@@ -2943,26 +2937,26 @@
   },
   {
     "start": 3498.06,
-    "text": "The model produced the design that looked confident but was completely wrong for the architecture.",
+    "text": "The model produced a design that looked confident but was completely wrong for the architecture.",
     "ja": "モデルは自信ありげに見える設計を出しましたが、アーキテクチャには完全に合っていませんでした。",
     "end": 3504.93
   },
   {
     "start": 3504.93,
-    "text": "Some APIs change and LMS invent attributes that do not exist.",
+    "text": "Some APIs change and LLMs invent attributes that do not exist.",
     "ja": "APIの仕様が変わっていたり、存在しない属性をモデルが勝手に作り出したりすることもあります。",
     "end": 3511.56
   },
   {
     "start": 3511.56,
-    "text": "Sometimes they propose solutions that are completely inappropriate or over-engineered, or ignore your system's own talents.",
-    "ja": "場合によっては、まったく不適切だったり、過剰設計だったりする解決策を提案したり、あなたのシステム固有の事情を無視したりします。",
+    "text": "Sometimes they propose solutions that are completely inappropriate or over-engineered, or ignore your system's own patterns.",
+    "ja": "場合によっては、まったく不適切だったり、過剰設計だったりする解決策を提案したり、そのシステムで使われている設計や実装のパターンを無視したりします。",
     "end": 3520.65
   },
   {
     "start": 3520.65,
     "text": "These outputs look plausible, but they're not grounded in reality.",
-    "ja": "こうした出力はもっともらしく見えます。でも現実に根ざしているとは限りません。",
+    "ja": "こうした出力はもっともらしく見えます。でも現実に根ざしていません。",
     "end": 3526.953
   },
   {
@@ -2972,32 +2966,26 @@
     "end": 3531
   },
   {
-    "start": 3531,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 3531.833
-  },
-  {
-    "start": 3531.833,
-    "text": "We're developing practices that like spec-driven development, which Clare showed how it can dramatically improve quality.",
+    "start": 3531.633,
+    "text": "We're developing practices that, like spec-driven development, which Clare showed how it can dramatically improve quality.",
     "ja": "Clareが示したように、仕様駆動開発のような実践を取り入れることで、品質を大幅に改善できます。",
     "end": 3540.77
   },
   {
     "start": 3541.08,
-    "text": "Byron keynote showed how tools like Kiro can actually use automatic reasoning with your specification to create code that is verified.",
-    "ja": "Byronの基調講演では、Kiroのようなツールが仕様を使って自動推論を行い、検証されたコードを作れることが示されました。",
+    "text": "Byron in his morning's keynote showed how tools like Kiro can actually use automatic reasoning with your specification to create code that is verified.",
+    "ja": "Byronの朝の基調講演では、Kiroのようなツールが仕様を使って自動推論を行い、検証されたコードを作れることが示されました。",
     "end": 3551.763
   },
   {
     "start": 3552.6,
-    "text": "We showed how we can also use automatic reasoning to ensure that codes generated against AWS APIs is correct.",
+    "text": "We showed how we can also use automatic reasoning to ensure that code generated against AWS APIs is correct.",
     "ja": "AWS APIに対して生成されたコードが正しいことを確認するために、自動推論を使えることも紹介しました。",
     "end": 3561.32
   },
   {
     "start": 3563.07,
-    "text": "I also see many developers looking at their CICD pipelines, then build in more and more automated testing.",
+    "text": "I also see many developers looking at their CI/CD pipelines, then build in more and more automated testing.",
     "ja": "また、多くの開発者がCI/CDパイプラインを見直し、自動テストをどんどん追加しているのも目にします。",
     "end": 3570.963
   },
