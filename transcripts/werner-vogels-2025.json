@@ -3021,278 +3021,275 @@
   },
   {
     "start": 3590.25,
-    "text": "And let me do you that by, again, going back a little bit in the past, and tell you a story about Jeff Bezos.",
+    "text": "And let me do that by, again, going back a little bit in the past, and tell you a story about Jeff Bezos.",
     "ja": "そのことを説明するために、もう一度少し昔に戻って、Jeff Bezosの話をしましょう。",
-    "end": 3598.863
+    "end": 3598.863,
+    "listeningPending": true
   },
   {
     "start": 3600.93,
     "text": "In the early days of Amazon, as we as executives were required each year to spend two days with customer service, and take calls from customers so that we would truly understand what the customers were going through.",
-    "ja": "Amazonの初期には、私たち幹部は毎年2日間、カスタマーサービスの現場に入り、お客様からの電話を取ることになっていました。お客様が何を経験しているのかを本当に理解するためです。それは幹部だけではなく、Jeff自身もそうしていました。",
-    "end": 3617.49
+    "ja": "Amazonの初期には、私たち幹部は毎年2日間、カスタマーサービスの現場に入り、お客様からの電話を取ることになっていました。お客様が何を経験しているのかを本当に理解するためです。",
+    "end": 3617.49,
+    "listeningPending": true
   },
   {
     "start": 3617.49,
-    "text": "And not just executives, Jeff himself.",
-    "ja": "そしてJeffは、あるカスタマーサービス担当者の隣に座りました。",
+    "text": "And not just us lowly executives, Jeff himself as well.",
+    "ja": "私たち下っ端の幹部だけでなく、Jeff自身もです。",
     "end": 3622.71
   },
   {
     "start": 3622.71,
     "text": "So, Jeff sits next to this customer service agent.",
-    "ja": "電話が鳴ると、自動システムがそのお客様の注文履歴などをすぐに表示します。",
+    "ja": "そしてJeffは、あるカスタマーサービス担当者の隣に座りました。",
     "end": 3626.34
   },
   {
     "start": 3626.34,
     "text": "Phone goes and automatic system already spits up the order, histories of this customer.",
-    "ja": "すると、お客様が何か言う前に、担当者がJeffに「この人はあのテーブルを返品する」と言いました。実際、お客様はそのテーブルを返品したいと思っていました。壊れていたからです。",
+    "ja": "電話が鳴ると、自動システムがそのお客様の注文履歴などをすぐに表示します。",
     "end": 3633.06
   },
   {
     "start": 3633.06,
     "text": "And before that the customer says anything, the customer agent says to Jeff, \"She's gonna return that table,\" and indeed the customer wants to return the table because it's damaged.",
-    "ja": "電話が終わり、Jeffは担当者を見て、「どうして分かったの？」と尋ねました。",
+    "ja": "すると、お客様が何か言う前に、担当者がJeffに「この人はあのテーブルを返品する」と言いました。実際、お客様はそのテーブルを返品したいと思っていました。壊れていたからです。",
     "end": 3646.53
   },
   {
     "start": 3646.53,
-    "text": "Call us over, and Jeff looks at the agent says, says, \"How did you know that?\"",
-    "ja": "彼女は「そのテーブルの70%が返品されているんです。発送業者が、ちゃんと梱包する方法を分かっていないからです」と答えました。",
+    "text": "Call is over, and Jeff looks at the agent and says, \"How did you know that?\"",
+    "ja": "電話が終わり、Jeffは担当者を見て、「どうして分かったの？」と尋ねました。",
     "end": 3650.43
   },
   {
     "start": 3650.43,
     "text": "She says, \"Well, 70% of those tables are coming back because there's some drop shipper that actually doesn't really know how to package them right.\"",
-    "ja": "当然、Jeffは関係者全員を部屋に集めました。",
+    "ja": "彼女は「そのテーブルの70%が返品されているんです。発送業者が、ちゃんと梱包する方法を分かっていないからです」と答えました。",
     "end": 3658.437
   },
   {
     "start": 3659.49,
-    "text": "Of course, Jeff gets everybody in the room and starts to think about sort of, has good intentions.",
-    "ja": "そして、みんな善意で取り組んでいることについて考え始めました。もちろん、私たちはこんなことが起きてほしいわけではありません。",
-    "end": 3670.17
+    "text": "Of course, you know, Jeff gets everybody in the room and starts to think about, sort of, you know—every has good intentions.",
+    "ja": "当然、Jeffは関係者全員を部屋に集めました。そして、みんな善意で取り組んでいることについて考え始めました。",
+    "end": 3670.17,
+    "listeningPending": true
   },
   {
     "start": 3670.17,
     "text": "No, of course we don't want this to happen.",
-    "ja": "でも仕組みがなければ、何も変わりません。みんなすでに善意を持っていたからです。",
+    "ja": "もちろん、私たちはこんなことが起きてほしいわけではありません。",
     "end": 3673.02
   },
   {
     "start": 3673.02,
     "text": "But without a mechanism, nothing changed because everybody already has good intentions.",
-    "ja": "そこで彼は新しい仕組みを導入しました。トヨタで有名な「アンドンコード」をAmazon向けにしたものです。",
+    "ja": "でも仕組みがなければ、何も変わりません。みんなすでに善意を持っていたからです。",
     "end": 3680.163
   },
   {
     "start": 3681.33,
     "text": "So, he introduced a new mechanism, Amazon's version of Toyota's famous Andon Cord.",
-    "ja": "トヨタのアンドンコードの原則は、既知の不具合がある車を生産ラインから出してはいけない、というものでした。",
+    "ja": "そこで彼は新しい仕組みを導入しました。トヨタで有名な「アンドンコード」をAmazon向けにしたものです。",
     "end": 3688.08
   },
   {
     "start": 3688.08,
     "text": "So, the Andon Cord in Toyota was, the principle was no car should leave the production line with a known defect.",
-    "ja": "そしてラインで働くどのエンジニアもコードを引くことができ、不具合が直るまで製造ライン全体を止められました。",
+    "ja": "トヨタのアンドンコードの原則は、既知の不具合がある車を生産ラインから出してはいけない、というものでした。",
     "end": 3696.18
   },
   {
     "start": 3696.18,
-    "text": "And then, any engineer working on the line could pull this cords and bring the whole manufacturing line to a standstill until the defect was fixed.",
-    "ja": "カスタマーサービス担当者に与えられたAmazon版のアンドンコードは、問題のある商品を販売停止にするためのボタンでした。",
+    "text": "And then, any engineer working on the line could pull this cord and bring the whole manufacturing line to a standstill until the defect was fixed.",
+    "ja": "そしてラインで働くどのエンジニアもコードを引くことができ、不具合が直るまで製造ライン全体を止められました。",
     "end": 3707.643
   },
   {
     "start": 3708.54,
-    "text": "The Andon Cord that the customer service agents got was a button to make the product unviable.",
-    "ja": "そうでしょう？",
+    "text": "The Andon Cord that the customer service agents got was a button to make the product unbuyable.",
+    "ja": "カスタマーサービス担当者に与えられたAmazon版のアンドンコードは、問題のある商品を販売停止にするためのボタンでした。",
     "end": 3717.753
   },
   {
-    "start": 3718.89,
-    "text": "Yeah?",
-    "ja": "それを押すとアラームが鳴り、その商品の責任者が対応して修正する仕組みです。",
-    "end": 3719.723
-  },
-  {
     "start": 3719.723,
-    "text": "That made alarms go off if the people that were responsible for the products to go and fix it.",
-    "ja": "それ以前から、みんな善意では取り組んでいました。でも仕組みを導入するまでは、何も変わりませんでした。",
+    "text": "That made alarms go off with the people that were responsible for the products to go and fix it.",
+    "ja": "それを押すとアラームが鳴り、その商品の責任者が対応して修正する仕組みです。",
     "end": 3723.94
   },
   {
     "start": 3724.994,
-    "text": "But before this, everybody already had good intentions, but until we introduced the mechanism, nothing changed.",
-    "ja": "では、もう一度テクノロジーの世界に戻りましょう。",
+    "text": "But, you know, before this, everybody already had good intentions, but until we introduced the mechanism, nothing changed.",
+    "ja": "それ以前から、みんな善意では取り組んでいました。でも仕組みを導入するまでは、何も変わりませんでした。",
     "end": 3734.93
   },
   {
     "start": 3737.37,
-    "text": "Now, let's go back to our technology world.",
-    "ja": "仕組みにはさまざまな形があります。",
+    "text": "Now, let's go back to today's technology world.",
+    "ja": "では、今日のテクノロジーの世界に戻りましょう。",
     "end": 3741.09
   },
   {
     "start": 3741.09,
     "text": "Mechanisms take many forms.",
-    "ja": "各チームが、自分たちの規模や、新しい仕事の性質に合った仕組みを作ります。",
+    "ja": "仕組みにはさまざまな形があります。",
     "end": 3743.16
   },
   {
     "start": 3743.16,
-    "text": "Each team builds their own one that fits the scale, that new nature of their work.",
-    "ja": "例えばS3チームには「durability reviews（耐久性レビュー）」と呼ばれる仕組みがあります。",
+    "text": "Each team builds their own one that fits the scale and the nature of their work.",
+    "ja": "各チームが、自分たちの仕事の規模や性質に合った仕組みを作ります。",
     "end": 3748.347
   },
   {
     "start": 3748.347,
     "text": "The S3 team, for example, uses something which they call durability reviews.",
-    "ja": "耐久性に影響する可能性のある変更をエンジニアが提案すると、いったん立ち止まり、リスクをモデル化します。",
+    "ja": "例えばS3チームには「durability reviews（耐久性レビュー）」と呼ばれる仕組みがあります。",
     "end": 3755.31
   },
   {
     "start": 3755.31,
     "text": "When an engineer proposes a change that might touch durability, they pause, and model the risks.",
-    "ja": "変更点を書き出し、考えられる脅威をすべて洗い出し、データを安全に保つためのガードレールを設計します。これは非常に強力な効果を持つ仕組みです。",
+    "ja": "耐久性に影響する可能性のある変更をエンジニアが提案すると、いったん立ち止まり、リスクをモデル化します。",
     "end": 3762.78
   },
   {
     "start": 3762.78,
-    "text": "They write down the changes, they list every threat imaginable, map out the guardrails to keep the data safe, and is a mechanism with a very powerful effect.",
-    "ja": "耐久性をコードの性質から、組織の習慣へと変えていきます。",
+    "text": "They write down the changes, they list every threat imaginable, map out the guardrails to keep the data safe, and it's a mechanism with a very powerful effect.",
+    "ja": "変更点を書き出し、考えられる脅威をすべて洗い出し、データを安全に保つためのガードレールを設計します。これは非常に強力な効果を持つ仕組みです。",
     "end": 3776.51
   },
   {
     "start": 3776.67,
     "text": "It turns durability from a property of code into the habit of the organization.",
-    "ja": "そしてエンジニアに、うまくいく場合だけではなく、障害の起こり方（failure modes）で考えさせます。",
+    "ja": "耐久性をコードの性質から、組織の習慣へと変えていきます。",
     "end": 3783.6
   },
   {
     "start": 3783.6,
     "text": "It makes engineers think in failure modes, not happy paths.",
-    "ja": "それが、なぜ仕組みが重要なのかを示しています。",
+    "ja": "そしてエンジニアに、うまくいく場合だけではなく、障害の起こり方（failure modes）で考えさせます。",
     "end": 3788.6
   },
   {
     "start": 3788.97,
     "text": "And it shows why mechanisms matter.",
-    "ja": "仕組みは、善意を一貫した結果へと変えてくれます。",
+    "ja": "それが、なぜ仕組みが重要なのかを示しています。",
     "end": 3791.253
   },
   {
     "start": 3792.24,
     "text": "They convert good intentions into consistent outcomes.",
-    "ja": "考えてみれば、コードレビューも仕組みです。",
+    "ja": "仕組みは、善意を一貫した結果へと変えてくれます。",
     "end": 3797.24
   },
   {
     "start": 3801.81,
     "text": "Now, if you think about it, code reviews are also a mechanism.",
-    "ja": "分かっています。私たちはみんなコードレビューが嫌いですよね。",
+    "ja": "考えてみれば、コードレビューも仕組みです。",
     "end": 3807.33
   },
   {
     "start": 3808.75,
     "text": "And I know it, we all hate code reviews.",
-    "ja": "12歳の子どもが教室の前に立たされるような気分です。",
+    "ja": "分かっています。私たちはみんなコードレビューが嫌いですよね。",
     "end": 3811.92
   },
   {
     "start": 3811.92,
-    "text": "It's like being 12-year-old and standing in front of the class, yeah?",
-    "ja": "でもコードレビューは非常に重要な仕組みです。意図と実装を突き合わせる瞬間を作るからです。",
+    "text": "It's like being a 12-year-old and standing in front of the class, yeah?",
+    "ja": "12歳の子どもが教室の前に立たされるような気分です。",
     "end": 3816.273
   },
   {
     "start": 3817.29,
-    "text": "But they were very important mechanism because they create a moment where intent and implementation meet.",
-    "ja": "そこで別のエンジニアが前提に疑問を投げかけ、自分ではもう見えなくなっているものを見つけられます。",
+    "text": "But they're a very important mechanism because they create a moment where intent and implementation meet.",
+    "ja": "でもコードレビューは非常に重要な仕組みです。意図と実装を突き合わせる瞬間を作るからです。",
     "end": 3826.23
   },
   {
     "start": 3826.23,
-    "text": "Where another engineer can question assumptions, and catch things that you alter no longer sees.",
-    "ja": "AI主導の世界では、これはこれまで以上に重要になります。",
+    "text": "Where another engineer can question assumptions, and catch things that the author no longer sees.",
+    "ja": "そこで別のエンジニアが前提に疑問を投げかけ、自分ではもう見えなくなっているものを見つけられます。",
     "end": 3833.493
   },
   {
     "start": 3834.54,
-    "text": "In an AI driven world, they matter more than ever.",
-    "ja": "AI主導の世界では、まさに不可欠です。",
+    "text": "In an AI-driven world, they matter more than ever.",
+    "ja": "AI主導の世界では、これはこれまで以上に重要になります。",
     "end": 3839.16
   },
   {
     "start": 3839.16,
-    "text": "In an AI driven world, they are crucial.",
-    "ja": "モデルは、私たちが理解するより速くコードを生成できます。",
+    "text": "In an AI-driven world, they are crucial.",
+    "ja": "AI主導の世界では、まさに不可欠です。",
     "end": 3842.523
   },
   {
     "start": 3843.39,
     "text": "Models can generate code faster than we can understand it.",
-    "ja": "だからレビューが、バランスを取り戻すためのコントロールポイントになります。",
+    "ja": "モデルは、私たちが理解するより速くコードを生成できます。",
     "end": 3846.81
   },
   {
     "start": 3846.81,
     "text": "So, the review becomes the control point to restore balance.",
-    "ja": "レビューは人間の判断をもう一度ループの中に戻し、ソフトウェアが本当に期待どおりに動くことを確かめる場所です。",
+    "ja": "だからレビューが、バランスを取り戻すためのコントロールポイントになります。",
     "end": 3851.81
   },
   {
     "start": 3854.31,
     "text": "It is where we bring human judgment back into the loop, and make sure that the software actually does what we expect it to do.",
-    "ja": "皆さんには、人間同士のコードレビューをこれからも続け、さらに増やしてほしいと思います。",
+    "ja": "レビューは人間の判断をもう一度ループの中に戻し、ソフトウェアが本当に期待どおりに動くことを確かめる場所です。",
     "end": 3866.043
   },
   {
     "start": 3867.9,
     "text": "I encourage all of you to continue and you increase your human to human code reviews.",
-    "ja": "シニアとジュニアのエンジニアが一緒にコードを見ていくことで、最も効果的な学習の仕組みの一つになります。",
+    "ja": "皆さんには、人間同士のコードレビューをこれからも続け、さらに増やしてほしいと思います。",
     "end": 3876.74
   },
   {
     "start": 3877.89,
     "text": "When senior and junior engineers work through code together, it becomes one of the most effective learning mechanisms we have.",
-    "ja": "シニアは、パターンを見抜く力と、経験から培った判断力を持ち寄ります。",
+    "ja": "シニアとジュニアのエンジニアが一緒にコードを見ていくことで、最も効果的な学習の仕組みの一つになります。",
     "end": 3887.04
   },
   {
     "start": 3887.04,
-    "text": "Seniors bring pattern recognition, and high hard-earned judgment.",
-    "ja": "ジュニアは、新鮮な目で見て、細かな点を見つけることがあります。",
+    "text": "Seniors bring pattern recognition and hard-earned judgment.",
+    "ja": "シニアは、パターンを見抜く力と、経験から培った判断力を持ち寄ります。",
     "end": 3892.5
   },
   {
     "start": 3892.5,
-    "text": "Juniors bring fresh eyes and often spot details.",
-    "ja": "そうやって知識を受け渡し、次の世代のものづくりを担う人たちを育てていくのです。",
-    "end": 3895.86
+    "text": "Juniors bring fresh eyes and often spot details others overlook.",
+    "ja": "ジュニアは新鮮な目で見て、ほかの人が見落とす細かな点によく気づきます。",
+    "end": 3896.9
   },
   {
-    "start": 3895.86,
-    "text": "Others of, look, this is how we transfer knowledge, and how we grow the next generation of builders.",
-    "ja": "AIによって多くのことは変わります。でも、技術を身につけることは今も人から人へ行われます。",
+    "start": 3896.9,
+    "text": "This is how we transfer knowledge, and how we grow the next generation of builders.",
+    "ja": "そうやって知識を受け渡し、次の世代のものづくりを担う人たちを育てていくのです。",
     "end": 3905.42
   },
   {
     "start": 3905.52,
     "text": "AI will change many things, but the craft is still learned person to person.",
-    "ja": "だから、私から見たルネサンス・デベロッパーの第四の資質は、オーナーであることです。",
+    "ja": "AIによって多くのことは変わります。それでも、技術は今も人から人へと受け継がれます。",
     "end": 3913.863
   },
   {
     "start": 3916.26,
     "text": "So, the fourth quality in my eyes of the Renaissance Developer is an owner.",
-    "ja": "自分で作ったものは、自分が責任を持つ。",
+    "ja": "だから、私から見たルネサンス・デベロッパーの第四の資質は、オーナーであることです。",
     "end": 3922.473
   },
   {
     "start": 3923.76,
     "text": "You build it, you own it.",
-    "ja": "作るのは自分、所有するのも自分です。",
+    "ja": "自分で作ったものは、自分が責任を持つ。",
     "end": 3926.523
   },
   {
