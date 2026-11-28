@@ -3612,13 +3612,13 @@
   },
   {
     "start": 4318.2,
-    "text": "Before tonight, join me at the Las Vegas Festival Grounds.",
-    "ja": "今夜はその前に、ラスベガス・フェスティバル・グラウンズで私と一緒に過ごしてください。",
+    "text": "But for tonight, join me at the Las Vegas Festival Grounds.",
+    "ja": "でも今夜は、ラスベガス・フェスティバル・グラウンズで私と一緒に過ごしてください。",
     "end": 4323.2
   },
   {
     "start": 4325.4,
-    "text": "There'll be great food, some crazy games, and, of course, live music headline by Beck and Kaskade.",
+    "text": "There'll be great food, some crazy games, and, of course, live music headlined by Beck and Kaskade.",
     "ja": "おいしい料理に、ちょっとクレイジーなゲーム、そしてもちろんBeckとKaskadeがヘッドライナーを務めるライブ音楽があります。",
     "end": 4332.71
   },
@@ -3642,9 +3642,10 @@
   },
   {
     "start": 4353.993,
-    "text": "When you build something like an app, do customers ever thought about all the work that goes underneath there?",
+    "text": "When you build something like an app, do your customers ever thought about all the work that goes underneath there?",
     "ja": "アプリのようなものを作るとき、お客様はその裏側で行われているすべての仕事について考えるでしょうか？",
-    "end": 4363.65
+    "end": 4363.65,
+    "listeningPending": true
   },
   {
     "start": 4365.24,
@@ -3654,14 +3655,14 @@
   },
   {
     "start": 4370.43,
-    "text": "Does it think about the people that actually maintain the catalog, that do the supply chain?",
+    "text": "Does it think about the people that actually maintain the catalog, that make, that do the supply chain?",
     "ja": "でも、そのカタログを実際に維持している人たちや、サプライチェーンを支えている人たちのことを考えるでしょうか？",
     "end": 4379.04
   },
   {
     "start": 4379.04,
-    "text": "All of that work, nobody sees that, yeah?",
-    "ja": "そうした仕事は全部、誰にも見えていませんよね？",
+    "text": "All of that work, nobody sees that.",
+    "ja": "そうした仕事は全部、誰にも見えていません。",
     "end": 4383.083
   },
   {
@@ -3691,7 +3692,7 @@
   {
     "start": 4424.67,
     "text": "And the only reason why we do this well is our own professional pride in operational excellence.",
-    "ja": "それでも私たちがこれをうまくやっている唯一の理由は、運用の卓越性に対する、自分たち自身のプロフェッショナルとしての誇りです。",
+    "ja": "質の高い運用を続けられるのは、私たち自身がプロとして誇りを持っているからです。",
     "end": 4433.63
   },
   {
@@ -3721,7 +3722,7 @@
   {
     "start": 4462.8,
     "text": "Thank you for all that you do.",
-    "ja": "皆さんがしているすべてのことに、ありがとう。",
+    "ja": "皆さんの日々の取り組みに感謝します。",
     "end": 4465.323
   },
   {
@@ -3729,12 +3730,6 @@
     "text": "Two more.",
     "ja": "あと二つ。",
     "end": 4468.457
-  },
-  {
-    "start": 4468.457,
-    "text": "Oh.",
-    "ja": "ああ。",
-    "end": 4469.29
   },
   {
     "start": 4488.538,
