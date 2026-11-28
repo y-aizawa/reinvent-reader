@@ -3295,7 +3295,7 @@
   {
     "start": 3929.01,
     "text": "The last quality that I wanna talk to you about is that, I think, you, the future Renaissance Developers, need to become a polymath.",
-    "ja": "そして最後に話したい資質は、皆さん、未来のルネサンス・デベロッパーに、ポリマスになってほしいということです。ポリマスになる必要があります。",
+    "ja": "そして最後に話したい資質は、皆さん、未来のルネサンス・デベロッパーに、ポリマスになってほしいということです。",
     "end": 3941.763
   },
   {
@@ -3307,7 +3307,7 @@
   {
     "start": 3948.93,
     "text": "It's not mathematics or maths, or whatever you want to call it.",
-    "ja": "数学とかmathsとか、どう呼ぶかという話ではありません。",
+    "ja": "mathematicsでもmathsでも、呼び方は何でもいいですが、数学のことではありません。",
     "end": 3952.21
   },
   {
@@ -3318,7 +3318,7 @@
   },
   {
     "start": 3957.84,
-    "text": "It actually means many because the math comes from the Greek work manthanein, which means to learn.",
+    "text": "It actually means many because the math comes from the Greek word manthanein, which means to learn.",
     "ja": "これは「多く」を意味します。mathの語源は、学ぶことを意味するギリシャ語の「manthanein」にあります。",
     "end": 3968.793
   },
@@ -3336,8 +3336,8 @@
   },
   {
     "start": 3987.39,
-    "text": "He was a painter, he was an engineer, he was an economist and he was an inventor.",
-    "ja": "画家であり、エンジニアであり、経済学者であり、発明家でもありました。",
+    "text": "He was a painter, he was an engineer, he was an anatomist and he was an inventor.",
+    "ja": "画家であり、エンジニアであり、解剖学者であり、発明家でもありました。",
     "end": 3992.733
   },
   {
@@ -3347,22 +3347,10 @@
     "end": 3999.17
   },
   {
-    "start": 4000.32,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 4001.893
-  },
-  {
     "start": 4001.893,
     "text": "But you should expand your knowledge just beyond deep domain expertise.",
     "ja": "でも、深い専門性だけにとどまらず、知識の幅を広げてほしいのです。",
     "end": 4009.023
-  },
-  {
-    "start": 4010.28,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 4011.21
   },
   {
     "start": 4011.21,
@@ -3372,7 +3360,7 @@
   },
   {
     "start": 4017.87,
-    "text": "An I-shape developer is someone who is really deep and really highly specialized in one area.",
+    "text": "An I-shaped developer is someone who is really deep and really highly specialized in one area.",
     "ja": "I型の開発者とは、一つの分野について非常に深く、高度に専門化している人です。",
     "end": 4027.323
   },
@@ -3397,13 +3385,19 @@
   {
     "start": 4048.62,
     "text": "Every transaction you do today, we have Jim to thank for this.",
-    "ja": "今日皆さんが行っているあらゆるトランザクションについて、Jimに感謝すべきでしょう。",
+    "ja": "今日、皆さんがあらゆるトランザクションを実行できるのは、Jimのおかげです。",
     "end": 4054.5
   },
   {
     "start": 4054.5,
-    "text": "But he also had this great mind, he was interested in so many more things than just databases.",
-    "ja": "でも彼は本当に素晴らしい知性の持ち主で、データベース以外にも非常に多くのことに関心を持っていました。",
+    "text": "But he also had this great mind.",
+    "ja": "でも彼は本当に素晴らしい知性の持ち主でした。",
+    "end": 4056.3
+  },
+  {
+    "start": 4056.3,
+    "text": "He was interested in so many more things than just databases.",
+    "ja": "データベース以外にも非常に多くのことに関心を持っていました。",
     "end": 4061.43
   },
   {
@@ -3415,7 +3409,7 @@
   {
     "start": 4063.65,
     "text": "Give me 20 questions, 20 important questions that you want to ask of your data and I will design the system for you.",
-    "ja": "「あなたのデータに尋ねたい重要な質問を20個ください。そうすれば、そのためのシステムを私が設計します。」",
+    "ja": "「データを使って答えを出したい重要な質問を20個挙げてください。そうすれば、そのためのシステムを私が設計します。」",
     "end": 4072.083
   },
   {
@@ -3437,12 +3431,6 @@
     "end": 4090.08
   },
   {
-    "start": 4090.08,
-    "text": "Yeah?",
-    "ja": "そうですよね？",
-    "end": 4090.913
-  },
-  {
     "start": 4090.913,
     "text": "Jim's in-depth knowledge as a database expert was transformative for the computation in astronomy data.",
     "ja": "データベース専門家としてのJimの深い知識が、天文学データの計算処理を大きく変えました。",
@@ -3456,8 +3444,8 @@
   },
   {
     "start": 4104.39,
-    "text": "At some moment, Jim goes to Philadelphia, Baltimore, where the group is, and he walks into the server room.",
-    "ja": "あるときJimが、グループのいるフィラデルフィアだかボルチモアだかへ行って、サーバールームに入っていきました。",
+    "text": "At some moment, Jim goes to Philadelphia—Baltimore, where the group is, and he walks into the server room.",
+    "ja": "あるときJimはフィラデルフィア……いや、グループのいるボルチモアへ行き、サーバールームに入りました。",
     "end": 4113.47
   },
   {
@@ -3468,20 +3456,20 @@
   },
   {
     "start": 4127.94,
-    "text": "By just listening to the rattling of the discs, he knew that there was way too much random access.",
+    "text": "By just listening to the rattling of the disks, he knew that there was way too much random access.",
     "ja": "ディスクがガタガタと音を立てるのを聞いただけで、ランダムアクセスが多すぎると分かったのです。",
     "end": 4135.26
   },
   {
     "start": 4135.26,
-    "text": "This intuition built from decades of experience, had given him a sixth sense of how systems should behave.",
+    "text": "This intuition, built from decades of experience, had given him a sixth sense of how systems should behave.",
     "ja": "何十年もの経験から培われたこの直感が、システムがどう動くべきかを感じ取る、第六感のようなものを彼に与えていました。",
     "end": 4143.39
   },
   {
     "start": 4143.39,
-    "text": "He tries him to redesign the architecture and performance improved dramatically.",
-    "ja": "彼にアーキテクチャを再設計してもらうと、パフォーマンスは劇的に改善しました。",
+    "text": "They trust him to redesign the architecture and performance improved dramatically.",
+    "ja": "彼らはJimを信頼してアーキテクチャの再設計を任せました。すると、パフォーマンスは劇的に改善しました。",
     "end": 4149.063
   },
   {
@@ -3498,25 +3486,19 @@
   },
   {
     "start": 4163.228,
-    "text": "He understood people, he understood business, and he understood a wide range of technologists.",
+    "text": "He understood people, he understood business, and he understood a wide range of technologies.",
     "ja": "人を理解し、ビジネスを理解し、そして幅広い技術分野を理解していました。",
     "end": 4169.793
   },
   {
     "start": 4170.63,
-    "text": "And my great technologist, I will describe him as T-shaped.",
+    "text": "And my great technologist, I would describe him as T-shaped.",
     "ja": "私が偉大な技術者だと思う彼を表すなら、T型です。",
     "end": 4175.63
   },
   {
-    "start": 4176.42,
-    "text": "Yeah?",
-    "ja": "そうでしょう？",
-    "end": 4177.253
-  },
-  {
     "start": 4177.253,
-    "text": "Deep in one domain, but brought an understanding.",
+    "text": "Deep in one domain, but broad in understanding.",
     "ja": "一つの分野では深く、同時に幅広い理解を持っていました。",
     "end": 4181.643
   },
@@ -3528,8 +3510,8 @@
   },
   {
     "start": 4194.03,
-    "text": "A database developer who understands font and performance or cost aware architectures can make a better architectural choices because they see how their work shapes the overall system.",
-    "ja": "たとえば、データベース開発者がフォントやパフォーマンス、あるいはコストを意識したアーキテクチャまで理解していれば、より良いアーキテクチャ上の選択ができます。自分の仕事がシステム全体をどう形作るかが見えるからです。",
+    "text": "A database developer who understands front-end performance or cost aware architectures can make a better architectural choices because they see how their work shapes the overall system.",
+    "ja": "たとえば、データベース開発者がフロントエンドの性能、あるいはコストを意識したアーキテクチャまで理解していれば、より良いアーキテクチャ上の選択ができます。自分の仕事がシステム全体をどう形作るかが見えるからです。",
     "end": 4208.69
   },
   {
@@ -3546,7 +3528,7 @@
   },
   {
     "start": 4228.2,
-    "text": "They can dive deep into a specific problems, but we'll also understand how it fits into a larger system.",
+    "text": "They can dive deep into a specific problems, but will also understand how it fits into a larger system.",
     "ja": "特定の問題を深く掘り下げることができる一方で、それがより大きなシステムの中でどう位置づくのかも理解できます。",
     "end": 4235.523
   },
@@ -3564,7 +3546,7 @@
   },
   {
     "start": 4255.26,
-    "text": "So, the last takeaway from the Renaissance Developer is become a polymath.",
+    "text": "So, the last takeaway from the Renaissance Developer is \"Become a polymath.\"",
     "ja": "ですから、ルネサンス・デベロッパーからの最後のメッセージは、ポリマスになろう、ということです。",
     "end": 4260.24
   },
@@ -3588,13 +3570,13 @@
   },
   {
     "start": 4274.82,
-    "text": "You must broaden your team.",
+    "text": "You must broaden your T.",
     "ja": "自分のTを広げなければなりません。",
     "end": 4277.853
   },
   {
     "start": 4279.32,
-    "text": "Now, if we look at sort of the Renaissance Developer throughout the stock, I've called them they different ways.",
+    "text": "Now, if we look at sort of the Renaissance Developer throughout this talk, I've called them different ways.",
     "ja": "ここまでルネサンス・デベロッパーについて、私はいろいろな言い方をしてきました。",
     "end": 4287.213
   },
